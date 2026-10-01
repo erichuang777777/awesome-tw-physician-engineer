@@ -18,10 +18,11 @@
 
 收錄原則：
 
-- 身分：醫師身分須有本人自述或可信公開資料可核；護理師亦可收錄。
+- 現職：須為**現職臨床醫事人員**（醫師／護理師等）且同時有開發產出。已轉純工程、創業全職、或其他**非臨床現職**者，暫不納入（即使曾具醫師／護理師身分或仍有醫療主題專案）。
+- 身分：醫師／護理師身分須有本人自述或可信公開資料可核。
 - 產出：須有公開可查、以醫療／健康／臨床／生醫為主題的開發成果（GitHub、開源專案、產品、論文程式碼、技術寫作等）。
 - 公開：僅收錄本人公開資訊或經同意分享的連結。
-- 目的：連結有能力、願意分享並能以技術改善醫療的人。
+- 目的：連結仍在臨床現場、有能力、願意分享並能以技術改善醫療的人。
 
 ## 名單
 
@@ -47,15 +48,12 @@
 | Hsieh-Ting Lin（林協霆） | 腫瘤科（和信）；EBM／開源工具 | [GitHub](https://github.com/htlin222) · [網站](https://htl.physician.tw/) |
 | Ines Tan | 感染／血液（成大） | [GitHub](https://github.com/didiowen) |
 | I-Ta Tsai | 放射科；臨床報告與工具腳本 | [GitHub](https://github.com/tsaiid) · [tsai.it](https://tsai.it/) |
-| Joe Yeh | 醫師／生物學家；OCT 影像分析 | [GitHub](https://github.com/joe-of-all-trades) |
 | Ke Wei Chen（陳可維） | 家醫／AI 研究 | [GitHub](https://github.com/gosienna) |
 | Kuan-Yuan Chen（陳冠元） | 胸腔科 | [GitHub](https://github.com/galencky) |
 | Kwo-Ta Chu | 腎臟科醫師；腎臟與認知互動工具 | [GitHub](https://github.com/ckt520728) |
 | Li-yang Chen（陳禮揚） | 胸內＋睡眠（新樓） | [GitHub](https://github.com/liyoungc) |
-| Michael Chen | 醫師轉工程師 | [GitHub](https://github.com/alsey89) |
 | Ming-Chieh Shih（施銘杰） | 醫師＋生物統計 | [GitHub](https://github.com/littlecanargie) |
 | Pei-shen Wu（Jimmy Wu） | 復健科醫師；醫師值班排程工具 | [GitHub](https://github.com/peishenwu) |
-| Peter Ting-Wei Chang（張庭瑋） | 醫師轉 AI | [GitHub](https://github.com/tingwei161803) |
 | Po-Jen Hsiao | 泌尿科（CMUH）；臨床 PIRAD／癌症工具 | [GitHub](https://github.com/pojenhsiao) |
 | Po-Lin Chen（陳柏霖） | 神經內科（CGMH） | [GitHub](https://github.com/Drvinc) |
 | Po-Wei Chen | 復健科（PM&R）；文獻管線工具 | [GitHub](https://github.com/drpwchen) |
@@ -134,9 +132,6 @@
 ### I-Ta Tsai
 放射科醫師，長期做報告與臨床工作流腳本。代表：[libera-bmd](https://github.com/tsaiid/libera-bmd)
 
-### Joe Yeh
-醫師、生物學家與程式設計者，開發 Optovue OCT 掃描的影像處理與雙眼厚度比較流程。代表：[OCT_Analysis](https://github.com/joe-of-all-trades/OCT_Analysis)
-
 ### Ke Wei Chen（陳可維）
 家醫背景，公開 AI 醫學影像／研究程式與論文對應。代表：[ptosis-classification](https://github.com/gosienna/ptosis-classification)
 
@@ -149,17 +144,11 @@
 ### Li-yang Chen（陳禮揚）
 新樓胸內＋睡眠，AI agent workflow／plugin。代表：[LY-workflow](https://github.com/liyoungc/LY-workflow)
 
-### Michael Chen
-由醫師轉為工程師，維護 Vue 3 的 Excalidraw 元件。代表：[vue-excalidraw](https://github.com/alsey89/vue-excalidraw)
-
 ### Ming-Chieh Shih（施銘杰）
 醫師兼具生物統計背景，維護 meta-analysis／SEM 分析工具。代表：[metaspectrum](https://github.com/littlecanargie/metaspectrum)
 
 ### Pei-shen Wu（Jimmy Wu）
 復健科醫師，製作台大醫院復健科值班／on-call 排程器。代表：[shiftplanner](https://github.com/peishenwu/shiftplanner)
-
-### Peter Ting-Wei Chang（張庭瑋）
-由臨床醫師轉向 AI，公開 continual LLM improvement 的 DRPG 程式。代表：[drpg](https://github.com/tingwei161803/drpg)
 
 ### Po-Jen Hsiao
 中國醫藥大學附設醫院泌尿科醫師，公開腎臟／泌尿腫瘤臨床 PIRAD 隨機森林工具。代表：[RF-clinical-PIRAD](https://github.com/pojenhsiao/RF-clinical-PIRAD)
@@ -220,7 +209,19 @@
 
 ## 待補
 
-劉政亨（Henry Cheng-Heng Liu）：台大急診／醫學教育身分可核，尚無公開非 fork GitHub 產出，待本人公開後再收。
+### 尚缺公開產出（身分可核）
+
+- 劉政亨（Henry Cheng-Heng Liu）：台大急診／醫學教育身分可核，尚無公開非 fork GitHub 產出，待本人公開後再收。
+- LazyR／陳俊佑：萬芳放射腫瘤科，知名住院醫師系統 LazyR 開發者；**無公開 GitHub**，暫不收錄，待本人公開後再評估。
+
+### 暫不收（非現職臨床）
+
+依現行收錄原則（須現職臨床醫事人員），下列公開可核已離開臨床執業或從未以臨床為現職者暫不納入：
+
+- PCMan／洪任諭：知名開源（PCMan 等）；曾具醫師身分，現職為軟體工程／非臨床，暫不收。
+- Michael Chen（@alsey89）：公開自述醫師轉全端工程師／技術創辦，現職非臨床，自名單移除。
+- Peter Ting-Wei Chang／張庭瑋（@tingwei161803）：公開自述 Physician-turned-AI engineer、Founding AI Engineer，現職非臨床，自名單移除。
+- Joe Yeh／葉肇元（@joe-of-all-trades）：aetherAI 創辦人／董事長暨 CEO；公開資料顯示未以臨床執業為現職，自名單移除。
 
 ## 如何推薦
 
