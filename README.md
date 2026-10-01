@@ -8,16 +8,17 @@
 - [這是什麼](#這是什麼)
 - [名單](#名單)
 - [簡介與代表專案](#簡介與代表專案)
+- [待補](#待補)
 - [如何推薦](#如何推薦)
 - [授權](#授權)
 
 ## 這是什麼
 
-台灣有不少醫師同時具備軟體開發、資料工程、AI／ML、產品或開源貢獻能力。這個列表用來彙整公開可見、可查核的人物與專案，方便交流與合作。
+台灣有不少醫師與護理師同時具備軟體開發、資料工程、AI／ML、產品或開源貢獻能力。這個列表用來彙整公開可見、可查核的人物與專案，方便交流與合作。
 
 收錄原則（暫定）：
 
-- 身分：台灣相關之醫師
+- 身分：台灣相關之醫師或護理師
 - 能力：有公開可查的開發成果（GitHub、開源專案、產品、論文程式碼、技術寫作等）
 - 公開：僅收錄本人公開資訊或經同意分享的連結
 
@@ -29,24 +30,39 @@
 |------|------------|------|
 | agoodbear | 急診（Taiwan）；姓名待補 | [GitHub](https://github.com/agoodbear) |
 | Chang-Yi Yen | 風濕科（高醫）；醫資相關工具 | [GitHub](https://github.com/changyiyen) |
+| Chieh（姓名待補） | 護理師 | [GitHub](https://github.com/Chiehx0220) |
+| Chih-Jung Huang（黃志榕） | 整形外科 | [GitHub](https://github.com/CJRonald) |
 | Chin-Sung Tung（董晉嵩） | 神經內科 | [GitHub](https://github.com/tcs211) |
 | Chiu Chun-Wen（邱俊文） | 急診（CCH） | [GitHub](https://github.com/ccherdoctor-chiu) |
+| Chun-Ting Su | 護理師；NP 培訓方向 | [GitHub](https://github.com/ChuntingSu) |
+| Dr. John（姓名待補） | 醫師 | [GitHub](https://github.com/jjtseng93) |
 | Dr Tseng | 內分泌（童綜合）；本名未完全公開 | [GitHub](https://github.com/zinojeng) |
 | Egg／MarkHuangMD | 麻醉住院醫師 | [GitHub](https://github.com/MarkHuangMD) |
+| Fang-Yi Su（蘇芳儀） | 醫師／醫療 AI | [GitHub](https://github.com/kaneyxx) |
 | Hsieh-Ting Lin（林協霆） | 腫瘤科（和信）；EBM／開源工具 | [GitHub](https://github.com/htlin222) · [網站](https://htl.physician.tw/) |
 | I-Ta Tsai | 放射科；臨床報告與工具腳本 | [GitHub](https://github.com/tsaiid) · [tsai.it](https://tsai.it/) |
 | Ines Tan | 感染／血液（成大） | [GitHub](https://github.com/didiowen) |
 | Ke Wei Chen（陳可維） | 家醫／AI 研究 | [GitHub](https://github.com/gosienna) |
+| Kuan-Yuan Chen（陳冠元） | 胸腔科 | [GitHub](https://github.com/galencky) |
 | Li-yang Chen（陳禮揚） | 胸內＋睡眠（新樓） | [GitHub](https://github.com/liyoungc) |
+| Michael Chen | 醫師轉工程師 | [GitHub](https://github.com/alsey89) |
+| Ming-Chieh Shih（施銘杰） | 醫師＋生物統計 | [GitHub](https://github.com/littlecanargie) |
+| Peter Ting-Wei Chang（張庭瑋） | 醫師轉 AI | [GitHub](https://github.com/tingwei161803) |
+| Po-Lin Chen（陳柏霖） | 神經內科（CGMH） | [GitHub](https://github.com/Drvinc) |
 | Po-Wei Chen | 復健科（PM&R）；文獻管線工具 | [GitHub](https://github.com/drpwchen) |
 | Shih-Feng Huang, MD（黃士峯） | 大腸直腸外科（高榮）；臨床 AI／產品 | [GitHub](https://github.com/odafeng) |
 | Sin-Di Lee | 核醫；開源與資料工具 | [GitHub](https://github.com/mcdlee) |
+| Soanseng Tan（陳璿丞） | 精神科 | [GitHub](https://github.com/soanseng) |
+| Tex LH Chi | 口腔顎面外科（OMFS） | [GitHub](https://github.com/texchi2) |
 | Tinchang | 婦癌（長庚） | [GitHub](https://github.com/tinchangchang) |
 | Tz Ping Gau | 麻醉科（高醫）；醫療 MCP／檢索工具 | [GitHub](https://github.com/u9401066) |
 | Xiang-Wei Huang（黃祥瑋） | 臨床醫師；血液／乳癌相關醫資與資料管線 | [GitHub](https://github.com/erichuang777777) |
+| Yihui（姓名待補） | 放射腫瘤科 | [GitHub](https://github.com/irene2023study) |
+| Yong-Zhen Huang（黃永震） | 護理師（台大癌醫）；Python ML／統計 | [GitHub](https://github.com/Brritany) |
 | Yu Ju Lin | 家醫／安寧住院醫師 | [GitHub](https://github.com/nps798) |
 | Yu Kuo | 放射科（關渡醫院）；DICOM 工具 | [GitHub](https://github.com/ykuo2) |
 | Yu-Chun Chen（陳育群） | 家醫／醫資（北榮、陽明交大） | [GitHub](https://github.com/Yuchunchen) |
+| Yung-Tsai Chu（朱永載） | 神經內科（台大）；研究資料分析 | [GitHub](https://github.com/chuyungtsai) |
 
 ## 簡介與代表專案
 
@@ -58,17 +74,32 @@
 ### Chang-Yi Yen
 風濕科主治並有醫資背景，自建臨床／研究輔助工具。代表：[CapillaryAnnotator](https://github.com/changyiyen/CapillaryAnnotator)
 
+### Chieh（姓名待補）
+護理師，維護三軍總醫院松山分院 W8 病房小幫手；姓名待補。代表：[Eighth](https://github.com/Chiehx0220/Eighth)
+
+### Chih-Jung Huang（黃志榕）
+整形外科醫師，維護視覺化資料與介面相關專案。代表：[VDILab](https://github.com/CJRonald/VDILab)
+
 ### Chin-Sung Tung（董晉嵩）
 神經內科醫師，EEG／AI 報告相關開源。代表：[AI_EEEG_REPORT](https://github.com/tcs211/AI_EEEG_REPORT)
 
 ### Chiu Chun-Wen（邱俊文）
 彰基急診，約班系統與急診筆記站。代表：[shedule-in-ER](https://github.com/ccherdoctor-chiu/shedule-in-ER)
 
+### Chun-Ting Su
+護理師，走 NP 培訓方向，製作心臟衰竭肌力風險預測工具。代表：[HeartFailureRiskApp](https://github.com/ChuntingSu/HeartFailureRiskApp)
+
+### Dr. John（姓名待補）
+醫師，開發以 Bun 為 PID 1 的 Linux distribution；姓名待補。代表：[buninu-linux](https://github.com/jjtseng93/buninu-linux)
+
 ### Dr Tseng
 童綜合內分泌，糖尿病／文件解析工具；本名未完全公開。代表：[pdf2md](https://github.com/zinojeng/pdf2md)
 
 ### Egg／MarkHuangMD
 麻醉住院醫師，訪視分派小工具。代表：[Anes_visit_assignment](https://github.com/MarkHuangMD/Anes_visit_assignment)
+
+### Fang-Yi Su（蘇芳儀）
+醫師，專注醫療 AI 與可重現的臨床風險評分。代表：[idh-five-variable-score](https://github.com/kaneyxx/idh-five-variable-score)
 
 ### Hsieh-Ting Lin（林協霆）
 腫瘤科醫師，公開大量 EBM／MCP／資料工具開源。代表網站：[htl.physician.tw](https://htl.physician.tw/) · GitHub：[@htlin222](https://github.com/htlin222)
@@ -82,8 +113,23 @@
 ### Ke Wei Chen（陳可維）
 家醫背景，公開 AI 醫學影像／研究程式與論文對應。代表：[ptosis-classification](https://github.com/gosienna/ptosis-classification)
 
+### Kuan-Yuan Chen（陳冠元）
+胸腔科醫師，製作多語健康教育聊天機器人。代表：[MedEdBot](https://github.com/galencky/MedEdBot)
+
 ### Li-yang Chen（陳禮揚）
 新樓胸內＋睡眠，AI agent workflow／plugin。代表：[LY-workflow](https://github.com/liyoungc/LY-workflow)
+
+### Michael Chen
+由醫師轉為工程師，維護 Vue 3 的 Excalidraw 元件。代表：[vue-excalidraw](https://github.com/alsey89/vue-excalidraw)
+
+### Ming-Chieh Shih（施銘杰）
+醫師兼具生物統計背景，維護 meta-analysis／SEM 分析工具。代表：[metaspectrum](https://github.com/littlecanargie/metaspectrum)
+
+### Peter Ting-Wei Chang（張庭瑋）
+由臨床醫師轉向 AI，公開 continual LLM improvement 的 DRPG 程式。代表：[drpg](https://github.com/tingwei161803/drpg)
+
+### Po-Lin Chen（陳柏霖）
+長庚神經內科醫師，開發可攜式 EEG／MUSE 頭戴裝置工具。代表：[muse-bedside](https://github.com/Drvinc/muse-bedside)
 
 ### Po-Wei Chen
 復健科醫師，文獻追蹤與筆記管線活躍。代表：[paper-radar](https://github.com/drpwchen/paper-radar)
@@ -94,6 +140,12 @@
 ### Sin-Di Lee
 核醫醫師，多年開源與模擬／資料工具。代表：[communitymedcare](https://github.com/mcdlee/communitymedcare)
 
+### Soanseng Tan（陳璿丞）
+精神科醫師，製作以 Markdown vault 為核心、支援 Obsidian 的 Android 任務管理器。代表：[tsosu](https://github.com/soanseng/tsosu)
+
+### Tex LH Chi
+口腔顎面外科醫師，公開論文補充材料與 cutoff finding R script。代表：[pvalueTex](https://github.com/texchi2/pvalueTex)
+
 ### Tinchang
 長庚婦癌，FIGO staging HTML 計算器。代表：[figo-staging-calculators](https://github.com/tinchangchang/figo-staging-calculators)
 
@@ -103,6 +155,12 @@
 ### Xiang-Wei Huang（黃祥瑋）
 臨床醫師，血液／乳癌相關計算與資料管線，並維護本列表。代表：[IPSSM-Pipeline](https://github.com/erichuang777777/IPSSM-Pipeline)
 
+### Yihui（姓名待補）
+放射腫瘤科醫師，公開肺癌篩檢 LDCT segmentation 專案；姓名待補。代表：[NLSTseg](https://github.com/irene2023study/NLSTseg)
+
+### Yong-Zhen Huang（黃永震）
+台大癌醫護理師，開發 Python 機器學習／統計工具。代表：[MLstatkit](https://github.com/Brritany/MLstatkit)
+
 ### Yu Ju Lin
 家醫／安寧住院醫師，醫師排班工具。代表：[PySchedulerForDoctors](https://github.com/nps798/PySchedulerForDoctors)
 
@@ -111,6 +169,13 @@
 
 ### Yu-Chun Chen（陳育群）
 家醫／醫資背景，知名會議與醫資開源專案。代表：[BuildYourOwnConferenceSystem](https://github.com/Yuchunchen/BuildYourOwnConferenceSystem)
+
+### Yung-Tsai Chu（朱永載）
+台大醫院神經內科醫師，公開台灣帕金森氏症 GWAS 研究程式。代表：[Taiwan_PD_GWAS](https://github.com/chuyungtsai/Taiwan_PD_GWAS)
+
+## 待補
+
+劉政亨（Henry Cheng-Heng Liu）：台大急診／醫學教育身分可核，尚無公開非 fork GitHub 產出，待本人公開後再收。
 
 ## 如何推薦
 
