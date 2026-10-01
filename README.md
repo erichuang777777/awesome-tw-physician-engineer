@@ -26,7 +26,17 @@
 
 | 姓名 | 專長／領域 | 連結 |
 |------|------------|------|
-| （尚無） | — | — |
+| Chang-Yi Yen | 風濕科（高醫）；醫資相關工具 | [GitHub](https://github.com/changyiyen) |
+| Hsieh-Ting Lin（林協霆） | 腫瘤科（和信）；EBM／開源工具 | [GitHub](https://github.com/htlin222) · [網站](https://htl.physician.tw/) |
+| I-Ta Tsai | 放射科；臨床報告與工具腳本 | [GitHub](https://github.com/tsaiid) · [tsai.it](https://tsai.it/) |
+| Ke Wei Chen（陳可維） | 家醫／AI 研究 | [GitHub](https://github.com/gosienna) |
+| Po-Wei Chen | 復健科（PM&R）；文獻管線工具 | [GitHub](https://github.com/drpwchen) |
+| Shih-Feng Huang, MD（黃士峯） | 大腸直腸外科（高榮）；臨床 AI／產品 | [GitHub](https://github.com/odafeng) |
+| Sin-Di Lee | 核醫；開源與資料工具 | [GitHub](https://github.com/mcdlee) |
+| Tz Ping Gau | 麻醉科（高醫）；醫療 MCP／檢索工具 | [GitHub](https://github.com/u9401066) |
+| Xiang-Wei Huang（黃祥瑋） | 臨床醫師；血液／乳癌相關醫資與資料管線 | [GitHub](https://github.com/erichuang777777) · [IPSSM-Pipeline](https://github.com/erichuang777777/IPSSM-Pipeline) |
+| Yu Kuo | 放射科（關渡醫院）；DICOM 工具 | [GitHub](https://github.com/ykuo2) · [dicom2jpg](https://github.com/ykuo2/dicom2jpg) |
+| Yu-Chun Chen（陳育群） | 家醫／醫資（北榮、陽明交大） | [GitHub](https://github.com/Yuchunchen) |
 
 ## 如何推薦
 
