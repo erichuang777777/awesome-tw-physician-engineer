@@ -1,167 +1,382 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Weekly public digest — TW clinician-engineers</title>
+<title>台灣臨床醫事工程師 — 本週動態與專案資料庫</title>
+<meta name="description" content="名冊帳號的公開 GitHub 動態摘要與非 fork 專案資料庫（繁體中文）"/>
 <style>
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:52rem;margin:2rem auto;padding:0 1rem;line-height:1.5;color:#1a1a1a}
-h1,h2,h3{line-height:1.25} a{color:#0969da}
-code{background:#f6f8fa;padding:.1em .3em;border-radius:4px}
-.meta{color:#57606a;font-size:.95rem}
-.note{background:#fff8c5;border:1px solid #d4a72c;padding:.75rem 1rem;border-radius:6px}
-ul{padding-left:1.25rem}
-hr{border:none;border-top:1px solid #d0d7de;margin:1.5rem 0}
+:root{--bg:#f6f8fa;--card:#fff;--text:#1f2328;--muted:#656d76;--accent:#0969da;--border:#d0d7de;--chip:#ddf4ff;--ok:#1a7f37;--warn:#9a6700}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Noto Sans TC",system-ui,-apple-system,"Segoe UI",Roboto,"PingFang TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:960px;margin:0 auto;padding:1.25rem 1rem 3rem}
+header.hero{background:linear-gradient(135deg,#1f6feb 0%,#054da7 100%);color:#fff;padding:1.75rem 0 1.5rem;margin-bottom:1.25rem}
+header.hero .wrap{padding-top:0;padding-bottom:0}
+header.hero h1{margin:0 0 .4rem;font-size:1.65rem;font-weight:700}
+header.hero p{margin:.25rem 0;opacity:.95}
+nav.toc{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+nav.toc a{background:var(--card);border:1px solid var(--border);border-radius:999px;padding:.25rem .75rem;font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;margin:0 0 1rem;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.card h2{margin:0 0 .6rem;font-size:1.25rem}
+.meta{color:var(--muted);font-size:.92rem}
+.note{background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:.7rem .9rem;margin:0.75rem 0;font-size:.92rem}
+.summary{border-left:4px solid var(--accent);padding:.15rem 0 .15rem .85rem;margin:.6rem 0}
+.summary h3{margin:0 0 .25rem;font-size:1.05rem}
+.chip{display:inline-block;background:var(--chip);color:#0550ae;border-radius:999px;padding:.05rem .5rem;font-size:.78rem;margin-right:.25rem}
+.chip.new{background:#dafbe1;color:var(--ok)}
+.chip.push{background:#fff8c5;color:var(--warn)}
+ul.tight{margin:.35rem 0;padding-left:1.2rem}
+.filters{display:flex;flex-wrap:wrap;gap:.6rem;margin:0.75rem 0 1rem;align-items:center}
+.filters input,.filters select{font:inherit;padding:.45rem .65rem;border:1px solid var(--border);border-radius:8px;min-width:0}
+.filters input{flex:1 1 220px}
+.filters select{flex:0 1 200px}
+.stats{color:var(--muted);font-size:.9rem;margin-bottom:.5rem}
+.account{margin:0 0 1.25rem}
+.account h3{margin:0 0 .5rem;font-size:1.1rem;position:sticky;top:0;background:var(--bg);padding:.4rem 0;z-index:1}
+.repo{border:1px solid var(--border);border-radius:10px;padding:.7rem .85rem;margin:0 0 .5rem;background:#fff}
+.repo .name{font-weight:600}
+.repo .intro{margin:.25rem 0 0;color:#333}
+.repo .desc{margin:.2rem 0 0;color:var(--muted);font-size:.88rem}
+footer{margin-top:2rem;color:var(--muted);font-size:.88rem}
+.hidden{display:none !important}
 </style>
 </head>
 <body>
-<h1>Weekly public digest</h1>
-<p>Privacy-safe snapshot of <strong>public</strong> GitHub activity from roster accounts listed in the <a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">README</a>.</p>
-<p class="meta">
-Generated (UTC): <code>2026-10-02T05:24:51Z</code><br/>
-Window: last <strong>7</strong> days (from <code>2026-09-25T05:24:51Z</code>)<br/>
-Roster accounts scanned: <strong>45</strong><br/>
-Accounts with public activity in window: <strong>22</strong>
-</p>
-<p class="note"><strong>Privacy:</strong> only <code>@handles</code> and public repository titles / URLs / dates. No real names, hospitals, bios, or commit contents.</p>
-<p>Machine-readable: <a href="./latest.json">latest.json</a> · <a href="./index.md">index.md</a></p>
-<hr/>
-<h2>Activity by handle</h2>
-<h3><a href="https://github.com/erichuang777777">@erichuang777777</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">awesome-tw-physician-engineer</a> (new, pushed) — created 2026-10-01; pushed 2026-10-02</li>
-<li><a href="https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG">TW-Breast-Cancer-FHIR-IG</a> (pushed) — pushed 2026-09-25</li>
-<li><a href="https://github.com/erichuang777777/dotfiles">dotfiles</a> (pushed) — pushed 2026-09-25</li>
-</ul>
+<header class="hero"><div class="wrap">
+<h1>台灣臨床醫事工程師</h1>
+<p>公開 GitHub 動態週摘要 · 全名冊公開專案資料庫</p>
+<p class="meta" style="opacity:.9">產生時間：2026-10-02 22:56（台北時間）</p>
+</div></header>
+<div class="wrap">
+<nav class="toc">
+<a href="#weekly">本週動態摘要</a>
+<a href="#database">專案資料庫</a>
+<a href="./repos.md">Markdown 資料庫</a>
+<a href="./data/repos.json">repos.json</a>
+<a href="./latest.json">latest.json</a>
+<a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">GitHub 名冊</a>
+</nav>
+<p class="note"><strong>隱私：</strong>僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。</p>
+<section id="weekly" class="card">
+<h2>本週動態摘要</h2>
+<p class="meta">視窗：近 <strong>7</strong> 天（自 <code>2026-09-25T14:56:34Z</code>）· 名冊 <strong>45</strong> · 有動態 <strong>22</strong></p>
+<p>本週掃描 45 個名冊帳號，其中 22 個帳號在近 7 天有公開新建／推送動態。</p>
+<div class="summary">
 <h3><a href="https://github.com/agoodbear">@agoodbear</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/agoodbear/tw-er-ref-2x9k">tw-er-ref-2x9k</a> (pushed) — pushed 2026-10-02</li>
-<li><a href="https://github.com/agoodbear/em-pulse-tw">em-pulse-tw</a> (pushed) — pushed 2026-10-02</li>
-<li><a href="https://github.com/agoodbear/agoodbear.github.io">agoodbear.github.io</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/agoodbear/slidecue">slidecue</a> (pushed) — pushed 2026-09-27</li>
+<p>@agoodbear 本週更新倉庫 「agoodbear.github.io」、「tw-er-ref-2x9k」、「em-pulse-tw」、「slidecue」。</p>
+<ul class="tight">
+<li><a href="https://github.com/agoodbear/agoodbear.github.io">agoodbear.github.io</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">個人或專案的公開 GitHub Pages／網站內容。</span></li>
+<li><a href="https://github.com/agoodbear/tw-er-ref-2x9k">tw-er-ref-2x9k</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">「急診／急重症」相關公開專案：ER physician reference</span></li>
+<li><a href="https://github.com/agoodbear/em-pulse-tw">em-pulse-tw</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">急診醫學與重症照護文獻雷達（繁中版）— 每天自動掃 PubMed、依影響力排序</span></li>
+<li><a href="https://github.com/agoodbear/slidecue">slidecue</a> <span class="chip push">有推送</span> · 2026-09-27<br/><span class="meta">把 Keynote 講稿顯示在 Even Realities G2 鏡片上，翻頁自動換稿</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/Chiehx0220">@Chiehx0220</a></h3>
-<p><strong>Recent public pushes</strong></p><ul>
-<li><a href="https://github.com/Chiehx0220/Fathom">Chiehx0220/Fathom</a> — 2026-10-01</li>
-<li><a href="https://github.com/Chiehx0220/PipePipeExtractor">Chiehx0220/PipePipeExtractor</a> — 2026-09-29</li>
+<p>@Chiehx0220 本週有公開推送活動（含 Fathom、PipePipeExtractor）。</p>
+<p class="meta">其他公開推送：</p><ul class="tight">
+<li><a href="https://github.com/Chiehx0220/Fathom">Chiehx0220/Fathom</a> · 2026-10-01</li>
+<li><a href="https://github.com/Chiehx0220/PipePipeExtractor">Chiehx0220/PipePipeExtractor</a> · 2026-09-29</li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/CJRonald">@CJRonald</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/CJRonald/VDILab">VDILab</a> (pushed) — pushed 2026-09-29</li>
-<li><a href="https://github.com/CJRonald/cjhuang-website">cjhuang-website</a> (pushed) — pushed 2026-09-26</li>
-<li><a href="https://github.com/CJRonald/LinkouCGMHBurnCenter">LinkouCGMHBurnCenter</a> (pushed) — pushed 2026-09-25</li>
+<p>@CJRonald 本週更新倉庫 「VDILab」、「cjhuang-website」。</p>
+<ul class="tight">
+<li><a href="https://github.com/CJRonald/VDILab">VDILab</a> <span class="chip push">有推送</span> · 2026-09-29<br/><span class="meta">公開的 HTML 專案倉庫（尚無說明文字）。</span></li>
+<li><a href="https://github.com/CJRonald/cjhuang-website">cjhuang-website</a> <span class="chip push">有推送</span> · 2026-09-26<br/><span class="meta">公開的 HTML 專案倉庫（尚無說明文字）。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/didiowen">@didiowen</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/didiowen/nihongo">nihongo</a> (pushed) — pushed 2026-10-01</li>
+<p>@didiowen 本週更新倉庫 「nihongo」。</p>
+<ul class="tight">
+<li><a href="https://github.com/didiowen/nihongo">nihongo</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">公開專案「nihongo」（主要語言：HTML）：My journey learning Japanese from scratch</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/drpwchen">@drpwchen</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/drpwchen/fbkit">fbkit</a> (pushed) — pushed 2026-09-29</li>
-<li><a href="https://github.com/drpwchen/claude-pacer">claude-pacer</a> (pushed) — pushed 2026-09-28</li>
+<p>@drpwchen 本週更新倉庫 「fbkit」、「claude-pacer」。</p>
+<ul class="tight">
+<li><a href="https://github.com/drpwchen/fbkit">fbkit</a> <span class="chip push">有推送</span> · 2026-09-29<br/><span class="meta">「聊天機器人／通訊整合」相關公開專案：Python CLI for Facebook &amp; Messenger automation — post (photos, scheduli…</span></li>
+<li><a href="https://github.com/drpwchen/claude-pacer">claude-pacer</a> <span class="chip push">有推送</span> · 2026-09-28<br/><span class="meta">「生成式 AI／LLM」相關公開專案：Statusline + budget guard + pacing verdict for Claude Code usage limits…</span></li>
 </ul>
+</div>
+<div class="summary">
+<h3><a href="https://github.com/erichuang777777">@erichuang777777</a></h3>
+<p>@erichuang777777 本週新建公開倉庫 「awesome-tw-physician-engineer」。</p>
+<ul class="tight">
+<li><a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">awesome-tw-physician-engineer</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">A curated list of Taiwanese physician-engineers / 收錄具開發能力的台灣醫師工程師</span></li>
+</ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/gosienna">@gosienna</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/gosienna/Project01_EDF_viewer">Project01_EDF_viewer</a> (pushed) — pushed 2026-10-02</li>
-<li><a href="https://github.com/gosienna/Project12_BuildPlatformerGame">Project12_BuildPlatformerGame</a> (pushed) — pushed 2026-09-27</li>
+<p>@gosienna 本週更新倉庫 「Project01_EDF_viewer」、「Project12_BuildPlatformerGame」。</p>
+<ul class="tight">
+<li><a href="https://github.com/gosienna/Project01_EDF_viewer">Project01_EDF_viewer</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">「生理訊號／波形」相關的公開倉庫，主要語言為 JavaScript。</span></li>
+<li><a href="https://github.com/gosienna/Project12_BuildPlatformerGame">Project12_BuildPlatformerGame</a> <span class="chip push">有推送</span> · 2026-09-27<br/><span class="meta">「遊戲／互動」相關的公開倉庫，主要語言為 Python。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/homigin">@homigin</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/homigin/homigin.github.io">homigin.github.io</a> (pushed) — pushed 2026-09-27</li>
+<p>@homigin 本週更新倉庫 「homigin.github.io」。</p>
+<ul class="tight">
+<li><a href="https://github.com/homigin/homigin.github.io">homigin.github.io</a> <span class="chip push">有推送</span> · 2026-09-27<br/><span class="meta">個人或專案的公開 GitHub Pages／網站內容。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/htlin222">@htlin222</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/htlin222/CCChange">CCChange</a> (pushed) — pushed 2026-10-02</li>
-<li><a href="https://github.com/htlin222/nccn-guidelines-downloader">nccn-guidelines-downloader</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/htlin222/lin-hsiehting">lin-hsiehting</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/htlin222/zitie-generator">zitie-generator</a> (new, pushed) — created 2026-09-26; pushed 2026-09-26</li>
-<li><a href="https://github.com/htlin222/hema-board-interview-guide">hema-board-interview-guide</a> (pushed) — pushed 2026-09-26</li>
+<p>@htlin222 本週新建公開倉庫 「zitie-generator」；更新倉庫 「lin-hsiehting」、「CCChange」、「nccn-guidelines-downloader」、「hema-board-interview-guide」。</p>
+<ul class="tight">
+<li><a href="https://github.com/htlin222/lin-hsiehting">lin-hsiehting</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">「腫瘤／血液相關」相關公開專案：Oncologist&#x27;s clinical notes, medical education &amp; research repository bu…</span></li>
+<li><a href="https://github.com/htlin222/CCChange">CCChange</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">每日一則 Claude Code changelog 中文講義，由 Claude Code 自動出刊</span></li>
+<li><a href="https://github.com/htlin222/nccn-guidelines-downloader">nccn-guidelines-downloader</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">「腫瘤／血液相關」相關公開專案：NCCN guideline downloader — CLI + Access-gated Cloudflare PWA (categori…</span></li>
+<li><a href="https://github.com/htlin222/zitie-generator">zitie-generator</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-09-26<br/><span class="meta">繁體中文硬筆字帖產生器：田字格・教育部筆順・注音・甲乙本，A4 列印 | Traditional Chinese handwriting practice sheet gener…</span></li>
+<li><a href="https://github.com/htlin222/hema-board-interview-guide">hema-board-interview-guide</a> <span class="chip push">有推送</span> · 2026-09-26<br/><span class="meta">「腫瘤／血液相關」相關的公開倉庫，主要語言為 Python。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/jjtseng93">@jjtseng93</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/jjtseng93/buninu-linux">buninu-linux</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/jjtseng93/jspulse">jspulse</a> (new, pushed) — created 2026-09-27; pushed 2026-10-01</li>
-<li><a href="https://github.com/jjtseng93/buninu-browser">buninu-browser</a> (new, pushed) — created 2026-09-29; pushed 2026-10-01</li>
-<li><a href="https://github.com/jjtseng93/buninu">buninu</a> (pushed) — pushed 2026-09-28</li>
-<li><a href="https://github.com/jjtseng93/bunmsh">bunmsh</a> (pushed) — pushed 2026-09-28</li>
-<li><a href="https://github.com/jjtseng93/js-gotty">js-gotty</a> (pushed) — pushed 2026-09-28</li>
-<li><a href="https://github.com/jjtseng93/bunproot">bunproot</a> (pushed) — pushed 2026-09-26</li>
+<p>@jjtseng93 本週新建公開倉庫 「jspulse」、「buninu-browser」；更新倉庫 「buninu-linux」、「buninu」、「bunmsh」、「js-gotty」、「bunproot」；另有 1 處公開推送。</p>
+<ul class="tight">
+<li><a href="https://github.com/jjtseng93/buninu-linux">buninu-linux</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">公開專案「buninu-linux」（主要語言：JavaScript）：A Linux distribution running Bun as PID 1 with the Buninu userspace.</span></li>
+<li><a href="https://github.com/jjtseng93/jspulse">jspulse</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">「行動應用」相關公開專案：A Bun/JavaScript implementation of PulseAudio’s native protocol for Lin…</span></li>
+<li><a href="https://github.com/jjtseng93/buninu-browser">buninu-browser</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">公開專案「buninu-browser」（主要語言：JavaScript）：Buninu Browser is a browser engine written in JavaScript and WebAssembl…</span></li>
+<li><a href="https://github.com/jjtseng93/buninu">buninu</a> <span class="chip push">有推送</span> · 2026-09-28<br/><span class="meta">公開專案「buninu」（主要語言：JavaScript）：Buninu is a portable, self-bootstrapping Unix-like userspace built on B…</span></li>
+<li><a href="https://github.com/jjtseng93/bunmsh">bunmsh</a> <span class="chip push">有推送</span> · 2026-09-28<br/><span class="meta">公開專案「bunmsh」（主要語言：JavaScript）：Cross-platform command shell for Bun JavaScript</span></li>
+<li><a href="https://github.com/jjtseng93/js-gotty">js-gotty</a> <span class="chip push">有推送</span> · 2026-09-28<br/><span class="meta">公開專案「js-gotty」（主要語言：JavaScript）：Share your terminal as a web application: A JavaScript rewrite of GoTTY</span></li>
+<li><a href="https://github.com/jjtseng93/bunproot">bunproot</a> <span class="chip push">有推送</span> · 2026-09-26<br/><span class="meta">「行動應用」相關公開專案：A port of PRoot to Bun: a userspace chroot, mount --bind and binfmt_mis…</span></li>
 </ul>
-<p><strong>Recent public pushes</strong></p><ul>
-<li><a href="https://github.com/jjtseng93/casty">jjtseng93/casty</a> — 2026-10-01</li>
+<p class="meta">其他公開推送：</p><ul class="tight">
+<li><a href="https://github.com/jjtseng93/casty">jjtseng93/casty</a> · 2026-10-01</li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/liangRXdev">@liangRXdev</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/liangRXdev/TFDA-drug-recall-dashboard">TFDA-drug-recall-dashboard</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/liangRXdev/TFDA-drug-shortage-dashboard">TFDA-drug-shortage-dashboard</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/liangRXdev/Taiwan-Clinical-Trial-Radar">Taiwan-Clinical-Trial-Radar</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/liangRXdev/pill-detective-tw">pill-detective-tw</a> (pushed) — pushed 2026-09-27</li>
-<li><a href="https://github.com/liangRXdev/taiwan-pharmacist-exam-data">taiwan-pharmacist-exam-data</a> (new, pushed) — created 2026-09-27; pushed 2026-09-27</li>
-<li><a href="https://github.com/liangRXdev/NHI-drug-price-history">NHI-drug-price-history</a> (pushed) — pushed 2026-09-25</li>
+<p>@liangRXdev 本週新建公開倉庫 「taiwan-pharmacist-exam-data」；更新倉庫 「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」、「pill-detective-tw」、「NHI-drug-price-history」。</p>
+<ul class="tight">
+<li><a href="https://github.com/liangRXdev/TFDA-drug-recall-dashboard">TFDA-drug-recall-dashboard</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">自動抓取食藥署藥品回收公告</span></li>
+<li><a href="https://github.com/liangRXdev/TFDA-drug-shortage-dashboard">TFDA-drug-shortage-dashboard</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">自動抓取缺藥平台的替代藥品公告</span></li>
+<li><a href="https://github.com/liangRXdev/Taiwan-Clinical-Trial-Radar">Taiwan-Clinical-Trial-Radar</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">台灣藥品臨床試驗檢索站——TFDA 開放資料 dataset 205 的靜態檢索前端。</span></li>
+<li><a href="https://github.com/liangRXdev/pill-detective-tw">pill-detective-tw</a> <span class="chip push">有推送</span> · 2026-09-27<br/><span class="meta">藥丸偵探 Pill Detective TW — 台灣藥品外觀搜尋：依刻字、顏色、形狀、刻痕從 TFDA 公開資料縮小候選藥品清單，供人工比對確認</span></li>
+<li><a href="https://github.com/liangRXdev/taiwan-pharmacist-exam-data">taiwan-pharmacist-exam-data</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-09-27<br/><span class="meta">考選部藥師國考測驗題之結構化、可稽核題庫（113 年起；規則式抽取、無 LLM；套用官方更正答案）</span></li>
+<li><a href="https://github.com/liangRXdev/NHI-drug-price-history">NHI-drug-price-history</a> <span class="chip push">有推送</span> · 2026-09-25<br/><span class="meta">台灣健保藥價歷史查詢：NHI 健保用藥品項檔完整支付價歷史（1995 至今）</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/littlecanargie">@littlecanargie</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/littlecanargie/medical_statistics">medical_statistics</a> (pushed) — pushed 2026-10-01</li>
+<p>@littlecanargie 本週更新倉庫 「medical_statistics」。</p>
+<ul class="tight">
+<li><a href="https://github.com/littlecanargie/medical_statistics">medical_statistics</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">公開專案「medical_statistics」（主要語言：TeX）：Medical statistics survival guide</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/odafeng">@odafeng</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/odafeng/hemorrhoids-postop">hemorrhoids-postop</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/odafeng/Stage_III_Colon_EDR">Stage_III_Colon_EDR</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/odafeng/crs-knowledge-base">crs-knowledge-base</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/odafeng/ctpelvimetry">ctpelvimetry</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/odafeng/odin-notes-tw">odin-notes-tw</a> (pushed) — pushed 2026-09-30</li>
-<li><a href="https://github.com/odafeng/series-studio">series-studio</a> (pushed) — pushed 2026-09-30</li>
-<li><a href="https://github.com/odafeng/lecture_live_notes">lecture_live_notes</a> (pushed) — pushed 2026-09-29</li>
-<li><a href="https://github.com/odafeng/lunch-decider">lunch-decider</a> (new, pushed) — created 2026-09-25; pushed 2026-09-26</li>
-<li><a href="https://github.com/odafeng/miccai2026">miccai2026</a> (pushed) — pushed 2026-09-25</li>
+<p>@odafeng 本週新建公開倉庫 「lunch-decider」；更新倉庫 「hemorrhoids-postop」、「Stage_III_Colon_EDR」、「crs-knowledge-base」、「ctpelvimetry」、「odin-notes-tw」 等 7 個。</p>
+<ul class="tight">
+<li><a href="https://github.com/odafeng/hemorrhoids-postop">hemorrhoids-postop</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">「臨床指引／路徑」相關公開專案：Hemorrhoid postoperative symptom monitoring and AI-assisted patient edu…</span></li>
+<li><a href="https://github.com/odafeng/Stage_III_Colon_EDR">Stage_III_Colon_EDR</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">「腫瘤／血液相關」相關公開專案：Reproducible pipeline for development and external validation of an ear…</span></li>
+<li><a href="https://github.com/odafeng/crs-knowledge-base">crs-knowledge-base</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">公開專案「crs-knowledge-base」（主要語言：Python）：Colorectal Surgery Knowledge Base - Progressive Web App</span></li>
+<li><a href="https://github.com/odafeng/ctpelvimetry">ctpelvimetry</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">「開發環境／dotfiles」相關公開專案：Python package and CLI for automated CT pelvimetry and body-composition…</span></li>
+<li><a href="https://github.com/odafeng/odin-notes-tw">odin-notes-tw</a> <span class="chip push">有推送</span> · 2026-09-30<br/><span class="meta">The Odin Project（Foundations + Full Stack JavaScript）繁體中文自足講義｜MkDocs Material</span></li>
+<li><a href="https://github.com/odafeng/series-studio">series-studio</a> <span class="chip push">有推送</span> · 2026-09-30<br/><span class="meta">「生成式 AI／LLM」相關公開專案：A config-driven multi-agent production system for episodic video.</span></li>
+<li><a href="https://github.com/odafeng/lecture_live_notes">lecture_live_notes</a> <span class="chip push">有推送</span> · 2026-09-29<br/><span class="meta">「生成式 AI／LLM」相關公開專案：Live lecture transcription and Traditional Chinese notes with Gemini AS…</span></li>
+<li><a href="https://github.com/odafeng/lunch-decider">lunch-decider</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-09-26<br/><span class="meta">呷啥 CHIA SHÁ — 附近餐廳搜尋與午晚餐選擇工具</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/shin13">@shin13</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/shin13/opentaimed">opentaimed</a> (pushed) — pushed 2026-10-01</li>
+<p>@shin13 本週更新倉庫 「opentaimed」。</p>
+<ul class="tight">
+<li><a href="https://github.com/shin13/opentaimed">opentaimed</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">Trustworthy Taiwan FDA (TFDA) drug-information lookup for AI agents — an independent open…</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/soanseng">@soanseng</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/soanseng/rime-phah-taibun">rime-phah-taibun</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/soanseng/rime-trime-taigi">rime-trime-taigi</a> (new, pushed) — created 2026-09-30; pushed 2026-10-01</li>
-<li><a href="https://github.com/soanseng/thak-tai-bun">thak-tai-bun</a> (new, pushed) — created 2026-09-27; pushed 2026-09-29</li>
+<p>@soanseng 本週新建公開倉庫 「rime-trime-taigi」、「thak-tai-bun」；更新倉庫 「rime-phah-taibun」。</p>
+<ul class="tight">
+<li><a href="https://github.com/soanseng/rime-trime-taigi">rime-trime-taigi</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">Android 台語輸入法 — 分支自 Trime（同文輸入法）v3.3.12 的台語特化版 Phah Tâi-bûn</span></li>
+<li><a href="https://github.com/soanseng/rime-phah-taibun">rime-phah-taibun</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">Phah Tai-bun (拍台文): open-source Rime input method for Taiwanese Hokkien with Han-lo outpu…</span></li>
+<li><a href="https://github.com/soanseng/thak-tai-bun">thak-tai-bun</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-09-29<br/><span class="meta">公開的 JavaScript 專案倉庫（尚無說明文字）。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/t0mst0ne">@t0mst0ne</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/t0mst0ne/medical-journal-daily-agent">medical-journal-daily-agent</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/t0mst0ne/dementia-uptodate">dementia-uptodate</a> (pushed) — pushed 2026-09-28</li>
+<p>@t0mst0ne 本週更新倉庫 「medical-journal-daily-agent」、「dementia-uptodate」。</p>
+<ul class="tight">
+<li><a href="https://github.com/t0mst0ne/medical-journal-daily-agent">medical-journal-daily-agent</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">每日醫學期刊文獻追蹤:RSS 抓取 + PubMed/Crossref metadata + LLM 繁中摘要翻譯 + Telegram 推送(GitHub Actions 全自…</span></li>
+<li><a href="https://github.com/t0mst0ne/dementia-uptodate">dementia-uptodate</a> <span class="chip push">有推送</span> · 2026-09-28<br/><span class="meta">公開的 Python 專案倉庫（尚無說明文字）。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/texchi2">@texchi2</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/texchi2/ftmerp-java-project">ftmerp-java-project</a> (pushed) — pushed 2026-09-30</li>
-<li><a href="https://github.com/texchi2/ftmerp-java-plugins">ftmerp-java-plugins</a> (pushed) — pushed 2026-09-25</li>
+<p>@texchi2 本週更新倉庫 「ftmerp-java-project」。</p>
+<ul class="tight">
+<li><a href="https://github.com/texchi2/ftmerp-java-project">ftmerp-java-project</a> <span class="chip push">有推送</span> · 2026-09-30<br/><span class="meta">公開的 Java 專案倉庫（尚無說明文字）。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/tinchangchang">@tinchangchang</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/tinchangchang/figo-staging-calculators">figo-staging-calculators</a> (pushed) — pushed 2026-09-26</li>
+<p>@tinchangchang 本週更新倉庫 「figo-staging-calculators」。</p>
+<ul class="tight">
+<li><a href="https://github.com/tinchangchang/figo-staging-calculators">figo-staging-calculators</a> <span class="chip push">有推送</span> · 2026-09-26<br/><span class="meta">「腫瘤／血液相關」相關公開專案：Online-only FIGO gynecologic cancer staging calculators</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/tsaiid">@tsaiid</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/tsaiid/vghks-random-duty">vghks-random-duty</a> (pushed) — pushed 2026-10-02</li>
-<li><a href="https://github.com/tsaiid/radtools.tsai.it">radtools.tsai.it</a> (pushed) — pushed 2026-09-29</li>
-<li><a href="https://github.com/tsaiid/structured-reporting-web-tools">structured-reporting-web-tools</a> (pushed) — pushed 2026-09-29</li>
-<li><a href="https://github.com/tsaiid/ahk-nycuh">ahk-nycuh</a> (pushed) — pushed 2026-09-28</li>
+<p>@tsaiid 本週更新倉庫 「vghks-random-duty」、「radtools.tsai.it」、「structured-reporting-web-tools」、「ahk-nycuh」。</p>
+<ul class="tight">
+<li><a href="https://github.com/tsaiid/vghks-random-duty">vghks-random-duty</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">公開專案「vghks-random-duty」（主要語言：JavaScript）：A single page application to assist resident duty arrangement.</span></li>
+<li><a href="https://github.com/tsaiid/radtools.tsai.it">radtools.tsai.it</a> <span class="chip push">有推送</span> · 2026-09-29<br/><span class="meta">公開專案「radtools.tsai.it」（主要語言：HTML）：Github pages for my radtools</span></li>
+<li><a href="https://github.com/tsaiid/structured-reporting-web-tools">structured-reporting-web-tools</a> <span class="chip push">有推送</span> · 2026-09-29<br/><span class="meta">「醫學影像／放射」相關公開專案：A web-based tool for structured reporting in radiology</span></li>
+<li><a href="https://github.com/tsaiid/ahk-nycuh">ahk-nycuh</a> <span class="chip push">有推送</span> · 2026-09-28<br/><span class="meta">公開的 AutoHotkey 專案倉庫（尚無說明文字）。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/u9401066">@u9401066</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/u9401066/research-data-explorer">research-data-explorer</a> (pushed) — pushed 2026-10-02</li>
-<li><a href="https://github.com/u9401066/pubmed-search-mcp">pubmed-search-mcp</a> (pushed) — pushed 2026-10-01</li>
-<li><a href="https://github.com/u9401066/llama-mcp-router">llama-mcp-router</a> (new, pushed) — created 2026-10-01; pushed 2026-10-01</li>
-<li><a href="https://github.com/u9401066/dicom-overlay-agent">dicom-overlay-agent</a> (pushed) — pushed 2026-09-29</li>
+<p>@u9401066 本週新建公開倉庫 「llama-mcp-router」；更新倉庫 「research-data-explorer」、「zotero-keeper」、「dicom-overlay-agent」、「pubmed-search-mcp」。</p>
+<ul class="tight">
+<li><a href="https://github.com/u9401066/research-data-explorer">research-data-explorer</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">「自然語言處理」相關公開專案：🔍 AI-powered Research Data Explorer — MCP + Agent + Skill workflow for…</span></li>
+<li><a href="https://github.com/u9401066/zotero-keeper">zotero-keeper</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">「文獻／臨床試驗」相關公開專案：Zotero 10+ Local API and PubMed MCP research workspace: Keeper 2.1, Pub…</span></li>
+<li><a href="https://github.com/u9401066/dicom-overlay-agent">dicom-overlay-agent</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">「醫學影像／放射」相關公開專案：Windows medical-image co-reading overlay with PHI-safe ROI capture, Ope…</span></li>
+<li><a href="https://github.com/u9401066/pubmed-search-mcp">pubmed-search-mcp</a> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">「文獻／臨床試驗」相關公開專案：MCP SDK v2 server for PubMed and multi-source biomedical research, with…</span></li>
+<li><a href="https://github.com/u9401066/llama-mcp-router">llama-mcp-router</a> <span class="chip new">新建</span> <span class="chip push">有推送</span> · 2026-10-01<br/><span class="meta">「生成式 AI／LLM」相關公開專案：Tool-selection router for llama-server (llama.cpp) MCP tools: send the…</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/y-cliu">@y-cliu</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/y-cliu/weight-challenge-dashboard">weight-challenge-dashboard</a> (pushed) — pushed 2026-10-02</li>
+<p>@y-cliu 本週更新倉庫 「weight-challenge-dashboard」。</p>
+<ul class="tight">
+<li><a href="https://github.com/y-cliu/weight-challenge-dashboard">weight-challenge-dashboard</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">「資料視覺化／儀表板」相關的公開倉庫，主要語言為 HTML。</span></li>
 </ul>
+</div>
+<div class="summary">
 <h3><a href="https://github.com/Yuchunchen">@Yuchunchen</a></h3>
-<p><strong>Repos (non-fork, public)</strong></p><ul>
-<li><a href="https://github.com/Yuchunchen/VaxCheck">VaxCheck</a> (pushed) — pushed 2026-10-02</li>
+<p>@Yuchunchen 本週更新倉庫 「VaxCheck」。</p>
+<ul class="tight">
+<li><a href="https://github.com/Yuchunchen/VaxCheck">VaxCheck</a> <span class="chip push">有推送</span> · 2026-10-02<br/><span class="meta">VaxCheck — 疫苗檢核程式:健保雲端 + CDC NIIS 一鍵檢核公費疫苗資格(Chrome extension + YAML 規則引擎)</span></li>
 </ul>
-<hr/>
-<p>Source repo: <a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">erichuang777777/awesome-tw-physician-engineer</a></p>
-<p>Regenerated weekly by <code>.github/workflows/weekly-digest.yml</code>.</p>
+</div>
+</section>
+<section id="database" class="card">
+<h2>專案資料庫</h2>
+<p class="meta">整合名冊帳號的<strong>每一個</strong>公開非 fork 倉庫，並附一句繁中介紹。目前共 <strong>902</strong> 個倉庫、<strong>45</strong> 個帳號。</p>
+<div class="filters">
+<input type="search" id="q" placeholder="搜尋倉庫名稱、說明、主題、帳號…" autocomplete="off"/>
+<select id="account"><option value="">全部帳號</option></select>
+</div>
+<p class="stats" id="stats"></p>
+<div id="repo-root"><p class="meta">載入資料中…</p></div>
+</section>
+<footer>
+<p>來源：<a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">erichuang777777/awesome-tw-physician-engineer</a> · 由 <code>scripts/weekly_digest.py</code>／<code>.github/workflows/weekly-digest.yml</code> 每週重建。</p>
+</footer>
+</div>
+<script>
+
+(async function () {
+  const root = document.getElementById('repo-root');
+  const stats = document.getElementById('stats');
+  const q = document.getElementById('q');
+  const sel = document.getElementById('account');
+  let data;
+  try {
+    const res = await fetch('./data/repos.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    data = await res.json();
+  } catch (e) {
+    root.innerHTML = '<p>無法載入 <code>data/repos.json</code>：' + e + '</p>';
+    return;
+  }
+  const accounts = data.accounts || [];
+  for (const a of accounts) {
+    const opt = document.createElement('option');
+    opt.value = a.login;
+    opt.textContent = '@' + a.login + '（' + (a.repo_count || 0) + '）';
+    sel.appendChild(opt);
+  }
+
+  function norm(s) { return (s || '').toString().toLowerCase(); }
+
+  function render() {
+    const query = norm(q.value);
+    const only = sel.value;
+    let shownRepos = 0, shownAccounts = 0;
+    const frag = document.createDocumentFragment();
+    for (const acc of accounts) {
+      if (only && acc.login !== only) continue;
+      const repos = (acc.repos || []).filter(function (r) {
+        if (!query) return true;
+        const blob = [acc.login, r.name, r.full_name, r.description, r.intro_zh, r.theme, r.language]
+          .concat(r.topics || []).join(' ').toLowerCase();
+        return blob.indexOf(query) !== -1;
+      });
+      if (!repos.length) continue;
+      shownAccounts += 1;
+      shownRepos += repos.length;
+      const wrap = document.createElement('div');
+      wrap.className = 'account';
+      wrap.dataset.login = acc.login;
+      const h = document.createElement('h3');
+      const link = document.createElement('a');
+      link.href = acc.profile_url;
+      link.textContent = '@' + acc.login;
+      h.appendChild(link);
+      h.appendChild(document.createTextNode(' · ' + repos.length + ' 個倉庫'));
+      wrap.appendChild(h);
+      for (const r of repos) {
+        const card = document.createElement('div');
+        card.className = 'repo';
+        const name = document.createElement('div');
+        name.className = 'name';
+        const a = document.createElement('a');
+        a.href = r.url; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = r.name;
+        name.appendChild(a);
+        if (r.theme) {
+          const c = document.createElement('span');
+          c.className = 'chip'; c.textContent = r.theme; c.style.marginLeft = '.4rem';
+          name.appendChild(c);
+        }
+        if (r.language) {
+          const c = document.createElement('span');
+          c.className = 'chip'; c.textContent = r.language; c.style.marginLeft = '.25rem';
+          name.appendChild(c);
+        }
+        if (r.archived) {
+          const c = document.createElement('span');
+          c.className = 'chip push'; c.textContent = '已封存'; c.style.marginLeft = '.25rem';
+          name.appendChild(c);
+        }
+        card.appendChild(name);
+        const intro = document.createElement('p');
+        intro.className = 'intro';
+        intro.textContent = r.intro_zh || '';
+        card.appendChild(intro);
+        if (r.description) {
+          const d = document.createElement('p');
+          d.className = 'desc';
+          d.textContent = '原始說明：' + r.description;
+          card.appendChild(d);
+        }
+        wrap.appendChild(card);
+      }
+      frag.appendChild(wrap);
+    }
+    root.innerHTML = '';
+    if (!shownRepos) {
+      root.innerHTML = '<p class="meta">沒有符合條件的倉庫。</p>';
+    } else {
+      root.appendChild(frag);
+    }
+    stats.textContent = '顯示 ' + shownRepos + ' 個倉庫／' + shownAccounts + ' 個帳號（資料庫共 ' +
+      (data.repo_count || 0) + ' 個倉庫）';
+  }
+  q.addEventListener('input', render);
+  sel.addEventListener('change', render);
+  render();
+})();
+
+</script>
 </body></html>

@@ -10,7 +10,7 @@
 - [簡介與代表專案](#簡介與代表專案)
 - [收錄原則](#收錄原則)
 - [如何推薦、修正或移除](#如何推薦修正或移除)
-- [Weekly public digest (GitHub Pages)](#weekly-public-digest-github-pages)
+- [GitHub Pages（本週動態與專案資料庫）](#github-pages本週動態與專案資料庫)
 - [授權](#授權)
 
 ## 這是什麼
@@ -277,16 +277,25 @@
 任何人都可以提出錯誤、更正或移除要求；移除要求會優先處理。詳細 bio 與院所資訊原則上待本人確認後才補充，並標示「待本人確認／公開來源」。
 
 
-## Weekly public digest (GitHub Pages)
+## GitHub Pages（本週動態與專案資料庫）
 
-A privacy-safe weekly digest of **public** GitHub activity from roster accounts is published here:
+站點（繁體中文）：**https://erichuang777777.github.io/awesome-tw-physician-engineer/**
 
-**https://erichuang777777.github.io/awesome-tw-physician-engineer/**
+版面：
 
-- Content: `@handles` and public repository titles / URLs / dates only (no real names or hospitals).
-- Built by `scripts/weekly_digest.py` via `.github/workflows/weekly-digest.yml` (weekly cron + manual `workflow_dispatch`).
-- Site files live under `docs/` (`index.md`, `latest.json`).
-- First enablement: the workflow deploys with the official Pages actions (`actions/deploy-pages`). If the site 404s after the first run, open **Settings → Pages** and set **Source** to **GitHub Actions** (sometimes required once per repo).
+1. **上方「本週動態摘要」**：統整名冊帳號近一週的公開新建／推送動態（繁中摘要）。
+2. **下方「專案資料庫」**：每位帳號的**每一個**公開非 fork 倉庫，附一句繁中介紹；網頁可搜尋／依帳號篩選。
+
+隱私：僅 `@帳號` 與公開倉庫名稱／網址／說明／主題；不含真實姓名、院所或 commit 內容。
+
+產物（`docs/`）：
+
+- `index.html`／`index.md`：繁中首頁
+- `repos.md`：完整 Markdown 資料庫
+- `latest.json`：本週動態
+- `data/repos.json`：全庫機器可讀資料
+
+由 `scripts/weekly_digest.py` 經 `.github/workflows/weekly-digest.yml` 每週重建（亦支援手動 `workflow_dispatch`）。若首次部署後 404，請到 **Settings → Pages** 將 **Source** 設為 **GitHub Actions**。
 
 ## 授權
 

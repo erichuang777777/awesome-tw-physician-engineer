@@ -1,69 +1,36 @@
 {
-  "generated_at": "2026-10-02T05:24:51Z",
+  "generated_at": "2026-10-02T14:56:34Z",
+  "generated_at_taipei": "2026-10-02 22:56（台北時間）",
   "window_days": 7,
-  "window_start": "2026-09-25T05:24:51Z",
+  "window_start": "2026-09-25T14:56:34Z",
   "roster_count": 45,
   "active_count": 22,
-  "privacy_note": "Handles and public repository names/URLs/dates only. No real names, hospitals, bios, or commit messages.",
+  "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
+  "overview_zh": "本週掃描 45 個名冊帳號，其中 22 個帳號在近 7 天有公開新建／推送動態。",
   "entries": [
-    {
-      "login": "erichuang777777",
-      "profile_url": "https://github.com/erichuang777777",
-      "repos": [
-        {
-          "name": "awesome-tw-physician-engineer",
-          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
-          "created_at": "2026-10-01T18:09:27Z",
-          "pushed_at": "2026-10-02T05:24:35Z",
-          "is_new": true,
-          "recently_pushed": true
-        },
-        {
-          "name": "TW-Breast-Cancer-FHIR-IG",
-          "url": "https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG",
-          "created_at": "2026-08-14T16:07:31Z",
-          "pushed_at": "2026-09-25T11:37:27Z",
-          "is_new": false,
-          "recently_pushed": true
-        },
-        {
-          "name": "dotfiles",
-          "url": "https://github.com/erichuang777777/dotfiles",
-          "created_at": "2026-09-09T16:05:57Z",
-          "pushed_at": "2026-09-25T08:54:37Z",
-          "is_new": false,
-          "recently_pushed": true
-        }
-      ],
-      "recent_pushes": [
-        {
-          "repo": "erichuang777777/awesome-tw-physician-engineer",
-          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
-          "pushed_at": "2026-10-02T00:32:04Z"
-        },
-        {
-          "repo": "erichuang777777/TW-Breast-Cancer-FHIR-IG",
-          "url": "https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG",
-          "pushed_at": "2026-09-25T11:37:28Z"
-        },
-        {
-          "repo": "erichuang777777/dotfiles",
-          "url": "https://github.com/erichuang777777/dotfiles",
-          "pushed_at": "2026-09-25T08:54:37Z"
-        }
-      ]
-    },
     {
       "login": "agoodbear",
       "profile_url": "https://github.com/agoodbear",
       "repos": [
         {
+          "name": "agoodbear.github.io",
+          "url": "https://github.com/agoodbear/agoodbear.github.io",
+          "created_at": "2023-12-14T11:50:01Z",
+          "pushed_at": "2026-10-02T14:14:48Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "個人或專案的公開 GitHub Pages／網站內容。",
+          "theme": "個人網站／部落格"
+        },
+        {
           "name": "tw-er-ref-2x9k",
           "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
           "created_at": "2026-04-04T05:46:34Z",
-          "pushed_at": "2026-10-02T05:05:08Z",
+          "pushed_at": "2026-10-02T14:05:09Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「急診／急重症」相關公開專案：ER physician reference",
+          "theme": "急診／急重症"
         },
         {
           "name": "em-pulse-tw",
@@ -71,15 +38,9 @@
           "created_at": "2026-06-14T00:35:02Z",
           "pushed_at": "2026-10-02T01:16:26Z",
           "is_new": false,
-          "recently_pushed": true
-        },
-        {
-          "name": "agoodbear.github.io",
-          "url": "https://github.com/agoodbear/agoodbear.github.io",
-          "created_at": "2023-12-14T11:50:01Z",
-          "pushed_at": "2026-10-01T13:46:36Z",
-          "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "急診醫學與重症照護文獻雷達（繁中版）— 每天自動掃 PubMed、依影響力排序",
+          "theme": "急診／急重症"
         },
         {
           "name": "slidecue",
@@ -87,26 +48,29 @@
           "created_at": "2026-08-22T13:09:28Z",
           "pushed_at": "2026-09-27T12:06:10Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "把 Keynote 講稿顯示在 Even Realities G2 鏡片上，翻頁自動換稿",
+          "theme": "簡報／教材"
         }
       ],
       "recent_pushes": [
         {
           "repo": "agoodbear/tw-er-ref-2x9k",
           "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
-          "pushed_at": "2026-10-01T18:05:08Z"
+          "pushed_at": "2026-10-02T03:05:07Z"
         },
         {
           "repo": "agoodbear/agoodbear.github.io",
           "url": "https://github.com/agoodbear/agoodbear.github.io",
-          "pushed_at": "2026-10-01T13:28:23Z"
+          "pushed_at": "2026-10-02T14:01:36Z"
         },
         {
           "repo": "agoodbear/slidecue",
           "url": "https://github.com/agoodbear/slidecue",
           "pushed_at": "2026-09-27T12:06:10Z"
         }
-      ]
+      ],
+      "summary_zh": "@agoodbear 本週更新倉庫 「agoodbear.github.io」、「tw-er-ref-2x9k」、「em-pulse-tw」、「slidecue」。"
     },
     {
       "login": "Chiehx0220",
@@ -123,7 +87,8 @@
           "url": "https://github.com/Chiehx0220/PipePipeExtractor",
           "pushed_at": "2026-09-29T12:23:55Z"
         }
-      ]
+      ],
+      "summary_zh": "@Chiehx0220 本週有公開推送活動（含 Fathom、PipePipeExtractor）。"
     },
     {
       "login": "CJRonald",
@@ -135,7 +100,9 @@
           "created_at": "2025-07-20T05:35:17Z",
           "pushed_at": "2026-09-29T15:06:18Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開的 HTML 專案倉庫（尚無說明文字）。",
+          "theme": null
         },
         {
           "name": "cjhuang-website",
@@ -143,15 +110,9 @@
           "created_at": "2026-06-07T12:21:19Z",
           "pushed_at": "2026-09-26T10:48:36Z",
           "is_new": false,
-          "recently_pushed": true
-        },
-        {
-          "name": "LinkouCGMHBurnCenter",
-          "url": "https://github.com/CJRonald/LinkouCGMHBurnCenter",
-          "created_at": "2025-07-23T08:01:51Z",
-          "pushed_at": "2026-09-25T11:41:09Z",
-          "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開的 HTML 專案倉庫（尚無說明文字）。",
+          "theme": null
         }
       ],
       "recent_pushes": [
@@ -164,13 +125,9 @@
           "repo": "CJRonald/cjhuang-website",
           "url": "https://github.com/CJRonald/cjhuang-website",
           "pushed_at": "2026-09-26T03:17:27Z"
-        },
-        {
-          "repo": "CJRonald/LinkouCGMHBurnCenter",
-          "url": "https://github.com/CJRonald/LinkouCGMHBurnCenter",
-          "pushed_at": "2026-09-25T11:41:09Z"
         }
-      ]
+      ],
+      "summary_zh": "@CJRonald 本週更新倉庫 「VDILab」、「cjhuang-website」。"
     },
     {
       "login": "didiowen",
@@ -182,7 +139,9 @@
           "created_at": "2026-04-28T02:27:22Z",
           "pushed_at": "2026-10-01T15:30:24Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「nihongo」（主要語言：HTML）：My journey learning Japanese from scratch",
+          "theme": null
         }
       ],
       "recent_pushes": [
@@ -191,7 +150,8 @@
           "url": "https://github.com/didiowen/nihongo",
           "pushed_at": "2026-10-01T15:30:20Z"
         }
-      ]
+      ],
+      "summary_zh": "@didiowen 本週更新倉庫 「nihongo」。"
     },
     {
       "login": "drpwchen",
@@ -203,7 +163,9 @@
           "created_at": "2026-07-30T15:24:23Z",
           "pushed_at": "2026-09-29T03:18:17Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「聊天機器人／通訊整合」相關公開專案：Python CLI for Facebook & Messenger automation — post (photos, scheduli…",
+          "theme": "聊天機器人／通訊整合"
         },
         {
           "name": "claude-pacer",
@@ -211,7 +173,9 @@
           "created_at": "2026-07-24T10:00:55Z",
           "pushed_at": "2026-09-28T01:37:42Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「生成式 AI／LLM」相關公開專案：Statusline + budget guard + pacing verdict for Claude Code usage limits…",
+          "theme": "生成式 AI／LLM"
         }
       ],
       "recent_pushes": [
@@ -225,7 +189,32 @@
           "url": "https://github.com/drpwchen/claude-pacer",
           "pushed_at": "2026-09-28T01:37:40Z"
         }
-      ]
+      ],
+      "summary_zh": "@drpwchen 本週更新倉庫 「fbkit」、「claude-pacer」。"
+    },
+    {
+      "login": "erichuang777777",
+      "profile_url": "https://github.com/erichuang777777",
+      "repos": [
+        {
+          "name": "awesome-tw-physician-engineer",
+          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
+          "created_at": "2026-10-01T18:09:27Z",
+          "pushed_at": "2026-10-02T11:34:09Z",
+          "is_new": true,
+          "recently_pushed": true,
+          "intro_zh": "A curated list of Taiwanese physician-engineers / 收錄具開發能力的台灣醫師工程師",
+          "theme": null
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "erichuang777777/awesome-tw-physician-engineer",
+          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
+          "pushed_at": "2026-10-01T23:44:08Z"
+        }
+      ],
+      "summary_zh": "@erichuang777777 本週新建公開倉庫 「awesome-tw-physician-engineer」。"
     },
     {
       "login": "gosienna",
@@ -237,7 +226,9 @@
           "created_at": "2025-10-05T05:57:48Z",
           "pushed_at": "2026-10-02T00:57:51Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「生理訊號／波形」相關的公開倉庫，主要語言為 JavaScript。",
+          "theme": "生理訊號／波形"
         },
         {
           "name": "Project12_BuildPlatformerGame",
@@ -245,7 +236,9 @@
           "created_at": "2026-09-20T06:21:25Z",
           "pushed_at": "2026-09-27T12:56:55Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「遊戲／互動」相關的公開倉庫，主要語言為 Python。",
+          "theme": "遊戲／互動"
         }
       ],
       "recent_pushes": [
@@ -259,7 +252,8 @@
           "url": "https://github.com/gosienna/Project12_BuildPlatformerGame",
           "pushed_at": "2026-09-27T11:08:22Z"
         }
-      ]
+      ],
+      "summary_zh": "@gosienna 本週更新倉庫 「Project01_EDF_viewer」、「Project12_BuildPlatformerGame」。"
     },
     {
       "login": "homigin",
@@ -271,22 +265,37 @@
           "created_at": "2023-07-24T02:11:02Z",
           "pushed_at": "2026-09-27T22:53:10Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "個人或專案的公開 GitHub Pages／網站內容。",
+          "theme": "個人網站／部落格"
         }
       ],
-      "recent_pushes": []
+      "recent_pushes": [],
+      "summary_zh": "@homigin 本週更新倉庫 「homigin.github.io」。"
     },
     {
       "login": "htlin222",
       "profile_url": "https://github.com/htlin222",
       "repos": [
         {
+          "name": "lin-hsiehting",
+          "url": "https://github.com/htlin222/lin-hsiehting",
+          "created_at": "2026-05-10T14:51:34Z",
+          "pushed_at": "2026-10-02T10:06:02Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "「腫瘤／血液相關」相關公開專案：Oncologist's clinical notes, medical education & research repository bu…",
+          "theme": "腫瘤／血液相關"
+        },
+        {
           "name": "CCChange",
           "url": "https://github.com/htlin222/CCChange",
           "created_at": "2026-08-02T06:03:36Z",
           "pushed_at": "2026-10-02T00:27:12Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "每日一則 Claude Code changelog 中文講義，由 Claude Code 自動出刊",
+          "theme": "生成式 AI／LLM"
         },
         {
           "name": "nccn-guidelines-downloader",
@@ -294,15 +303,9 @@
           "created_at": "2026-07-24T00:59:23Z",
           "pushed_at": "2026-10-01T11:39:43Z",
           "is_new": false,
-          "recently_pushed": true
-        },
-        {
-          "name": "lin-hsiehting",
-          "url": "https://github.com/htlin222/lin-hsiehting",
-          "created_at": "2026-05-10T14:51:34Z",
-          "pushed_at": "2026-10-01T10:30:15Z",
-          "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「腫瘤／血液相關」相關公開專案：NCCN guideline downloader — CLI + Access-gated Cloudflare PWA (categori…",
+          "theme": "腫瘤／血液相關"
         },
         {
           "name": "zitie-generator",
@@ -310,7 +313,9 @@
           "created_at": "2026-09-26T08:04:25Z",
           "pushed_at": "2026-09-26T08:04:41Z",
           "is_new": true,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "繁體中文硬筆字帖產生器：田字格・教育部筆順・注音・甲乙本，A4 列印 | Traditional Chinese handwriting practice sheet gener…",
+          "theme": "自然語言處理"
         },
         {
           "name": "hema-board-interview-guide",
@@ -318,7 +323,9 @@
           "created_at": "2026-09-07T13:21:05Z",
           "pushed_at": "2026-09-26T06:24:47Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「腫瘤／血液相關」相關的公開倉庫，主要語言為 Python。",
+          "theme": "腫瘤／血液相關"
         }
       ],
       "recent_pushes": [
@@ -327,7 +334,8 @@
           "url": "https://github.com/htlin222/hema-board-interview-guide",
           "pushed_at": "2026-09-26T06:24:48Z"
         }
-      ]
+      ],
+      "summary_zh": "@htlin222 本週新建公開倉庫 「zitie-generator」；更新倉庫 「lin-hsiehting」、「CCChange」、「nccn-guidelines-downloader」、「hema-board-interview-guide」。"
     },
     {
       "login": "jjtseng93",
@@ -337,9 +345,11 @@
           "name": "buninu-linux",
           "url": "https://github.com/jjtseng93/buninu-linux",
           "created_at": "2026-09-18T13:01:48Z",
-          "pushed_at": "2026-10-01T23:06:21Z",
+          "pushed_at": "2026-10-02T14:41:53Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「buninu-linux」（主要語言：JavaScript）：A Linux distribution running Bun as PID 1 with the Buninu userspace.",
+          "theme": null
         },
         {
           "name": "jspulse",
@@ -347,7 +357,9 @@
           "created_at": "2026-09-27T11:24:34Z",
           "pushed_at": "2026-10-01T15:38:18Z",
           "is_new": true,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「行動應用」相關公開專案：A Bun/JavaScript implementation of PulseAudio’s native protocol for Lin…",
+          "theme": "行動應用"
         },
         {
           "name": "buninu-browser",
@@ -355,7 +367,9 @@
           "created_at": "2026-09-29T17:01:27Z",
           "pushed_at": "2026-10-01T15:00:39Z",
           "is_new": true,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「buninu-browser」（主要語言：JavaScript）：Buninu Browser is a browser engine written in JavaScript and WebAssembl…",
+          "theme": null
         },
         {
           "name": "buninu",
@@ -363,7 +377,9 @@
           "created_at": "2026-08-17T09:18:24Z",
           "pushed_at": "2026-09-28T19:35:23Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「buninu」（主要語言：JavaScript）：Buninu is a portable, self-bootstrapping Unix-like userspace built on B…",
+          "theme": null
         },
         {
           "name": "bunmsh",
@@ -371,7 +387,9 @@
           "created_at": "2026-07-30T11:17:41Z",
           "pushed_at": "2026-09-28T19:28:51Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「bunmsh」（主要語言：JavaScript）：Cross-platform command shell for Bun JavaScript",
+          "theme": null
         },
         {
           "name": "js-gotty",
@@ -379,7 +397,9 @@
           "created_at": "2026-04-11T18:05:31Z",
           "pushed_at": "2026-09-28T17:46:38Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「js-gotty」（主要語言：JavaScript）：Share your terminal as a web application: A JavaScript rewrite of GoTTY",
+          "theme": null
         },
         {
           "name": "bunproot",
@@ -387,10 +407,22 @@
           "created_at": "2026-09-04T11:10:48Z",
           "pushed_at": "2026-09-26T17:08:02Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「行動應用」相關公開專案：A port of PRoot to Bun: a userspace chroot, mount --bind and binfmt_mis…",
+          "theme": "行動應用"
         }
       ],
       "recent_pushes": [
+        {
+          "repo": "jjtseng93/buninu-linux",
+          "url": "https://github.com/jjtseng93/buninu-linux",
+          "pushed_at": "2026-10-01T23:06:22Z"
+        },
+        {
+          "repo": "jjtseng93/buninu-browser",
+          "url": "https://github.com/jjtseng93/buninu-browser",
+          "pushed_at": "2026-09-30T19:58:16Z"
+        },
         {
           "repo": "jjtseng93/jspulse",
           "url": "https://github.com/jjtseng93/jspulse",
@@ -400,16 +432,6 @@
           "repo": "jjtseng93/casty",
           "url": "https://github.com/jjtseng93/casty",
           "pushed_at": "2026-10-01T14:47:50Z"
-        },
-        {
-          "repo": "jjtseng93/buninu-linux",
-          "url": "https://github.com/jjtseng93/buninu-linux",
-          "pushed_at": "2026-10-01T22:59:14Z"
-        },
-        {
-          "repo": "jjtseng93/buninu-browser",
-          "url": "https://github.com/jjtseng93/buninu-browser",
-          "pushed_at": "2026-09-30T15:41:33Z"
         },
         {
           "repo": "jjtseng93/js-gotty",
@@ -431,7 +453,8 @@
           "url": "https://github.com/jjtseng93/bunproot",
           "pushed_at": "2026-09-26T17:08:02Z"
         }
-      ]
+      ],
+      "summary_zh": "@jjtseng93 本週新建公開倉庫 「jspulse」、「buninu-browser」；更新倉庫 「buninu-linux」、「buninu」、「bunmsh」、「js-gotty」、「bunproot」；另有 1 處公開推送。"
     },
     {
       "login": "liangRXdev",
@@ -443,7 +466,9 @@
           "created_at": "2026-04-14T03:52:50Z",
           "pushed_at": "2026-10-01T23:40:27Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "自動抓取食藥署藥品回收公告",
+          "theme": "藥學／藥品資訊"
         },
         {
           "name": "TFDA-drug-shortage-dashboard",
@@ -451,7 +476,9 @@
           "created_at": "2026-04-13T07:04:20Z",
           "pushed_at": "2026-10-01T22:02:33Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "自動抓取缺藥平台的替代藥品公告",
+          "theme": "藥學／藥品資訊"
         },
         {
           "name": "Taiwan-Clinical-Trial-Radar",
@@ -459,7 +486,9 @@
           "created_at": "2026-09-22T00:41:38Z",
           "pushed_at": "2026-10-01T07:23:58Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "台灣藥品臨床試驗檢索站——TFDA 開放資料 dataset 205 的靜態檢索前端。",
+          "theme": "藥學／藥品資訊"
         },
         {
           "name": "pill-detective-tw",
@@ -467,7 +496,9 @@
           "created_at": "2026-08-12T06:28:28Z",
           "pushed_at": "2026-09-27T23:07:22Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "藥丸偵探 Pill Detective TW — 台灣藥品外觀搜尋：依刻字、顏色、形狀、刻痕從 TFDA 公開資料縮小候選藥品清單，供人工比對確認",
+          "theme": "藥學／藥品資訊"
         },
         {
           "name": "taiwan-pharmacist-exam-data",
@@ -475,7 +506,9 @@
           "created_at": "2026-09-27T07:41:17Z",
           "pushed_at": "2026-09-27T07:53:27Z",
           "is_new": true,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "考選部藥師國考測驗題之結構化、可稽核題庫（113 年起；規則式抽取、無 LLM；套用官方更正答案）",
+          "theme": "藥學／藥品資訊"
         },
         {
           "name": "NHI-drug-price-history",
@@ -483,7 +516,9 @@
           "created_at": "2026-09-11T15:47:54Z",
           "pushed_at": "2026-09-25T23:43:42Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "台灣健保藥價歷史查詢：NHI 健保用藥品項檔完整支付價歷史（1995 至今）",
+          "theme": "健保／編碼與申報"
         }
       ],
       "recent_pushes": [
@@ -492,7 +527,8 @@
           "url": "https://github.com/liangRXdev/taiwan-pharmacist-exam-data",
           "pushed_at": "2026-09-27T07:53:28Z"
         }
-      ]
+      ],
+      "summary_zh": "@liangRXdev 本週新建公開倉庫 「taiwan-pharmacist-exam-data」；更新倉庫 「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」、「pill-detective-tw」、「NHI-drug-price-history」。"
     },
     {
       "login": "littlecanargie",
@@ -504,7 +540,9 @@
           "created_at": "2020-06-03T08:28:02Z",
           "pushed_at": "2026-10-01T04:19:28Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「medical_statistics」（主要語言：TeX）：Medical statistics survival guide",
+          "theme": null
         }
       ],
       "recent_pushes": [
@@ -513,7 +551,8 @@
           "url": "https://github.com/littlecanargie/medical_statistics",
           "pushed_at": "2026-09-30T19:35:32Z"
         }
-      ]
+      ],
+      "summary_zh": "@littlecanargie 本週更新倉庫 「medical_statistics」。"
     },
     {
       "login": "odafeng",
@@ -525,7 +564,9 @@
           "created_at": "2026-03-18T03:48:49Z",
           "pushed_at": "2026-10-01T18:35:40Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「臨床指引／路徑」相關公開專案：Hemorrhoid postoperative symptom monitoring and AI-assisted patient edu…",
+          "theme": "臨床指引／路徑"
         },
         {
           "name": "Stage_III_Colon_EDR",
@@ -533,7 +574,9 @@
           "created_at": "2025-11-28T15:35:33Z",
           "pushed_at": "2026-10-01T18:35:34Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「腫瘤／血液相關」相關公開專案：Reproducible pipeline for development and external validation of an ear…",
+          "theme": "腫瘤／血液相關"
         },
         {
           "name": "crs-knowledge-base",
@@ -541,7 +584,9 @@
           "created_at": "2026-04-29T16:35:18Z",
           "pushed_at": "2026-10-01T10:09:15Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「crs-knowledge-base」（主要語言：Python）：Colorectal Surgery Knowledge Base - Progressive Web App",
+          "theme": null
         },
         {
           "name": "ctpelvimetry",
@@ -549,7 +594,9 @@
           "created_at": "2026-02-15T14:21:01Z",
           "pushed_at": "2026-10-01T05:44:12Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「開發環境／dotfiles」相關公開專案：Python package and CLI for automated CT pelvimetry and body-composition…",
+          "theme": "開發環境／dotfiles"
         },
         {
           "name": "odin-notes-tw",
@@ -557,7 +604,9 @@
           "created_at": "2026-07-02T14:36:23Z",
           "pushed_at": "2026-09-30T18:23:39Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "The Odin Project（Foundations + Full Stack JavaScript）繁體中文自足講義｜MkDocs Material",
+          "theme": null
         },
         {
           "name": "series-studio",
@@ -565,7 +614,9 @@
           "created_at": "2026-06-18T15:05:27Z",
           "pushed_at": "2026-09-30T18:23:33Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「生成式 AI／LLM」相關公開專案：A config-driven multi-agent production system for episodic video.",
+          "theme": "生成式 AI／LLM"
         },
         {
           "name": "lecture_live_notes",
@@ -573,7 +624,9 @@
           "created_at": "2026-09-07T11:38:53Z",
           "pushed_at": "2026-09-29T05:29:07Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「生成式 AI／LLM」相關公開專案：Live lecture transcription and Traditional Chinese notes with Gemini AS…",
+          "theme": "生成式 AI／LLM"
         },
         {
           "name": "lunch-decider",
@@ -581,15 +634,9 @@
           "created_at": "2026-09-25T17:23:42Z",
           "pushed_at": "2026-09-26T05:52:05Z",
           "is_new": true,
-          "recently_pushed": true
-        },
-        {
-          "name": "miccai2026",
-          "url": "https://github.com/odafeng/miccai2026",
-          "created_at": "2026-09-25T03:20:12Z",
-          "pushed_at": "2026-09-25T05:58:46Z",
-          "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "呷啥 CHIA SHÁ — 附近餐廳搜尋與午晚餐選擇工具",
+          "theme": null
         }
       ],
       "recent_pushes": [
@@ -628,7 +675,8 @@
           "url": "https://github.com/odafeng/lunch-decider",
           "pushed_at": "2026-09-26T05:52:05Z"
         }
-      ]
+      ],
+      "summary_zh": "@odafeng 本週新建公開倉庫 「lunch-decider」；更新倉庫 「hemorrhoids-postop」、「Stage_III_Colon_EDR」、「crs-knowledge-base」、「ctpelvimetry」、「odin-notes-tw」 等 7 個。"
     },
     {
       "login": "shin13",
@@ -640,7 +688,9 @@
           "created_at": "2026-05-16T13:33:43Z",
           "pushed_at": "2026-10-01T08:14:26Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "Trustworthy Taiwan FDA (TFDA) drug-information lookup for AI agents — an independent open…",
+          "theme": "藥學／藥品資訊"
         }
       ],
       "recent_pushes": [
@@ -649,27 +699,32 @@
           "url": "https://github.com/shin13/opentaimed",
           "pushed_at": "2026-09-29T00:39:24Z"
         }
-      ]
+      ],
+      "summary_zh": "@shin13 本週更新倉庫 「opentaimed」。"
     },
     {
       "login": "soanseng",
       "profile_url": "https://github.com/soanseng",
       "repos": [
         {
-          "name": "rime-phah-taibun",
-          "url": "https://github.com/soanseng/rime-phah-taibun",
-          "created_at": "2026-03-14T23:40:57Z",
-          "pushed_at": "2026-10-01T11:38:04Z",
-          "is_new": false,
-          "recently_pushed": true
-        },
-        {
           "name": "rime-trime-taigi",
           "url": "https://github.com/soanseng/rime-trime-taigi",
           "created_at": "2026-09-30T00:57:45Z",
-          "pushed_at": "2026-10-01T09:05:25Z",
+          "pushed_at": "2026-10-02T14:01:13Z",
           "is_new": true,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "Android 台語輸入法 — 分支自 Trime（同文輸入法）v3.3.12 的台語特化版 Phah Tâi-bûn",
+          "theme": "行動應用"
+        },
+        {
+          "name": "rime-phah-taibun",
+          "url": "https://github.com/soanseng/rime-phah-taibun",
+          "created_at": "2026-03-14T23:40:57Z",
+          "pushed_at": "2026-10-02T13:05:59Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "Phah Tai-bun (拍台文): open-source Rime input method for Taiwanese Hokkien with Han-lo outpu…",
+          "theme": null
         },
         {
           "name": "thak-tai-bun",
@@ -677,26 +732,29 @@
           "created_at": "2026-09-27T12:03:16Z",
           "pushed_at": "2026-09-29T09:03:03Z",
           "is_new": true,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開的 JavaScript 專案倉庫（尚無說明文字）。",
+          "theme": null
         }
       ],
       "recent_pushes": [
+        {
+          "repo": "soanseng/rime-trime-taigi",
+          "url": "https://github.com/soanseng/rime-trime-taigi",
+          "pushed_at": "2026-10-02T14:01:12Z"
+        },
         {
           "repo": "soanseng/rime-phah-taibun",
           "url": "https://github.com/soanseng/rime-phah-taibun",
           "pushed_at": "2026-09-30T12:54:35Z"
         },
         {
-          "repo": "soanseng/rime-trime-taigi",
-          "url": "https://github.com/soanseng/rime-trime-taigi",
-          "pushed_at": "2026-10-01T09:05:25Z"
-        },
-        {
           "repo": "soanseng/thak-tai-bun",
           "url": "https://github.com/soanseng/thak-tai-bun",
           "pushed_at": "2026-09-29T09:03:04Z"
         }
-      ]
+      ],
+      "summary_zh": "@soanseng 本週新建公開倉庫 「rime-trime-taigi」、「thak-tai-bun」；更新倉庫 「rime-phah-taibun」。"
     },
     {
       "login": "t0mst0ne",
@@ -706,9 +764,11 @@
           "name": "medical-journal-daily-agent",
           "url": "https://github.com/t0mst0ne/medical-journal-daily-agent",
           "created_at": "2026-07-27T13:36:55Z",
-          "pushed_at": "2026-10-01T08:34:38Z",
+          "pushed_at": "2026-10-02T08:10:07Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "每日醫學期刊文獻追蹤:RSS 抓取 + PubMed/Crossref metadata + LLM 繁中摘要翻譯 + Telegram 推送(GitHub Actions 全自…",
+          "theme": "文獻／臨床試驗"
         },
         {
           "name": "dementia-uptodate",
@@ -716,10 +776,13 @@
           "created_at": "2026-04-18T13:50:47Z",
           "pushed_at": "2026-09-28T03:17:30Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開的 Python 專案倉庫（尚無說明文字）。",
+          "theme": null
         }
       ],
-      "recent_pushes": []
+      "recent_pushes": [],
+      "summary_zh": "@t0mst0ne 本週更新倉庫 「medical-journal-daily-agent」、「dementia-uptodate」。"
     },
     {
       "login": "texchi2",
@@ -731,15 +794,9 @@
           "created_at": "2025-12-12T04:47:08Z",
           "pushed_at": "2026-09-30T12:28:47Z",
           "is_new": false,
-          "recently_pushed": true
-        },
-        {
-          "name": "ftmerp-java-plugins",
-          "url": "https://github.com/texchi2/ftmerp-java-plugins",
-          "created_at": "2025-12-14T06:51:04Z",
-          "pushed_at": "2026-09-25T06:23:25Z",
-          "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開的 Java 專案倉庫（尚無說明文字）。",
+          "theme": null
         }
       ],
       "recent_pushes": [
@@ -747,13 +804,9 @@
           "repo": "texchi2/ftmerp-java-project",
           "url": "https://github.com/texchi2/ftmerp-java-project",
           "pushed_at": "2026-09-30T12:28:48Z"
-        },
-        {
-          "repo": "texchi2/ftmerp-java-plugins",
-          "url": "https://github.com/texchi2/ftmerp-java-plugins",
-          "pushed_at": "2026-09-25T06:23:25Z"
         }
-      ]
+      ],
+      "summary_zh": "@texchi2 本週更新倉庫 「ftmerp-java-project」。"
     },
     {
       "login": "tinchangchang",
@@ -765,7 +818,9 @@
           "created_at": "2026-07-15T07:44:58Z",
           "pushed_at": "2026-09-26T13:29:40Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「腫瘤／血液相關」相關公開專案：Online-only FIGO gynecologic cancer staging calculators",
+          "theme": "腫瘤／血液相關"
         }
       ],
       "recent_pushes": [
@@ -774,7 +829,8 @@
           "url": "https://github.com/tinchangchang/figo-staging-calculators",
           "pushed_at": "2026-09-26T13:29:41Z"
         }
-      ]
+      ],
+      "summary_zh": "@tinchangchang 本週更新倉庫 「figo-staging-calculators」。"
     },
     {
       "login": "tsaiid",
@@ -786,7 +842,9 @@
           "created_at": "2015-07-15T13:35:19Z",
           "pushed_at": "2026-10-02T03:24:29Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「vghks-random-duty」（主要語言：JavaScript）：A single page application to assist resident duty arrangement.",
+          "theme": null
         },
         {
           "name": "radtools.tsai.it",
@@ -794,7 +852,9 @@
           "created_at": "2015-07-23T03:50:37Z",
           "pushed_at": "2026-09-29T01:14:25Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開專案「radtools.tsai.it」（主要語言：HTML）：Github pages for my radtools",
+          "theme": null
         },
         {
           "name": "structured-reporting-web-tools",
@@ -802,7 +862,9 @@
           "created_at": "2014-04-23T01:15:32Z",
           "pushed_at": "2026-09-29T01:14:03Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「醫學影像／放射」相關公開專案：A web-based tool for structured reporting in radiology",
+          "theme": "醫學影像／放射"
         },
         {
           "name": "ahk-nycuh",
@@ -810,7 +872,9 @@
           "created_at": "2025-11-06T10:07:41Z",
           "pushed_at": "2026-09-28T07:08:29Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "公開的 AutoHotkey 專案倉庫（尚無說明文字）。",
+          "theme": null
         }
       ],
       "recent_pushes": [
@@ -829,7 +893,8 @@
           "url": "https://github.com/tsaiid/ahk-nycuh",
           "pushed_at": "2026-09-28T07:08:30Z"
         }
-      ]
+      ],
+      "summary_zh": "@tsaiid 本週更新倉庫 「vghks-random-duty」、「radtools.tsai.it」、「structured-reporting-web-tools」、「ahk-nycuh」。"
     },
     {
       "login": "u9401066",
@@ -839,9 +904,31 @@
           "name": "research-data-explorer",
           "url": "https://github.com/u9401066/research-data-explorer",
           "created_at": "2026-03-01T05:41:51Z",
-          "pushed_at": "2026-10-02T04:47:15Z",
+          "pushed_at": "2026-10-02T14:24:03Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「自然語言處理」相關公開專案：🔍 AI-powered Research Data Explorer — MCP + Agent + Skill workflow for…",
+          "theme": "自然語言處理"
+        },
+        {
+          "name": "zotero-keeper",
+          "url": "https://github.com/u9401066/zotero-keeper",
+          "created_at": "2025-12-12T03:14:02Z",
+          "pushed_at": "2026-10-02T11:56:42Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "「文獻／臨床試驗」相關公開專案：Zotero 10+ Local API and PubMed MCP research workspace: Keeper 2.1, Pub…",
+          "theme": "文獻／臨床試驗"
+        },
+        {
+          "name": "dicom-overlay-agent",
+          "url": "https://github.com/u9401066/dicom-overlay-agent",
+          "created_at": "2026-03-14T09:23:22Z",
+          "pushed_at": "2026-10-02T09:06:06Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "「醫學影像／放射」相關公開專案：Windows medical-image co-reading overlay with PHI-safe ROI capture, Ope…",
+          "theme": "醫學影像／放射"
         },
         {
           "name": "pubmed-search-mcp",
@@ -849,7 +936,9 @@
           "created_at": "2025-12-02T13:44:15Z",
           "pushed_at": "2026-10-01T10:57:48Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「文獻／臨床試驗」相關公開專案：MCP SDK v2 server for PubMed and multi-source biomedical research, with…",
+          "theme": "文獻／臨床試驗"
         },
         {
           "name": "llama-mcp-router",
@@ -857,22 +946,26 @@
           "created_at": "2026-10-01T07:35:20Z",
           "pushed_at": "2026-10-01T10:13:33Z",
           "is_new": true,
-          "recently_pushed": true
-        },
-        {
-          "name": "dicom-overlay-agent",
-          "url": "https://github.com/u9401066/dicom-overlay-agent",
-          "created_at": "2026-03-14T09:23:22Z",
-          "pushed_at": "2026-09-29T15:19:13Z",
-          "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「生成式 AI／LLM」相關公開專案：Tool-selection router for llama-server (llama.cpp) MCP tools: send the…",
+          "theme": "生成式 AI／LLM"
         }
       ],
       "recent_pushes": [
         {
           "repo": "u9401066/research-data-explorer",
           "url": "https://github.com/u9401066/research-data-explorer",
-          "pushed_at": "2026-10-01T17:45:52Z"
+          "pushed_at": "2026-10-02T02:11:04Z"
+        },
+        {
+          "repo": "u9401066/zotero-keeper",
+          "url": "https://github.com/u9401066/zotero-keeper",
+          "pushed_at": "2026-10-02T11:54:33Z"
+        },
+        {
+          "repo": "u9401066/dicom-overlay-agent",
+          "url": "https://github.com/u9401066/dicom-overlay-agent",
+          "pushed_at": "2026-10-02T08:12:35Z"
         },
         {
           "repo": "u9401066/pubmed-search-mcp",
@@ -883,13 +976,9 @@
           "repo": "u9401066/llama-mcp-router",
           "url": "https://github.com/u9401066/llama-mcp-router",
           "pushed_at": "2026-10-01T10:13:34Z"
-        },
-        {
-          "repo": "u9401066/dicom-overlay-agent",
-          "url": "https://github.com/u9401066/dicom-overlay-agent",
-          "pushed_at": "2026-09-29T15:10:16Z"
         }
-      ]
+      ],
+      "summary_zh": "@u9401066 本週新建公開倉庫 「llama-mcp-router」；更新倉庫 「research-data-explorer」、「zotero-keeper」、「dicom-overlay-agent」、「pubmed-search-mcp」。"
     },
     {
       "login": "y-cliu",
@@ -899,18 +988,21 @@
           "name": "weight-challenge-dashboard",
           "url": "https://github.com/y-cliu/weight-challenge-dashboard",
           "created_at": "2026-08-21T13:59:52Z",
-          "pushed_at": "2026-10-02T04:32:27Z",
+          "pushed_at": "2026-10-02T14:32:37Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "「資料視覺化／儀表板」相關的公開倉庫，主要語言為 HTML。",
+          "theme": "資料視覺化／儀表板"
         }
       ],
       "recent_pushes": [
         {
           "repo": "y-cliu/weight-challenge-dashboard",
           "url": "https://github.com/y-cliu/weight-challenge-dashboard",
-          "pushed_at": "2026-10-01T15:32:37Z"
+          "pushed_at": "2026-10-02T02:33:48Z"
         }
-      ]
+      ],
+      "summary_zh": "@y-cliu 本週更新倉庫 「weight-challenge-dashboard」。"
     },
     {
       "login": "Yuchunchen",
@@ -920,9 +1012,11 @@
           "name": "VaxCheck",
           "url": "https://github.com/Yuchunchen/VaxCheck",
           "created_at": "2026-09-17T04:32:39Z",
-          "pushed_at": "2026-10-02T01:14:04Z",
+          "pushed_at": "2026-10-02T13:56:12Z",
           "is_new": false,
-          "recently_pushed": true
+          "recently_pushed": true,
+          "intro_zh": "VaxCheck — 疫苗檢核程式:健保雲端 + CDC NIIS 一鍵檢核公費疫苗資格(Chrome extension + YAML 規則引擎)",
+          "theme": "健保／編碼與申報"
         }
       ],
       "recent_pushes": [
@@ -931,7 +1025,9 @@
           "url": "https://github.com/Yuchunchen/VaxCheck",
           "pushed_at": "2026-09-30T10:12:15Z"
         }
-      ]
+      ],
+      "summary_zh": "@Yuchunchen 本週更新倉庫 「VaxCheck」。"
     }
-  ]
+  ],
+  "skipped": []
 }
