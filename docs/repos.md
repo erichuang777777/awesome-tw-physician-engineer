@@ -1,6 +1,6 @@
 # 公開專案資料庫
 
-產生時間：`2026-10-02 22:59（台北時間）`
+產生時間：`2026-10-02 23:39（台北時間）`
 帳號 **45** · 倉庫 **902**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
@@ -57,8 +57,8 @@
 
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
-- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 個人或專案的公開 GitHub Pages／網站內容。
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 「急診／急重症」相關公開專案：ER physician reference
+- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 個人或專案的公開 GitHub Pages／網站內容。
 - [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 急診醫學與重症照護文獻雷達（繁中版）— 每天自動掃 PubMed、依影響力排序
 - [slidecue](https://github.com/agoodbear/slidecue) — 把 Keynote 講稿顯示在 Even Realities G2 鏡片上，翻頁自動換稿
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — Roam extension: 請CC修改 框選標記改稿工具
