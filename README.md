@@ -9,6 +9,7 @@
 - [名單](#名單)
 - [收錄原則](#收錄原則)
 - [如何推薦、修正或移除](#如何推薦修正或移除)
+- [Weekly public digest (GitHub Pages)](#weekly-public-digest-github-pages)
 - [授權](#授權)
 
 ## 這是什麼
@@ -88,6 +89,18 @@
 5. 若希望 opt-in 顯示本名、醫院或其他 bio，請明確註明可公開範圍
 
 任何人都可以提出錯誤、更正或移除要求；移除要求會優先處理。詳細 bio 與院所資訊原則上待本人確認後才補充，並標示「待本人確認／公開來源」。
+
+
+## Weekly public digest (GitHub Pages)
+
+A privacy-safe weekly digest of **public** GitHub activity from roster accounts is published here:
+
+**https://erichuang777777.github.io/awesome-tw-physician-engineer/**
+
+- Content: `@handles` and public repository titles / URLs / dates only (no real names or hospitals).
+- Built by `scripts/weekly_digest.py` via `.github/workflows/weekly-digest.yml` (weekly cron + manual `workflow_dispatch`).
+- Site files live under `docs/` (`index.md`, `latest.json`).
+- First enablement: the workflow deploys with the official Pages actions (`actions/deploy-pages`). If the site 404s after the first run, open **Settings → Pages** and set **Source** to **GitHub Actions** (sometimes required once per repo).
 
 ## 授權
 

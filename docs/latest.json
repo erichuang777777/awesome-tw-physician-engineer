@@ -1,0 +1,937 @@
+{
+  "generated_at": "2026-10-02T05:20:52Z",
+  "window_days": 7,
+  "window_start": "2026-09-25T05:20:52Z",
+  "roster_count": 45,
+  "active_count": 22,
+  "privacy_note": "Handles and public repository names/URLs/dates only. No real names, hospitals, bios, or commit messages.",
+  "entries": [
+    {
+      "login": "erichuang777777",
+      "profile_url": "https://github.com/erichuang777777",
+      "repos": [
+        {
+          "name": "awesome-tw-physician-engineer",
+          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
+          "created_at": "2026-10-01T18:09:27Z",
+          "pushed_at": "2026-10-02T00:32:03Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "TW-Breast-Cancer-FHIR-IG",
+          "url": "https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG",
+          "created_at": "2026-08-14T16:07:31Z",
+          "pushed_at": "2026-09-25T11:37:27Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "dotfiles",
+          "url": "https://github.com/erichuang777777/dotfiles",
+          "created_at": "2026-09-09T16:05:57Z",
+          "pushed_at": "2026-09-25T08:54:37Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "erichuang777777/awesome-tw-physician-engineer",
+          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
+          "pushed_at": "2026-10-02T00:32:04Z"
+        },
+        {
+          "repo": "erichuang777777/TW-Breast-Cancer-FHIR-IG",
+          "url": "https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG",
+          "pushed_at": "2026-09-25T11:37:28Z"
+        },
+        {
+          "repo": "erichuang777777/dotfiles",
+          "url": "https://github.com/erichuang777777/dotfiles",
+          "pushed_at": "2026-09-25T08:54:37Z"
+        }
+      ]
+    },
+    {
+      "login": "agoodbear",
+      "profile_url": "https://github.com/agoodbear",
+      "repos": [
+        {
+          "name": "tw-er-ref-2x9k",
+          "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
+          "created_at": "2026-04-04T05:46:34Z",
+          "pushed_at": "2026-10-02T05:05:08Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "em-pulse-tw",
+          "url": "https://github.com/agoodbear/em-pulse-tw",
+          "created_at": "2026-06-14T00:35:02Z",
+          "pushed_at": "2026-10-02T01:16:26Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "agoodbear.github.io",
+          "url": "https://github.com/agoodbear/agoodbear.github.io",
+          "created_at": "2023-12-14T11:50:01Z",
+          "pushed_at": "2026-10-01T13:46:36Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "slidecue",
+          "url": "https://github.com/agoodbear/slidecue",
+          "created_at": "2026-08-22T13:09:28Z",
+          "pushed_at": "2026-09-27T12:06:10Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "agoodbear/tw-er-ref-2x9k",
+          "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
+          "pushed_at": "2026-10-01T18:05:08Z"
+        },
+        {
+          "repo": "agoodbear/agoodbear.github.io",
+          "url": "https://github.com/agoodbear/agoodbear.github.io",
+          "pushed_at": "2026-10-01T13:28:23Z"
+        },
+        {
+          "repo": "agoodbear/slidecue",
+          "url": "https://github.com/agoodbear/slidecue",
+          "pushed_at": "2026-09-27T12:06:10Z"
+        }
+      ]
+    },
+    {
+      "login": "Chiehx0220",
+      "profile_url": "https://github.com/Chiehx0220",
+      "repos": [],
+      "recent_pushes": [
+        {
+          "repo": "Chiehx0220/Fathom",
+          "url": "https://github.com/Chiehx0220/Fathom",
+          "pushed_at": "2026-10-01T10:06:40Z"
+        },
+        {
+          "repo": "Chiehx0220/PipePipeExtractor",
+          "url": "https://github.com/Chiehx0220/PipePipeExtractor",
+          "pushed_at": "2026-09-29T12:23:55Z"
+        }
+      ]
+    },
+    {
+      "login": "CJRonald",
+      "profile_url": "https://github.com/CJRonald",
+      "repos": [
+        {
+          "name": "VDILab",
+          "url": "https://github.com/CJRonald/VDILab",
+          "created_at": "2025-07-20T05:35:17Z",
+          "pushed_at": "2026-09-29T15:06:18Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "cjhuang-website",
+          "url": "https://github.com/CJRonald/cjhuang-website",
+          "created_at": "2026-06-07T12:21:19Z",
+          "pushed_at": "2026-09-26T10:48:36Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "LinkouCGMHBurnCenter",
+          "url": "https://github.com/CJRonald/LinkouCGMHBurnCenter",
+          "created_at": "2025-07-23T08:01:51Z",
+          "pushed_at": "2026-09-25T11:41:09Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "CJRonald/VDILab",
+          "url": "https://github.com/CJRonald/VDILab",
+          "pushed_at": "2026-09-29T14:52:50Z"
+        },
+        {
+          "repo": "CJRonald/cjhuang-website",
+          "url": "https://github.com/CJRonald/cjhuang-website",
+          "pushed_at": "2026-09-26T03:17:27Z"
+        },
+        {
+          "repo": "CJRonald/LinkouCGMHBurnCenter",
+          "url": "https://github.com/CJRonald/LinkouCGMHBurnCenter",
+          "pushed_at": "2026-09-25T11:41:09Z"
+        }
+      ]
+    },
+    {
+      "login": "didiowen",
+      "profile_url": "https://github.com/didiowen",
+      "repos": [
+        {
+          "name": "nihongo",
+          "url": "https://github.com/didiowen/nihongo",
+          "created_at": "2026-04-28T02:27:22Z",
+          "pushed_at": "2026-10-01T15:30:24Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "didiowen/nihongo",
+          "url": "https://github.com/didiowen/nihongo",
+          "pushed_at": "2026-10-01T15:30:20Z"
+        }
+      ]
+    },
+    {
+      "login": "drpwchen",
+      "profile_url": "https://github.com/drpwchen",
+      "repos": [
+        {
+          "name": "fbkit",
+          "url": "https://github.com/drpwchen/fbkit",
+          "created_at": "2026-07-30T15:24:23Z",
+          "pushed_at": "2026-09-29T03:18:17Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "claude-pacer",
+          "url": "https://github.com/drpwchen/claude-pacer",
+          "created_at": "2026-07-24T10:00:55Z",
+          "pushed_at": "2026-09-28T01:37:42Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "drpwchen/fbkit",
+          "url": "https://github.com/drpwchen/fbkit",
+          "pushed_at": "2026-09-29T03:18:15Z"
+        },
+        {
+          "repo": "drpwchen/claude-pacer",
+          "url": "https://github.com/drpwchen/claude-pacer",
+          "pushed_at": "2026-09-28T01:37:40Z"
+        }
+      ]
+    },
+    {
+      "login": "gosienna",
+      "profile_url": "https://github.com/gosienna",
+      "repos": [
+        {
+          "name": "Project01_EDF_viewer",
+          "url": "https://github.com/gosienna/Project01_EDF_viewer",
+          "created_at": "2025-10-05T05:57:48Z",
+          "pushed_at": "2026-10-02T00:57:51Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "Project12_BuildPlatformerGame",
+          "url": "https://github.com/gosienna/Project12_BuildPlatformerGame",
+          "created_at": "2026-09-20T06:21:25Z",
+          "pushed_at": "2026-09-27T12:56:55Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "gosienna/Project01_EDF_viewer",
+          "url": "https://github.com/gosienna/Project01_EDF_viewer",
+          "pushed_at": "2026-10-02T00:57:52Z"
+        },
+        {
+          "repo": "gosienna/Project12_BuildPlatformerGame",
+          "url": "https://github.com/gosienna/Project12_BuildPlatformerGame",
+          "pushed_at": "2026-09-27T11:08:22Z"
+        }
+      ]
+    },
+    {
+      "login": "homigin",
+      "profile_url": "https://github.com/homigin",
+      "repos": [
+        {
+          "name": "homigin.github.io",
+          "url": "https://github.com/homigin/homigin.github.io",
+          "created_at": "2023-07-24T02:11:02Z",
+          "pushed_at": "2026-09-27T22:53:10Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": []
+    },
+    {
+      "login": "htlin222",
+      "profile_url": "https://github.com/htlin222",
+      "repos": [
+        {
+          "name": "CCChange",
+          "url": "https://github.com/htlin222/CCChange",
+          "created_at": "2026-08-02T06:03:36Z",
+          "pushed_at": "2026-10-02T00:27:12Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "nccn-guidelines-downloader",
+          "url": "https://github.com/htlin222/nccn-guidelines-downloader",
+          "created_at": "2026-07-24T00:59:23Z",
+          "pushed_at": "2026-10-01T11:39:43Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "lin-hsiehting",
+          "url": "https://github.com/htlin222/lin-hsiehting",
+          "created_at": "2026-05-10T14:51:34Z",
+          "pushed_at": "2026-10-01T10:30:15Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "zitie-generator",
+          "url": "https://github.com/htlin222/zitie-generator",
+          "created_at": "2026-09-26T08:04:25Z",
+          "pushed_at": "2026-09-26T08:04:41Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "hema-board-interview-guide",
+          "url": "https://github.com/htlin222/hema-board-interview-guide",
+          "created_at": "2026-09-07T13:21:05Z",
+          "pushed_at": "2026-09-26T06:24:47Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "htlin222/hema-board-interview-guide",
+          "url": "https://github.com/htlin222/hema-board-interview-guide",
+          "pushed_at": "2026-09-26T06:24:48Z"
+        }
+      ]
+    },
+    {
+      "login": "jjtseng93",
+      "profile_url": "https://github.com/jjtseng93",
+      "repos": [
+        {
+          "name": "buninu-linux",
+          "url": "https://github.com/jjtseng93/buninu-linux",
+          "created_at": "2026-09-18T13:01:48Z",
+          "pushed_at": "2026-10-01T23:06:21Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "jspulse",
+          "url": "https://github.com/jjtseng93/jspulse",
+          "created_at": "2026-09-27T11:24:34Z",
+          "pushed_at": "2026-10-01T15:38:18Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "buninu-browser",
+          "url": "https://github.com/jjtseng93/buninu-browser",
+          "created_at": "2026-09-29T17:01:27Z",
+          "pushed_at": "2026-10-01T15:00:39Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "buninu",
+          "url": "https://github.com/jjtseng93/buninu",
+          "created_at": "2026-08-17T09:18:24Z",
+          "pushed_at": "2026-09-28T19:35:23Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "bunmsh",
+          "url": "https://github.com/jjtseng93/bunmsh",
+          "created_at": "2026-07-30T11:17:41Z",
+          "pushed_at": "2026-09-28T19:28:51Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "js-gotty",
+          "url": "https://github.com/jjtseng93/js-gotty",
+          "created_at": "2026-04-11T18:05:31Z",
+          "pushed_at": "2026-09-28T17:46:38Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "bunproot",
+          "url": "https://github.com/jjtseng93/bunproot",
+          "created_at": "2026-09-04T11:10:48Z",
+          "pushed_at": "2026-09-26T17:08:02Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "jjtseng93/jspulse",
+          "url": "https://github.com/jjtseng93/jspulse",
+          "pushed_at": "2026-10-01T15:38:19Z"
+        },
+        {
+          "repo": "jjtseng93/casty",
+          "url": "https://github.com/jjtseng93/casty",
+          "pushed_at": "2026-10-01T14:47:50Z"
+        },
+        {
+          "repo": "jjtseng93/buninu-linux",
+          "url": "https://github.com/jjtseng93/buninu-linux",
+          "pushed_at": "2026-10-01T22:59:14Z"
+        },
+        {
+          "repo": "jjtseng93/buninu-browser",
+          "url": "https://github.com/jjtseng93/buninu-browser",
+          "pushed_at": "2026-09-30T15:41:33Z"
+        },
+        {
+          "repo": "jjtseng93/js-gotty",
+          "url": "https://github.com/jjtseng93/js-gotty",
+          "pushed_at": "2026-09-28T17:46:39Z"
+        },
+        {
+          "repo": "jjtseng93/buninu",
+          "url": "https://github.com/jjtseng93/buninu",
+          "pushed_at": "2026-09-28T19:35:24Z"
+        },
+        {
+          "repo": "jjtseng93/bunmsh",
+          "url": "https://github.com/jjtseng93/bunmsh",
+          "pushed_at": "2026-09-28T19:28:52Z"
+        },
+        {
+          "repo": "jjtseng93/bunproot",
+          "url": "https://github.com/jjtseng93/bunproot",
+          "pushed_at": "2026-09-26T17:08:02Z"
+        }
+      ]
+    },
+    {
+      "login": "liangRXdev",
+      "profile_url": "https://github.com/liangRXdev",
+      "repos": [
+        {
+          "name": "TFDA-drug-recall-dashboard",
+          "url": "https://github.com/liangRXdev/TFDA-drug-recall-dashboard",
+          "created_at": "2026-04-14T03:52:50Z",
+          "pushed_at": "2026-10-01T23:40:27Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "TFDA-drug-shortage-dashboard",
+          "url": "https://github.com/liangRXdev/TFDA-drug-shortage-dashboard",
+          "created_at": "2026-04-13T07:04:20Z",
+          "pushed_at": "2026-10-01T22:02:33Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "Taiwan-Clinical-Trial-Radar",
+          "url": "https://github.com/liangRXdev/Taiwan-Clinical-Trial-Radar",
+          "created_at": "2026-09-22T00:41:38Z",
+          "pushed_at": "2026-10-01T07:23:58Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "pill-detective-tw",
+          "url": "https://github.com/liangRXdev/pill-detective-tw",
+          "created_at": "2026-08-12T06:28:28Z",
+          "pushed_at": "2026-09-27T23:07:22Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "taiwan-pharmacist-exam-data",
+          "url": "https://github.com/liangRXdev/taiwan-pharmacist-exam-data",
+          "created_at": "2026-09-27T07:41:17Z",
+          "pushed_at": "2026-09-27T07:53:27Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "NHI-drug-price-history",
+          "url": "https://github.com/liangRXdev/NHI-drug-price-history",
+          "created_at": "2026-09-11T15:47:54Z",
+          "pushed_at": "2026-09-25T23:43:42Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "liangRXdev/taiwan-pharmacist-exam-data",
+          "url": "https://github.com/liangRXdev/taiwan-pharmacist-exam-data",
+          "pushed_at": "2026-09-27T07:53:28Z"
+        }
+      ]
+    },
+    {
+      "login": "littlecanargie",
+      "profile_url": "https://github.com/littlecanargie",
+      "repos": [
+        {
+          "name": "medical_statistics",
+          "url": "https://github.com/littlecanargie/medical_statistics",
+          "created_at": "2020-06-03T08:28:02Z",
+          "pushed_at": "2026-10-01T04:19:28Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "littlecanargie/medical_statistics",
+          "url": "https://github.com/littlecanargie/medical_statistics",
+          "pushed_at": "2026-09-30T19:35:32Z"
+        }
+      ]
+    },
+    {
+      "login": "odafeng",
+      "profile_url": "https://github.com/odafeng",
+      "repos": [
+        {
+          "name": "hemorrhoids-postop",
+          "url": "https://github.com/odafeng/hemorrhoids-postop",
+          "created_at": "2026-03-18T03:48:49Z",
+          "pushed_at": "2026-10-01T18:35:40Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "Stage_III_Colon_EDR",
+          "url": "https://github.com/odafeng/Stage_III_Colon_EDR",
+          "created_at": "2025-11-28T15:35:33Z",
+          "pushed_at": "2026-10-01T18:35:34Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "crs-knowledge-base",
+          "url": "https://github.com/odafeng/crs-knowledge-base",
+          "created_at": "2026-04-29T16:35:18Z",
+          "pushed_at": "2026-10-01T10:09:15Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "ctpelvimetry",
+          "url": "https://github.com/odafeng/ctpelvimetry",
+          "created_at": "2026-02-15T14:21:01Z",
+          "pushed_at": "2026-10-01T05:44:12Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "odin-notes-tw",
+          "url": "https://github.com/odafeng/odin-notes-tw",
+          "created_at": "2026-07-02T14:36:23Z",
+          "pushed_at": "2026-09-30T18:23:39Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "series-studio",
+          "url": "https://github.com/odafeng/series-studio",
+          "created_at": "2026-06-18T15:05:27Z",
+          "pushed_at": "2026-09-30T18:23:33Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "lecture_live_notes",
+          "url": "https://github.com/odafeng/lecture_live_notes",
+          "created_at": "2026-09-07T11:38:53Z",
+          "pushed_at": "2026-09-29T05:29:07Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "lunch-decider",
+          "url": "https://github.com/odafeng/lunch-decider",
+          "created_at": "2026-09-25T17:23:42Z",
+          "pushed_at": "2026-09-26T05:52:05Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "miccai2026",
+          "url": "https://github.com/odafeng/miccai2026",
+          "created_at": "2026-09-25T03:20:12Z",
+          "pushed_at": "2026-09-25T05:58:46Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "odafeng/hemorrhoids-postop",
+          "url": "https://github.com/odafeng/hemorrhoids-postop",
+          "pushed_at": "2026-10-01T18:35:40Z"
+        },
+        {
+          "repo": "odafeng/Stage_III_Colon_EDR",
+          "url": "https://github.com/odafeng/Stage_III_Colon_EDR",
+          "pushed_at": "2026-09-30T18:32:36Z"
+        },
+        {
+          "repo": "odafeng/odin-notes-tw",
+          "url": "https://github.com/odafeng/odin-notes-tw",
+          "pushed_at": "2026-09-30T18:23:40Z"
+        },
+        {
+          "repo": "odafeng/series-studio",
+          "url": "https://github.com/odafeng/series-studio",
+          "pushed_at": "2026-09-30T18:23:33Z"
+        },
+        {
+          "repo": "odafeng/crs-knowledge-base",
+          "url": "https://github.com/odafeng/crs-knowledge-base",
+          "pushed_at": "2026-09-30T18:23:29Z"
+        },
+        {
+          "repo": "odafeng/lecture_live_notes",
+          "url": "https://github.com/odafeng/lecture_live_notes",
+          "pushed_at": "2026-09-29T05:29:09Z"
+        },
+        {
+          "repo": "odafeng/lunch-decider",
+          "url": "https://github.com/odafeng/lunch-decider",
+          "pushed_at": "2026-09-26T05:52:05Z"
+        }
+      ]
+    },
+    {
+      "login": "shin13",
+      "profile_url": "https://github.com/shin13",
+      "repos": [
+        {
+          "name": "opentaimed",
+          "url": "https://github.com/shin13/opentaimed",
+          "created_at": "2026-05-16T13:33:43Z",
+          "pushed_at": "2026-10-01T08:14:26Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "shin13/opentaimed",
+          "url": "https://github.com/shin13/opentaimed",
+          "pushed_at": "2026-09-29T00:39:24Z"
+        }
+      ]
+    },
+    {
+      "login": "soanseng",
+      "profile_url": "https://github.com/soanseng",
+      "repos": [
+        {
+          "name": "rime-phah-taibun",
+          "url": "https://github.com/soanseng/rime-phah-taibun",
+          "created_at": "2026-03-14T23:40:57Z",
+          "pushed_at": "2026-10-01T11:38:04Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "rime-trime-taigi",
+          "url": "https://github.com/soanseng/rime-trime-taigi",
+          "created_at": "2026-09-30T00:57:45Z",
+          "pushed_at": "2026-10-01T09:05:25Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "thak-tai-bun",
+          "url": "https://github.com/soanseng/thak-tai-bun",
+          "created_at": "2026-09-27T12:03:16Z",
+          "pushed_at": "2026-09-29T09:03:03Z",
+          "is_new": true,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "soanseng/rime-phah-taibun",
+          "url": "https://github.com/soanseng/rime-phah-taibun",
+          "pushed_at": "2026-09-30T12:54:35Z"
+        },
+        {
+          "repo": "soanseng/rime-trime-taigi",
+          "url": "https://github.com/soanseng/rime-trime-taigi",
+          "pushed_at": "2026-10-01T09:05:25Z"
+        },
+        {
+          "repo": "soanseng/thak-tai-bun",
+          "url": "https://github.com/soanseng/thak-tai-bun",
+          "pushed_at": "2026-09-29T09:03:04Z"
+        }
+      ]
+    },
+    {
+      "login": "t0mst0ne",
+      "profile_url": "https://github.com/t0mst0ne",
+      "repos": [
+        {
+          "name": "medical-journal-daily-agent",
+          "url": "https://github.com/t0mst0ne/medical-journal-daily-agent",
+          "created_at": "2026-07-27T13:36:55Z",
+          "pushed_at": "2026-10-01T08:34:38Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "dementia-uptodate",
+          "url": "https://github.com/t0mst0ne/dementia-uptodate",
+          "created_at": "2026-04-18T13:50:47Z",
+          "pushed_at": "2026-09-28T03:17:30Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": []
+    },
+    {
+      "login": "texchi2",
+      "profile_url": "https://github.com/texchi2",
+      "repos": [
+        {
+          "name": "ftmerp-java-project",
+          "url": "https://github.com/texchi2/ftmerp-java-project",
+          "created_at": "2025-12-12T04:47:08Z",
+          "pushed_at": "2026-09-30T12:28:47Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "ftmerp-java-plugins",
+          "url": "https://github.com/texchi2/ftmerp-java-plugins",
+          "created_at": "2025-12-14T06:51:04Z",
+          "pushed_at": "2026-09-25T06:23:25Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "texchi2/ftmerp-java-project",
+          "url": "https://github.com/texchi2/ftmerp-java-project",
+          "pushed_at": "2026-09-30T12:28:48Z"
+        },
+        {
+          "repo": "texchi2/ftmerp-java-plugins",
+          "url": "https://github.com/texchi2/ftmerp-java-plugins",
+          "pushed_at": "2026-09-25T06:23:25Z"
+        }
+      ]
+    },
+    {
+      "login": "tinchangchang",
+      "profile_url": "https://github.com/tinchangchang",
+      "repos": [
+        {
+          "name": "figo-staging-calculators",
+          "url": "https://github.com/tinchangchang/figo-staging-calculators",
+          "created_at": "2026-07-15T07:44:58Z",
+          "pushed_at": "2026-09-26T13:29:40Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "tinchangchang/figo-staging-calculators",
+          "url": "https://github.com/tinchangchang/figo-staging-calculators",
+          "pushed_at": "2026-09-26T13:29:41Z"
+        }
+      ]
+    },
+    {
+      "login": "tsaiid",
+      "profile_url": "https://github.com/tsaiid",
+      "repos": [
+        {
+          "name": "vghks-random-duty",
+          "url": "https://github.com/tsaiid/vghks-random-duty",
+          "created_at": "2015-07-15T13:35:19Z",
+          "pushed_at": "2026-10-02T03:24:29Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "radtools.tsai.it",
+          "url": "https://github.com/tsaiid/radtools.tsai.it",
+          "created_at": "2015-07-23T03:50:37Z",
+          "pushed_at": "2026-09-29T01:14:25Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "structured-reporting-web-tools",
+          "url": "https://github.com/tsaiid/structured-reporting-web-tools",
+          "created_at": "2014-04-23T01:15:32Z",
+          "pushed_at": "2026-09-29T01:14:03Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "ahk-nycuh",
+          "url": "https://github.com/tsaiid/ahk-nycuh",
+          "created_at": "2025-11-06T10:07:41Z",
+          "pushed_at": "2026-09-28T07:08:29Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "tsaiid/radtools.tsai.it",
+          "url": "https://github.com/tsaiid/radtools.tsai.it",
+          "pushed_at": "2026-09-29T01:14:26Z"
+        },
+        {
+          "repo": "tsaiid/structured-reporting-web-tools",
+          "url": "https://github.com/tsaiid/structured-reporting-web-tools",
+          "pushed_at": "2026-09-29T01:14:04Z"
+        },
+        {
+          "repo": "tsaiid/ahk-nycuh",
+          "url": "https://github.com/tsaiid/ahk-nycuh",
+          "pushed_at": "2026-09-28T07:08:30Z"
+        }
+      ]
+    },
+    {
+      "login": "u9401066",
+      "profile_url": "https://github.com/u9401066",
+      "repos": [
+        {
+          "name": "research-data-explorer",
+          "url": "https://github.com/u9401066/research-data-explorer",
+          "created_at": "2026-03-01T05:41:51Z",
+          "pushed_at": "2026-10-02T04:47:15Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "pubmed-search-mcp",
+          "url": "https://github.com/u9401066/pubmed-search-mcp",
+          "created_at": "2025-12-02T13:44:15Z",
+          "pushed_at": "2026-10-01T10:57:48Z",
+          "is_new": false,
+          "recently_pushed": true
+        },
+        {
+          "name": "llama-mcp-router",
+          "url": "https://github.com/u9401066/llama-mcp-router",
+          "created_at": "2026-10-01T07:35:20Z",
+          "pushed_at": "2026-10-01T10:13:33Z",
+          "is_new": true,
+          "recently_pushed": true
+        },
+        {
+          "name": "dicom-overlay-agent",
+          "url": "https://github.com/u9401066/dicom-overlay-agent",
+          "created_at": "2026-03-14T09:23:22Z",
+          "pushed_at": "2026-09-29T15:19:13Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "u9401066/research-data-explorer",
+          "url": "https://github.com/u9401066/research-data-explorer",
+          "pushed_at": "2026-10-01T17:45:52Z"
+        },
+        {
+          "repo": "u9401066/pubmed-search-mcp",
+          "url": "https://github.com/u9401066/pubmed-search-mcp",
+          "pushed_at": "2026-10-01T10:57:47Z"
+        },
+        {
+          "repo": "u9401066/llama-mcp-router",
+          "url": "https://github.com/u9401066/llama-mcp-router",
+          "pushed_at": "2026-10-01T10:13:34Z"
+        },
+        {
+          "repo": "u9401066/dicom-overlay-agent",
+          "url": "https://github.com/u9401066/dicom-overlay-agent",
+          "pushed_at": "2026-09-29T15:10:16Z"
+        }
+      ]
+    },
+    {
+      "login": "y-cliu",
+      "profile_url": "https://github.com/y-cliu",
+      "repos": [
+        {
+          "name": "weight-challenge-dashboard",
+          "url": "https://github.com/y-cliu/weight-challenge-dashboard",
+          "created_at": "2026-08-21T13:59:52Z",
+          "pushed_at": "2026-10-02T04:32:27Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "y-cliu/weight-challenge-dashboard",
+          "url": "https://github.com/y-cliu/weight-challenge-dashboard",
+          "pushed_at": "2026-10-01T15:32:37Z"
+        }
+      ]
+    },
+    {
+      "login": "Yuchunchen",
+      "profile_url": "https://github.com/Yuchunchen",
+      "repos": [
+        {
+          "name": "VaxCheck",
+          "url": "https://github.com/Yuchunchen/VaxCheck",
+          "created_at": "2026-09-17T04:32:39Z",
+          "pushed_at": "2026-10-02T01:14:04Z",
+          "is_new": false,
+          "recently_pushed": true
+        }
+      ],
+      "recent_pushes": [
+        {
+          "repo": "Yuchunchen/VaxCheck",
+          "url": "https://github.com/Yuchunchen/VaxCheck",
+          "pushed_at": "2026-09-30T10:12:15Z"
+        }
+      ]
+    }
+  ]
+}
