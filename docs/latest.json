@@ -6,7 +6,7 @@
   "roster_count": 45,
   "active_count": 22,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
-  "overview_zh": "本週掃描 45 個名冊帳號，其中 22 個帳號在近 7 天有公開新建／推送動態。",
+  "overview_zh": "近 7 天掃描 45 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 12 則較安靜或非臨床向更新。",
   "entries": [
     {
       "login": "agoodbear",
@@ -1029,5 +1029,99 @@
       "summary_zh": "@Yuchunchen 本週更新倉庫 「VaxCheck」。"
     }
   ],
-  "skipped": []
+  "skipped": [],
+  "highlights": [
+    {
+      "login": "liangRXdev",
+      "profile_url": "https://github.com/liangRXdev",
+      "text_zh": "新建 藥學／藥品資訊「taiwan-pharmacist-exam-data」；更新了 藥學／藥品資訊「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」 等 5 個",
+      "repo_names": [
+        "TFDA-drug-recall-dashboard",
+        "TFDA-drug-shortage-dashboard",
+        "Taiwan-Clinical-Trial-Radar",
+        "pill-detective-tw",
+        "taiwan-pharmacist-exam-data"
+      ]
+    },
+    {
+      "login": "htlin222",
+      "profile_url": "https://github.com/htlin222",
+      "text_zh": "更新了 腫瘤／血液相關「lin-hsiehting」、「nccn-guidelines-downloader」、「hema-board-interview-guide」",
+      "repo_names": [
+        "lin-hsiehting",
+        "nccn-guidelines-downloader",
+        "hema-board-interview-guide"
+      ]
+    },
+    {
+      "login": "u9401066",
+      "profile_url": "https://github.com/u9401066",
+      "text_zh": "更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」",
+      "repo_names": [
+        "zotero-keeper",
+        "dicom-overlay-agent",
+        "pubmed-search-mcp"
+      ]
+    },
+    {
+      "login": "agoodbear",
+      "profile_url": "https://github.com/agoodbear",
+      "text_zh": "更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」",
+      "repo_names": [
+        "tw-er-ref-2x9k",
+        "em-pulse-tw"
+      ]
+    },
+    {
+      "login": "odafeng",
+      "profile_url": "https://github.com/odafeng",
+      "text_zh": "更新了 臨床指引／路徑「hemorrhoids-postop」、腫瘤／血液相關「Stage_III_Colon_EDR」",
+      "repo_names": [
+        "hemorrhoids-postop",
+        "Stage_III_Colon_EDR"
+      ]
+    },
+    {
+      "login": "shin13",
+      "profile_url": "https://github.com/shin13",
+      "text_zh": "更新了 藥學／藥品資訊「opentaimed」",
+      "repo_names": [
+        "opentaimed"
+      ]
+    },
+    {
+      "login": "t0mst0ne",
+      "profile_url": "https://github.com/t0mst0ne",
+      "text_zh": "更新了 文獻／臨床試驗「medical-journal-daily-agent」",
+      "repo_names": [
+        "medical-journal-daily-agent"
+      ]
+    },
+    {
+      "login": "tinchangchang",
+      "profile_url": "https://github.com/tinchangchang",
+      "text_zh": "更新了 腫瘤／血液相關「figo-staging-calculators」",
+      "repo_names": [
+        "figo-staging-calculators"
+      ]
+    },
+    {
+      "login": "tsaiid",
+      "profile_url": "https://github.com/tsaiid",
+      "text_zh": "更新了 醫學影像／放射「structured-reporting-web-tools」",
+      "repo_names": [
+        "structured-reporting-web-tools"
+      ]
+    },
+    {
+      "login": "Yuchunchen",
+      "profile_url": "https://github.com/Yuchunchen",
+      "text_zh": "更新了 健保／編碼與申報「VaxCheck」",
+      "repo_names": [
+        "VaxCheck"
+      ]
+    }
+  ],
+  "soft_note_zh": "另有 12 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。",
+  "featured_count": 10
 }

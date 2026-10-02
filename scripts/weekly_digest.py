@@ -352,6 +352,34 @@ def fetch_recent_push_events(
     return pushes
 
 
+NOTABLE_THEMES = {
+    "FHIR／醫療資料互通",
+    "醫學影像／放射",
+    "生理訊號／波形",
+    "電子病歷／臨床資訊系統",
+    "健保／編碼與申報",
+    "藥學／藥品資訊",
+    "腫瘤／血液相關",
+    "急診／急重症",
+    "眼科",
+    "牙醫／口腔",
+    "護理",
+    "臨床指引／路徑",
+    "文獻／臨床試驗",
+}
+
+SOFT_NOISE_THEMES = {
+    "個人網站／部落格",
+    "開發環境／dotfiles",
+    "遊戲／互動",
+}
+
+NOISE_NAME_RE = re.compile(
+    r"(nihongo|lunch|dotfiles?|portfolio|homepage|\.github\.io$)",
+    re.IGNORECASE,
+)
+
+
 def summarize_entry_zh(entry: dict[str, Any]) -> str:
     login = entry["login"]
     repos = entry.get("repos") or []
@@ -378,6 +406,145 @@ def summarize_entry_zh(entry: dict[str, Any]) -> str:
         return "@" + login + " 本週有公開動態。"
     return "@" + login + " 本週" + "；".join(bits) + "。"
 
+
+def _repo_score(repo: dict[str, Any]) -> int:
+    theme = repo.get("theme")
+    name = repo.get("name") or ""
+    score = 0
+    if repo.get("is_new"):
+        score += 5
+    if theme in NOTABLE_THEMES:
+        score += 10
+    elif theme and theme not in SOFT_NOISE_THEMES:
+        score += 3
+    if theme in SOFT_NOISE_THEMES:
+        score -= 5
+    if NOISE_NAME_RE.search(name):
+        score -= 4
+    if repo.get("recently_pushed"):
+        score += 1
+    intro = repo.get("intro_zh") or ""
+    if any(k in intro for k in ("臨床", "藥", "醫", "急診", "腫瘤", "健保", "TFDA", "NCCN", "FHIR")):
+        score += 2
+    return score
+
+
+def _format_repo_group(repos: list[dict[str, Any]], limit: int = 3) -> str:
+    """Compact labels; mention a notable theme once when shared."""
+    show = repos[:limit]
+    themes = [r.get("theme") for r in show if r.get("theme") in NOTABLE_THEMES]
+    shared = themes[0] if themes and all(t == themes[0] for t in themes) else None
+    names = "、".join("「" + (r.get("name") or "") + "」" for r in show)
+    extra = f" 等 {len(repos)} 個" if len(repos) > limit else ""
+    if shared and len(show) > 1:
+        return f"{shared}{names}{extra}"
+    parts: list[str] = []
+    for r in show:
+        theme = r.get("theme")
+        name = r.get("name") or ""
+        if theme and theme in NOTABLE_THEMES:
+            parts.append(f"{theme}「{name}」")
+        else:
+            parts.append(f"「{name}」")
+    return "、".join(parts) + extra
+
+
+def _is_clinically_notable(repo: dict[str, Any]) -> bool:
+    if repo.get("theme") in NOTABLE_THEMES:
+        return True
+    intro = repo.get("intro_zh") or ""
+    name = repo.get("name") or ""
+    blob = intro + " " + name
+    keys = ("臨床", "藥", "醫", "急診", "腫瘤", "健保", "TFDA", "NCCN", "FHIR", "DICOM", "病歷", "護理")
+    return any(k in blob for k in keys)
+
+
+def curate_weekly_highlights(entries: list[dict[str, Any]], limit: int = 10) -> dict[str, Any]:
+    """Pick quality-over-quantity weekly highlights; one handle per bullet."""
+    scored: list[tuple[int, dict[str, Any], list[dict[str, Any]]]] = []
+    soft: list[dict[str, Any]] = []
+
+    for entry in entries:
+        repos = list(entry.get("repos") or [])
+        # Score each owned window repo; ignore bare push-only noise unless no repos
+        if not repos:
+            # push-only: soft noise unless we know nothing else
+            soft.append(entry)
+            continue
+        notable = [
+            r for r in repos
+            if _repo_score(r) >= 4 and _is_clinically_notable(r)
+        ]
+        # Keep high-signal non-noise even if theme missed (e.g. strong medical keywords already gated)
+        if not notable:
+            notable = [r for r in repos if _repo_score(r) >= 8]
+        noise_only = [r for r in repos if r not in notable]
+        if notable:
+            best = max(_repo_score(r) for r in notable)
+            # Prefer more medical signal + volume
+            total = sum(max(0, _repo_score(r)) for r in notable)
+            scored.append((best * 10 + total + len(notable), entry, notable))
+        elif noise_only:
+            soft.append(entry)
+        else:
+            soft.append(entry)
+
+    scored.sort(key=lambda t: t[0], reverse=True)
+    top = scored[:limit]
+    leftover_scored = scored[limit:]
+
+    highlights: list[dict[str, Any]] = []
+    for _score, entry, notable in top:
+        new_ones = [r for r in notable if r.get("is_new")]
+        updated = [r for r in notable if not r.get("is_new")]
+        bits: list[str] = []
+        if new_ones:
+            bits.append("新建 " + _format_repo_group(new_ones))
+        if updated:
+            bits.append("更新了 " + _format_repo_group(updated))
+        text_zh = "；".join(bits) if bits else "有值得關注的公開動態"
+        highlights.append(
+            {
+                "login": entry["login"],
+                "profile_url": entry["profile_url"],
+                "text_zh": text_zh,
+                "repo_names": [r["name"] for r in notable[:5]],
+            }
+        )
+
+    soft_count = len(soft) + len(leftover_scored)
+    soft_note = ""
+    if soft_count:
+        soft_note = (
+            f"另有 {soft_count} 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，"
+            "未列入上方精選。"
+        )
+
+    return {
+        "items": highlights,
+        "soft_note_zh": soft_note,
+        "soft_count": soft_count,
+        "featured_count": len(highlights),
+    }
+
+
+def make_overview_zh(digest_like: dict[str, Any], curated: dict[str, Any]) -> str:
+    return (
+        f"近 {digest_like['window_days']} 天掃描 {digest_like['roster_count']} 個名冊帳號，"
+        f"精選 {curated['featured_count']} 則值得追蹤的臨床／醫工動態"
+        + (f"；另略過 {curated['soft_count']} 則較安靜或非臨床向更新。" if curated.get("soft_count") else "。")
+    )
+
+
+def attach_curation(digest: dict[str, Any]) -> dict[str, Any]:
+    curated = curate_weekly_highlights(digest.get("entries") or [])
+    digest["highlights"] = curated["items"]
+    digest["soft_note_zh"] = curated.get("soft_note_zh") or ""
+    digest["featured_count"] = curated["featured_count"]
+    digest["overview_zh"] = make_overview_zh(digest, curated)
+    return digest
+
+
 def build_all(logins: list[str], token: str | None, now: datetime) -> tuple[dict[str, Any], dict[str, Any]]:
     since = now - timedelta(days=WINDOW_DAYS)
     digest_entries: list[dict[str, Any]] = []
@@ -391,7 +558,6 @@ def build_all(logins: list[str], token: str | None, now: datetime) -> tuple[dict
         all_repos: list[dict[str, Any]] = []
         try:
             if SKIP_REPO_DB:
-                # Lightweight weekly-only path: still need window repos via API
                 page_repos, err = fetch_all_non_fork_repos(login, token)
                 all_repos = page_repos
             else:
@@ -435,13 +601,11 @@ def build_all(logins: list[str], token: str | None, now: datetime) -> tuple[dict
         "roster_count": len(logins),
         "active_count": len(digest_entries),
         "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
-        "overview_zh": (
-            f"本週掃描 {len(logins)} 個名冊帳號，其中 {len(digest_entries)} 個帳號"
-            f"在近 {WINDOW_DAYS} 天有公開新建／推送動態。"
-        ),
+        "overview_zh": "",
         "entries": digest_entries,
         "skipped": skipped,
     }
+    attach_curation(digest)
 
     repo_db = {
         "generated_at": _fmt(now),
@@ -481,14 +645,14 @@ def build_all(logins: list[str], token: str | None, now: datetime) -> tuple[dict
 
 def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
     lines: list[str] = [
-        "# 台灣臨床醫事工程師 — 公開動態與專案資料庫",
+        "# 台灣臨床醫事工程師 — 本週值得追蹤與專案資料庫",
         "",
         "隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。",
         "",
         f"- 產生時間：`{digest.get('generated_at_taipei') or digest.get('generated_at')}`",
         f"- 動態視窗：近 **{digest['window_days']}** 天（自 `{digest['window_start']}`）",
         f"- 名冊帳號：**{digest['roster_count']}**",
-        f"- 本週有動態：**{digest['active_count']}**",
+        f"- 本週精選：**{digest.get('featured_count', digest.get('active_count'))}**",
         f"- 公開非 fork 倉庫總數：**{repo_db['repo_count']}**",
         "",
         f"> **隱私：** {digest['privacy_note']}",
@@ -497,40 +661,43 @@ def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         "",
         "---",
         "",
-        "## 本週動態摘要",
+        "## 本週值得追蹤",
         "",
         digest.get("overview_zh") or "",
         "",
     ]
-    entries = digest.get("entries") or []
-    if not entries:
-        lines.extend(["本週名冊帳號未偵測到公開新建／推送動態。", ""])
+    highlights = digest.get("highlights") or []
+    if not highlights:
+        lines.extend(["本週暫無特別值得追蹤的臨床／醫工公開動態。", ""])
     else:
-        for entry in entries:
-            lines.append(f"### [@{entry['login']}]({entry['profile_url']})")
-            lines.append("")
-            lines.append(entry.get("summary_zh") or "")
-            lines.append("")
-            for repo in entry.get("repos") or []:
-                flags = []
-                if repo.get("is_new"):
-                    flags.append("新建")
-                if repo.get("recently_pushed"):
-                    flags.append("有推送")
-                flag_s = f"（{'／'.join(flags)}）" if flags else ""
-                day = (repo.get("pushed_at") or repo.get("created_at") or "")[:10]
-                day_s = f" — {day}" if day else ""
-                lines.append(f"- [{repo['name']}]({repo['url']}){flag_s}{day_s}")
-                if repo.get("intro_zh"):
-                    lines.append(f"  - {repo['intro_zh']}")
+        for h in highlights:
+            lines.append(
+                f"- [@{h['login']}]({h['profile_url']}) — {h.get('text_zh') or ''}"
+            )
+        lines.append("")
+        if digest.get("soft_note_zh"):
+            lines.append(f"_{digest['soft_note_zh']}_")
             lines.append("")
 
-    lines.extend(["---", "", "## 專案資料庫（公開非 fork）", "",
-                  "完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。", "",
-                  f"共 **{repo_db['repo_count']}** 個倉庫、**{repo_db['roster_count']}** 個帳號。", "",
-                  "來源：[erichuang777777/awesome-tw-physician-engineer]"
-                  "(https://github.com/erichuang777777/awesome-tw-physician-engineer)", "",
-                  "由 `.github/workflows/weekly-digest.yml` 每週重建。", ""])
+    lines.extend(
+        [
+            "---",
+            "",
+            "## 專案資料庫（公開非 fork）",
+            "",
+            "依作者分組；每位作者帳號只出現一次，其下為緊湊「倉庫名 — 一句繁中」。",
+            "",
+            "完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。",
+            "",
+            f"共 **{repo_db['repo_count']}** 個倉庫、**{repo_db['roster_count']}** 個帳號。",
+            "",
+            "來源：[erichuang777777/awesome-tw-physician-engineer]"
+            "(https://github.com/erichuang777777/awesome-tw-physician-engineer)",
+            "",
+            "由 `.github/workflows/weekly-digest.yml` 每週重建。",
+            "",
+        ]
+    )
     return "\n".join(lines)
 
 
@@ -565,83 +732,89 @@ def render_repos_md(repo_db: dict[str, Any]) -> str:
             continue
         for r in acc["repos"]:
             arch = "（已封存）" if r.get("archived") else ""
-            theme = f" · {r['theme']}" if r.get("theme") else ""
-            lang = f" · {r['language']}" if r.get("language") else ""
-            lines.append(f"### [{r['name']}]({r['url']}){arch}")
-            lines.append("")
-            lines.append(r.get("intro_zh") or "")
-            lines.append("")
-            meta = []
-            if r.get("description"):
-                meta.append(f"原始說明：{r['description']}")
-            if r.get("topics"):
-                meta.append("主題：" + ", ".join(r["topics"][:8]))
-            meta.append(f"星標 {r.get('stars', 0)}{lang}{theme}")
-            for m in meta:
-                lines.append(f"- {m}")
-            lines.append("")
+            intro = r.get("intro_zh") or ""
+            lines.append(f"- [{r['name']}]({r['url']}){arch} — {intro}")
+        lines.append("")
     return "\n".join(lines)
+
 
 def _css() -> str:
     return """
-:root{--bg:#f6f8fa;--card:#fff;--text:#1f2328;--muted:#656d76;--accent:#0969da;--border:#d0d7de;--chip:#ddf4ff;--ok:#1a7f37;--warn:#9a6700}
+:root{--bg:#f4f6f8;--card:#fff;--text:#1f2328;--muted:#656d76;--accent:#0969da;--border:#d0d7de;--chip:#eaf2ff;--ok:#1a7f37;--warn:#9a6700;--row:#eef1f4}
 *{box-sizing:border-box}
-body{margin:0;font-family:"Noto Sans TC",system-ui,-apple-system,"Segoe UI",Roboto,"PingFang TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+body{margin:0;font-family:"Noto Sans TC",system-ui,-apple-system,"Segoe UI",Roboto,"PingFang TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.5;font-size:16px}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-.wrap{max-width:960px;margin:0 auto;padding:1.25rem 1rem 3rem}
-header.hero{background:linear-gradient(135deg,#1f6feb 0%,#054da7 100%);color:#fff;padding:1.75rem 0 1.5rem;margin-bottom:1.25rem}
+.wrap{max-width:900px;margin:0 auto;padding:1rem .85rem 2.5rem}
+header.hero{background:linear-gradient(135deg,#1f6feb 0%,#054da7 100%);color:#fff;padding:1.25rem 0 1.1rem;margin-bottom:1rem}
 header.hero .wrap{padding-top:0;padding-bottom:0}
-header.hero h1{margin:0 0 .4rem;font-size:1.65rem;font-weight:700}
-header.hero p{margin:.25rem 0;opacity:.95}
-nav.toc{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
-nav.toc a{background:var(--card);border:1px solid var(--border);border-radius:999px;padding:.25rem .75rem;font-size:.9rem}
-.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1rem 1.1rem;margin:0 0 1rem;box-shadow:0 1px 2px rgba(0,0,0,.04)}
-.card h2{margin:0 0 .6rem;font-size:1.25rem}
-.meta{color:var(--muted);font-size:.92rem}
-.note{background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:.7rem .9rem;margin:0.75rem 0;font-size:.92rem}
-.summary{border-left:4px solid var(--accent);padding:.15rem 0 .15rem .85rem;margin:.6rem 0}
-.summary h3{margin:0 0 .25rem;font-size:1.05rem}
-.chip{display:inline-block;background:var(--chip);color:#0550ae;border-radius:999px;padding:.05rem .5rem;font-size:.78rem;margin-right:.25rem}
-.chip.new{background:#dafbe1;color:var(--ok)}
-.chip.push{background:#fff8c5;color:var(--warn)}
-ul.tight{margin:.35rem 0;padding-left:1.2rem}
-.filters{display:flex;flex-wrap:wrap;gap:.6rem;margin:0.75rem 0 1rem;align-items:center}
-.filters input,.filters select{font:inherit;padding:.45rem .65rem;border:1px solid var(--border);border-radius:8px;min-width:0}
-.filters input{flex:1 1 220px}
-.filters select{flex:0 1 200px}
-.stats{color:var(--muted);font-size:.9rem;margin-bottom:.5rem}
-.account{margin:0 0 1.25rem}
-.account h3{margin:0 0 .5rem;font-size:1.1rem;position:sticky;top:0;background:var(--bg);padding:.4rem 0;z-index:1}
-.repo{border:1px solid var(--border);border-radius:10px;padding:.7rem .85rem;margin:0 0 .5rem;background:#fff}
-.repo .name{font-weight:600}
-.repo .intro{margin:.25rem 0 0;color:#333}
-.repo .desc{margin:.2rem 0 0;color:var(--muted);font-size:.88rem}
-footer{margin-top:2rem;color:var(--muted);font-size:.88rem}
+header.hero h1{margin:0 0 .3rem;font-size:1.45rem;font-weight:700;letter-spacing:.02em}
+header.hero p{margin:.15rem 0;opacity:.95;font-size:.95rem}
+nav.toc{display:flex;flex-wrap:wrap;gap:.4rem;margin:.75rem 0}
+nav.toc a{background:var(--card);border:1px solid var(--border);border-radius:999px;padding:.2rem .65rem;font-size:.82rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.85rem .9rem;margin:0 0 .85rem;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.card h2{margin:0 0 .45rem;font-size:1.15rem}
+.meta{color:var(--muted);font-size:.86rem}
+.note{background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:.55rem .75rem;margin:.6rem 0;font-size:.86rem}
+ul.highlights{margin:.4rem 0 0;padding-left:1.15rem}
+ul.highlights li{margin:.28rem 0;font-size:.95rem}
+ul.highlights .handle{font-weight:600}
+.soft-note{margin:.55rem 0 0;color:var(--muted);font-size:.86rem}
+.filters{display:flex;flex-wrap:wrap;gap:.45rem;margin:.55rem 0 .7rem;align-items:center}
+.filters input,.filters select{font:inherit;padding:.4rem .55rem;border:1px solid var(--border);border-radius:8px;min-width:0;font-size:.9rem}
+.filters input{flex:1 1 200px}
+.filters select{flex:0 1 170px}
+.stats{color:var(--muted);font-size:.84rem;margin:0 0 .45rem}
+.author-block{margin:0 0 .75rem;padding:0}
+.author-head{font-size:.92rem;font-weight:650;margin:0;padding:.3rem 0 .25rem;border-bottom:1px solid var(--border);background:var(--card);color:var(--text)}
+.author-head .count{color:var(--muted);font-weight:500;font-size:.8rem;margin-left:.35rem}
+.repo-list{margin:0;padding:0;list-style:none}
+.repo-row{display:block;padding:.32rem 0;border-bottom:1px dotted var(--row);font-size:.88rem;line-height:1.4}
+.repo-row:last-child{border-bottom:none}
+.repo-row .rname{font-weight:600;word-break:break-word}
+.repo-row .sep{color:var(--muted);margin:0 .2rem}
+.repo-row .intro{color:#333;font-weight:400}
+.repo-row .arch{color:var(--warn);font-size:.75rem;margin-left:.3rem}
+footer{margin-top:1.5rem;color:var(--muted);font-size:.82rem}
 .hidden{display:none !important}
+@media (max-width:640px){
+  body{font-size:15px}
+  .wrap{padding:.75rem .65rem 2rem}
+  header.hero{padding:1rem 0 .9rem;margin-bottom:.75rem}
+  header.hero h1{font-size:1.28rem}
+  .card{padding:.7rem .7rem;border-radius:8px;margin-bottom:.7rem}
+  .card h2{font-size:1.05rem}
+  ul.highlights{padding-left:1rem}
+  ul.highlights li{font-size:.9rem;margin:.22rem 0}
+  .repo-row{font-size:.84rem;padding:.26rem 0}
+  .author-head{font-size:.88rem;padding:.25rem 0 .2rem}
+  .filters input,.filters select{padding:.35rem .5rem;font-size:.86rem}
+  nav.toc a{font-size:.78rem;padding:.15rem .55rem}
+}
 """
 
 
 def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
     gen = html.escape(digest.get("generated_at_taipei") or digest.get("generated_at") or "")
+    featured = digest.get("featured_count", len(digest.get("highlights") or []))
     parts: list[str] = [
         "<!DOCTYPE html>",
         '<html lang="zh-Hant">',
         "<head>",
         '<meta charset="utf-8"/>',
         '<meta name="viewport" content="width=device-width, initial-scale=1"/>',
-        "<title>台灣臨床醫事工程師 — 本週動態與專案資料庫</title>",
-        '<meta name="description" content="名冊帳號的公開 GitHub 動態摘要與非 fork 專案資料庫（繁體中文）"/>',
+        "<title>台灣臨床醫事工程師 — 本週值得追蹤</title>",
+        '<meta name="description" content="名冊帳號本週值得追蹤的公開 GitHub 動態精選，與依作者分組的專案資料庫（繁體中文）"/>',
         "<style>" + _css() + "</style>",
         "</head>",
         "<body>",
         '<header class="hero"><div class="wrap">',
         "<h1>台灣臨床醫事工程師</h1>",
-        "<p>公開 GitHub 動態週摘要 · 全名冊公開專案資料庫</p>",
+        "<p>本週值得追蹤 · 依作者分組的公開專案資料庫</p>",
         f'<p class="meta" style="opacity:.9">產生時間：{gen}</p>',
         "</div></header>",
         '<div class="wrap">',
         '<nav class="toc">',
-        '<a href="#weekly">本週動態摘要</a>',
+        '<a href="#weekly">本週值得追蹤</a>',
         '<a href="#database">專案資料庫</a>',
         '<a href="./repos.md">Markdown 資料庫</a>',
         '<a href="./data/repos.json">repos.json</a>',
@@ -650,86 +823,60 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         "</nav>",
         f'<p class="note"><strong>隱私：</strong>{html.escape(digest.get("privacy_note") or "")}</p>',
         '<section id="weekly" class="card">',
-        "<h2>本週動態摘要</h2>",
+        "<h2>本週值得追蹤</h2>",
         f'<p class="meta">視窗：近 <strong>{digest["window_days"]}</strong> 天'
-        f'（自 <code>{html.escape(digest.get("window_start") or "")}</code>）· '
-        f'名冊 <strong>{digest["roster_count"]}</strong> · '
-        f'有動態 <strong>{digest["active_count"]}</strong></p>',
+        f' · 名冊 <strong>{digest["roster_count"]}</strong>'
+        f' · 精選 <strong>{featured}</strong></p>',
         f'<p>{html.escape(digest.get("overview_zh") or "")}</p>',
     ]
 
-    entries = digest.get("entries") or []
-    if not entries:
-        parts.append("<p>本週名冊帳號未偵測到公開新建／推送動態。</p>")
+    highlights = digest.get("highlights") or []
+    if not highlights:
+        parts.append("<p>本週暫無特別值得追蹤的臨床／醫工公開動態。</p>")
     else:
-        for entry in entries:
-            login = html.escape(entry["login"])
-            profile = html.escape(entry["profile_url"])
-            parts.append('<div class="summary">')
-            parts.append(f'<h3><a href="{profile}">@{login}</a></h3>')
-            parts.append(f'<p>{html.escape(entry.get("summary_zh") or "")}</p>')
-            repos = entry.get("repos") or []
-            if repos:
-                parts.append('<ul class="tight">')
-                for repo in repos:
-                    flags = []
-                    if repo.get("is_new"):
-                        flags.append('<span class="chip new">新建</span>')
-                    if repo.get("recently_pushed"):
-                        flags.append('<span class="chip push">有推送</span>')
-                    flag_s = " ".join(flags)
-                    day = (repo.get("pushed_at") or repo.get("created_at") or "")[:10]
-                    day_s = f" · {html.escape(day)}" if day else ""
-                    name = html.escape(repo["name"])
-                    url = html.escape(repo["url"])
-                    intro = html.escape(repo.get("intro_zh") or "")
-                    intro_s = f'<br/><span class="meta">{intro}</span>' if intro else ""
-                    parts.append(
-                        f'<li><a href="{url}">{name}</a> {flag_s}{day_s}{intro_s}</li>'
-                    )
-                parts.append("</ul>")
-            pushes = entry.get("recent_pushes") or []
-            listed = {f"{entry['login']}/{r['name']}" for r in repos}
-            extra = [p for p in pushes if p["repo"] not in listed]
-            if extra:
-                parts.append('<p class="meta">其他公開推送：</p><ul class="tight">')
-                for p in extra[:8]:
-                    day = (p.get("pushed_at") or "")[:10]
-                    parts.append(
-                        f'<li><a href="{html.escape(p["url"])}">{html.escape(p["repo"])}</a>'
-                        f' · {html.escape(day)}</li>'
-                    )
-                parts.append("</ul>")
-            parts.append("</div>")
+        parts.append('<ul class="highlights">')
+        for h in highlights:
+            login = html.escape(h["login"])
+            profile = html.escape(h["profile_url"])
+            text = html.escape(h.get("text_zh") or "")
+            parts.append(
+                f'<li><a class="handle" href="{profile}">@{login}</a> — {text}</li>'
+            )
+        parts.append("</ul>")
+        if digest.get("soft_note_zh"):
+            parts.append(
+                f'<p class="soft-note">{html.escape(digest["soft_note_zh"])}</p>'
+            )
     parts.append("</section>")
 
-    # Database section — client-side filter over fetched JSON
-    parts.extend([
-        '<section id="database" class="card">',
-        "<h2>專案資料庫</h2>",
-        f'<p class="meta">整合名冊帳號的<strong>每一個</strong>公開非 fork 倉庫，並附一句繁中介紹。'
-        f'目前共 <strong>{repo_db["repo_count"]}</strong> 個倉庫、'
-        f'<strong>{repo_db["roster_count"]}</strong> 個帳號。</p>',
-        '<div class="filters">',
-        '<input type="search" id="q" placeholder="搜尋倉庫名稱、說明、主題、帳號…" autocomplete="off"/>',
-        '<select id="account"><option value="">全部帳號</option></select>',
-        "</div>",
-        '<p class="stats" id="stats"></p>',
-        '<div id="repo-root"><p class="meta">載入資料中…</p></div>',
-        "</section>",
-        "<footer>",
-        '<p>來源：<a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">'
-        "erichuang777777/awesome-tw-physician-engineer</a> · "
-        "由 <code>scripts/weekly_digest.py</code>／"
-        "<code>.github/workflows/weekly-digest.yml</code> 每週重建。</p>",
-        "</footer>",
-        "</div>",
-        "<script>",
-        JS_BOOTSTRAP,
-        "</script>",
-        "</body></html>",
-        "",
-    ])
+    parts.extend(
+        [
+            '<section id="database" class="card">',
+            "<h2>專案資料庫</h2>",
+            f'<p class="meta">依<strong>作者分組一次</strong>：帳號標題下為緊湊「倉庫名 — 一句繁中」。'
+            f'共 <strong>{repo_db["repo_count"]}</strong> 個倉庫、'
+            f'<strong>{repo_db["roster_count"]}</strong> 個帳號。</p>',
+            '<div class="filters">',
+            '<input type="search" id="q" placeholder="搜尋倉庫、說明、主題、帳號…" autocomplete="off"/>',
+            '<select id="account"><option value="">全部帳號</option></select>',
+            "</div>",
+            '<p class="stats" id="stats"></p>',
+            '<div id="repo-root"><p class="meta">載入資料中…</p></div>',
+            "</section>",
+            "<footer>",
+            '<p>來源：<a href="https://github.com/erichuang777777/awesome-tw-physician-engineer">'
+            "erichuang777777/awesome-tw-physician-engineer</a> · "
+            "由 <code>scripts/weekly_digest.py</code>／"
+            "<code>.github/workflows/weekly-digest.yml</code> 每週重建。</p>",
+            "</footer>",
+            "</div>",
+            "<script>",
+            JS_BOOTSTRAP,
+            "</script>",
+            "</body></html>",
+            "",
+        ]
+    )
     return "\n".join(parts)
 
 
@@ -774,54 +921,53 @@ JS_BOOTSTRAP = r"""
       if (!repos.length) continue;
       shownAccounts += 1;
       shownRepos += repos.length;
-      const wrap = document.createElement('div');
-      wrap.className = 'account';
-      wrap.dataset.login = acc.login;
-      const h = document.createElement('h3');
+
+      const block = document.createElement('div');
+      block.className = 'author-block';
+      block.dataset.login = acc.login;
+
+      const head = document.createElement('div');
+      head.className = 'author-head';
       const link = document.createElement('a');
       link.href = acc.profile_url;
       link.textContent = '@' + acc.login;
-      h.appendChild(link);
-      h.appendChild(document.createTextNode(' · ' + repos.length + ' 個倉庫'));
-      wrap.appendChild(h);
+      head.appendChild(link);
+      const count = document.createElement('span');
+      count.className = 'count';
+      count.textContent = repos.length + ' 個倉庫';
+      head.appendChild(count);
+      block.appendChild(head);
+
+      const ul = document.createElement('ul');
+      ul.className = 'repo-list';
       for (const r of repos) {
-        const card = document.createElement('div');
-        card.className = 'repo';
-        const name = document.createElement('div');
-        name.className = 'name';
+        const li = document.createElement('li');
+        li.className = 'repo-row';
         const a = document.createElement('a');
-        a.href = r.url; a.target = '_blank'; a.rel = 'noopener';
+        a.className = 'rname';
+        a.href = r.url;
+        a.target = '_blank';
+        a.rel = 'noopener';
         a.textContent = r.name;
-        name.appendChild(a);
-        if (r.theme) {
-          const c = document.createElement('span');
-          c.className = 'chip'; c.textContent = r.theme; c.style.marginLeft = '.4rem';
-          name.appendChild(c);
-        }
-        if (r.language) {
-          const c = document.createElement('span');
-          c.className = 'chip'; c.textContent = r.language; c.style.marginLeft = '.25rem';
-          name.appendChild(c);
-        }
+        li.appendChild(a);
         if (r.archived) {
-          const c = document.createElement('span');
-          c.className = 'chip push'; c.textContent = '已封存'; c.style.marginLeft = '.25rem';
-          name.appendChild(c);
+          const arch = document.createElement('span');
+          arch.className = 'arch';
+          arch.textContent = '已封存';
+          li.appendChild(arch);
         }
-        card.appendChild(name);
-        const intro = document.createElement('p');
+        const sep = document.createElement('span');
+        sep.className = 'sep';
+        sep.textContent = ' — ';
+        li.appendChild(sep);
+        const intro = document.createElement('span');
         intro.className = 'intro';
         intro.textContent = r.intro_zh || '';
-        card.appendChild(intro);
-        if (r.description) {
-          const d = document.createElement('p');
-          d.className = 'desc';
-          d.textContent = '原始說明：' + r.description;
-          card.appendChild(d);
-        }
-        wrap.appendChild(card);
+        li.appendChild(intro);
+        ul.appendChild(li);
       }
-      frag.appendChild(wrap);
+      block.appendChild(ul);
+      frag.appendChild(block);
     }
     root.innerHTML = '';
     if (!shownRepos) {
@@ -839,20 +985,7 @@ JS_BOOTSTRAP = r"""
 """
 
 
-def main() -> int:
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    if not README_PATH.is_file():
-        print(f"error: missing {README_PATH}", file=sys.stderr)
-        return 1
-    readme = README_PATH.read_text(encoding="utf-8")
-    logins = parse_roster_logins(readme)
-    if not logins:
-        print("error: no GitHub logins found in README", file=sys.stderr)
-        return 1
-    print(f"Parsed {len(logins)} roster logins", flush=True)
-    now = datetime.now(timezone.utc)
-    digest, repo_db = build_all(logins, token, now)
-
+def write_outputs(digest: dict[str, Any], repo_db: dict[str, Any]) -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -870,7 +1003,46 @@ def main() -> int:
     (DOCS_DIR / "repos.md").write_text(render_repos_md(repo_db), encoding="utf-8")
     (DOCS_DIR / "index.html").write_text(render_index_html(digest, repo_db), encoding="utf-8")
 
+
+def main() -> int:
+    from_cache = (
+        "--from-cache" in sys.argv
+        or os.environ.get("REGEN_FROM_CACHE", "").lower() in {"1", "true", "yes"}
+    )
+
+    if from_cache:
+        latest_path = DOCS_DIR / "latest.json"
+        repos_path = DATA_DIR / "repos.json"
+        if not latest_path.is_file() or not repos_path.is_file():
+            print("error: --from-cache requires docs/latest.json and docs/data/repos.json", file=sys.stderr)
+            return 1
+        digest = json.loads(latest_path.read_text(encoding="utf-8"))
+        repo_db = json.loads(repos_path.read_text(encoding="utf-8"))
+        attach_curation(digest)
+        write_outputs(digest, repo_db)
+        print(
+            f"Regenerated from cache: featured {digest.get('featured_count')} / "
+            f"active {digest.get('active_count')} / repos {repo_db.get('repo_count')}",
+            flush=True,
+        )
+        return 0
+
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if not README_PATH.is_file():
+        print(f"error: missing {README_PATH}", file=sys.stderr)
+        return 1
+    readme = README_PATH.read_text(encoding="utf-8")
+    logins = parse_roster_logins(readme)
+    if not logins:
+        print("error: no GitHub logins found in README", file=sys.stderr)
+        return 1
+    print(f"Parsed {len(logins)} roster logins", flush=True)
+    now = datetime.now(timezone.utc)
+    digest, repo_db = build_all(logins, token, now)
+    write_outputs(digest, repo_db)
+
     print(f"Active accounts: {digest['active_count']}/{digest['roster_count']}", flush=True)
+    print(f"Featured highlights: {digest.get('featured_count')}", flush=True)
     print(f"Repo DB: {repo_db['repo_count']} repos across {repo_db['roster_count']} accounts", flush=True)
     if digest.get("skipped"):
         print(f"Skipped/partial: {digest['skipped']}", flush=True)
