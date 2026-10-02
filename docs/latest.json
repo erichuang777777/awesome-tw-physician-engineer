@@ -39,7 +39,7 @@
           "pushed_at": "2026-10-02T01:16:26Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "急診醫學與重症照護文獻雷達（繁中版）— 每天自動掃 PubMed、依影響力排序。",
+          "intro_zh": "急診醫學與重症照護文獻雷達每天自動掃描 PubMed 新文獻並依影響力排序，解決醫療人員獲取最新研究資訊的需求。",
           "theme": "急診／急重症"
         },
         {
@@ -49,7 +49,7 @@
           "pushed_at": "2026-09-27T12:06:10Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "把 Keynote 講稿顯示在 Even Realities G2 鏡片上，翻頁自動換稿。",
+          "intro_zh": "將 Keynote 講稿顯示在 Even Realities G2 鏡片上，解決講者在演講時低頭看稿而失去與聽眾眼神接觸的問題。",
           "theme": "簡報／教材"
         }
       ],
@@ -101,7 +101,7 @@
           "pushed_at": "2026-09-29T15:06:18Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "VDILab：依名稱推斷的工具／實驗（無可讀說明）。",
+          "intro_zh": "提供一個以視覺驅動的智慧實驗室網站模板，解決研究工具無法有效展示的問題。（README 不足）。",
           "theme": null
         },
         {
@@ -111,7 +111,7 @@
           "pushed_at": "2026-09-26T10:48:36Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "網站相關工具或實驗（說明不足）。",
+          "intro_zh": "個人學術網站，提供醫師及研究者的專業資訊與連結（README 不足）。",
           "theme": null
         }
       ],
@@ -140,7 +140,7 @@
           "pushed_at": "2026-10-01T15:30:24Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "學習／日文相關工具。",
+          "intro_zh": "提供一套以台語為記憶鉤的日文自學系統，幫助有日文聽力基礎的人將「會念」轉化為「會讀寫」。",
           "theme": null
         }
       ],
@@ -164,7 +164,7 @@
           "pushed_at": "2026-09-29T03:18:17Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "排班Messenger／GraphQL／Playwright的命令列工具。",
+          "intro_zh": "提供 Facebook 和 Messenger 自動化的 Python CLI 工具，能夠進行發文、排程、評論及回覆，解決命令成功卻未執行的常見問題。",
           "theme": "聊天機器人／通訊整合"
         },
         {
@@ -174,7 +174,7 @@
           "pushed_at": "2026-09-28T01:37:42Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "LINE／Claude／Code／代理人相關工具。",
+          "intro_zh": "提供狀態列、預算守護和節奏判斷，以管理Claude Code的使用限制；解決自動代理在高使用率下中斷任務的問題。",
           "theme": "生成式 AI／LLM"
         }
       ],
@@ -203,7 +203,7 @@
           "pushed_at": "2026-10-02T16:26:36Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "A curated list of Taiwanese physician-engineers / 收錄具開發能力的台灣醫師工程師。",
+          "intro_zh": "收錄具開發能力的台灣臨床醫事人員名單；方便交流與合作，促進醫療與技術的結合。",
           "theme": null
         }
       ],
@@ -227,7 +227,7 @@
           "pushed_at": "2026-10-02T00:57:51Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "EDF／檢視器工具（依倉庫名稱推斷）。",
+          "intro_zh": "提供一個網頁應用程式，用於查看包含生理訊號的EDF檔案；解決生理訊號可視化及多通道顯示的需求。",
           "theme": "生理訊號／波形"
         },
         {
@@ -284,7 +284,7 @@
           "pushed_at": "2026-10-02T10:06:02Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "腫瘤／血液相關方向工具或實驗（說明文字不足）。",
+          "intro_zh": "提供腫瘤內科醫師的臨床筆記與衛教資源；符合醫療法規的內容結構與AI優化，助於醫學教育與研究。",
           "theme": "腫瘤／血液相關"
         },
         {
@@ -294,7 +294,7 @@
           "pushed_at": "2026-10-02T00:27:12Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "每日一則 Claude Code changelog 中文講義，由 Claude Code 自動出刊。",
+          "intro_zh": "每日自動生成 Claude Code 的中文 changelog 講義；解決了手動更新內容的繁瑣問題。",
           "theme": "生成式 AI／LLM"
         },
         {
@@ -304,7 +304,7 @@
           "pushed_at": "2026-10-01T11:39:43Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "指引命令列工具。",
+          "intro_zh": "提供兩種方式下載 NCCN 臨床實踐指導方針 PDF，解決需要使用 NCCN 登入才能獲取指導方針的問題。",
           "theme": "腫瘤／血液相關"
         },
         {
@@ -314,7 +314,7 @@
           "pushed_at": "2026-09-26T08:04:41Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "繁體中文硬筆字帖產生器：田字格・教育部筆順・注音・甲乙本，A4 列印 | Traditional Chinese handwriting practice sheet gener…",
+          "intro_zh": "線上產生繁體中文硬筆字帖，提供多種字型、筆順與格子選擇，方便學生練習書寫技巧。",
           "theme": null
         },
         {
@@ -324,7 +324,7 @@
           "pushed_at": "2026-09-26T06:24:47Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "腫瘤／血液相關方向工具或實驗（說明文字不足）。",
+          "intro_zh": "提供血液科口試的歷屆考生心得整理，幫助考生了解考試主題分布與答題心法。",
           "theme": "腫瘤／血液相關"
         }
       ],
@@ -348,7 +348,7 @@
           "pushed_at": "2026-10-02T14:41:53Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "Linux／Bun／PID／Buninu相關工具。",
+          "intro_zh": "提供一個以 Bun 為 PID 1 的 Linux 發行版，解決傳統啟動過程中對 C 語言的依賴問題。",
           "theme": null
         },
         {
@@ -358,7 +358,7 @@
           "pushed_at": "2026-10-01T15:38:18Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "Bun／音訊／流程／Linux／Android相關工具。",
+          "intro_zh": "提供一個 JavaScript/Bun 實作的 PulseAudio 協定，無需啟動外部音頻工具即可在 Linux 和 Android 上進行音頻播放與控制。",
           "theme": "行動應用"
         },
         {
@@ -368,7 +368,7 @@
           "pushed_at": "2026-10-01T15:00:39Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "Buninu／瀏覽器／WebAssembly／Bun相關工具。",
+          "intro_zh": "提供一個用 JavaScript 和 WebAssembly 寫成的瀏覽器引擎，旨在取代 Chromium Headless Shell 以支援 Buninu Linux；目前仍處於實驗階段，尚未成為通用瀏覽器引擎。",
           "theme": null
         },
         {
@@ -378,7 +378,7 @@
           "pushed_at": "2026-09-28T19:35:23Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "Buninu／可攜式／Unix-like／Bun／系統。",
+          "intro_zh": "提供一個可攜式的類Unix使用者空間，讓用戶在多種作業系統上無需安裝即可快速啟動命令行環境。",
           "theme": null
         },
         {
@@ -388,7 +388,7 @@
           "pushed_at": "2026-09-28T19:28:51Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "平台，用於Bun。",
+          "intro_zh": "提供一個跨平台的命令行介面，專為 Bun JavaScript 設計；解決了需要依賴其他工具的問題，讓使用者能夠直接運行命令和腳本。",
           "theme": null
         },
         {
@@ -398,7 +398,7 @@
           "pushed_at": "2026-09-28T17:46:38Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "工具：A JavaScript rewrite of GoTTY。",
+          "intro_zh": "透過瀏覽器分享終端機作業，解決遠端操作不便的問題。",
           "theme": null
         },
         {
@@ -408,7 +408,7 @@
           "pushed_at": "2026-09-26T17:08:02Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "PRoot／Bun／Android相關工具。",
+          "intro_zh": "提供一個無需根權限的 Android 用戶空間 chroot 和掛載功能；解決在無法使用 Termux 的環境中運行 Linux 用戶空間的需求。",
           "theme": "行動應用"
         }
       ],
@@ -467,7 +467,7 @@
           "pushed_at": "2026-10-01T23:40:27Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "自動抓取食藥署藥品回收公告。",
+          "intro_zh": "自動抓取食藥署的藥品回收公告並提供可視化看板；幫助臨床人員和藥品庫存管理者快速檢查庫存和鎖定訂單。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -477,7 +477,7 @@
           "pushed_at": "2026-10-01T22:02:33Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "自動抓取缺藥平台的替代藥品公告。",
+          "intro_zh": "自動抓取台灣食品藥物管理署的缺藥公告及替代藥品資訊；幫助臨床人員及藥師即時查詢藥品供應狀況。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -487,7 +487,7 @@
           "pushed_at": "2026-10-01T07:23:58Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "台灣藥品臨床試驗檢索站——TFDA 開放資料 dataset 205 的靜態檢索前端。",
+          "intro_zh": "提供台灣藥品臨床試驗的靜態檢索前端，幫助臨床醫師查詢試驗資訊與數據日期。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -497,7 +497,7 @@
           "pushed_at": "2026-09-27T23:07:22Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "藥丸偵探 Pill Detective TW — 台灣藥品外觀搜尋：依刻字、顏色、形狀、刻痕從 TFDA 公開資料縮小候選藥品清單，供人工比對確認。",
+          "intro_zh": "依據藥丸的刻字、顏色、形狀及刻痕，從台灣食品藥物管理署的公開資料中縮小候選藥品清單，供藥師及醫療人員進行人工比對確認。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -507,7 +507,7 @@
           "pushed_at": "2026-09-27T07:53:27Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "考選部藥師國考測驗題之結構化、可稽核題庫（113 年起；規則式抽取、無 LLM；套用官方更正答案）。",
+          "intro_zh": "提供結構化的藥師國考測驗題庫，解決考生對於題目來源及官方更正答案的追溯需求。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -517,7 +517,7 @@
           "pushed_at": "2026-09-25T23:43:42Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "台灣健保藥價歷史查詢：NHI 健保用藥品項檔完整支付價歷史（1995 至今）。",
+          "intro_zh": "提供台灣健保藥品的完整支付價歷史查詢，解決使用者對於藥品價格變動的資訊需求。",
           "theme": "健保／編碼與申報"
         }
       ],
@@ -541,7 +541,7 @@
           "pushed_at": "2026-10-01T04:19:28Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "醫療／統計相關工具。",
+          "intro_zh": "提供生物統計課程的 LaTeX 原始碼；適合醫學系學生學習統計知識。",
           "theme": null
         }
       ],
@@ -565,7 +565,7 @@
           "pushed_at": "2026-10-01T18:35:40Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "追蹤AI-assisted／病人／教育／PWA／React的工具。",
+          "intro_zh": "提供痔瘡手術後的症狀監測與 AI 卫教功能；解決術後病患日常症狀報告與教育資源不足的問題。",
           "theme": "臨床指引／路徑"
         },
         {
@@ -575,7 +575,7 @@
           "pushed_at": "2026-10-01T18:35:34Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "模型／III／腫瘤的管線；偏腫瘤／血液相關。",
+          "intro_zh": "提供一個可重複的工作流程，用於開發和外部驗證第三期結腸癌的早期遠端復發預測模型；解決了臨床數據隱私問題，使用者需自備數據集。",
           "theme": "腫瘤／血液相關"
         },
         {
@@ -585,7 +585,7 @@
           "pushed_at": "2026-10-01T10:09:15Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "網頁應用。",
+          "intro_zh": "提供大腸直腸外科臨床醫師的知識庫，搭載7個AI代理自動追蹤文獻，解決臨床決策時文獻查詢效率低的問題。",
           "theme": null
         },
         {
@@ -595,7 +595,7 @@
           "pushed_at": "2026-10-01T05:44:12Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "骨盆測量套件。",
+          "intro_zh": "提供自動化的 CT 骨盆測量和身體組成分析功能；解決傳統手動測量耗時且易受觀察者變異影響的問題。",
           "theme": "函式庫／API"
         },
         {
@@ -605,7 +605,7 @@
           "pushed_at": "2026-09-30T18:23:39Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "The Odin Project（Foundations + Full Stack JavaScript）繁體中文自足講義｜MkDocs Material。",
+          "intro_zh": "提供《The Odin Project》繁體中文自足講義，解決學習者對於全棧 JavaScript 課程的語言障礙問題。",
           "theme": null
         },
         {
@@ -615,7 +615,7 @@
           "pushed_at": "2026-09-30T18:23:33Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "設定／代理人／系統，用於視訊。",
+          "intro_zh": "設定驅動的多代理製作系統，用於長期維護的劇集影片製作；解決傳統單次影片生成的限制，提供完整的腳本到上架流程。",
           "theme": "生成式 AI／LLM"
         },
         {
@@ -625,7 +625,7 @@
           "pushed_at": "2026-09-29T05:29:07Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "語音轉錄繁體／中文／筆記／Gemini／語音辨識的筆記。",
+          "intro_zh": "即時錄音並生成逐字稿與中文筆記，解決快速授課時無法即時記錄的問題。",
           "theme": "生成式 AI／LLM"
         },
         {
@@ -635,7 +635,7 @@
           "pushed_at": "2026-09-26T05:52:05Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "呷啥 CHIA SHÁ — 附近餐廳搜尋與午晚餐選擇工具。",
+          "intro_zh": "提供附近餐廳搜尋與隨機選擇功能；解決用餐選擇困難的問題。",
           "theme": null
         }
       ],
@@ -689,7 +689,7 @@
           "pushed_at": "2026-10-01T08:14:26Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "Trustworthy Taiwan FDA (TFDA) drug-information lookup for AI agents — an indepe…相關工具；偏藥學／…",
+          "intro_zh": "可信賴的台灣藥物資訊查詢工具，幫助 AI 助理查詢官方食藥署資料以避免錯誤猜測。",
           "theme": "藥學／藥品資訊"
         }
       ],
@@ -713,7 +713,7 @@
           "pushed_at": "2026-10-02T14:01:13Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "Android 台語輸入法 — 分支自 Trime（同文輸入法）v3.3.12 的台語特化版 Phah Tâi-bûn。",
+          "intro_zh": "Android 台語輸入法，專為台語使用者設計，提供多種輸入方案與繁體台灣化介面，解決台語輸入不便的問題。",
           "theme": "行動應用"
         },
         {
@@ -723,7 +723,7 @@
           "pushed_at": "2026-10-02T13:05:59Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "Phah Tai-bun (拍台文): open-source Rime input method for Taiwanese Hokkien with Ha…相關工具。",
+          "intro_zh": "提供開源的拍台文輸入法，解決台灣閩南語書寫困難，支援POJ/TL羅馬拼音及可選音調輸入。",
           "theme": null
         },
         {
@@ -733,7 +733,7 @@
           "pushed_at": "2026-09-29T09:03:03Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "thak tai bun：依名稱推斷的工具／實驗（無可讀說明）。",
+          "intro_zh": "提供漢羅與台羅、白話字的即時轉換功能，解決台語學習者在拼音練習與詞彙查詢上的需求。",
           "theme": null
         }
       ],
@@ -767,7 +767,7 @@
           "pushed_at": "2026-10-02T08:10:07Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "每日醫學期刊文獻追蹤:RSS 抓取 + PubMed/Crossref metadata + LLM 繁中摘要翻譯 + Telegram 推送(GitHub Actions 全自…",
+          "intro_zh": "每日自動追蹤醫學期刊新文獻，透過 RSS 抓取、PubMed/Crossref 補齊資料及 LLM 翻譯摘要，並推送至 Telegram 以解決文獻追蹤的繁瑣問題。",
           "theme": "文獻／臨床試驗"
         },
         {
@@ -777,7 +777,7 @@
           "pushed_at": "2026-09-28T03:17:30Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "失智相關工具或實驗（說明不足）。",
+          "intro_zh": "自動彙整失智症與阿茲海默症的最新研究與臨床試驗，每週發布報告至 GitHub Wiki；解決資訊更新不及時的問題。",
           "theme": null
         }
       ],
@@ -795,7 +795,7 @@
           "pushed_at": "2026-09-30T12:28:47Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "ftmerp java project：依名稱推斷的工具／實驗（無可讀說明）。",
+          "intro_zh": "提供一個用於企業資源規劃的系統，幫助機構整合和管理業務各方面的資源與流程。",
           "theme": null
         }
       ],
@@ -819,7 +819,7 @@
           "pushed_at": "2026-09-26T13:29:40Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "LINE／FIGO／腫瘤／計算器相關工具；偏腫瘤／血液相關。",
+          "intro_zh": "提供線上 FIGO 婦科癌症分期計算器，協助醫療人員進行癌症分期評估。",
           "theme": "腫瘤／血液相關"
         }
       ],
@@ -843,7 +843,7 @@
           "pushed_at": "2026-10-02T03:24:29Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "應用程式。",
+          "intro_zh": "提供單頁應用程式協助住院醫師排班；解決住院醫師值班安排的需求。",
           "theme": null
         },
         {
@@ -853,7 +853,7 @@
           "pushed_at": "2026-09-29T01:14:25Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "Github相關工具。",
+          "intro_zh": "提供臨床放射學工作流程的網頁工具，包括骨齡評估、癌症分期報告、肺癌篩檢報告及排班工具；旨在提升醫療決策的準確性與效率。",
           "theme": null
         },
         {
@@ -863,7 +863,7 @@
           "pushed_at": "2026-09-29T01:14:03Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "工具，用於報告／放射；偏醫學影像／放射。",
+          "intro_zh": "提供一個基於網頁的工具套件，用於生成結構化的醫學報告，專注於AJCC癌症分期，幫助放射科醫師和臨床醫師有效創建標準化的分期報告以整合至放射資訊系統。",
           "theme": "醫學影像／放射"
         },
         {
@@ -873,7 +873,7 @@
           "pushed_at": "2026-09-28T07:08:29Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "ahk nycuh：依名稱推斷的工具／實驗（無可讀說明）。",
+          "intro_zh": "提供一組以 AutoHotkey v2 撰寫的放射科工作流自動化腳本，解決 RIS / PACS 報告撰寫過程中的效率問題。",
           "theme": null
         }
       ],
@@ -907,7 +907,7 @@
           "pushed_at": "2026-10-02T15:47:09Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "以語言模型輔助研究／資料／Explorer／MCP／代理人的工具。",
+          "intro_zh": "提供一個AI驅動的研究數據探索平台，協助非技術研究者進行可審計的探索性數據分析與報告生成；解決了無需撰寫大量自定義分析代碼的痛點。",
           "theme": null
         },
         {
@@ -917,7 +917,7 @@
           "pushed_at": "2026-10-02T11:56:42Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "搜尋0.6.1／一鍵／Code／擴充功能的擴充功能。",
+          "intro_zh": "提供一個連接 VS Code 與本地 Zotero 資料庫的 MCP 伺服器，讓 AI 助手能夠搜尋、查看及新增文獻參考，解決文獻管理的繁瑣問題。",
           "theme": "文獻／臨床試驗"
         },
         {
@@ -927,7 +927,7 @@
           "pushed_at": "2026-10-02T09:06:06Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "閱讀PHI-safe／ROI／擷取／OpenClaw／Gateway的工具。",
+          "intro_zh": "提供醫學影像的自動共讀功能，能夠在DICOM檢視器上捕捉螢幕截圖並疊加AI分析結果，讓醫師保留最終決策權。",
           "theme": "醫學影像／放射"
         },
         {
@@ -937,7 +937,7 @@
           "pushed_at": "2026-10-01T10:57:48Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "搜尋文字／引用／部署的工具。",
+          "intro_zh": "提供多來源生物醫學文獻的智能搜尋與分析功能；解決AI代理在文獻研究中的效率與準確性問題。",
           "theme": "文獻／臨床試驗"
         },
         {
@@ -947,7 +947,7 @@
           "pushed_at": "2026-10-01T10:13:33Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "工具：send the model only the tools a request needs。",
+          "intro_zh": "根據請求選擇適當的 MCP 工具並僅將其發送至 llama-server，解決了傳送過多工具導致的上下文浪費問題。",
           "theme": "生成式 AI／LLM"
         }
       ],
@@ -1015,7 +1015,7 @@
           "pushed_at": "2026-10-02T13:56:12Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "VaxCheck — 疫苗檢核程式:健保雲端 + CDC NIIS 一鍵檢核公費疫苗資格(Chrome extension + YAML 規則引擎)。",
+          "intro_zh": "VaxCheck 提供一鍵檢核公費疫苗資格的功能；透過健保雲端與 CDC NIIS 系統，協助醫師快速判斷病患的疫苗接種資格，降低資料外洩風險。",
           "theme": "健保／編碼與申報"
         }
       ],
@@ -1054,6 +1054,16 @@
       ]
     },
     {
+      "login": "u9401066",
+      "profile_url": "https://github.com/u9401066",
+      "text_zh": "更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」",
+      "repo_names": [
+        "zotero-keeper",
+        "dicom-overlay-agent",
+        "pubmed-search-mcp"
+      ]
+    },
+    {
       "login": "agoodbear",
       "profile_url": "https://github.com/agoodbear",
       "text_zh": "更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」",
@@ -1069,16 +1079,6 @@
       "repo_names": [
         "hemorrhoids-postop",
         "Stage_III_Colon_EDR"
-      ]
-    },
-    {
-      "login": "u9401066",
-      "profile_url": "https://github.com/u9401066",
-      "text_zh": "更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」",
-      "repo_names": [
-        "zotero-keeper",
-        "dicom-overlay-agent",
-        "pubmed-search-mcp"
       ]
     },
     {

@@ -4,6 +4,14 @@
 Privacy:
   - Only GitHub @handles and public repo names/URLs/descriptions/topics
   - Never invent real names, hospitals, or private bios
+
+Intros:
+  - Prefer README-aware 繁中 blurbs (功能 + 解決什麼問題) produced by
+    scripts/enrich_intros_from_readme.py (cached under research/readme_cache/).
+  - Each repo may store readme_hash / intro_source / intro_thin so weekly runs
+    keep good intros until the README hash changes.
+  - --from-cache --rewrite-intros preserves README-sourced intros unless
+    --force-intros is also set.
 """
 
 from __future__ import annotations
@@ -26,6 +34,8 @@ README_PATH = ROOT / "README.md"
 DOCS_DIR = ROOT / "docs"
 DATA_DIR = DOCS_DIR / "data"
 CACHE_DIR = ROOT / "research"
+README_CACHE_DIR = CACHE_DIR / "readme_cache"
+INTRO_PROGRESS_PATH = CACHE_DIR / "intro_batches" / "readme_intros.json"
 WINDOW_DAYS = int(os.environ.get("DIGEST_WINDOW_DAYS", "7"))
 API_BASE = "https://api.github.com"
 USER_AGENT = "awesome-tw-physician-engineer-pages/2.0"
@@ -751,7 +761,11 @@ def _is_profile_repo(name: str, description: str | None, owner: str | None = Non
 
 def _is_personal_site(name: str, description: str | None = None) -> bool:
     low = (name or "").lower()
-    if low.endswith(".github.io") or low in {"homepage", "blog", "site", "website"}:
+    if (
+        low.endswith(".github.io")
+        or low.endswith(".github.com")
+        or low in {"homepage", "blog", "site", "website"}
+    ):
         return True
     if "portfolio" in low:
         return True
@@ -1264,6 +1278,19 @@ def synthesize_zh_intro(
     return _polish_intro(_phrase_from_name(name, theme, owner), name, theme, owner)
 
 
+def _load_readme_cache(full_name: str) -> dict[str, Any] | None:
+    """Load cached README record written by enrich_intros_from_readme.py."""
+    if not full_name or "/" not in full_name:
+        return None
+    path = README_CACHE_DIR / f"{full_name.replace('/', '__')}.json"
+    if not path.is_file():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
 def choose_intro_zh(
     name: str,
     description: str | None,
@@ -1271,17 +1298,40 @@ def choose_intro_zh(
     language: str | None,
     previous: dict[str, Any] | None = None,
     owner: str | None = None,
+    readme_hash: str | None = None,
 ) -> str:
-    """Reuse prior good intro when name/description/topics unchanged."""
+    """Reuse prior good intro when metadata (+ optional README hash) unchanged.
+
+    When a previous intro was README-derived (`intro_source` starts with
+    `readme`) and `readme_hash` still matches, keep it even if description
+    text drifted slightly. If the hash changed, fall back to synthesize so a
+    later enrich pass can refresh from the new README.
+    """
     if previous:
-        same = (
+        old = (previous.get("intro_zh") or "").strip()
+        prev_hash = previous.get("readme_hash")
+        src = (previous.get("intro_source") or "").strip()
+        meta_same = (
             previous.get("name") == name
             and (previous.get("description") or None) == (description or None)
             and list(previous.get("topics") or []) == list(topics or [])
         )
-        old = (previous.get("intro_zh") or "").strip()
-        if same and old and not _banned_intro(old):
+        readme_same = (
+            readme_hash
+            and prev_hash
+            and readme_hash == prev_hash
+            and old
+            and not _banned_intro(old)
+            and (src.startswith("readme") or not previous.get("intro_thin"))
+        )
+        if readme_same:
             return old
+        if meta_same and old and not _banned_intro(old):
+            # Keep prior README-quality intro unless hash explicitly changed
+            if prev_hash and readme_hash and prev_hash != readme_hash:
+                pass  # fall through to synthesize; enrich will rewrite
+            else:
+                return old
     return synthesize_zh_intro(name, description, topics, language, owner=owner)
 
 
@@ -1322,25 +1372,42 @@ def fetch_all_non_fork_repos(
             language = repo.get("language")
             html_url = repo.get("html_url") or f"https://github.com/{login}/{name}"
             prev = (previous_by_name or {}).get(name)
-            intro_zh = choose_intro_zh(name, description, topics, language, prev, owner=login)
-            repos.append(
-                {
-                    "name": name,
-                    "full_name": repo.get("full_name") or f"{login}/{name}",
-                    "url": html_url,
-                    "description": description,
-                    "topics": topics,
-                    "language": language,
-                    "stars": int(repo.get("stargazers_count") or 0),
-                    "forks": int(repo.get("forks_count") or 0),
-                    "created_at": repo.get("created_at"),
-                    "pushed_at": repo.get("pushed_at"),
-                    "updated_at": repo.get("updated_at"),
-                    "archived": bool(repo.get("archived")),
-                    "theme": detect_theme(name, description or "", topics),
-                    "intro_zh": intro_zh,
-                }
+            full_name = repo.get("full_name") or f"{login}/{name}"
+            cached_readme = _load_readme_cache(full_name)
+            readme_hash = (cached_readme or {}).get("readme_hash") or (prev or {}).get("readme_hash")
+            intro_zh = choose_intro_zh(
+                name,
+                description,
+                topics,
+                language,
+                prev,
+                owner=login,
+                readme_hash=readme_hash,
             )
+            row = {
+                "name": name,
+                "full_name": full_name,
+                "url": html_url,
+                "description": description,
+                "topics": topics,
+                "language": language,
+                "stars": int(repo.get("stargazers_count") or 0),
+                "forks": int(repo.get("forks_count") or 0),
+                "created_at": repo.get("created_at"),
+                "pushed_at": repo.get("pushed_at"),
+                "updated_at": repo.get("updated_at"),
+                "archived": bool(repo.get("archived")),
+                "theme": detect_theme(name, description or "", topics),
+                "intro_zh": intro_zh,
+            }
+            if readme_hash:
+                row["readme_hash"] = readme_hash
+            if prev:
+                if prev.get("intro_source"):
+                    row["intro_source"] = prev.get("intro_source")
+                if "intro_thin" in prev:
+                    row["intro_thin"] = bool(prev.get("intro_thin"))
+            repos.append(row)
         if len(data) < 100:
             break
         page += 1
@@ -2112,7 +2179,12 @@ def main() -> int:
             or os.environ.get("REWRITE_INTROS", "").lower() in {"1", "true", "yes"}
         )
         if rewrite_intros:
+            force_intros = (
+                "--force-intros" in sys.argv
+                or os.environ.get("FORCE_INTROS", "").lower() in {"1", "true", "yes"}
+            )
             n = 0
+            kept = 0
             for acc in repo_db.get("accounts") or []:
                 for r in acc.get("repos") or []:
                     r["theme"] = detect_theme(
@@ -2120,6 +2192,18 @@ def main() -> int:
                         r.get("description") or "",
                         list(r.get("topics") or []),
                     )
+                    src = (r.get("intro_source") or "").strip()
+                    old = (r.get("intro_zh") or "").strip()
+                    # Preserve README-enriched intros unless explicitly forced
+                    if (
+                        not force_intros
+                        and old
+                        and not _banned_intro(old)
+                        and (src.startswith("readme") or r.get("readme_hash"))
+                    ):
+                        kept += 1
+                        n += 1
+                        continue
                     r["intro_zh"] = synthesize_zh_intro(
                         r.get("name") or "",
                         r.get("description"),
@@ -2127,6 +2211,8 @@ def main() -> int:
                         r.get("language"),
                         owner=acc.get("login"),
                     )
+                    r["intro_source"] = "synthesize"
+                    r["intro_thin"] = True
                     n += 1
             # keep digest window intros in sync when present
             by_full = {
@@ -2140,7 +2226,6 @@ def main() -> int:
                     key = f"{login}/{r.get('name')}"
                     if key in by_full:
                         r["intro_zh"] = by_full[key]
-            print(f"Rewrote intro_zh for {n} repos", flush=True)
         attach_curation(digest)
         write_outputs(digest, repo_db)
         print(
