@@ -2,8 +2,8 @@
 
 Privacy-safe snapshot of **public** GitHub activity from roster accounts listed in the [README](https://github.com/erichuang777777/awesome-tw-physician-engineer).
 
-- Generated (UTC): `2026-10-02T05:20:52Z`
-- Window: last **7** days (from `2026-09-25T05:20:52Z`)
+- Generated (UTC): `2026-10-02T05:24:51Z`
+- Window: last **7** days (from `2026-09-25T05:24:51Z`)
 - Roster accounts scanned: **45**
 - Accounts with public activity in window: **22**
 
