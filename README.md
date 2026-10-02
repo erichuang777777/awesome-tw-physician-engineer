@@ -249,7 +249,7 @@
 
 ### [@Yuchunchen](https://github.com/Yuchunchen)
 涵蓋自架視訊會議／遠距看診、院內檢驗報告工具與中草藥證據探勘。  
-代表專案：[`BuildYourOwnConferenceSystem`](https://github.com/Yuchunchen/BuildYourOwnConferenceSystem) — 自架安全易用視訊會議懶人包。
+代表專案：[`BuildYourOwnConferenceSystem`](https://github.com/Yuchunchen/BuildYourOwnConferenceSystem) — 自架視訊會議系統懶人包。
 
 ### [@zinojeng](https://github.com/zinojeng)
 產出豐富，涵蓋醫療期刊 PDF→Markdown、糖尿病／CGM 與內分泌教學／HIS 決策支援。  

@@ -202,10 +202,43 @@ def detect_theme(name: str, description: str, topics: list[str]) -> str | None:
 
 
 def _banned_intro(text: str) -> bool:
+    """True when intro is empty or reads like profile/marketing filler."""
     if not text:
         return True
-    banned = ("公開專案", "公開倉庫", "主要語言", "相關公開", "尚無說明文字")
-    return any(b in text for b in banned)
+    banned = (
+        "公開專案", "公開倉庫", "主要語言", "相關公開", "尚無說明文字",
+        "個人檔案", "GitHub 個人", "相關倉庫", "個人網站說明",
+        "易用／可擴充", "可擴充／可靠", "可靠／安全", "易用／",
+        "強化／", "更智慧", "旨在／",
+    )
+    if any(b in text for b in banned):
+        return True
+    # slash-stacked buzzword piles with little substance
+    if text.count("／") >= 4 and any(w in text for w in ("易用", "可擴充", "可靠", "安全", "團隊", "決策")):
+        return True
+    return False
+
+
+_PROFILE_DESC_RE = re.compile(
+    r"(?i)\b("
+    r"my profile|about me|profile readme|github profile|"
+    r"config files for my github profile|personal (profile|readme)|"
+    r"files for my github profile"
+    r")\b"
+)
+
+_EMPTY_SITE_LINE = "個人頁面／作品集站，無可單獨說明的產品功能。"
+_EMPTY_PROFILE_LINE = "個人頁面／作品集站，無可單獨說明的產品功能。"
+
+# Marketing / bio adjectives — never emit as product substance
+_MARKETING_WORDS = {
+    "accessible", "extensible", "reliable", "safer", "smarter", "empower",
+    "seamless", "seamlessly", "powerful", "modern", "lightweight", "easy",
+    "simple", "comprehensive", "aims", "aiming", "designed", "established",
+    "various", "several", "personal", "awesome", "best", "great", "smart",
+    "safer", "smarter", "decisions", "decision", "teams", "team",
+    "open", "source", "opensource", "free", "cool", "nice", "useful", "pure", "client", "client-side", "clientside",
+}
 
 
 def _name_tokens(name: str) -> list[str]:
@@ -274,7 +307,7 @@ _TERM_ZH: dict[str, str] = {
     "pelvimetry": "骨盆測量", "figo": "FIGO", "pirads": "PI-RADS",
     "vanco": "Vancomycin", "auc": "AUC", "abg": "動脈血氣",
     "bmi": "BMI", "rom": "關節活動度", "emg": "肌電圖",
-    "profile": "個人檔案", "readme": "說明檔", "template": "範本",
+    "template": "範本",
     "demo": "示範", "test": "測試", "homework": "作業",
     "fork": "分支實驗", "mirror": "鏡像", "archive": "封存資料",
     "pharmacokinetics": "藥物動力學",
@@ -328,6 +361,48 @@ _TERM_ZH: dict[str, str] = {
     "simulation": "模擬",
     "evaluation": "評估",
     "extraction": "擷取",
+    "criteria": "條件",
+    "criterion": "條件",
+    "rule": "規則",
+    "rules": "規則",
+    "ebook": "電子書",
+    "e-book": "電子書",
+    "reading": "閱讀",
+    "syntax": "語法",
+    "mlm": "MLM",
+    "mlms": "MLM",
+    "arden": "Arden",
+    "information": "資訊",
+    "visualization": "視覺化",
+    "visualisation": "視覺化",
+    "intensivecare": "重症加護",
+    "playground": "實驗場",
+    "chess": "棋類",
+    "serial": "序列",
+    "bridge": "橋接",
+    "tokenbench": "權杖基準",
+    "token": "權杖",
+    "bench": "基準測試",
+    "lazyswitch": "懶人切換",
+    "webmcp": "Web MCP",
+    "mcp": "MCP",
+    "cql": "CQL",
+    "edf": "EDF",
+    "csv": "CSV",
+    "matlab": "MATLAB",
+    "perceptron": "感知機",
+    "inaction": "實作",
+    "mrd": "MRD",
+    "measurement": "量測",
+    "plot": "繪圖",
+    "plot2d": "二維繪圖",
+    "assets": "靜態資源",
+    "shooter": "射擊遊戲",
+    "bankart": "Bankart",
+    "nervus": "神經",
+    "barazou": "醫學專案合集",
+    "icdmap": "ICD 對照",
+    "iciv": "加護資訊視覺化",
     "downloader": "下載器",
     "deployment": "部署",
     "kubernetes": "Kubernetes",
@@ -556,17 +631,6 @@ _TERM_ZH: dict[str, str] = {
     "about": "關於",
     "utils": "工具函式",
     "cheat": "速查",
-    "teams": "團隊",
-    "team": "團隊",
-    "safer": "安全",
-    "smarter": "更智慧",
-    "decisions": "決策",
-    "decision": "決策",
-    "accessible": "易用",
-    "reliable": "可靠",
-    "extensible": "可擴充",
-    "empower": "強化",
-    "aims": "旨在",
 
     "sheet": "表",
     "model": "模型",
@@ -651,7 +715,6 @@ _TERM_ZH: dict[str, str] = {
     "poc": "概念驗證",
     "wav": "WAV",
     "mp3": "MP3",
-        "oa": "開放取用",
     "ml": "機器學習",
     "ai": "AI",
     "dl": "深度學習",
@@ -661,8 +724,6 @@ _TERM_ZH: dict[str, str] = {
     "pk": "藥物動力學",
     "pd": "藥效學",
     "iv": "靜脈",
-    "im": "肌肉",
-    "sc": "皮下",
 }
 
 
@@ -676,133 +737,219 @@ def _token_zh(tok: str) -> str | None:
     return None
 
 
-def _phrase_from_name(name: str, theme: str | None) -> str:
-    low = name.lower()
-    if low.endswith(".github.io") or low in {"homepage", "blog", "site"}:
-        return "個人網站或專案展示頁。"
-    if low in {"dotfiles", "dot-files"}:
-        return "個人開發環境與 shell／編輯器設定。"
-    if low in {"profile", "readme"} or name.lower() == name.split("/")[-1].lower() and low.replace("-", "") in {
-        # profile-style same-as-login handled by caller often
-    }:
-        pass
+def _is_profile_repo(name: str, description: str | None, owner: str | None = None) -> bool:
+    low = (name or "").lower()
+    if owner and low == owner.lower():
+        return True
+    if low in {"profile", "readme", "about-me", "about_me"}:
+        return True
+    desc = (description or "").strip()
+    if desc and _PROFILE_DESC_RE.search(desc):
+        return True
+    return False
+
+
+def _is_personal_site(name: str, description: str | None = None) -> bool:
+    low = (name or "").lower()
+    if low.endswith(".github.io") or low in {"homepage", "blog", "site", "website"}:
+        return True
+    if "portfolio" in low:
+        return True
+    desc = (description or "").lower()
+    if desc and re.search(r"\b(personal (website|site|blog|homepage)|my (blog|website|portfolio)|cv of)\b", desc):
+        return True
+    return False
+
+
+def _format2_from_name(name: str) -> str | None:
+    """edf2csv / pdf2anki style converters."""
+    m = re.fullmatch(r"([A-Za-z][A-Za-z0-9+]{1,12})2([A-Za-z][A-Za-z0-9+]{1,12})", name or "")
+    if not m:
+        return None
+    a = _token_zh(m.group(1)) or m.group(1).upper()
+    b = _token_zh(m.group(2)) or m.group(2).upper()
+    return f"將 {a} 轉成 {b} 的轉換工具。"
+
+
+def _phrase_from_name(name: str, theme: str | None, owner: str | None = None) -> str:
+    low = (name or "").lower()
+    if _is_personal_site(name):
+        return _EMPTY_SITE_LINE
+    if low in {"dotfiles", "dot-files"} or "dotfile" in low:
+        return "個人開發環境與 shell／編輯器設定檔集合。"
+    if _is_profile_repo(name, None, owner):
+        return _EMPTY_PROFILE_LINE
+
+    conv = _format2_from_name(name)
+    if conv:
+        return conv
 
     tokens = _name_tokens(name)
-    # drop noise tokens
     noise = {
         "github", "io", "com", "org", "tw", "zh", "en", "v1", "v2", "v3", "v4",
         "main", "src", "app", "project", "repo", "test", "demo", "tmp", "new",
         "my", "the", "and", "for", "with", "from", "into", "of", "to", "in", "on",
-        "by", "plus", "lite", "pro", "free", "open", "source",
+        "by", "plus", "lite", "pro", "free", "open", "source", "dev", "lab",
+        "practice", "homework", "assignment", "playground",
     }
     useful = [t for t in tokens if t not in noise and len(t) > 1]
-    mapped = []
-    for t in useful[:6]:
+    mapped: list[str] = []
+    for t in useful[:8]:
         zh = _token_zh(t)
-        if zh and zh not in mapped:
+        if zh and zh not in mapped and zh not in {"個人檔案", "說明檔", "作品集", "個人網站"}:
             mapped.append(zh)
-        elif t.isalpha() and len(t) <= 5 and t.upper() == t:
-            mapped.append(t)
-        elif re.fullmatch(r"[a-z]{2,12}", t) and t not in {"html", "css", "js"}:
-            # keep short tech acronyms uppercased when likely
-            if t in {"ai", "ml", "cv", "ui", "ux", "db", "qa"}:
-                mapped.append(t.upper())
+        elif re.fullmatch(r"[a-z]{2,6}", t) and t in {"ai", "ml", "cv", "ui", "ux", "db", "qa", "mcp", "cql", "edf", "csv", "pdf", "nlp", "ocr", "rag"}:
+            up = t.upper()
+            if up not in mapped:
+                mapped.append(up)
+        elif re.fullmatch(r"[A-Za-z]{2,8}", t) and t.isupper():
+            if t not in mapped:
+                mapped.append(t)
 
-    if low.endswith("github.io") or "portfolio" in low:
-        return "個人網站或作品集展示。"
-    if "dotfile" in low:
-        return "個人開發環境設定檔集合。"
-    if useful and useful[0] == name.lower().replace("-", "").replace("_", "")[: len(useful[0])]:
-        # profile readme often named after owner
-        if len(useful) <= 2 and not mapped and not theme:
-            return "GitHub 個人檔案說明。"
+    # suffix / kind hints from name
+    kind = None
+    kind_map = [
+        (("dashboard",), "儀表板"),
+        (("calculator", "calc"), "計算器"),
+        (("chatbot", "bot"), "聊天機器人"),
+        (("mcp",), "MCP 工具"),
+        (("pipeline",), "資料管線"),
+        (("annotator",), "標註工具"),
+        (("downloader", "fetcher"), "下載／擷取工具"),
+        (("radar",), "文獻／動態雷達"),
+        (("digest",), "摘要工具"),
+        (("extension", "plugin", "addon"), "擴充／外掛"),
+        (("cli",), "命令列工具"),
+        (("sdk", "api"), "API／SDK"),
+        (("dataset", "data"), "資料集"),
+        (("scraper", "crawler", "spider"), "爬蟲"),
+        (("viewer",), "檢視器"),
+        (("scheduler", "schedule", "shift"), "排班工具"),
+        (("quiz", "exam", "flashcard", "anki"), "測驗／題庫工具"),
+        (("notes", "note"), "筆記"),
+        (("guideline", "protocol", "cheatsheet", "ref", "reference"), "速查／指引"),
+    ]
+    for keys, label in kind_map:
+        if any(k in low for k in keys):
+            kind = label
+            break
 
+    if mapped and kind:
+        core = "／".join(mapped[:4])
+        # Avoid「Web MCP相關的MCP 工具」style redundancy
+        core_compact = re.sub(r"\s+", "", core)
+        kind_compact = re.sub(r"\s+", "", kind)
+        shared_markers = ("MCP", "API", "SDK", "CLI", "RAG", "LLM", "Bot", "機器人", "儀表板", "管線", "擴充", "外掛")
+        overlap = any(
+            tok and tok in kind_compact
+            for tok in re.split(r"[／/]", core_compact)
+            if len(tok) >= 3
+        ) or kind_compact in core_compact or core_compact in kind_compact
+        overlap = overlap or any(m in core_compact and m in kind_compact for m in shared_markers)
+        if overlap:
+            # Prefer the more specific mapped label when it already names the kind
+            if len(core) >= len(kind):
+                return f"{core}工具（依倉庫名稱推斷）。"
+            return f"{kind}（依倉庫名稱推斷）。"
+        return f"{core}相關的{kind}。"
+    if kind and theme:
+        return f"{theme}向的{kind}（依倉庫名稱推斷）。"
+    if kind:
+        return f"{kind}（依倉庫名稱推斷；上游說明不足）。"
     if mapped:
         core = "／".join(mapped[:4])
-        if any(core.endswith(s) for s in ("工具", "系統", "平台", "套件", "函式庫", "儀表板", "計算器", "小幫手")):
-            base = core
-        else:
-            base = core + "工具"
         if theme and theme not in {"個人網站／部落格", "開發環境／dotfiles", "遊戲／互動"}:
-            return f"{base}；偏{theme}應用。"
-        return f"{base}或實驗專案。"
-    if theme:
-        return f"{theme}方向的工具或實驗（說明文字不足）。"
+            return f"{core}相關工具；偏{theme}。"
+        return f"{core}相關工具或實驗（說明不足）。"
+    if theme and theme not in {"個人網站／部落格", "開發環境／dotfiles"}:
+        return f"{theme}方向工具或實驗（說明文字不足）。"
     nice = re.sub(r"[-_]+", " ", name).strip()
-    if "profile" in low or nice.lower() in {"profile", "readme", "about"}:
-        return "GitHub 個人檔案說明。"
-    return f"{nice}：依名稱列出的工具或實驗。"
+    return f"{nice}：依名稱推斷的工具／實驗（無可讀說明）。"
 
 
 def _english_to_zh_blurb(
-    name: str, desc: str, theme: str | None, topics: list[str]
+    name: str, desc: str, theme: str | None, topics: list[str], owner: str | None = None
 ) -> str:
-    """Heuristic English→繁中；輸出以中文為主的功能句。"""
+    """Heuristic English→繁中；輸出以中文為主的功能句，拒絕行銷堆砌。"""
     soft_themes = {
         "個人網站／部落格", "開發環境／dotfiles", "遊戲／互動",
         "生成式 AI／LLM", "機器學習", "自然語言處理", "函式庫／API",
         "DevOps／基礎建設", "行動應用", "資料視覺化／儀表板",
         "教育／學習資源", "簡報／教材",
     }
+
     def with_theme(body: str) -> str:
         body = body.rstrip("。")
         if theme and theme not in body and theme not in soft_themes:
             body = f"{body}；偏{theme}"
         return body + "。"
 
-    d = re.sub(r"\s+", " ", desc.strip())
+    raw = re.sub(r"\s+", " ", desc.strip())
+    # Keep parenthetical expansion before stripping acronym lead-in
+    paren = None
+    m_paren = re.match(r"^([A-Z][A-Za-z0-9+-]{1,15})\s*\(([^)]{3,100})\)\s*", raw)
+    if m_paren:
+        paren = m_paren.group(2).strip()
+        raw = raw[m_paren.end():].strip() or paren
+
+    d = raw
     d = re.sub(r"^(this (project|repo|repository|tool|app|library|package)?\s*(is|provides)?\s*)", "", d, flags=re.I)
     d = re.sub(r"^(an?\s+)?open[- ]source\s+", "", d, flags=re.I)
     d = re.sub(r"^(a|an|the)\s+", "", d, flags=re.I)
     d = d.strip(" .")
-    # If first clause ends with hollow "designed/built/created", keep following sentence.
+
+    # Drop hollow first clause "... designed." / "... built."
     parts = re.split(r"(?<=[.!?])\s+", d, maxsplit=1)
     if len(parts) == 2 and re.search(
         r"\b(designed|built|created|developed|made)\.?$", parts[0], flags=re.I
     ):
-        d = (parts[0] + " " + parts[1]).strip()
+        d = parts[1].strip()
+
     low = d.lower()
-    name_low = (name or "").lower()
+    if _is_profile_repo(name, desc, owner) or _PROFILE_DESC_RE.search(desc or ""):
+        return _EMPTY_PROFILE_LINE
+    if _is_personal_site(name, desc):
+        return _EMPTY_SITE_LINE
 
     def zh_np(phrase: str) -> str:
-        """Translate with glossary only; drop unknown English words."""
         phrase = phrase.strip(" .,;:")
         if not phrase:
             return ""
         if _has_cjk(phrase):
             return _first_sentence(phrase, 80).rstrip("。")
-        # try multi-word keys first on full phrase
-        low_full = phrase.lower()
-        mapped: list[str] = []
         phrase_norm = re.sub(r"\b(local)\s*-\s*(first)\b", r"localfirst", phrase, flags=re.I)
         phrase_norm = re.sub(r"\b(one)\s*-\s*(click)\b", r"oneclick", phrase_norm, flags=re.I)
         phrase_norm = re.sub(r"\b(open)\s*-\s*(source)\b", " ", phrase_norm, flags=re.I)
         phrase_norm = re.sub(r"\b(intensive)\s*-?\s*(care)\b", r"intensivecare", phrase_norm, flags=re.I)
         phrase_norm = re.sub(r"\b(electronic)\s+(medical)\s+(record)s?\b", r"emr", phrase_norm, flags=re.I)
         phrase_norm = re.sub(r"\b(full)\s*-?\s*(text)\b", r"fulltext", phrase_norm, flags=re.I)
-        words = re.split(r"[\s,/|+:;—–]+", phrase_norm)
+        phrase_norm = re.sub(r"\b(e)\s*-\s*(book)s?\b", r"ebook", phrase_norm, flags=re.I)
+        words = re.split(r"[\s,/|+:;—–&]+", phrase_norm)
         skip = {
             "a", "an", "the", "and", "or", "of", "to", "for", "with", "on", "in",
-            "from", "into", "via", "using", "based", "simple", "easy", "my", "your",
-            "our", "its", "their", "this", "that", "all", "some", "any", "very",
-            "comprehensive", "powerful", "modern", "lightweight", "personal",
-            "is", "are", "be", "been", "was", "were", "as", "by", "at", "over",
-            "under", "between", "than", "then", "also", "just", "only", "such",
-            "like", "into", "onto", "across", "within", "without", "per", "each",
-            "other", "more", "most", "less", "least", "many", "much", "few",
+            "from", "into", "via", "using", "based", "my", "your", "our", "its",
+            "their", "this", "that", "all", "some", "any", "very", "is", "are",
+            "be", "been", "was", "were", "as", "by", "at", "over", "under",
+            "between", "than", "then", "also", "just", "only", "such", "like",
+            "onto", "across", "within", "without", "per", "each", "other",
+            "more", "most", "less", "least", "many", "much", "few",
             "designed", "provides", "provide", "allows", "allow", "helps", "help",
             "enables", "enable", "made", "make", "built", "create", "creates",
             "created", "develop", "developed", "implements", "implement",
-            "seamless", "seamlessly", "established", "various", "several",
             "including", "include", "includes", "etc", "eg", "ie", "vs",
             "python", "javascript", "typescript", "html", "css", "java", "ruby",
             "golang", "rust", "kotlin", "swift", "php", "scala", "r",
-        }
-        i = 0
+            "working", "work", "under", "over", "related", "towards", "toward",
+            "about", "around", "across", "along", "among", "through",
+            "aims", "aiming", "empower", "empowers", "empowering",
+            "im", "ive", "ll", "re", "ve", "dont", "doesnt", "isnt", "wasnt",
+            "so", "very", "really", "just", "too",
+        } | _MARKETING_WORDS
         toks = [re.sub(r"[^A-Za-z0-9.+-]", "", w) for w in words]
         toks = [t for t in toks if t]
+        mapped: list[str] = []
+        i = 0
         while i < len(toks):
-            # bigram
             if i + 1 < len(toks):
                 big = (toks[i] + " " + toks[i + 1]).lower()
                 if big in {"open source", "open-source", "full text", "real time"}:
@@ -815,42 +962,39 @@ def _english_to_zh_blurb(
                     i += 2
                     continue
             wl = toks[i].lower()
-            if wl in skip:
+            if wl in skip or wl in _MARKETING_WORDS:
                 i += 1
                 continue
             z = _token_zh(wl)
             if z:
-                # skip bare language names as product focus
-                if z in {"Python", "JavaScript", "TypeScript", "HTML", "CSS", "Java", "Ruby", "Go", "Rust", "Kotlin", "Swift"}:
+                if z in {
+                    "Python", "JavaScript", "TypeScript", "HTML", "CSS", "Java",
+                    "Ruby", "Go", "Rust", "Kotlin", "Swift", "個人檔案", "說明檔",
+                }:
                     i += 1
                     continue
                 if z not in mapped:
                     mapped.append(z)
             elif re.fullmatch(r"[A-Z0-9][A-Z0-9.+-]{1,11}", toks[i]):
-                # acronyms already uppercase-ish
                 ac = toks[i].upper() if toks[i].isalpha() else toks[i]
                 if ac not in mapped:
                     mapped.append(ac)
+            elif re.fullmatch(r"[A-Za-z][A-Za-z0-9.+-]{2,16}", toks[i]) and toks[i][0].isupper():
+                # Proper nouns / product names
+                if toks[i] not in mapped and len(mapped) < 5:
+                    mapped.append(toks[i])
             i += 1
-        # drop immediate duplicates like 視覺化／…／視覺化
         dedup: list[str] = []
         for m in mapped:
             if not dedup or dedup[-1] != m:
                 dedup.append(m)
         if len(dedup) >= 3 and dedup[0] == dedup[-1]:
             dedup = dedup[:-1]
-        return "／".join(dedup[:6])
+        return "／".join(dedup[:5])
 
-    # --- high-signal patterns (Chinese-first) ---
-    m = re.search(r"\bfor\s+(.+)$", d, flags=re.I)
-    m_kind = re.search(
-        r"\b(web app|application|platform|library|toolkit|package|extension|plugin|cli|chatbot|bot|dashboard|calculator|pipeline|framework|tool|toolkit|system|manager|annotator|fetcher|converter|helper|assistant|tracker|organizer|scheduler|radar|digest|notes?|reference|cheatsheet)\b",
-        d,
-        flags=re.I,
-    )
     kind_map = {
-        "web app": "網頁應用", "application": "應用程式", "platform": "平台",
-        "library": "函式庫", "toolkit": "工具組", "package": "套件",
+        "web app": "網頁應用", "web application": "網頁應用", "application": "應用程式",
+        "platform": "平台", "library": "函式庫", "toolkit": "工具組", "package": "套件",
         "extension": "擴充功能", "plugin": "外掛", "cli": "命令列工具",
         "chatbot": "聊天機器人", "bot": "機器人", "dashboard": "儀表板",
         "calculator": "計算器", "pipeline": "管線", "framework": "框架",
@@ -859,26 +1003,75 @@ def _english_to_zh_blurb(
         "helper": "小幫手", "assistant": "助手", "tracker": "追蹤工具",
         "organizer": "整理工具", "scheduler": "排班工具", "radar": "雷達",
         "digest": "摘要", "note": "筆記", "notes": "筆記",
-        "reference": "速查參考", "cheatsheet": "速查表",
-        "player": "播放器", "fetcher": "擷取工具",
+        "reference": "速查參考", "cheatsheet": "速查表", "player": "播放器",
     }
 
-    # "X for Y" (short subject only; skip "... designed for ...")
-    m_for = re.match(r"^(.{3,55}?)\s+for\s+(.{3,80})$", d, flags=re.I)
+    # Prefer acronym expansion when that is the substance
+    if paren and len(paren.split()) >= 2:
+        paren_zh = zh_np(paren)
+        if paren_zh and paren_zh.count("／") <= 4:
+            # If remainder is only marketing (aims to empower...), ignore it
+            rest_low = low
+            if (
+                not rest_low
+                or re.match(r"^(is\s+)?(an?\s+)?(open[- ]source\s+)?platform\b", rest_low)
+                or re.match(r"^aims?\s+to\b", rest_low)
+                or re.match(r"^designed\b", rest_low)
+                or len(zh_np(d)) <= 2
+            ):
+                kind = "平台" if "platform" in (desc or "").lower() else "工具"
+                return _first_sentence(f"{paren_zh}{kind}。", 90)
+
+    # "Kind: substance" (Chrome extension: drag-to-highlight ...)
+    m_colon = re.match(
+        r"^(.{3,60}?)\s*:\s*(.{8,120})$",
+        d,
+        flags=re.I,
+    )
+    if m_colon:
+        left, right = m_colon.group(1).strip(), m_colon.group(2).strip()
+        mk = re.search(
+            r"(chrome extension|browser extension|extension|plugin|addon|dashboard|calculator|bot|cli|tool|app|library|toolkit)",
+            left,
+            flags=re.I,
+        )
+        if mk:
+            kind = {
+                "chrome extension": "Chrome 擴充功能",
+                "browser extension": "瀏覽器擴充功能",
+                "extension": "擴充功能",
+                "plugin": "外掛",
+                "addon": "外掛",
+            }.get(mk.group(1).lower(), kind_map.get(mk.group(1).lower(), "工具"))
+            # Keep a short concrete English action clause if glossary is thin
+            right_zh = zh_np(right)
+            short = _first_sentence(right, 55).rstrip(".…")
+            # Prefer English action clause when glossary stack is noisy / bilingual junk
+            noisy = (
+                not right_zh
+                or right_zh.count("／") >= 3
+                or re.search(r"[A-Za-z]{3,}", right_zh)  # leftover English crumbs in zh stack
+                or any(x in right_zh for x in ("Pure", "客戶端", "無縫", "易用"))
+            )
+            if short and not re.search(r"\b(accessible|extensible|reliable|empower)\b", short, flags=re.I):
+                if noisy or (right_zh and len(short) > len(right_zh) + 10):
+                    return _first_sentence(f"{kind}：{short}。", 90)
+            if right_zh and right_zh.count("／") <= 3 and len(right_zh) >= 2 and not noisy:
+                return _first_sentence(f"{kind}：{right_zh}。", 90)
+
+    # "X for Y"
+    m_for = re.match(r"^(.{3,55}?)\s+for\s+(?:working with\s+)?(.{3,80})$", d, flags=re.I)
     if m_for and not re.search(r"\b(designed|built|created|made|intended)\b", m_for.group(1), flags=re.I):
         left, right = m_for.group(1), m_for.group(2)
-        # avoid long parenthetical subjects
         if "(" not in left and len(left.split()) <= 8:
             left_zh = zh_np(left)
             right_zh = zh_np(right)
-            kind_zh = None
             mk = re.search(
-                r"(web app|extension|plugin|library|platform|calculator|dashboard|bot|cli|tool|app|player)",
+                r"(web app(?:lication)?|extension|plugin|library|toolkit|platform|calculator|dashboard|bot|cli|tool|app|player|package)",
                 left,
                 flags=re.I,
             )
-            if mk:
-                kind_zh = kind_map.get(mk.group(1).lower(), "工具")
+            kind_zh = kind_map.get(mk.group(1).lower(), "工具") if mk else None
             if kind_zh and right_zh:
                 core = f"{kind_zh}，用於{right_zh}"
             elif left_zh and right_zh:
@@ -890,27 +1083,31 @@ def _english_to_zh_blurb(
             if core:
                 return _first_sentence(with_theme(core), 90)
 
-    # collection of
     m = re.match(r"^collection of\s+(.+)$", d, flags=re.I)
     if m:
-        return _first_sentence(f"彙整{zh_np(m.group(1)) or m.group(1)}的合集。", 90)
+        return _first_sentence(f"彙整{zh_np(m.group(1)) or '相關'}專案的合集。", 90)
 
-    # my profile / about me
-    if re.search(r"\b(my profile|about me|profile readme)\b", low):
-        return "GitHub 個人檔案說明。"
-
-    # reference
     if re.search(r"\breference\b", low):
         domain = theme or zh_np(name) or "臨床"
         return f"{domain}速查參考。"
 
-    # Drop leading "ACRONYM (Expansion)" so parenthetical words don't trigger verbs
-    d = re.sub(r"^[A-Z][A-Za-z0-9+-]{1,15}\s*\([^)]{2,100}\)\s*(is\s+|are\s+)?", "", d).strip()
+    if re.match(r"^using\s+", low):
+        raw_obj = re.sub(r"(?i)^using\s+", "", d).strip(" .")
+        obj = zh_np(raw_obj)
+        # Keep tech tokens like p5.js / three.js when glossary misses them
+        if not obj or obj in {"實驗場", "練習"}:
+            obj = raw_obj or name
+        return _first_sentence(f"以 {obj} 做的互動／練習實驗。", 90)
 
-    # organizing / annotating / converting / fetching / tracking verbs
+    # verb patterns
+    m_kind = re.search(
+        r"\b(web app(?:lication)?|application|platform|library|toolkit|package|extension|plugin|cli|chatbot|bot|dashboard|calculator|pipeline|framework|tool|system|manager|annotator|fetcher|converter|helper|assistant|tracker|organizer|scheduler|radar|digest|notes?|reference|cheatsheet)\b",
+        d,
+        flags=re.I,
+    )
     verb_patterns = [
-        (r"\b(organiz(?:e|ing)|organise|organising)\b.{0,40}?\b(.+)$", "整理"),
-        (r"\b(annotat(?:e|ing|ion)?)\b.{0,40}?\b(.+)$", "標註"),
+        (r"\b(organiz(?:e|ing)|organise|organising)\b.{0,40}?(.+)$", "整理"),
+        (r"\b(annotat(?:e|ing|ion)?)\b.{0,40}?(.+)$", "標註"),
         (r"\b(convert(?:s|ing)?|conversion)\b.{0,20}?(.+?)\s+to\s+(.+)$", "轉換"),
         (r"\b(fetch(?:es|ing)?|download(?:s|ing)?)\b.{0,40}?(.+)$", "擷取"),
         (r"\b(track(?:s|ing)?|monitor(?:s|ing)?)\b.{0,40}?(.+)$", "追蹤"),
@@ -921,6 +1118,8 @@ def _english_to_zh_blurb(
         (r"\b(visuali[sz]e|visualization|visualisation)\b.{0,40}?(.+)$", "視覺化"),
         (r"\b(automat(?:e|ion|ing))\b.{0,40}?(.+)$", "自動化"),
         (r"\b(transcri(?:be|ption)|dictation)\b.{0,40}?(.+)$", "語音轉錄"),
+        (r"\b(extract(?:s|ing|ion)?)\b.{0,40}?(.+)$", "擷取"),
+        (r"\b(read(?:s|ing)?)\b.{0,40}?(.+)$", "閱讀"),
     ]
     for pat, verb_zh in verb_patterns:
         m = re.search(pat, d, flags=re.I)
@@ -932,20 +1131,22 @@ def _english_to_zh_blurb(
         obj = zh_np(m.group(m.lastindex or 1)) if m.lastindex else ""
         kind = "工具"
         if m_kind:
-            kind = kind_map.get(m_kind.group(1).lower(), "工具")
+            k = m_kind.group(1).lower()
+            kind = kind_map.get(k) or kind_map.get(k.replace("application", "app")) or "工具"
         if obj:
+            # Avoid「擷取條件／擷取的工具」duplication
+            if verb_zh in obj:
+                return _first_sentence(f"{obj}的{kind}。", 90)
             return _first_sentence(f"{verb_zh}{obj}的{kind}。", 90)
         return _first_sentence(with_theme(f"{verb_zh}{kind}"), 90)
 
-    # kind + rest
     if m_kind:
-        kind = kind_map.get(m_kind.group(1).lower(), "工具")
-        # strip leading acronym expansion in parentheses e.g. ICIV (...)
-        rest = re.sub(r"^[A-Z]{2,10}\s*\([^)]{0,80}\)\s*(is\s+)?", "", d).strip()
+        k = m_kind.group(1).lower()
+        kind = kind_map.get(k) or kind_map.get("web app" if "web app" in k else k) or "工具"
         rest = re.sub(
             rf"^.{{0,60}}?\b{re.escape(m_kind.group(1))}\b(?:\s+designed)?[.!]?\s*",
             "",
-            rest,
+            d,
             count=1,
             flags=re.I,
         ).strip(" .,")
@@ -956,76 +1157,77 @@ def _english_to_zh_blurb(
             flags=re.I,
         )
         rest = re.sub(r"^empower\s+", "", rest, flags=re.I)
+        # Drop trailing marketing clause tails
+        rest = re.split(r"\b(?:with accessible|and reliable|for safer|and smarter)\b", rest, maxsplit=1, flags=re.I)[0]
         obj = zh_np(rest) if rest else ""
-        # Prefer「用途 + 類型」, avoid「視覺化…的平台」重複堆砌
-        if obj:
+        if obj and not _banned_intro(obj + "的" + kind):
             if kind in obj or obj.endswith(kind):
                 body = obj
             elif any(obj.endswith(s) for s in ("工具", "平台", "系統", "套件", "函式庫", "儀表板")):
                 body = obj
             else:
                 body = f"{obj}的{kind}"
-        else:
-            body = kind
-        return _first_sentence(with_theme(body), 90)
+            # Rescue buzzword stacks
+            if _banned_intro(body + "。") or body.count("／") >= 4:
+                rescue = zh_np(paren) if paren else zh_np(name)
+                if rescue:
+                    return _first_sentence(f"{rescue}{kind}。", 90)
+                return _phrase_from_name(name, theme, owner)
+            return _first_sentence(with_theme(body), 90)
+        if paren:
+            pz = zh_np(paren)
+            if pz:
+                return _first_sentence(f"{pz}{kind}。", 90)
+        return _first_sentence(with_theme(kind), 90)
 
-    # LLM / AI powered ...
     if re.search(r"\b(llm|gpt|claude|gemini|ai)[-\s]?powered\b", low) or re.search(r"\b(langchain|rag)\b", low):
         obj = zh_np(re.sub(r"(?i).{0,30}(llm|gpt|claude|gemini|ai)[-\s]?powered\s*", "", d))
         if not obj:
             obj = zh_np(name) or "內容"
         return _first_sentence(f"以語言模型輔助{obj}的工具。", 90)
 
-    # fallback: theme + translated name/desc keywords
-    name_bits = zh_np(name.replace("-", " ").replace("_", " "))
+    # Noun-stack descriptions like "Rule based criteria extraction"
     desc_bits = zh_np(d)
-    if name_bits or desc_bits:
-        detail = desc_bits or name_bits
-        if theme and theme not in soft_themes:
-            return _first_sentence(with_theme(f"{theme}：{detail}"), 90)
-        return _first_sentence(with_theme(detail), 90)
-    if name_bits and desc_bits and name_bits != desc_bits:
-        return _first_sentence(f"{name_bits}：{desc_bits}。", 90)
+    name_bits = zh_np(name.replace("-", " ").replace("_", " "))
     if desc_bits:
-        return _first_sentence(f"{desc_bits}相關工具。", 90)
-    if theme and theme not in soft_themes:
-        return f"{theme}方向工具。"
-    if theme:
-        return with_theme(_phrase_from_name(name, None).rstrip("。"))
-    return _phrase_from_name(name, theme)
+        if desc_bits.count("／") >= 1 and not desc_bits.endswith(("工具", "平台", "系統", "套件")):
+            # Turn「規則／條件／擷取」into a verb phrase when last token is action-like
+            parts = desc_bits.split("／")
+            if parts[-1] in {"擷取", "轉換", "分析", "視覺化", "追蹤", "摘要", "搜尋", "預測", "標註", "整理"}:
+                action = parts[-1]
+                obj = "／".join(parts[:-1]) or name_bits or "資料"
+                return _first_sentence(f"{obj}{action}工具。", 90)
+            return _first_sentence(with_theme(f"{desc_bits}相關工具"), 90)
+        return _first_sentence(with_theme(desc_bits if desc_bits.endswith(("工具", "平台", "系統")) else f"{desc_bits}相關工具"), 90)
+
+    if name_bits:
+        return _first_sentence(with_theme(f"{name_bits}相關工具"), 90)
+    return _phrase_from_name(name, theme, owner)
 
 
 
-def _mix_en_zh(text: str, theme: str | None, name: str | None = None) -> str:
-    """Keep useful English nouns, wrap with Chinese functional framing."""
-    short = _first_sentence(text, 70).rstrip(".…")
-    # Replace known multi-word / tokens inside text
-    out = short
-    # longer keys first
-    for eng, zh in sorted(_TERM_ZH.items(), key=lambda kv: -len(kv[0])):
-        if len(eng) < 3:
-            continue
-        out = re.sub(rf"\b{re.escape(eng)}\b", zh, out, flags=re.I)
-    # If still mostly English, frame it
-    if not _has_cjk(out) or sum(1 for c in out if "一" <= c <= "鿿") < 4:
-        theme_bit = f"{theme}：" if theme else ""
-        # pull mapped tokens from name
-        name_bits = []
-        if name:
-            for t in _name_tokens(name)[:4]:
-                z = _token_zh(t)
-                if z and z not in name_bits:
-                    name_bits.append(z)
-        if name_bits and theme:
-            return f"{'／'.join(name_bits)}：{short}。"
-        if theme:
-            return f"{theme_bit}{short}。"
-        if name_bits:
-            return f"{'／'.join(name_bits)}工具：{short}。"
-        return f"{short}。"
-    if not out.endswith(("。", "！", "？", "…")):
-        out += "。"
-    return out[:95]
+def _polish_intro(text: str, name: str, theme: str | None, owner: str | None) -> str:
+    """Collapse duplicated kind labels and rescue hollow lines."""
+    t = (text or "").strip()
+    if not t:
+        return _phrase_from_name(name, theme, owner)
+    # 「擴充功能擴充功能。」 / 「工具工具。」
+    t = re.sub(
+        r"(擴充功能|外掛|平台|工具組|工具|系統|套件|儀表板|聊天機器人|速查參考){2,}",
+        r"\1",
+        t,
+    )
+    t = re.sub(r"(的){2,}", "的", t)
+    t = re.sub(
+        r"^(擴充功能|外掛)相關的(擴充／外掛|擴充功能|外掛)。?$",
+        r"\1（依倉庫名稱推斷；上游說明不足）。",
+        t,
+    )
+    if _banned_intro(t) or re.fullmatch(r"(擴充功能|外掛|平台|工具|系統|套件)。?", t):
+        return _phrase_from_name(name, theme, owner)
+    if not t.endswith(("。", "！", "？", "…")):
+        t += "。"
+    return t[:95]
 
 
 def synthesize_zh_intro(
@@ -1033,33 +1235,33 @@ def synthesize_zh_intro(
     description: str | None,
     topics: list[str],
     language: str | None = None,  # kept for API compat; never emitted
+    owner: str | None = None,
 ) -> str:
-    """一句繁中：功能／問題／亮點。不寫公開專案或語言堆砌。"""
+    """一句繁中：功能／問題／亮點。禁止個人檔案行銷腔與語言堆砌。"""
     del language  # unused on purpose
     desc = (description or "").strip()
     theme = detect_theme(name, desc, topics)
     low = (name or "").lower()
 
-    if low.endswith(".github.io") or low in {"homepage", "blog", "site"}:
-        return "個人網站或專案展示頁。"
-    if low in {"dotfiles", "dot-files"}:
-        return "個人開發環境與 shell／編輯器設定。"
+    if _is_personal_site(name, desc):
+        return _EMPTY_SITE_LINE
+    if low in {"dotfiles", "dot-files"} or "dotfile" in low:
+        return "個人開發環境與 shell／編輯器設定檔集合。"
+    if _is_profile_repo(name, desc, owner):
+        return _EMPTY_PROFILE_LINE
 
     if desc and _has_cjk(desc):
-        return _first_sentence(desc, 90)
+        # Prefer concrete CJK; reject fluff / mostly-English marketing paste
+        cand = _first_sentence(desc, 90)
+        cjk_n = sum(1 for c in cand if "\u4e00" <= c <= "\u9fff")
+        if not _banned_intro(cand) and cjk_n >= 4:
+            return _polish_intro(cand, name, theme, owner)
 
     if desc:
-        intro = _english_to_zh_blurb(name, desc, theme, topics)
-        # rescue overly compressed / generic lines
-        core = re.sub(r"[。．.\s]", "", intro)
-        if len(core) < 8 or re.fullmatch(r".{1,6}的(平台|工具|系統|套件)", core):
-            rescue = _phrase_from_name(name, theme)
-            if len(re.sub(r"[。．.\s]", "", rescue)) > len(core):
-                return rescue
-        return intro
+        intro = _english_to_zh_blurb(name, desc, theme, topics, owner=owner)
+        return _polish_intro(intro, name, theme, owner)
 
-    # empty description — honest line from name / theme
-    return _phrase_from_name(name, theme)
+    return _polish_intro(_phrase_from_name(name, theme, owner), name, theme, owner)
 
 
 def choose_intro_zh(
@@ -1068,6 +1270,7 @@ def choose_intro_zh(
     topics: list[str],
     language: str | None,
     previous: dict[str, Any] | None = None,
+    owner: str | None = None,
 ) -> str:
     """Reuse prior good intro when name/description/topics unchanged."""
     if previous:
@@ -1079,7 +1282,9 @@ def choose_intro_zh(
         old = (previous.get("intro_zh") or "").strip()
         if same and old and not _banned_intro(old):
             return old
-    return synthesize_zh_intro(name, description, topics, language)
+    return synthesize_zh_intro(name, description, topics, language, owner=owner)
+
+
 
 
 
@@ -1117,7 +1322,7 @@ def fetch_all_non_fork_repos(
             language = repo.get("language")
             html_url = repo.get("html_url") or f"https://github.com/{login}/{name}"
             prev = (previous_by_name or {}).get(name)
-            intro_zh = choose_intro_zh(name, description, topics, language, prev)
+            intro_zh = choose_intro_zh(name, description, topics, language, prev, owner=login)
             repos.append(
                 {
                     "name": name,
@@ -1920,6 +2125,7 @@ def main() -> int:
                         r.get("description"),
                         list(r.get("topics") or []),
                         r.get("language"),
+                        owner=acc.get("login"),
                     )
                     n += 1
             # keep digest window intros in sync when present

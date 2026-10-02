@@ -29,7 +29,7 @@
           "pushed_at": "2026-10-02T14:14:48Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "個人網站或專案展示頁。",
+          "intro_zh": "個人頁面／作品集站，無可單獨說明的產品功能。",
           "theme": "個人網站／部落格"
         },
         {
@@ -39,7 +39,7 @@
           "pushed_at": "2026-10-02T01:16:26Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "急診醫學與重症照護文獻雷達（繁中版）— 每天自動掃 PubMed、依影響力排序",
+          "intro_zh": "急診醫學與重症照護文獻雷達（繁中版）— 每天自動掃 PubMed、依影響力排序。",
           "theme": "急診／急重症"
         },
         {
@@ -49,7 +49,7 @@
           "pushed_at": "2026-09-27T12:06:10Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "把 Keynote 講稿顯示在 Even Realities G2 鏡片上，翻頁自動換稿",
+          "intro_zh": "把 Keynote 講稿顯示在 Even Realities G2 鏡片上，翻頁自動換稿。",
           "theme": "簡報／教材"
         }
       ],
@@ -101,7 +101,7 @@
           "pushed_at": "2026-09-29T15:06:18Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "GitHub 個人檔案說明。",
+          "intro_zh": "VDILab：依名稱推斷的工具／實驗（無可讀說明）。",
           "theme": null
         },
         {
@@ -111,7 +111,7 @@
           "pushed_at": "2026-09-26T10:48:36Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "網站工具或實驗專案。",
+          "intro_zh": "網站相關工具或實驗（說明不足）。",
           "theme": null
         }
       ],
@@ -140,7 +140,7 @@
           "pushed_at": "2026-10-01T15:30:24Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "日文工具或實驗專案。",
+          "intro_zh": "學習／日文相關工具。",
           "theme": null
         }
       ],
@@ -164,7 +164,7 @@
           "pushed_at": "2026-09-29T03:18:17Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "排班Messenger的命令列工具。",
+          "intro_zh": "排班Messenger／GraphQL／Playwright的命令列工具。",
           "theme": "聊天機器人／通訊整合"
         },
         {
@@ -174,7 +174,7 @@
           "pushed_at": "2026-09-28T01:37:42Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "LINE／Claude／代理人。",
+          "intro_zh": "LINE／Claude／Code／代理人相關工具。",
           "theme": "生成式 AI／LLM"
         }
       ],
@@ -203,7 +203,7 @@
           "pushed_at": "2026-10-02T16:26:36Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "A curated list of Taiwanese physician-engineers / 收錄具開發能力的台灣醫師工程師",
+          "intro_zh": "A curated list of Taiwanese physician-engineers / 收錄具開發能力的台灣醫師工程師。",
           "theme": null
         }
       ],
@@ -227,7 +227,7 @@
           "pushed_at": "2026-10-02T00:57:51Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "檢視器工具；偏生理訊號／波形應用。",
+          "intro_zh": "EDF／檢視器工具（依倉庫名稱推斷）。",
           "theme": "生理訊號／波形"
         },
         {
@@ -237,7 +237,7 @@
           "pushed_at": "2026-09-27T12:56:55Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "平台或實驗專案。",
+          "intro_zh": "平台相關工具或實驗（說明不足）。",
           "theme": null
         }
       ],
@@ -266,7 +266,7 @@
           "pushed_at": "2026-09-27T22:53:10Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "個人網站或專案展示頁。",
+          "intro_zh": "個人頁面／作品集站，無可單獨說明的產品功能。",
           "theme": "個人網站／部落格"
         }
       ],
@@ -284,7 +284,7 @@
           "pushed_at": "2026-10-02T10:06:02Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "醫療／教育／研究／MDX／健康／JSON-LD的筆記；偏腫瘤／血液相關。",
+          "intro_zh": "腫瘤／血液相關方向工具或實驗（說明文字不足）。",
           "theme": "腫瘤／血液相關"
         },
         {
@@ -294,7 +294,7 @@
           "pushed_at": "2026-10-02T00:27:12Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "每日一則 Claude Code changelog 中文講義，由 Claude Code 自動出刊",
+          "intro_zh": "每日一則 Claude Code changelog 中文講義，由 Claude Code 自動出刊。",
           "theme": "生成式 AI／LLM"
         },
         {
@@ -304,7 +304,7 @@
           "pushed_at": "2026-10-01T11:39:43Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "PWA／回顧／R2／每日／NCCN／登入的命令列工具；偏腫瘤／血液相關。",
+          "intro_zh": "指引命令列工具。",
           "theme": "腫瘤／血液相關"
         },
         {
@@ -324,7 +324,7 @@
           "pushed_at": "2026-09-26T06:24:47Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "腫瘤／血液相關方向的工具或實驗（說明文字不足）。",
+          "intro_zh": "腫瘤／血液相關方向工具或實驗（說明文字不足）。",
           "theme": "腫瘤／血液相關"
         }
       ],
@@ -348,7 +348,7 @@
           "pushed_at": "2026-10-02T14:41:53Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "GitHub 個人檔案說明。",
+          "intro_zh": "Linux／Bun／PID／Buninu相關工具。",
           "theme": null
         },
         {
@@ -358,7 +358,7 @@
           "pushed_at": "2026-10-01T15:38:18Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "音訊／流程／Android／ALSA／ES。",
+          "intro_zh": "Bun／音訊／流程／Linux／Android相關工具。",
           "theme": "行動應用"
         },
         {
@@ -368,7 +368,7 @@
           "pushed_at": "2026-10-01T15:00:39Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "瀏覽器工具或實驗專案。",
+          "intro_zh": "Buninu／瀏覽器／WebAssembly／Bun相關工具。",
           "theme": null
         },
         {
@@ -378,7 +378,7 @@
           "pushed_at": "2026-09-28T19:35:23Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "GitHub 個人檔案說明。",
+          "intro_zh": "Buninu／可攜式／Unix-like／Bun／系統。",
           "theme": null
         },
         {
@@ -388,7 +388,7 @@
           "pushed_at": "2026-09-28T19:28:51Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "GitHub 個人檔案說明。",
+          "intro_zh": "平台，用於Bun。",
           "theme": null
         },
         {
@@ -398,7 +398,7 @@
           "pushed_at": "2026-09-28T17:46:38Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "GitHub 個人檔案說明。",
+          "intro_zh": "工具：A JavaScript rewrite of GoTTY。",
           "theme": null
         },
         {
@@ -408,7 +408,7 @@
           "pushed_at": "2026-09-26T17:08:02Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "行動應用方向的工具或實驗（說明文字不足）。",
+          "intro_zh": "PRoot／Bun／Android相關工具。",
           "theme": "行動應用"
         }
       ],
@@ -467,7 +467,7 @@
           "pushed_at": "2026-10-01T23:40:27Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "自動抓取食藥署藥品回收公告",
+          "intro_zh": "自動抓取食藥署藥品回收公告。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -477,7 +477,7 @@
           "pushed_at": "2026-10-01T22:02:33Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "自動抓取缺藥平台的替代藥品公告",
+          "intro_zh": "自動抓取缺藥平台的替代藥品公告。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -497,7 +497,7 @@
           "pushed_at": "2026-09-27T23:07:22Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "藥丸偵探 Pill Detective TW — 台灣藥品外觀搜尋：依刻字、顏色、形狀、刻痕從 TFDA 公開資料縮小候選藥品清單，供人工比對確認",
+          "intro_zh": "藥丸偵探 Pill Detective TW — 台灣藥品外觀搜尋：依刻字、顏色、形狀、刻痕從 TFDA 公開資料縮小候選藥品清單，供人工比對確認。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -507,7 +507,7 @@
           "pushed_at": "2026-09-27T07:53:27Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "考選部藥師國考測驗題之結構化、可稽核題庫（113 年起；規則式抽取、無 LLM；套用官方更正答案）",
+          "intro_zh": "考選部藥師國考測驗題之結構化、可稽核題庫（113 年起；規則式抽取、無 LLM；套用官方更正答案）。",
           "theme": "藥學／藥品資訊"
         },
         {
@@ -517,7 +517,7 @@
           "pushed_at": "2026-09-25T23:43:42Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "台灣健保藥價歷史查詢：NHI 健保用藥品項檔完整支付價歷史（1995 至今）",
+          "intro_zh": "台灣健保藥價歷史查詢：NHI 健保用藥品項檔完整支付價歷史（1995 至今）。",
           "theme": "健保／編碼與申報"
         }
       ],
@@ -541,7 +541,7 @@
           "pushed_at": "2026-10-01T04:19:28Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "醫療／統計工具或實驗專案。",
+          "intro_zh": "醫療／統計相關工具。",
           "theme": null
         }
       ],
@@ -565,7 +565,7 @@
           "pushed_at": "2026-10-01T18:35:40Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "追蹤病人／教育／PWA／React／Claude／API的工具。",
+          "intro_zh": "追蹤AI-assisted／病人／教育／PWA／React的工具。",
           "theme": "臨床指引／路徑"
         },
         {
@@ -585,7 +585,7 @@
           "pushed_at": "2026-10-01T10:09:15Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "知識工具或實驗專案。",
+          "intro_zh": "網頁應用。",
           "theme": null
         },
         {
@@ -595,7 +595,7 @@
           "pushed_at": "2026-10-01T05:44:12Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "命令列工具／自動／電腦斷層／骨盆測量／分析／QC的套件。",
+          "intro_zh": "骨盆測量套件。",
           "theme": "函式庫／API"
         },
         {
@@ -605,7 +605,7 @@
           "pushed_at": "2026-09-30T18:23:39Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "The Odin Project（Foundations + Full Stack JavaScript）繁體中文自足講義｜MkDocs Material",
+          "intro_zh": "The Odin Project（Foundations + Full Stack JavaScript）繁體中文自足講義｜MkDocs Material。",
           "theme": null
         },
         {
@@ -625,7 +625,7 @@
           "pushed_at": "2026-09-29T05:29:07Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "語音轉錄繁體／中文／筆記／Gemini／語音辨識／Claude的筆記。",
+          "intro_zh": "語音轉錄繁體／中文／筆記／Gemini／語音辨識的筆記。",
           "theme": "生成式 AI／LLM"
         },
         {
@@ -635,7 +635,7 @@
           "pushed_at": "2026-09-26T05:52:05Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "呷啥 CHIA SHÁ — 附近餐廳搜尋與午晚餐選擇工具",
+          "intro_zh": "呷啥 CHIA SHÁ — 附近餐廳搜尋與午晚餐選擇工具。",
           "theme": null
         }
       ],
@@ -689,7 +689,7 @@
           "pushed_at": "2026-10-01T08:14:26Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "Trustworthy Taiwan FDA (TFDA) drug-information lookup for AI agents — an independent open…",
+          "intro_zh": "Trustworthy Taiwan FDA (TFDA) drug-information lookup for AI agents — an indepe…相關工具；偏藥學／…",
           "theme": "藥學／藥品資訊"
         }
       ],
@@ -713,7 +713,7 @@
           "pushed_at": "2026-10-02T14:01:13Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "Android 台語輸入法 — 分支自 Trime（同文輸入法）v3.3.12 的台語特化版 Phah Tâi-bûn",
+          "intro_zh": "Android 台語輸入法 — 分支自 Trime（同文輸入法）v3.3.12 的台語特化版 Phah Tâi-bûn。",
           "theme": "行動應用"
         },
         {
@@ -723,7 +723,7 @@
           "pushed_at": "2026-10-02T13:05:59Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "Phah Tai-bun (拍台文): open-source Rime input method for Taiwanese Hokkien with Han-lo outpu…",
+          "intro_zh": "Phah Tai-bun (拍台文): open-source Rime input method for Taiwanese Hokkien with Ha…相關工具。",
           "theme": null
         },
         {
@@ -733,7 +733,7 @@
           "pushed_at": "2026-09-29T09:03:03Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "thak tai bun：依名稱列出的工具或實驗。",
+          "intro_zh": "thak tai bun：依名稱推斷的工具／實驗（無可讀說明）。",
           "theme": null
         }
       ],
@@ -777,7 +777,7 @@
           "pushed_at": "2026-09-28T03:17:30Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "失智工具或實驗專案。",
+          "intro_zh": "失智相關工具或實驗（說明不足）。",
           "theme": null
         }
       ],
@@ -795,7 +795,7 @@
           "pushed_at": "2026-09-30T12:28:47Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "GitHub 個人檔案說明。",
+          "intro_zh": "ftmerp java project：依名稱推斷的工具／實驗（無可讀說明）。",
           "theme": null
         }
       ],
@@ -819,7 +819,7 @@
           "pushed_at": "2026-09-26T13:29:40Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "腫瘤／血液相關：LINE／FIGO／腫瘤／計算器。",
+          "intro_zh": "LINE／FIGO／腫瘤／計算器相關工具；偏腫瘤／血液相關。",
           "theme": "腫瘤／血液相關"
         }
       ],
@@ -843,7 +843,7 @@
           "pushed_at": "2026-10-02T03:24:29Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "vghks random duty：依名稱列出的工具或實驗。",
+          "intro_zh": "應用程式。",
           "theme": null
         },
         {
@@ -853,7 +853,7 @@
           "pushed_at": "2026-09-29T01:14:25Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "radtools.tsai.it：依名稱列出的工具或實驗。",
+          "intro_zh": "Github相關工具。",
           "theme": null
         },
         {
@@ -873,7 +873,7 @@
           "pushed_at": "2026-09-28T07:08:29Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "GitHub 個人檔案說明。",
+          "intro_zh": "ahk nycuh：依名稱推斷的工具／實驗（無可讀說明）。",
           "theme": null
         }
       ],
@@ -907,7 +907,7 @@
           "pushed_at": "2026-10-02T15:47:09Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "以語言模型輔助研究／資料／MCP／代理人／技能包／工作流的工具。",
+          "intro_zh": "以語言模型輔助研究／資料／Explorer／MCP／代理人的工具。",
           "theme": null
         },
         {
@@ -917,7 +917,7 @@
           "pushed_at": "2026-10-02T11:56:42Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "搜尋0.6.1／一鍵／擴充功能的擴充功能。",
+          "intro_zh": "搜尋0.6.1／一鍵／Code／擴充功能的擴充功能。",
           "theme": "文獻／臨床試驗"
         },
         {
@@ -927,7 +927,7 @@
           "pushed_at": "2026-10-02T09:06:06Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "醫學影像／放射：Windows／醫療／ROI／擷取／醫師／回顧。",
+          "intro_zh": "閱讀PHI-safe／ROI／擷取／OpenClaw／Gateway的工具。",
           "theme": "醫學影像／放射"
         },
         {
@@ -947,7 +947,7 @@
           "pushed_at": "2026-10-01T10:13:33Z",
           "is_new": true,
           "recently_pushed": true,
-          "intro_zh": "伺服器／MCP／模型／BM25的工具。",
+          "intro_zh": "工具：send the model only the tools a request needs。",
           "theme": "生成式 AI／LLM"
         }
       ],
@@ -991,7 +991,7 @@
           "pushed_at": "2026-10-02T16:11:59Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "儀表板；偏資料視覺化／儀表板應用。",
+          "intro_zh": "工具（依倉庫名稱推斷）。",
           "theme": "資料視覺化／儀表板"
         }
       ],
@@ -1015,7 +1015,7 @@
           "pushed_at": "2026-10-02T13:56:12Z",
           "is_new": false,
           "recently_pushed": true,
-          "intro_zh": "VaxCheck — 疫苗檢核程式:健保雲端 + CDC NIIS 一鍵檢核公費疫苗資格(Chrome extension + YAML 規則引擎)",
+          "intro_zh": "VaxCheck — 疫苗檢核程式:健保雲端 + CDC NIIS 一鍵檢核公費疫苗資格(Chrome extension + YAML 規則引擎)。",
           "theme": "健保／編碼與申報"
         }
       ],
@@ -1054,16 +1054,6 @@
       ]
     },
     {
-      "login": "u9401066",
-      "profile_url": "https://github.com/u9401066",
-      "text_zh": "更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」",
-      "repo_names": [
-        "zotero-keeper",
-        "dicom-overlay-agent",
-        "pubmed-search-mcp"
-      ]
-    },
-    {
       "login": "agoodbear",
       "profile_url": "https://github.com/agoodbear",
       "text_zh": "更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」",
@@ -1079,6 +1069,16 @@
       "repo_names": [
         "hemorrhoids-postop",
         "Stage_III_Colon_EDR"
+      ]
+    },
+    {
+      "login": "u9401066",
+      "profile_url": "https://github.com/u9401066",
+      "text_zh": "更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」",
+      "repo_names": [
+        "zotero-keeper",
+        "dicom-overlay-agent",
+        "pubmed-search-mcp"
       ]
     },
     {

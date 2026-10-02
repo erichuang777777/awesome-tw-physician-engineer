@@ -20,9 +20,9 @@
 
 - [@liangRXdev](https://github.com/liangRXdev) — 新建 藥學／藥品資訊「taiwan-pharmacist-exam-data」；更新了 藥學／藥品資訊「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」 等 5 個
 - [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」、「nccn-guidelines-downloader」、「hema-board-interview-guide」
-- [@u9401066](https://github.com/u9401066) — 更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」
 - [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」
 - [@odafeng](https://github.com/odafeng) — 更新了 臨床指引／路徑「hemorrhoids-postop」、腫瘤／血液相關「Stage_III_Colon_EDR」
+- [@u9401066](https://github.com/u9401066) — 更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」
 - [@shin13](https://github.com/shin13) — 更新了 藥學／藥品資訊「opentaimed」
 - [@t0mst0ne](https://github.com/t0mst0ne) — 更新了 文獻／臨床試驗「medical-journal-daily-agent」
 - [@tinchangchang](https://github.com/tinchangchang) — 更新了 腫瘤／血液相關「figo-staging-calculators」
