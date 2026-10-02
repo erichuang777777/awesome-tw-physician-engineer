@@ -54,7 +54,7 @@ THEME_RULES: list[tuple[list[str], str]] = [
     (['fhir', 'hl7'], 'FHIR／醫療資料互通'),
     (['dicom', 'pacs', 'radiolog', '醫學影像', 'x-ray', 'mri'], '醫學影像／放射'),
     (['ecg', 'ekg', 'eeg', 'edf', 'waveform', 'vital'], '生理訊號／波形'),
-    (['ehr', 'emr', '電子病歷', 'openemr', 'cpoe'], '電子病歷／臨床資訊系統'),
+    (['ehr', 'emr', '電子病歷', 'openemr', 'cpoe', 'electronic medical record', 'medical record'], '電子病歷／臨床資訊系統'),
     (['nhi', '健保', 'icd', '診斷碼', 'billing'], '健保／編碼與申報'),
     (['pharmacy', '藥', 'drug', 'pill', 'medication', 'tfda', '藥師'], '藥學／藥品資訊'),
     (['oncolog', 'cancer', '腫瘤', 'breast', 'her2', 'hema'], '腫瘤／血液相關'),
@@ -183,52 +183,910 @@ def detect_theme(name: str, description: str, topics: list[str]) -> str | None:
         [name.lower(), (description or "").lower(), " ".join(t.lower() for t in topics)]
     )
     for keys, label in THEME_RULES:
-        if any(k in blob for k in keys):
+        hit = False
+        for k in keys:
+            if not k:
+                continue
+            # CJK or longer tokens: substring OK; short ASCII: word-ish boundary
+            if re.search(r"[一-鿿]", k) or len(k) >= 5:
+                if k in blob:
+                    hit = True
+                    break
+            else:
+                if re.search(rf"(?<![a-z0-9]){re.escape(k)}(?![a-z0-9])", blob):
+                    hit = True
+                    break
+        if hit:
             return label
     return None
+
+
+def _banned_intro(text: str) -> bool:
+    if not text:
+        return True
+    banned = ("公開專案", "公開倉庫", "主要語言", "相關公開", "尚無說明文字")
+    return any(b in text for b in banned)
+
+
+def _name_tokens(name: str) -> list[str]:
+    parts = re.split(r"[-_\s\.]+", (name or "").lower())
+    return [p for p in parts if p and not p.isdigit()]
+
+
+# Compact glossary: token/phrase → 繁中（用於名稱與英文說明改寫）
+_TERM_ZH: dict[str, str] = {
+    "ecg": "心電圖", "ekg": "心電圖", "eeg": "腦波", "emr": "電子病歷", "ehr": "電子病歷",
+    "fhir": "FHIR", "dicom": "DICOM", "pacs": "PACS", "hl7": "HL7", "icd": "ICD",
+    "nhi": "健保", "tfda": "食藥署", "pubmed": "PubMed", "llm": "語言模型",
+    "rag": "RAG", "mcp": "MCP", "nlp": "自然語言處理", "ocr": "OCR", "tts": "語音合成",
+    "stt": "語音辨識", "pdf": "PDF", "anki": "Anki", "dashboard": "儀表板",
+    "annotator": "標註工具", "annotation": "標註", "calculator": "計算器", "calc": "計算器",
+    "scheduler": "排班工具", "schedule": "排班", "quiz": "測驗", "exam": "考試",
+    "tutorial": "教學", "course": "課程", "notes": "筆記", "note": "筆記",
+    "bot": "聊天機器人", "chatbot": "聊天機器人", "extension": "擴充功能",
+    "plugin": "外掛", "pipeline": "管線", "workflow": "工作流", "toolkit": "工具組",
+    "library": "函式庫", "sdk": "SDK", "api": "API", "cli": "命令列工具",
+    "web": "網頁", "app": "應用", "mobile": "行動", "android": "Android",
+    "ios": "iOS", "docker": "Docker", "dataset": "資料集", "crawler": "爬蟲",
+    "scraper": "爬蟲", "visuali": "視覺化", "visualization": "視覺化",
+    "analysis": "分析", "analyzer": "分析工具", "monitor": "監測", "radar": "雷達",
+    "digest": "摘要", "summary": "摘要", "search": "搜尋", "fetcher": "擷取器",
+    "converter": "轉換器", "parser": "解析器", "helper": "小幫手", "assistant": "助手",
+    "manager": "管理工具", "organizer": "整理工具", "tracker": "追蹤器",
+    "portfolio": "作品集", "homepage": "個人網站", "blog": "部落格", "dotfiles": "開發環境設定",
+    "medical": "醫療", "clinical": "臨床", "medicine": "醫學", "hospital": "醫院",
+    "pharmacy": "藥學", "drug": "藥品", "medication": "藥物", "dose": "劑量",
+    "cancer": "腫瘤", "oncology": "腫瘤", "breast": "乳癌", "cardiac": "心臟",
+    "heart": "心臟", "renal": "腎臟", "kidney": "腎臟", "neuro": "神經",
+    "ophthalm": "眼科", "dental": "牙科", "nursing": "護理", "emergency": "急診",
+    "er": "急診", "icu": "加護病房", "triage": "檢傷", "radiology": "放射",
+    "pathology": "病理", "surgery": "外科", "anesthesia": "麻醉", "anes": "麻醉",
+    "rehab": "復健", "dialysis": "透析", "diabetes": "糖尿病", "cgm": "連續血糖",
+    "guideline": "指引", "protocol": "流程", "reference": "速查參考",
+    "lecture": "講義", "textbook": "教科書", "paper": "論文", "journal": "期刊",
+    "literature": "文獻", "citation": "引用", "meta": "統合分析",
+    "prediction": "預測", "classifier": "分類器", "segmentation": "分割",
+    "detection": "偵測", "risk": "風險", "score": "評分", "assessment": "評估",
+    "image": "影像", "imaging": "影像", "waveform": "波形", "signal": "訊號",
+    "lab": "檢驗", "lis": "檢驗系統", "billing": "申報", "coding": "編碼",
+    "taiwan": "台灣", "tw": "台灣", "zh": "繁中", "prompt": "提示詞",
+    "agent": "代理人", "skill": "技能包", "claude": "Claude", "gemini": "Gemini",
+    "openai": "OpenAI", "whisper": "Whisper", "line": "LINE",
+    "discord": "Discord", "telegram": "Telegram", "obsidian": "Obsidian",
+    "logseq": "Logseq", "heptabase": "Heptabase", "roam": "Roam",
+    "shiny": "Shiny", "streamlit": "Streamlit", "flask": "Flask",
+    "react": "React", "vue": "Vue", "nextjs": "Next.js",
+    "transcribe": "轉錄", "dictation": "聽寫輸入", "voice": "語音",
+    "podcast": "Podcast", "slide": "簡報", "presentation": "簡報",
+    "learning": "學習", "education": "教育", "practice": "練習",
+    "automation": "自動化", "auto": "自動", "sync": "同步",
+    "highlight": "標記", "bookmark": "書籤", "vault": "知識庫",
+    "knowledge": "知識", "research": "研究", "trial": "試驗",
+    "patient": "病人", "clinic": "診所", "ward": "病房",
+    "opd": "門診", "bedside": "床邊", "portable": "可攜式",
+    "capillaroscopy": "微循環鏡", "capillary": "微循環",
+    "ptosis": "眼瞼下垂", "burn": "燒燙傷", "ortho": "骨科",
+    "rheum": "風濕", "hematology": "血液", "mds": "MDS",
+    "ipssm": "IPSS-M", "gwas": "GWAS", "parkinson": "帕金森",
+    "depression": "憂鬱", "adhd": "ADHD", "dementia": "失智",
+    "lung": "肺", "ldct": "低劑量胸部電腦斷層", "ct": "電腦斷層",
+    "mri": "磁振造影", "xray": "X光", "oct": "OCT",
+    "pelvimetry": "骨盆測量", "figo": "FIGO", "pirads": "PI-RADS",
+    "vanco": "Vancomycin", "auc": "AUC", "abg": "動脈血氣",
+    "bmi": "BMI", "rom": "關節活動度", "emg": "肌電圖",
+    "profile": "個人檔案", "readme": "說明檔", "template": "範本",
+    "demo": "示範", "test": "測試", "homework": "作業",
+    "fork": "分支實驗", "mirror": "鏡像", "archive": "封存資料",
+    "pharmacokinetics": "藥物動力學",
+    "capillaroscopes": "微循環鏡",
+    "intensive care": "重症加護",
+    "classification": "分類",
+    "visualisation": "視覺化",
+    "ophthalmology": "眼科",
+    "documentation": "文件",
+    "reimbursement": "給付",
+    "irresponsible": "隨興",
+    "hemodialysis": "血液透析",
+    "bibliography": "書目",
+    "prescription": "處方",
+    "notification": "通知",
+    "telemedicine": "遠距醫療",
+    "consultation": "會診",
+    "multilingual": "多語",
+    "openevidence": "OpenEvidence",
+    "experimental": "實驗性",
+        "statistical": "統計",
+    "established": "既有",
+    "bookmarklet": "書籤小工具",
+    "annotations": "註記",
+    "boilerplate": "樣板",
+    "computation": "計算",
+    "integration": "整合",
+    "interaction": "交互作用",
+    "traditional": "繁體",
+    "statistics": "統計",
+    "seamlessly": "無縫",
+    "organizing": "整理",
+    "annotating": "標註",
+        "laboratory": "實驗室",
+    "conversion": "轉換",
+    "highlights": "畫線",
+    "assignment": "作業",
+    "orthopedic": "骨科",
+    "pharmacist": "藥師",
+    "vancomycin": "Vancomycin",
+    "ultrasound": "超音波",
+    "nephrology": "腎臟科",
+    "guidelines": "指引",
+    "flashcards": "閃卡",
+    "embeddings": "嵌入",
+    "typescript": "TypeScript",
+    "javascript": "JavaScript",
+    "systematic": "系統性",
+    "references": "參考資料",
+    "cheatsheet": "速查表",
+    "simulation": "模擬",
+    "evaluation": "評估",
+    "extraction": "擷取",
+    "downloader": "下載器",
+    "deployment": "部署",
+    "kubernetes": "Kubernetes",
+    "deidentify": "去識別",
+    "compliance": "合規",
+    "newsletter": "電子報",
+    "screenshot": "截圖",
+    "telehealth": "遠距健康",
+    "simplified": "簡體",
+    "deprecated": "已棄用",
+    "physician": "醫師",
+    "intensive": "重症",
+    "integrate": "整合",
+    "workflows": "工作流",
+    "expanding": "展開",
+    "publisher": "出版商",
+    "automatic": "自動",
+    "analytics": "分析",
+    "generator": "產生器",
+    "templates": "範本",
+    "fullstack": "全端",
+    "real-time": "即時",
+    "checklist": "檢核表",
+    "flashcard": "閃卡",
+    "messenger": "Messenger",
+    "langchain": "LangChain",
+    "embedding": "嵌入",
+    "retrieval": "檢索",
+    "utilities": "工具函式",
+    "inference": "推論",
+    "benchmark": "基準測試",
+    "tokenizer": "斷詞器",
+    "extractor": "擷取器",
+    "migration": "遷移",
+    "terraform": "Terraform",
+    "anonymize": "去識別",
+    "formulary": "處方集",
+    "prescribe": "開立",
+    "injection": "注射",
+    "clipboard": "剪貼簿",
+    "discharge": "出院",
+    "admission": "入院",
+    "computing": "運算",
+    "raspberry": "Raspberry",
+    "kaohsiung": "高雄",
+    "bilingual": "雙語",
+    "prototype": "原型",
+    "autoreply": "自動回覆",
+    "one-click": "一鍵",
+    "one click": "一鍵",
+    "floating": "浮動",
+    "firmware": "韌體",
+    "seamless": "無縫",
+    "organise": "整理",
+    "organize": "整理",
+    "annotate": "標註",
+    "acronyms": "縮寫",
+    "markdown": "Markdown",
+    "platform": "平台",
+        "teaching": "教學",
+    "analytic": "分析",
+    "frontend": "前端",
+    "realtime": "即時",
+    "calendar": "日曆",
+    "surgical": "外科",
+    "glaucoma": "青光眼",
+    "genetics": "遺傳學",
+    "facebook": "Facebook",
+    "semantic": "語意",
+    "examples": "範例",
+    "workshop": "工作坊",
+    "bootcamp": "密集訓練",
+    "simulate": "模擬",
+    "training": "訓練",
+    "evaluate": "評估",
+    "uploader": "上傳工具",
+    "security": "資安",
+    "password": "密碼",
+    "infusion": "輸注",
+    "wearable": "穿戴式",
+    "reminder": "提醒",
+    "referral": "轉診",
+    "transfer": "轉床",
+    "hardware": "硬體",
+    "japanese": "日文",
+    "revising": "改寫",
+    "progress": "病程",
+    "grounded": "有依據",
+    "upstream": "上游",
+    "network": "網路",
+    "display": "顯示",
+    "methods": "方法",
+        "records": "紀錄",
+    "systems": "系統",
+    "convert": "轉換",
+    "raycast": "Raycast",
+    "windows": "Windows",
+    "powered": "驅動",
+    "reports": "報告",
+    "builder": "建置工具",
+    "backend": "後端",
+    "offline": "離線",
+    "browser": "瀏覽器",
+    "on-call": "值班",
+    "failure": "衰竭",
+    "glucose": "血糖",
+    "medline": "MEDLINE",
+    "pathway": "路徑",
+    "keynote": "Keynote",
+    "prompts": "提示詞",
+    "fastapi": "FastAPI",
+    "website": "網站",
+    "example": "範例",
+    "starter": "起始專案",
+    "scripts": "腳本",
+    "compute": "計算",
+    "metrics": "指標",
+    "parsing": "解析",
+    "extract": "擷取",
+    "migrate": "遷移",
+    "testing": "測試",
+    "privacy": "隱私",
+    "consent": "同意",
+    "allergy": "過敏",
+    "capture": "擷取",
+    "meeting": "會議",
+    "consult": "會診",
+    "signals": "訊號",
+    "sensors": "感測器",
+    "cluster": "叢集",
+    "arduino": "Arduino",
+    "english": "英文",
+    "nihongo": "日文",
+    "chinese": "中文",
+    "reviser": "改寫器",
+    "rewrite": "改寫",
+    "configs": "設定",
+    "concept": "概念",
+    "totally": "完全",
+    "t-embed": "T-Embed",
+    "doctor": "醫師",
+    "fields": "欄位",
+    "images": "影像",
+    "player": "播放器",
+    "sketch": "程式草稿",
+    "export": "匯出",
+    "google": "Google",
+    "chrome": "Chrome",
+    "record": "病歷",
+    "system": "系統",
+    "graphs": "圖表",
+    "reader": "閱讀器",
+    "simple": "簡易",
+        "health": "健康",
+    "papers": "論文",
+    "weekly": "每週",
+    "report": "報告",
+    "skills": "技能",
+    "agents": "代理人",
+    "server": "伺服器",
+    "client": "客戶端",
+    "online": "線上",
+    "widget": "小工具",
+    "roster": "名冊",
+    "oncall": "值班",
+    "trauma": "外傷",
+    "retina": "視網膜",
+    "dosage": "劑量",
+    "genome": "基因體",
+    "slides": "簡報",
+    "speech": "語音",
+    "notion": "Notion",
+    "vector": "向量",
+    "spider": "爬蟲",
+    "django": "Django",
+    "python": "Python",
+    "golang": "Go",
+    "kotlin": "Kotlin",
+    "review": "回顧",
+    "trials": "試驗",
+    "models": "模型",
+    "upload": "上傳",
+    "backup": "備用",
+    "deploy": "部署",
+    "claims": "申報",
+    "trough": "谷濃度",
+    "kanban": "看板",
+    "sticky": "便利貼",
+    "webcam": "網路攝影機",
+    "camera": "相機",
+    "stream": "串流",
+    "vitals": "生命徵象",
+    "sensor": "感測器",
+    "taipei": "台北",
+    "vghtpe": "榮總",
+    "linkou": "林口",
+    "charts": "病歷",
+    "verify": "查核",
+    "viewer": "檢視器",
+    "editor": "編輯器",
+    "vscode": "VS Code",
+    "config": "設定",
+    "themes": "主題",
+    "puzzle": "解謎",
+    "legacy": "舊版",
+    "lilygo": "LilyGO",
+    "cc1101": "CC1101",
+    "local": "本地",
+    "localfirst": "本地優先",
+    "local-first": "本地優先",
+    "oneclick": "一鍵",
+    "local-first": "本地優先",
+    "local first": "本地優先",
+        "music": "音樂",
+            "decks": "牌組",
+    "daily": "每日",
+    "batch": "批次",
+    "addon": "外掛",
+    "shift": "班表",
+    "wound": "傷口",
+    "nurse": "護理",
+    "drugs": "藥品",
+    "x-ray": "X光",
+    "icd10": "ICD-10",
+    "swift": "Swift",
+    "about": "關於",
+    "utils": "工具函式",
+    "cheat": "速查",
+    "teams": "團隊",
+    "team": "團隊",
+    "safer": "安全",
+    "smarter": "更智慧",
+    "decisions": "決策",
+    "decision": "決策",
+    "accessible": "易用",
+    "reliable": "可靠",
+    "extensible": "可擴充",
+    "empower": "強化",
+    "aims": "旨在",
+
+    "sheet": "表",
+    "model": "模型",
+    "stats": "統計",
+    "fetch": "擷取",
+    "oauth": "OAuth",
+    "login": "登入",
+    "claim": "申報",
+    "alert": "警示",
+    "alarm": "警報",
+    "audio": "音訊",
+    "video": "視訊",
+    "vital": "生命徵象",
+    "esp32": "ESP32",
+    "chart": "病歷",
+    "shell": "shell",
+    "theme": "主題",
+    "fonts": "字型",
+    "icons": "圖示",
+    "games": "遊戲",
+    "unity": "Unity",
+    "godot": "Godot",
+    "proof": "概念驗證",
+    "bruce": "Bruce",
+    "embed": "嵌入式",
+        "data": "資料",
+    "text": "文字",
+    "drag": "拖曳",
+    "docs": "文件",
+        "html": "HTML",
+    "deck": "牌組",
+    "kobo": "Kobo",
+        "maps": "地圖",
+    "nccn": "NCCN",
+    "ipss": "IPSS",
+    "her2": "HER2",
+    "next": "Next",
+    "rust": "Rust",
+    "stat": "統計",
+    "unit": "單元",
+    "auth": "驗證",
+    "peak": "峰濃度",
+    "oral": "口服",
+    "feed": "訂閱源",
+    "todo": "待辦",
+    "snip": "截取",
+    "grid": "網格",
+    "ntuh": "台大醫院",
+    "cgmh": "長庚",
+    "tsgh": "三軍總醫院",
+    "soap": "SOAP",
+    "nvim": "Neovim",
+    "bash": "bash",
+    "font": "字型",
+    "icon": "圖示",
+    "game": "遊戲",
+    "cpu": "CPU",
+    "doi": "DOI",
+        "usb": "USB",
+    "gui": "圖形介面",
+    "map": "地圖",
+    "idh": "透析中低血壓",
+    "asr": "語音辨識",
+    "gpt": "GPT",
+    "etl": "ETL",
+    "ner": "命名實體辨識",
+    "k8s": "Kubernetes",
+    "e2e": "端對端",
+    "adr": "不良反應",
+    "pwa": "PWA",
+    "spa": "單頁應用",
+    "ssr": "伺服器渲染",
+    "rss": "RSS",
+    "mic": "麥克風",
+    "iot": "物聯網",
+    "pcb": "電路板",
+    "vgh": "榮總",
+    "cch": "彰基",
+    "ide": "IDE",
+    "vim": "Vim",
+    "zsh": "zsh",
+    "poc": "概念驗證",
+    "wav": "WAV",
+    "mp3": "MP3",
+        "oa": "開放取用",
+    "ml": "機器學習",
+    "ai": "AI",
+    "dl": "深度學習",
+    "cv": "電腦視覺",
+    "ci": "CI",
+    "cd": "CD",
+    "pk": "藥物動力學",
+    "pd": "藥效學",
+    "iv": "靜脈",
+    "im": "肌肉",
+    "sc": "皮下",
+}
+
+
+def _token_zh(tok: str) -> str | None:
+    t = tok.lower()
+    if t in _TERM_ZH:
+        return _TERM_ZH[t]
+    for k, v in _TERM_ZH.items():
+        if len(k) >= 4 and k in t:
+            return v
+    return None
+
+
+def _phrase_from_name(name: str, theme: str | None) -> str:
+    low = name.lower()
+    if low.endswith(".github.io") or low in {"homepage", "blog", "site"}:
+        return "個人網站或專案展示頁。"
+    if low in {"dotfiles", "dot-files"}:
+        return "個人開發環境與 shell／編輯器設定。"
+    if low in {"profile", "readme"} or name.lower() == name.split("/")[-1].lower() and low.replace("-", "") in {
+        # profile-style same-as-login handled by caller often
+    }:
+        pass
+
+    tokens = _name_tokens(name)
+    # drop noise tokens
+    noise = {
+        "github", "io", "com", "org", "tw", "zh", "en", "v1", "v2", "v3", "v4",
+        "main", "src", "app", "project", "repo", "test", "demo", "tmp", "new",
+        "my", "the", "and", "for", "with", "from", "into", "of", "to", "in", "on",
+        "by", "plus", "lite", "pro", "free", "open", "source",
+    }
+    useful = [t for t in tokens if t not in noise and len(t) > 1]
+    mapped = []
+    for t in useful[:6]:
+        zh = _token_zh(t)
+        if zh and zh not in mapped:
+            mapped.append(zh)
+        elif t.isalpha() and len(t) <= 5 and t.upper() == t:
+            mapped.append(t)
+        elif re.fullmatch(r"[a-z]{2,12}", t) and t not in {"html", "css", "js"}:
+            # keep short tech acronyms uppercased when likely
+            if t in {"ai", "ml", "cv", "ui", "ux", "db", "qa"}:
+                mapped.append(t.upper())
+
+    if low.endswith("github.io") or "portfolio" in low:
+        return "個人網站或作品集展示。"
+    if "dotfile" in low:
+        return "個人開發環境設定檔集合。"
+    if useful and useful[0] == name.lower().replace("-", "").replace("_", "")[: len(useful[0])]:
+        # profile readme often named after owner
+        if len(useful) <= 2 and not mapped and not theme:
+            return "GitHub 個人檔案說明。"
+
+    if mapped:
+        core = "／".join(mapped[:4])
+        if any(core.endswith(s) for s in ("工具", "系統", "平台", "套件", "函式庫", "儀表板", "計算器", "小幫手")):
+            base = core
+        else:
+            base = core + "工具"
+        if theme and theme not in {"個人網站／部落格", "開發環境／dotfiles", "遊戲／互動"}:
+            return f"{base}；偏{theme}應用。"
+        return f"{base}或實驗專案。"
+    if theme:
+        return f"{theme}方向的工具或實驗（說明文字不足）。"
+    nice = re.sub(r"[-_]+", " ", name).strip()
+    if "profile" in low or nice.lower() in {"profile", "readme", "about"}:
+        return "GitHub 個人檔案說明。"
+    return f"{nice}：依名稱列出的工具或實驗。"
+
+
+def _english_to_zh_blurb(
+    name: str, desc: str, theme: str | None, topics: list[str]
+) -> str:
+    """Heuristic English→繁中；輸出以中文為主的功能句。"""
+    soft_themes = {
+        "個人網站／部落格", "開發環境／dotfiles", "遊戲／互動",
+        "生成式 AI／LLM", "機器學習", "自然語言處理", "函式庫／API",
+        "DevOps／基礎建設", "行動應用", "資料視覺化／儀表板",
+        "教育／學習資源", "簡報／教材",
+    }
+    def with_theme(body: str) -> str:
+        body = body.rstrip("。")
+        if theme and theme not in body and theme not in soft_themes:
+            body = f"{body}；偏{theme}"
+        return body + "。"
+
+    d = re.sub(r"\s+", " ", desc.strip())
+    d = re.sub(r"^(this (project|repo|repository|tool|app|library|package)?\s*(is|provides)?\s*)", "", d, flags=re.I)
+    d = re.sub(r"^(an?\s+)?open[- ]source\s+", "", d, flags=re.I)
+    d = re.sub(r"^(a|an|the)\s+", "", d, flags=re.I)
+    d = d.strip(" .")
+    # If first clause ends with hollow "designed/built/created", keep following sentence.
+    parts = re.split(r"(?<=[.!?])\s+", d, maxsplit=1)
+    if len(parts) == 2 and re.search(
+        r"\b(designed|built|created|developed|made)\.?$", parts[0], flags=re.I
+    ):
+        d = (parts[0] + " " + parts[1]).strip()
+    low = d.lower()
+    name_low = (name or "").lower()
+
+    def zh_np(phrase: str) -> str:
+        """Translate with glossary only; drop unknown English words."""
+        phrase = phrase.strip(" .,;:")
+        if not phrase:
+            return ""
+        if _has_cjk(phrase):
+            return _first_sentence(phrase, 80).rstrip("。")
+        # try multi-word keys first on full phrase
+        low_full = phrase.lower()
+        mapped: list[str] = []
+        phrase_norm = re.sub(r"\b(local)\s*-\s*(first)\b", r"localfirst", phrase, flags=re.I)
+        phrase_norm = re.sub(r"\b(one)\s*-\s*(click)\b", r"oneclick", phrase_norm, flags=re.I)
+        phrase_norm = re.sub(r"\b(open)\s*-\s*(source)\b", " ", phrase_norm, flags=re.I)
+        phrase_norm = re.sub(r"\b(intensive)\s*-?\s*(care)\b", r"intensivecare", phrase_norm, flags=re.I)
+        phrase_norm = re.sub(r"\b(electronic)\s+(medical)\s+(record)s?\b", r"emr", phrase_norm, flags=re.I)
+        phrase_norm = re.sub(r"\b(full)\s*-?\s*(text)\b", r"fulltext", phrase_norm, flags=re.I)
+        words = re.split(r"[\s,/|+:;—–]+", phrase_norm)
+        skip = {
+            "a", "an", "the", "and", "or", "of", "to", "for", "with", "on", "in",
+            "from", "into", "via", "using", "based", "simple", "easy", "my", "your",
+            "our", "its", "their", "this", "that", "all", "some", "any", "very",
+            "comprehensive", "powerful", "modern", "lightweight", "personal",
+            "is", "are", "be", "been", "was", "were", "as", "by", "at", "over",
+            "under", "between", "than", "then", "also", "just", "only", "such",
+            "like", "into", "onto", "across", "within", "without", "per", "each",
+            "other", "more", "most", "less", "least", "many", "much", "few",
+            "designed", "provides", "provide", "allows", "allow", "helps", "help",
+            "enables", "enable", "made", "make", "built", "create", "creates",
+            "created", "develop", "developed", "implements", "implement",
+            "seamless", "seamlessly", "established", "various", "several",
+            "including", "include", "includes", "etc", "eg", "ie", "vs",
+            "python", "javascript", "typescript", "html", "css", "java", "ruby",
+            "golang", "rust", "kotlin", "swift", "php", "scala", "r",
+        }
+        i = 0
+        toks = [re.sub(r"[^A-Za-z0-9.+-]", "", w) for w in words]
+        toks = [t for t in toks if t]
+        while i < len(toks):
+            # bigram
+            if i + 1 < len(toks):
+                big = (toks[i] + " " + toks[i + 1]).lower()
+                if big in {"open source", "open-source", "full text", "real time"}:
+                    i += 2
+                    continue
+                if big in _TERM_ZH:
+                    z = _TERM_ZH[big]
+                    if z not in mapped:
+                        mapped.append(z)
+                    i += 2
+                    continue
+            wl = toks[i].lower()
+            if wl in skip:
+                i += 1
+                continue
+            z = _token_zh(wl)
+            if z:
+                # skip bare language names as product focus
+                if z in {"Python", "JavaScript", "TypeScript", "HTML", "CSS", "Java", "Ruby", "Go", "Rust", "Kotlin", "Swift"}:
+                    i += 1
+                    continue
+                if z not in mapped:
+                    mapped.append(z)
+            elif re.fullmatch(r"[A-Z0-9][A-Z0-9.+-]{1,11}", toks[i]):
+                # acronyms already uppercase-ish
+                ac = toks[i].upper() if toks[i].isalpha() else toks[i]
+                if ac not in mapped:
+                    mapped.append(ac)
+            i += 1
+        # drop immediate duplicates like 視覺化／…／視覺化
+        dedup: list[str] = []
+        for m in mapped:
+            if not dedup or dedup[-1] != m:
+                dedup.append(m)
+        if len(dedup) >= 3 and dedup[0] == dedup[-1]:
+            dedup = dedup[:-1]
+        return "／".join(dedup[:6])
+
+    # --- high-signal patterns (Chinese-first) ---
+    m = re.search(r"\bfor\s+(.+)$", d, flags=re.I)
+    m_kind = re.search(
+        r"\b(web app|application|platform|library|toolkit|package|extension|plugin|cli|chatbot|bot|dashboard|calculator|pipeline|framework|tool|toolkit|system|manager|annotator|fetcher|converter|helper|assistant|tracker|organizer|scheduler|radar|digest|notes?|reference|cheatsheet)\b",
+        d,
+        flags=re.I,
+    )
+    kind_map = {
+        "web app": "網頁應用", "application": "應用程式", "platform": "平台",
+        "library": "函式庫", "toolkit": "工具組", "package": "套件",
+        "extension": "擴充功能", "plugin": "外掛", "cli": "命令列工具",
+        "chatbot": "聊天機器人", "bot": "機器人", "dashboard": "儀表板",
+        "calculator": "計算器", "pipeline": "管線", "framework": "框架",
+        "tool": "工具", "system": "系統", "manager": "管理工具",
+        "annotator": "標註工具", "fetcher": "擷取工具", "converter": "轉換器",
+        "helper": "小幫手", "assistant": "助手", "tracker": "追蹤工具",
+        "organizer": "整理工具", "scheduler": "排班工具", "radar": "雷達",
+        "digest": "摘要", "note": "筆記", "notes": "筆記",
+        "reference": "速查參考", "cheatsheet": "速查表",
+        "player": "播放器", "fetcher": "擷取工具",
+    }
+
+    # "X for Y" (short subject only; skip "... designed for ...")
+    m_for = re.match(r"^(.{3,55}?)\s+for\s+(.{3,80})$", d, flags=re.I)
+    if m_for and not re.search(r"\b(designed|built|created|made|intended)\b", m_for.group(1), flags=re.I):
+        left, right = m_for.group(1), m_for.group(2)
+        # avoid long parenthetical subjects
+        if "(" not in left and len(left.split()) <= 8:
+            left_zh = zh_np(left)
+            right_zh = zh_np(right)
+            kind_zh = None
+            mk = re.search(
+                r"(web app|extension|plugin|library|platform|calculator|dashboard|bot|cli|tool|app|player)",
+                left,
+                flags=re.I,
+            )
+            if mk:
+                kind_zh = kind_map.get(mk.group(1).lower(), "工具")
+            if kind_zh and right_zh:
+                core = f"{kind_zh}，用於{right_zh}"
+            elif left_zh and right_zh:
+                core = f"{left_zh}，用於{right_zh}"
+            elif right_zh:
+                core = f"用於{right_zh}的工具"
+            else:
+                core = None
+            if core:
+                return _first_sentence(with_theme(core), 90)
+
+    # collection of
+    m = re.match(r"^collection of\s+(.+)$", d, flags=re.I)
+    if m:
+        return _first_sentence(f"彙整{zh_np(m.group(1)) or m.group(1)}的合集。", 90)
+
+    # my profile / about me
+    if re.search(r"\b(my profile|about me|profile readme)\b", low):
+        return "GitHub 個人檔案說明。"
+
+    # reference
+    if re.search(r"\breference\b", low):
+        domain = theme or zh_np(name) or "臨床"
+        return f"{domain}速查參考。"
+
+    # Drop leading "ACRONYM (Expansion)" so parenthetical words don't trigger verbs
+    d = re.sub(r"^[A-Z][A-Za-z0-9+-]{1,15}\s*\([^)]{2,100}\)\s*(is\s+|are\s+)?", "", d).strip()
+
+    # organizing / annotating / converting / fetching / tracking verbs
+    verb_patterns = [
+        (r"\b(organiz(?:e|ing)|organise|organising)\b.{0,40}?\b(.+)$", "整理"),
+        (r"\b(annotat(?:e|ing|ion)?)\b.{0,40}?\b(.+)$", "標註"),
+        (r"\b(convert(?:s|ing)?|conversion)\b.{0,20}?(.+?)\s+to\s+(.+)$", "轉換"),
+        (r"\b(fetch(?:es|ing)?|download(?:s|ing)?)\b.{0,40}?(.+)$", "擷取"),
+        (r"\b(track(?:s|ing)?|monitor(?:s|ing)?)\b.{0,40}?(.+)$", "追蹤"),
+        (r"\b(summar(?:y|ize|ise|izing)|digest)\b.{0,40}?(.+)$", "摘要"),
+        (r"\b(search(?:es|ing)?)\b.{0,40}?(.+)$", "搜尋"),
+        (r"\b(predict(?:s|ing|ion)?|risk score)\b.{0,40}?(.+)$", "預測"),
+        (r"\b(schedul(?:e|er|ing))\b.{0,40}?(.+)$", "排班"),
+        (r"\b(visuali[sz]e|visualization|visualisation)\b.{0,40}?(.+)$", "視覺化"),
+        (r"\b(automat(?:e|ion|ing))\b.{0,40}?(.+)$", "自動化"),
+        (r"\b(transcri(?:be|ption)|dictation)\b.{0,40}?(.+)$", "語音轉錄"),
+    ]
+    for pat, verb_zh in verb_patterns:
+        m = re.search(pat, d, flags=re.I)
+        if not m:
+            continue
+        if verb_zh == "轉換" and m.lastindex and m.lastindex >= 3:
+            a, b = zh_np(m.group(2)), zh_np(m.group(3))
+            return _first_sentence(f"將{a}轉成{b}的工具。", 90)
+        obj = zh_np(m.group(m.lastindex or 1)) if m.lastindex else ""
+        kind = "工具"
+        if m_kind:
+            kind = kind_map.get(m_kind.group(1).lower(), "工具")
+        if obj:
+            return _first_sentence(f"{verb_zh}{obj}的{kind}。", 90)
+        return _first_sentence(with_theme(f"{verb_zh}{kind}"), 90)
+
+    # kind + rest
+    if m_kind:
+        kind = kind_map.get(m_kind.group(1).lower(), "工具")
+        # strip leading acronym expansion in parentheses e.g. ICIV (...)
+        rest = re.sub(r"^[A-Z]{2,10}\s*\([^)]{0,80}\)\s*(is\s+)?", "", d).strip()
+        rest = re.sub(
+            rf"^.{{0,60}}?\b{re.escape(m_kind.group(1))}\b(?:\s+designed)?[.!]?\s*",
+            "",
+            rest,
+            count=1,
+            flags=re.I,
+        ).strip(" .,")
+        rest = re.sub(
+            r"^(?:designed[.!]\s*)?(?:aims? to|aiming to|helps? to|helps?|to|for|that|which|designed for)\s+",
+            "",
+            rest,
+            flags=re.I,
+        )
+        rest = re.sub(r"^empower\s+", "", rest, flags=re.I)
+        obj = zh_np(rest) if rest else ""
+        # Prefer「用途 + 類型」, avoid「視覺化…的平台」重複堆砌
+        if obj:
+            if kind in obj or obj.endswith(kind):
+                body = obj
+            elif any(obj.endswith(s) for s in ("工具", "平台", "系統", "套件", "函式庫", "儀表板")):
+                body = obj
+            else:
+                body = f"{obj}的{kind}"
+        else:
+            body = kind
+        return _first_sentence(with_theme(body), 90)
+
+    # LLM / AI powered ...
+    if re.search(r"\b(llm|gpt|claude|gemini|ai)[-\s]?powered\b", low) or re.search(r"\b(langchain|rag)\b", low):
+        obj = zh_np(re.sub(r"(?i).{0,30}(llm|gpt|claude|gemini|ai)[-\s]?powered\s*", "", d))
+        if not obj:
+            obj = zh_np(name) or "內容"
+        return _first_sentence(f"以語言模型輔助{obj}的工具。", 90)
+
+    # fallback: theme + translated name/desc keywords
+    name_bits = zh_np(name.replace("-", " ").replace("_", " "))
+    desc_bits = zh_np(d)
+    if name_bits or desc_bits:
+        detail = desc_bits or name_bits
+        if theme and theme not in soft_themes:
+            return _first_sentence(with_theme(f"{theme}：{detail}"), 90)
+        return _first_sentence(with_theme(detail), 90)
+    if name_bits and desc_bits and name_bits != desc_bits:
+        return _first_sentence(f"{name_bits}：{desc_bits}。", 90)
+    if desc_bits:
+        return _first_sentence(f"{desc_bits}相關工具。", 90)
+    if theme and theme not in soft_themes:
+        return f"{theme}方向工具。"
+    if theme:
+        return with_theme(_phrase_from_name(name, None).rstrip("。"))
+    return _phrase_from_name(name, theme)
+
+
+
+def _mix_en_zh(text: str, theme: str | None, name: str | None = None) -> str:
+    """Keep useful English nouns, wrap with Chinese functional framing."""
+    short = _first_sentence(text, 70).rstrip(".…")
+    # Replace known multi-word / tokens inside text
+    out = short
+    # longer keys first
+    for eng, zh in sorted(_TERM_ZH.items(), key=lambda kv: -len(kv[0])):
+        if len(eng) < 3:
+            continue
+        out = re.sub(rf"\b{re.escape(eng)}\b", zh, out, flags=re.I)
+    # If still mostly English, frame it
+    if not _has_cjk(out) or sum(1 for c in out if "一" <= c <= "鿿") < 4:
+        theme_bit = f"{theme}：" if theme else ""
+        # pull mapped tokens from name
+        name_bits = []
+        if name:
+            for t in _name_tokens(name)[:4]:
+                z = _token_zh(t)
+                if z and z not in name_bits:
+                    name_bits.append(z)
+        if name_bits and theme:
+            return f"{'／'.join(name_bits)}：{short}。"
+        if theme:
+            return f"{theme_bit}{short}。"
+        if name_bits:
+            return f"{'／'.join(name_bits)}工具：{short}。"
+        return f"{short}。"
+    if not out.endswith(("。", "！", "？", "…")):
+        out += "。"
+    return out[:95]
 
 
 def synthesize_zh_intro(
     name: str,
     description: str | None,
     topics: list[str],
-    language: str | None,
+    language: str | None = None,  # kept for API compat; never emitted
 ) -> str:
+    """一句繁中：功能／問題／亮點。不寫公開專案或語言堆砌。"""
+    del language  # unused on purpose
     desc = (description or "").strip()
     theme = detect_theme(name, desc, topics)
-    low = name.lower()
+    low = (name or "").lower()
+
+    if low.endswith(".github.io") or low in {"homepage", "blog", "site"}:
+        return "個人網站或專案展示頁。"
+    if low in {"dotfiles", "dot-files"}:
+        return "個人開發環境與 shell／編輯器設定。"
 
     if desc and _has_cjk(desc):
         return _first_sentence(desc, 90)
 
-    if low.endswith(".github.io") or low in {"homepage", "blog", "site"}:
-        return "個人或專案的公開 GitHub Pages／網站內容。"
-
-    if low in {"dotfiles", "dot-files"}:
-        return "個人開發環境與 shell／編輯器設定檔集合。"
-
     if desc:
-        short = _first_sentence(desc, 72)
-        if theme:
-            return "「" + theme + "」相關公開專案：" + short
-        lang_bit = ("（主要語言：" + language + "）") if language else ""
-        return "公開專案「" + name + "」" + lang_bit + "：" + short
+        intro = _english_to_zh_blurb(name, desc, theme, topics)
+        # rescue overly compressed / generic lines
+        core = re.sub(r"[。．.\s]", "", intro)
+        if len(core) < 8 or re.fullmatch(r".{1,6}的(平台|工具|系統|套件)", core):
+            rescue = _phrase_from_name(name, theme)
+            if len(re.sub(r"[。．.\s]", "", rescue)) > len(core):
+                return rescue
+        return intro
 
-    topic_zh = "、".join(topics[:3]) if topics else ""
-    if theme and topic_zh:
-        return "「" + theme + "」主題的公開倉庫，標籤含 " + topic_zh + "。"
-    if theme:
-        lang_bit = ("，主要語言為 " + language) if language else ""
-        return "「" + theme + "」相關的公開倉庫" + lang_bit + "。"
-    if topic_zh:
-        return "公開倉庫，主題標籤包含 " + topic_zh + "。"
-    if language:
-        return "公開的 " + language + " 專案倉庫（尚無說明文字）。"
-    return "公開倉庫（尚無說明文字；依名稱列出）。"
+    # empty description — honest line from name / theme
+    return _phrase_from_name(name, theme)
+
+
+def choose_intro_zh(
+    name: str,
+    description: str | None,
+    topics: list[str],
+    language: str | None,
+    previous: dict[str, Any] | None = None,
+) -> str:
+    """Reuse prior good intro when name/description/topics unchanged."""
+    if previous:
+        same = (
+            previous.get("name") == name
+            and (previous.get("description") or None) == (description or None)
+            and list(previous.get("topics") or []) == list(topics or [])
+        )
+        old = (previous.get("intro_zh") or "").strip()
+        if same and old and not _banned_intro(old):
+            return old
+    return synthesize_zh_intro(name, description, topics, language)
+
 
 
 def fetch_all_non_fork_repos(
-    login: str, token: str | None
+    login: str,
+    token: str | None,
+    previous_by_name: dict[str, dict[str, Any]] | None = None,
 ) -> tuple[list[dict[str, Any]], str | None]:
     repos: list[dict[str, Any]] = []
     page = 1
@@ -258,7 +1116,8 @@ def fetch_all_non_fork_repos(
             topics = list(repo.get("topics") or [])
             language = repo.get("language")
             html_url = repo.get("html_url") or f"https://github.com/{login}/{name}"
-            intro_zh = synthesize_zh_intro(name, description, topics, language)
+            prev = (previous_by_name or {}).get(name)
+            intro_zh = choose_intro_zh(name, description, topics, language, prev)
             repos.append(
                 {
                     "name": name,
@@ -372,6 +1231,18 @@ SOFT_NOISE_THEMES = {
     "個人網站／部落格",
     "開發環境／dotfiles",
     "遊戲／互動",
+}
+
+SOFT_BLURB_THEMES = SOFT_NOISE_THEMES | {
+    "生成式 AI／LLM",
+    "機器學習",
+    "自然語言處理",
+    "函式庫／API",
+    "DevOps／基礎建設",
+    "行動應用",
+    "資料視覺化／儀表板",
+    "教育／學習資源",
+    "簡報／教材",
 }
 
 NOISE_NAME_RE = re.compile(
@@ -552,16 +1423,29 @@ def build_all(logins: list[str], token: str | None, now: datetime) -> tuple[dict
     skipped: list[dict[str, str]] = []
     total_repos = 0
 
+    # Preserve curated intros across weekly runs when metadata unchanged
+    prev_accounts: dict[str, dict[str, dict[str, Any]]] = {}
+    for path in (DATA_DIR / "repos.json", CACHE_DIR / "repos.json"):
+        if not path.is_file():
+            continue
+        try:
+            prev_db = json.loads(path.read_text(encoding="utf-8"))
+            for acc in prev_db.get("accounts") or []:
+                login_key = (acc.get("login") or "").lower()
+                prev_accounts[login_key] = {
+                    (r.get("name") or ""): r for r in (acc.get("repos") or [])
+                }
+            break
+        except (OSError, json.JSONDecodeError):
+            continue
+
     for i, login in enumerate(logins):
         print(f"[{i + 1}/{len(logins)}] @{login}", flush=True)
         err = None
         all_repos: list[dict[str, Any]] = []
         try:
-            if SKIP_REPO_DB:
-                page_repos, err = fetch_all_non_fork_repos(login, token)
-                all_repos = page_repos
-            else:
-                all_repos, err = fetch_all_non_fork_repos(login, token)
+            prev_map = prev_accounts.get(login.lower())
+            all_repos, err = fetch_all_non_fork_repos(login, token, prev_map)
             pushes = fetch_recent_push_events(login, token, since)
         except Exception as exc:  # noqa: BLE001
             print(f"warn: failed for @{login}: {exc}", file=sys.stderr)
@@ -703,7 +1587,7 @@ def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
 
 def render_repos_md(repo_db: dict[str, Any]) -> str:
     lines: list[str] = [
-        "# 公開專案資料庫",
+        "# 專案資料庫",
         "",
         f"產生時間：`{repo_db.get('generated_at_taipei') or repo_db.get('generated_at')}`",
         f"帳號 **{repo_db['roster_count']}** · 倉庫 **{repo_db['repo_count']}**",
@@ -809,7 +1693,7 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         "<body>",
         '<header class="hero"><div class="wrap">',
         "<h1>台灣臨床醫事工程師</h1>",
-        "<p>本週值得追蹤 · 依作者分組的公開專案資料庫</p>",
+        "<p>本週值得追蹤 · 依作者分組的專案資料庫</p>",
         f'<p class="meta" style="opacity:.9">產生時間：{gen}</p>',
         "</div></header>",
         '<div class="wrap">',
@@ -1018,6 +1902,39 @@ def main() -> int:
             return 1
         digest = json.loads(latest_path.read_text(encoding="utf-8"))
         repo_db = json.loads(repos_path.read_text(encoding="utf-8"))
+        rewrite_intros = (
+            "--rewrite-intros" in sys.argv
+            or os.environ.get("REWRITE_INTROS", "").lower() in {"1", "true", "yes"}
+        )
+        if rewrite_intros:
+            n = 0
+            for acc in repo_db.get("accounts") or []:
+                for r in acc.get("repos") or []:
+                    r["theme"] = detect_theme(
+                        r.get("name") or "",
+                        r.get("description") or "",
+                        list(r.get("topics") or []),
+                    )
+                    r["intro_zh"] = synthesize_zh_intro(
+                        r.get("name") or "",
+                        r.get("description"),
+                        list(r.get("topics") or []),
+                        r.get("language"),
+                    )
+                    n += 1
+            # keep digest window intros in sync when present
+            by_full = {
+                f"{acc['login']}/{r['name']}": r.get("intro_zh")
+                for acc in repo_db.get("accounts") or []
+                for r in acc.get("repos") or []
+            }
+            for entry in digest.get("entries") or []:
+                login = entry.get("login") or ""
+                for r in entry.get("repos") or []:
+                    key = f"{login}/{r.get('name')}"
+                    if key in by_full:
+                        r["intro_zh"] = by_full[key]
+            print(f"Rewrote intro_zh for {n} repos", flush=True)
         attach_curation(digest)
         write_outputs(digest, repo_db)
         print(
