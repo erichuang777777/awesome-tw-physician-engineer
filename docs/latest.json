@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T15:39:43Z",
-  "generated_at_taipei": "2026-10-02 23:39（台北時間）",
+  "generated_at": "2026-10-02T16:26:51Z",
+  "generated_at_taipei": "2026-10-03 00:26（台北時間）",
   "window_days": 7,
-  "window_start": "2026-09-25T15:39:43Z",
+  "window_start": "2026-09-25T16:26:51Z",
   "roster_count": 45,
   "active_count": 22,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -16,7 +16,7 @@
           "name": "tw-er-ref-2x9k",
           "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
           "created_at": "2026-04-04T05:46:34Z",
-          "pushed_at": "2026-10-02T15:05:07Z",
+          "pushed_at": "2026-10-02T16:05:08Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "急診／急重症速查參考。",
@@ -200,7 +200,7 @@
           "name": "awesome-tw-physician-engineer",
           "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
           "created_at": "2026-10-01T18:09:27Z",
-          "pushed_at": "2026-10-02T15:39:27Z",
+          "pushed_at": "2026-10-02T16:26:36Z",
           "is_new": true,
           "recently_pushed": true,
           "intro_zh": "A curated list of Taiwanese physician-engineers / 收錄具開發能力的台灣醫師工程師",
@@ -238,7 +238,7 @@
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "平台或實驗專案。",
-          "theme": "遊戲／互動"
+          "theme": null
         }
       ],
       "recent_pushes": [
@@ -315,7 +315,7 @@
           "is_new": true,
           "recently_pushed": true,
           "intro_zh": "繁體中文硬筆字帖產生器：田字格・教育部筆順・注音・甲乙本，A4 列印 | Traditional Chinese handwriting practice sheet gener…",
-          "theme": "自然語言處理"
+          "theme": null
         },
         {
           "name": "hema-board-interview-guide",
@@ -596,7 +596,7 @@
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "命令列工具／自動／電腦斷層／骨盆測量／分析／QC的套件。",
-          "theme": "開發環境／dotfiles"
+          "theme": "函式庫／API"
         },
         {
           "name": "odin-notes-tw",
@@ -904,11 +904,11 @@
           "name": "research-data-explorer",
           "url": "https://github.com/u9401066/research-data-explorer",
           "created_at": "2026-03-01T05:41:51Z",
-          "pushed_at": "2026-10-02T15:27:25Z",
+          "pushed_at": "2026-10-02T15:47:09Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "以語言模型輔助研究／資料／MCP／代理人／技能包／工作流的工具。",
-          "theme": "自然語言處理"
+          "theme": null
         },
         {
           "name": "zotero-keeper",
@@ -955,7 +955,12 @@
         {
           "repo": "u9401066/research-data-explorer",
           "url": "https://github.com/u9401066/research-data-explorer",
-          "pushed_at": "2026-10-02T02:11:04Z"
+          "pushed_at": "2026-10-01T06:15:53Z"
+        },
+        {
+          "repo": "u9401066/llama-mcp-router",
+          "url": "https://github.com/u9401066/llama-mcp-router",
+          "pushed_at": "2026-10-01T07:49:45Z"
         },
         {
           "repo": "u9401066/zotero-keeper",
@@ -971,11 +976,6 @@
           "repo": "u9401066/pubmed-search-mcp",
           "url": "https://github.com/u9401066/pubmed-search-mcp",
           "pushed_at": "2026-10-01T10:57:47Z"
-        },
-        {
-          "repo": "u9401066/llama-mcp-router",
-          "url": "https://github.com/u9401066/llama-mcp-router",
-          "pushed_at": "2026-10-01T10:13:34Z"
         }
       ],
       "summary_zh": "@u9401066 本週新建公開倉庫 「llama-mcp-router」；更新倉庫 「research-data-explorer」、「zotero-keeper」、「dicom-overlay-agent」、「pubmed-search-mcp」。"
@@ -988,7 +988,7 @@
           "name": "weight-challenge-dashboard",
           "url": "https://github.com/y-cliu/weight-challenge-dashboard",
           "created_at": "2026-08-21T13:59:52Z",
-          "pushed_at": "2026-10-02T15:33:41Z",
+          "pushed_at": "2026-10-02T16:11:59Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "儀表板；偏資料視覺化／儀表板應用。",
@@ -999,7 +999,7 @@
         {
           "repo": "y-cliu/weight-challenge-dashboard",
           "url": "https://github.com/y-cliu/weight-challenge-dashboard",
-          "pushed_at": "2026-10-01T05:33:31Z"
+          "pushed_at": "2026-10-02T16:11:59Z"
         }
       ],
       "summary_zh": "@y-cliu 本週更新倉庫 「weight-challenge-dashboard」。"

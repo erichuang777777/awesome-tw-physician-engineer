@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02T15:39:43Z",
-  "generated_at_taipei": "2026-10-02 23:39（台北時間）",
+  "generated_at": "2026-10-02T16:26:51Z",
+  "generated_at_taipei": "2026-10-03 00:26（台北時間）",
   "roster_count": 45,
   "repo_count": 902,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -19,7 +19,7 @@
           "topics": [],
           "language": "HTML",
           "stars": 0,
-          "pushed_at": "2026-10-02T15:05:07Z",
+          "pushed_at": "2026-10-02T16:05:08Z",
           "theme": "急診／急重症",
           "intro_zh": "急診／急重症速查參考。",
           "archived": false
@@ -1760,7 +1760,7 @@
           "topics": [],
           "language": "Python",
           "stars": 0,
-          "pushed_at": "2026-10-02T15:39:27Z",
+          "pushed_at": "2026-10-02T16:26:36Z",
           "theme": null,
           "intro_zh": "A curated list of Taiwanese physician-engineers / 收錄具開發能力的台灣醫師工程師",
           "archived": false
@@ -12340,7 +12340,7 @@
           "topics": [],
           "language": "Python",
           "stars": 2,
-          "pushed_at": "2026-10-02T15:27:25Z",
+          "pushed_at": "2026-10-02T15:47:09Z",
           "theme": null,
           "intro_zh": "以語言模型輔助研究／資料／MCP／代理人／技能包／工作流的工具。",
           "archived": false
@@ -12857,7 +12857,7 @@
           "topics": [],
           "language": "HTML",
           "stars": 0,
-          "pushed_at": "2026-10-02T15:33:41Z",
+          "pushed_at": "2026-10-02T16:11:59Z",
           "theme": "資料視覺化／儀表板",
           "intro_zh": "儀表板；偏資料視覺化／儀表板應用。",
           "archived": false
