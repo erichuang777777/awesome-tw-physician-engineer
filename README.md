@@ -19,7 +19,7 @@
 收錄原則：
 
 - 現職：須為**現職醫院／臨床一線醫事人員**（醫師、護理師、醫事放射師、藥師等）且同時有醫療主題開發產出。目標是仍在臨床場域、有痛點可解的人。已轉純工程、創業全職、或其他**非臨床現職**者，暫不納入（即使曾具醫事人員身分或仍有醫療主題專案）。
-- **現職醫院**：名單須標示**現職醫院／診所**（公開可核者填院所簡稱；尚無法從公開資料確認者標「待補」）。
+- **現職醫院**：名單須標示**現職醫院／診所**（公開可核者填院所簡稱；尚無法從公開資料確認者標「待確認」；僅待補資料者另註「待補」）。
 - 身分：醫事人員身分（醫師／護理師／醫事放射師／藥師等）須有本人自述或可信公開資料可核。
 - 產出：須有公開可查、以醫療／健康／臨床／生醫為主題的開發成果（GitHub、開源專案、產品、論文程式碼、技術寫作等）。
 - 公開：僅收錄本人公開資訊或經同意分享的連結。
@@ -28,46 +28,46 @@
 
 ## 名單
 
-> 依姓名／常用名拼音排序。細節見下方「簡介與代表專案」。現職醫院以公開資料核對；無法確認者標「待補」。
+> 依姓名／常用名拼音排序。細節見下方「簡介與代表專案」。現職醫院以公開資料核對；無法確認者標「待確認」；僅待補資料者另註「待補」。
 
 | 姓名 | 專長／領域 | 現職醫院 | 連結 |
 |------|------------|----------|------|
 | agoodbear（曹建雄） | 急診 | 國立陽明交通大學附設醫院 | [GitHub](https://github.com/agoodbear) |
 | Chang-Yi Yen | 風濕科；醫資相關工具 | 高雄醫學大學附設醫院 | [GitHub](https://github.com/changyiyen) |
-| Che-chia Liang（梁哲嘉） | 臨床藥師；CDSS／藥事自動化 | 待補 | [GitHub](https://github.com/liangRXdev) |
+| Che-chia Liang（梁哲嘉） | 臨床藥師；CDSS／藥事自動化 | 待確認 | [GitHub](https://github.com/liangRXdev) |
 | ChenChang Shih（石振昌） | 神經科；醫療查詢與文獻工具 | 花蓮門諾醫院 | [GitHub](https://github.com/t0mst0ne) |
 | Cheng Chun-Ting | 腎臟科；醫療資料分析工具 | 聖保祿醫院（桃園） | [GitHub](https://github.com/cctroc) |
 | Chia-Yuan Chen | 醫師；醫學出版與知識工具 | 三軍總醫院 | [GitHub](https://github.com/homigin) |
 | Chieh（姓名待補） | 護理師 | 三軍總醫院松山分院 | [GitHub](https://github.com/Chiehx0220) |
 | Chih-Hsuan Wei | 放射科住院醫師；放射科考試工具 | 彰化基督教醫院 | [GitHub](https://github.com/chswei) |
 | Chih-Jung Huang（黃志榕） | 整形外科 | 長庚紀念醫院 | [GitHub](https://github.com/CJRonald) |
-| Chin-Sung Tung（董晉嵩） | 神經內科 | 待補 | [GitHub](https://github.com/tcs211) |
+| Chin-Sung Tung（董晉嵩） | 神經內科 | 待確認 | [GitHub](https://github.com/tcs211) |
 | Chiu Chun-Wen（邱俊文） | 急診 | 彰化基督教醫院 | [GitHub](https://github.com/ccherdoctor-chiu) |
 | Chun-Ting Su | 護理師；NP 培訓方向 | 臺北榮民總醫院 | [GitHub](https://github.com/ChuntingSu) |
-| Dr. John（姓名待補） | 醫師 | 待補 | [GitHub](https://github.com/jjtseng93) |
+| Dr. John（姓名待補） | 醫師 | 待確認 | [GitHub](https://github.com/jjtseng93) |
 | Dr Tseng | 內分泌；本名未完全公開 | 童綜合醫院 | [GitHub](https://github.com/zinojeng) |
-| Egg／MarkHuangMD | 麻醉住院醫師 | 待補 | [GitHub](https://github.com/MarkHuangMD) |
+| Egg／MarkHuangMD | 麻醉住院醫師 | 待確認 | [GitHub](https://github.com/MarkHuangMD) |
 | Fang-Yi Su（蘇芳儀） | 家醫／醫療 AI | 嘉義基督教醫院 | [GitHub](https://github.com/kaneyxx) |
 | Hsieh-Ting Lin（林協霆） | 腫瘤科；EBM／開源工具 | 和信治癌中心醫院 | [GitHub](https://github.com/htlin222) · [網站](https://htl.physician.tw/) |
 | Ines Tan | 感染／血液 | 成大醫院 | [GitHub](https://github.com/didiowen) |
 | I-Ta Tsai（蔡依達） | 放射科；臨床報告與工具腳本 | 國立陽明交通大學附設醫院 | [GitHub](https://github.com/tsaiid) · [tsai.it](https://tsai.it/) |
-| Ke Wei Chen（陳可維） | 家醫／AI 研究 | 待補 | [GitHub](https://github.com/gosienna) |
+| Ke Wei Chen（陳可維） | 家醫／AI 研究 | 待確認 | [GitHub](https://github.com/gosienna) |
 | Kuan-Yuan Chen（陳冠元） | 胸腔科 | 臺北榮民總醫院 | [GitHub](https://github.com/galencky) |
 | Kwo-Ta Chu（朱國大） | 腎臟科醫師；腎臟與認知互動工具 | 平鎮陽明醫院 | [GitHub](https://github.com/ckt520728) |
 | Li-yang Chen（陳禮揚） | 胸內＋睡眠 | 台南新樓醫院 | [GitHub](https://github.com/liyoungc) |
-| Ming-Chieh Shih（施銘杰） | 醫師＋生物統計 | 待補 | [GitHub](https://github.com/littlecanargie) |
+| Ming-Chieh Shih（施銘杰） | 醫師＋生物統計 | 待確認 | [GitHub](https://github.com/littlecanargie) |
 | Pei-shen Wu（Jimmy Wu／吳沛燊） | 復健科醫師；醫師值班排程工具 | 新旅程復健科診所 | [GitHub](https://github.com/peishenwu) |
 | Po-Jen Hsiao | 泌尿科；臨床 PIRAD／癌症工具 | 中國醫藥大學附設醫院 | [GitHub](https://github.com/pojenhsiao) |
 | Po-Lin Chen（陳柏霖） | 神經內科 | 長庚紀念醫院 | [GitHub](https://github.com/Drvinc) |
 | Po-Wei Chen（陳柏威） | 復健科（PM&R）；文獻管線工具 | 花蓮慈濟醫院 | [GitHub](https://github.com/drpwchen) |
 | Shih-Feng Huang, MD（黃士峯） | 大腸直腸外科；臨床 AI／產品 | 高雄榮民總醫院 | [GitHub](https://github.com/odafeng) |
-| Shin Li | 臨床藥師；TFDA／健保藥品資訊與 MCP | 臺安醫院 | [GitHub](https://github.com/shin13) |
+| Shin Li | 臨床藥師；TFDA／健保藥品資訊與 MCP | 臺安醫院（臨床現職待確認） | [GitHub](https://github.com/shin13) |
 | Sin-Di Lee（李昕迪） | 核醫；開源與資料工具 | 屏東榮民總醫院 | [GitHub](https://github.com/mcdlee) |
 | Soanseng Tan（陳璿丞） | 精神科 | 文心樂丞診所（台中） | [GitHub](https://github.com/soanseng) |
 | Tex LH Chi（陳立興） | 口腔顎面外科（OMFS） | 臺北市立萬芳醫院 | [GitHub](https://github.com/texchi2) |
 | Tinchang | 婦癌 | 林口長庚紀念醫院 | [GitHub](https://github.com/tinchangchang) |
 | Tz Ping Gau | 麻醉科；醫療 MCP／檢索工具 | 高雄醫學大學附設醫院 | [GitHub](https://github.com/u9401066) |
-| Tzu-Hao Shan | 藥師；給藥異常／藥品警訊工具 | 待補 | [GitHub](https://github.com/tzuhaoshan) |
+| Tzu-Hao Shan | 藥師；給藥異常／藥品警訊工具 | 待確認 | [GitHub](https://github.com/tzuhaoshan) |
 | Xiang-Wei Huang（黃祥瑋） | 臨床醫師；血液／乳癌相關醫資與資料管線 | 新竹臺大分院 | [GitHub](https://github.com/erichuang777777) |
 | Yen-Chun Liu | TSGH 住院醫師；體重挑戰儀表板 | 三軍總醫院 | [GitHub](https://github.com/y-cliu) |
 | Yihui（姓名待補） | 放射腫瘤科 | 屏東榮民總醫院 | [GitHub](https://github.com/irene2023study) |
@@ -171,7 +171,7 @@
 大腸直腸外科醫師，臨床 AI 與術後／影像相關產品。代表：[MedFeedJournalTracker](https://github.com/odafeng/MedFeedJournalTracker)
 
 ### Shin Li
-臨床藥師，公開臺安醫院處方集與 TFDA 藥品資訊 MCP、健保給付規定 RAG 管線。代表：[opentaimed](https://github.com/shin13/opentaimed) · [formulary-gitbook](https://github.com/shin13/formulary-gitbook)
+臨床藥師，公開臺安醫院處方集與 TFDA 藥品資訊 MCP、健保給付規定 RAG 管線；目前臨床現職是否仍在臺安，待確認。代表：[opentaimed](https://github.com/shin13/opentaimed) · [formulary-gitbook](https://github.com/shin13/formulary-gitbook)
 
 ### Sin-Di Lee（李昕迪）
 核醫醫師，多年開源與模擬／資料工具。代表：[communitymedcare](https://github.com/mcdlee/communitymedcare)
@@ -238,6 +238,8 @@
 - Joe Yeh／葉肇元（@joe-of-all-trades）：aetherAI 創辦人／董事長暨 CEO；公開資料顯示未以臨床執業為現職，自名單移除。
 
 ## 如何推薦
+
+身分／醫院疑問以 [GitHub Issue](https://github.com/erichuang777777/awesome-tw-physician-engineer/issues) 追蹤更新。
 
 歡迎開 [Issue](https://github.com/erichuang777777/awesome-tw-physician-engineer/issues) 或 Pull Request，請附上：
 
