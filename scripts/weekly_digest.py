@@ -1799,6 +1799,84 @@ def build_all(logins: list[str], token: str | None, now: datetime) -> tuple[dict
     return digest, repo_db
 
 
+
+_MD_LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
+
+
+def load_nongithub() -> dict[str, Any] | None:
+    """Static public products for clinicians without a personal forge login.
+
+    Not produced by the GitHub activity scan. Missing file is fine.
+    """
+    path = DATA_DIR / "nongithub.json"
+    if not path.is_file():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not data.get("people"):
+        return None
+    return data
+
+
+def _md_inline_to_html(src: str) -> str:
+    """Escape text, then restore only markdown links."""
+    parts: list[str] = []
+    last = 0
+    for m in _MD_LINK.finditer(src):
+        parts.append(html.escape(src[last:m.start()]))
+        label = html.escape(m.group(1))
+        url = html.escape(m.group(2), quote=True)
+        parts.append(f'<a href="{url}">{label}</a>')
+        last = m.end()
+    parts.append(html.escape(src[last:]))
+    return "".join(parts)
+
+
+def render_nongithub_md(data: dict[str, Any]) -> str:
+    lines = [
+        f"## {data.get('title') or '無公開 GitHub，但有公開作品'}",
+        "",
+        data.get("note") or "",
+        "",
+    ]
+    for person in data.get("people") or []:
+        lines.append(f"### {person.get('name') or ''}")
+        lines.append("")
+        if person.get("identity"):
+            lines.append(person["identity"])
+            lines.append("")
+        for w in person.get("works") or []:
+            lines.append(f"- [{w['name']}]({w['url']}) — {w['blurb']}")
+        if person.get("pending"):
+            lines.append(f"- 待補：{person['pending']}")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_nongithub_html(data: dict[str, Any]) -> str:
+    title = html.escape(data.get("title") or "無公開 GitHub，但有公開作品")
+    note = _md_inline_to_html(data.get("note") or "")
+    chunks = [
+        '<section id="nongithub" class="card">',
+        f"<h2>{title}</h2>",
+        f'<p class="meta">{note}</p>',
+    ]
+    for person in data.get("people") or []:
+        chunks.append(f"<h3>{html.escape(person.get('name') or '')}</h3>")
+        if person.get("identity"):
+            chunks.append(f"<p>{_md_inline_to_html(person['identity'])}</p>")
+        chunks.append('<ul class="highlights">')
+        for w in person.get("works") or []:
+            name = html.escape(w.get("name") or "")
+            url = html.escape(w.get("url") or "", quote=True)
+            blurb = html.escape(w.get("blurb") or "")
+            chunks.append(f'<li><a href="{url}">{name}</a> — {blurb}</li>')
+        if person.get("pending"):
+            chunks.append(f"<li>待補：{html.escape(person['pending'])}</li>")
+        chunks.append("</ul>")
+    chunks.append("</section>")
+    return "\n".join(chunks)
+
+
 def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
     lines: list[str] = [
         "# 台灣臨床醫事工程師 — 本週值得追蹤與專案資料庫",
@@ -1835,6 +1913,12 @@ def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
             lines.append(f"_{digest['soft_note_zh']}_")
             lines.append("")
 
+    nongithub = load_nongithub()
+    if nongithub:
+        lines.append("---")
+        lines.append("")
+        lines.append(render_nongithub_md(nongithub).rstrip())
+        lines.append("")
     lines.extend(
         [
             "---",
@@ -1971,6 +2055,7 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         '<div class="wrap">',
         '<nav class="toc">',
         '<a href="#weekly">本週值得追蹤</a>',
+        '<a href="#nongithub">無公開 GitHub 的公開作品</a>',
         '<a href="#database">專案資料庫</a>',
         '<a href="./repos.md">Markdown 資料庫</a>',
         '<a href="./data/repos.json">repos.json</a>',
@@ -2004,6 +2089,10 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
                 f'<p class="soft-note">{html.escape(digest["soft_note_zh"])}</p>'
             )
     parts.append("</section>")
+
+    nongithub = load_nongithub()
+    if nongithub:
+        parts.append(render_nongithub_html(nongithub))
 
     parts.extend(
         [
