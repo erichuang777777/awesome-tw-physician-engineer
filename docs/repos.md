@@ -1,6 +1,6 @@
 # 專案資料庫
 
-產生時間：`2026-10-03 00:26（台北時間）`
+產生時間：`2026-10-03 09:20（台北時間）`
 帳號 **45** · 倉庫 **902**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
@@ -58,8 +58,8 @@
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 急診／急重症速查參考。
-- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 個人頁面／作品集站，無可單獨說明的產品功能。
 - [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 急診醫學與重症照護文獻雷達每天自動掃描 PubMed 新文獻並依影響力排序，解決醫療人員獲取最新研究資訊的需求。
+- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 個人頁面／作品集站，無可單獨說明的產品功能。
 - [slidecue](https://github.com/agoodbear/slidecue) — 將 Keynote 講稿顯示在 Even Realities G2 鏡片上，解決講者在演講時低頭看稿而失去與聽眾眼神接觸的問題。
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — 提供框選文字後自動生成改稿指令的工具；解決在 Roam 中標記和管理修改建議的問題。
 - [voice-podcast](https://github.com/agoodbear/voice-podcast) — 急診熊心聲 Podcast — AI 研究+查核+本人聲音合成的個人知識型 podcast。
@@ -319,8 +319,8 @@
 
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
-- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 提供腫瘤內科醫師的臨床筆記與衛教資源；符合醫療法規的內容結構與AI優化，助於醫學教育與研究。
 - [CCChange](https://github.com/htlin222/CCChange) — 每日自動生成 Claude Code 的中文 changelog 講義；解決了手動更新內容的繁瑣問題。
+- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 提供腫瘤內科醫師的臨床筆記與衛教資源；符合醫療法規的內容結構與AI優化，助於醫學教育與研究。
 - [nccn-guidelines-downloader](https://github.com/htlin222/nccn-guidelines-downloader) — 提供兩種方式下載 NCCN 臨床實踐指導方針 PDF，解決需要使用 NCCN 登入才能獲取指導方針的問題。
 - [zitie-generator](https://github.com/htlin222/zitie-generator) — 線上產生繁體中文硬筆字帖，提供多種字型、筆順與格子選擇，方便學生練習書寫技巧。
 - [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 提供血液科口試的歷屆考生心得整理，幫助考生了解考試主題分布與答題心法。
@@ -908,6 +908,7 @@
 ## [@u9401066](https://github.com/u9401066) {#u9401066}
 
 - [research-data-explorer](https://github.com/u9401066/research-data-explorer) — 提供一個AI驅動的研究數據探索平台，協助非技術研究者進行可審計的探索性數據分析與報告生成；解決了無需撰寫大量自定義分析代碼的痛點。
+- [creativity-generation-unit](https://github.com/u9401066/creativity-generation-unit) — 提供基於快思慢想架構的創意發想服務；透過部分資訊生成創意，解決人類需完整知識才能創造的限制。
 - [zotero-keeper](https://github.com/u9401066/zotero-keeper) — 提供一個連接 VS Code 與本地 Zotero 資料庫的 MCP 伺服器，讓 AI 助手能夠搜尋、查看及新增文獻參考，解決文獻管理的繁瑣問題。
 - [dicom-overlay-agent](https://github.com/u9401066/dicom-overlay-agent) — 提供醫學影像的自動共讀功能，能夠在DICOM檢視器上捕捉螢幕截圖並疊加AI分析結果，讓醫師保留最終決策權。
 - [pubmed-search-mcp](https://github.com/u9401066/pubmed-search-mcp) — 提供多來源生物醫學文獻的智能搜尋與分析功能；解決AI代理在文獻研究中的效率與準確性問題。
@@ -917,7 +918,6 @@
 - [rootcause-mcp](https://github.com/u9401066/rootcause-mcp) — 提供臨床根本原因分析的AI指導結構化流程，整合魚骨圖、5個為什麼及HFACS-MES，以提升醫療品質。
 - [med-paper-assistant](https://github.com/u9401066/med-paper-assistant) — 提供可審計的學術寫作工作空間，支援自主及人導式寫作，解決學術論文撰寫過程中的質量檢查與證據定位問題。
 - [nsforge-mcp](https://github.com/u9401066/nsforge-mcp) — 透過可驗證且可追溯的符號推導，將概念轉換為公式，解決生成式 AI 在手動符號運算時產生的幻覺與矛盾問題。
-- [creativity-generation-unit](https://github.com/u9401066/creativity-generation-unit) — 提供基於快思慢想架構的創意發想服務；透過部分資訊生成創意，解決人類需完整知識才能創造的限制。
 - [anesthesia-exam](https://github.com/u9401066/anesthesia-exam) — 智慧考卷生成系統可依指定教材與主題自動生成麻醉科考試題目；解決考生在準備考試時缺乏針對性練習的問題。
 - [pharmacy-mcp](https://github.com/u9401066/pharmacy-mcp) — 提供藥品資訊、劑量計算器及相互作用檢查功能；透過統一的查詢合約整合多種藥學數據來源，解決藥品資訊查詢的複雜性與不一致性。
 - [medical-deidentification](https://github.com/u9401066/medical-deidentification) — 提供醫療資料去識別化工具，解決醫療個人健康資訊（PHI）保護問題，確保資料處理完全在本地進行。

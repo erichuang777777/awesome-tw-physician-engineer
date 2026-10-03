@@ -2,8 +2,8 @@
 
 隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。
 
-- 產生時間：`2026-10-03 00:26（台北時間）`
-- 動態視窗：近 **7** 天（自 `2026-09-25T16:26:51Z`）
+- 產生時間：`2026-10-03 09:20（台北時間）`
+- 動態視窗：近 **7** 天（自 `2026-09-26T01:20:50Z`）
 - 名冊帳號：**45**
 - 本週精選：**10**
 - 公開非 fork 倉庫總數：**902**
@@ -18,7 +18,7 @@
 
 近 7 天掃描 45 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 12 則較安靜或非臨床向更新。
 
-- [@liangRXdev](https://github.com/liangRXdev) — 新建 藥學／藥品資訊「taiwan-pharmacist-exam-data」；更新了 藥學／藥品資訊「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」 等 5 個
+- [@liangRXdev](https://github.com/liangRXdev) — 新建 藥學／藥品資訊「taiwan-pharmacist-exam-data」；更新了 藥學／藥品資訊「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」 等 4 個
 - [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」、「nccn-guidelines-downloader」、「hema-board-interview-guide」
 - [@u9401066](https://github.com/u9401066) — 更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」
 - [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」
