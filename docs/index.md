@@ -2,11 +2,11 @@
 
 隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。
 
-- 產生時間：`2026-10-03 09:20（台北時間）`
-- 動態視窗：近 **7** 天（自 `2026-09-26T01:20:50Z`）
+- 產生時間：`2026-10-04 23:22（台北時間）`
+- 動態視窗：近 **7** 天（自 `2026-09-27T15:22:12Z`）
 - 名冊帳號：**45**
 - 本週精選：**10**
-- 公開非 fork 倉庫總數：**902**
+- 公開非 fork 倉庫總數：**903**
 
 > **隱私：** 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -16,20 +16,20 @@
 
 ## 本週值得追蹤
 
-近 7 天掃描 45 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 12 則較安靜或非臨床向更新。
+近 7 天掃描 45 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 11 則較安靜或非臨床向更新。
 
-- [@liangRXdev](https://github.com/liangRXdev) — 新建 藥學／藥品資訊「taiwan-pharmacist-exam-data」；更新了 藥學／藥品資訊「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」 等 4 個
-- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」、「nccn-guidelines-downloader」、「hema-board-interview-guide」
+- [@liangRXdev](https://github.com/liangRXdev) — 更新了 健保／編碼與申報「NHI-drug-price-history」、健保／編碼與申報「TFDA-drug-info-search」、藥學／藥品資訊「TFDA-drug-recall-dashboard」 等 6 個
+- [@erichuang777777](https://github.com/erichuang777777) — 新建 腫瘤／血液相關「awesome-tw-physician-engineer」、「OpenOnco-Breast-Finder」
 - [@u9401066](https://github.com/u9401066) — 更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」
 - [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」
+- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」、「nccn-guidelines-downloader」
 - [@shin13](https://github.com/shin13) — 更新了 藥學／藥品資訊「opentaimed」
 - [@t0mst0ne](https://github.com/t0mst0ne) — 更新了 文獻／臨床試驗「medical-journal-daily-agent」
 - [@tsaiid](https://github.com/tsaiid) — 更新了 醫學影像／放射「structured-reporting-web-tools」
 - [@Yuchunchen](https://github.com/Yuchunchen) — 更新了 健保／編碼與申報「VaxCheck」
 - [@odafeng](https://github.com/odafeng) — 更新了 臨床指引／路徑「hemorrhoids-postop」、腫瘤／血液相關「Stage_III_Colon_EDR」
-- [@gosienna](https://github.com/gosienna) — 更新了 生理訊號／波形「Project01_EDF_viewer」
 
-_另有 12 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
+_另有 11 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
 
 ---
 
@@ -93,7 +93,7 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。
 
-共 **902** 個倉庫、**45** 個帳號。
+共 **903** 個倉庫、**45** 個帳號。
 
 來源：[erichuang777777/awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer)
 

@@ -1,22 +1,32 @@
 {
-  "generated_at": "2026-10-03T01:20:50Z",
-  "generated_at_taipei": "2026-10-03 09:20（台北時間）",
+  "generated_at": "2026-10-04T15:22:12Z",
+  "generated_at_taipei": "2026-10-04 23:22（台北時間）",
   "window_days": 7,
-  "window_start": "2026-09-26T01:20:50Z",
+  "window_start": "2026-09-27T15:22:12Z",
   "roster_count": 45,
-  "active_count": 22,
+  "active_count": 21,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
-  "overview_zh": "近 7 天掃描 45 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 12 則較安靜或非臨床向更新。",
+  "overview_zh": "近 7 天掃描 45 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 11 則較安靜或非臨床向更新。",
   "entries": [
     {
       "login": "agoodbear",
       "profile_url": "https://github.com/agoodbear",
       "repos": [
         {
+          "name": "agoodbear.github.io",
+          "url": "https://github.com/agoodbear/agoodbear.github.io",
+          "created_at": "2023-12-14T11:50:01Z",
+          "pushed_at": "2026-10-04T15:05:56Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法",
+          "theme": "個人網站／部落格"
+        },
+        {
           "name": "tw-er-ref-2x9k",
           "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
           "created_at": "2026-04-04T05:46:34Z",
-          "pushed_at": "2026-10-03T01:05:07Z",
+          "pushed_at": "2026-10-04T15:05:07Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：說明未寫具體痛點；做法：急診／急重症速查參考",
@@ -26,51 +36,26 @@
           "name": "em-pulse-tw",
           "url": "https://github.com/agoodbear/em-pulse-tw",
           "created_at": "2026-06-14T00:35:02Z",
-          "pushed_at": "2026-10-03T00:54:23Z",
+          "pushed_at": "2026-10-04T00:20:33Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁",
           "theme": "急診／急重症"
-        },
-        {
-          "name": "agoodbear.github.io",
-          "url": "https://github.com/agoodbear/agoodbear.github.io",
-          "created_at": "2023-12-14T11:50:01Z",
-          "pushed_at": "2026-10-02T14:14:48Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法",
-          "theme": "個人網站／部落格"
-        },
-        {
-          "name": "slidecue",
-          "url": "https://github.com/agoodbear/slidecue",
-          "created_at": "2026-08-22T13:09:28Z",
-          "pushed_at": "2026-09-27T12:06:10Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：上台時無法同時保持與聽眾的眼神接觸和查看講稿；做法：將講稿顯示在眼鏡鏡片上，並自動翻頁更新內容",
-          "theme": "簡報／教材"
         }
       ],
       "recent_pushes": [
         {
           "repo": "agoodbear/tw-er-ref-2x9k",
           "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
-          "pushed_at": "2026-10-03T01:05:08Z"
+          "pushed_at": "2026-10-04T15:05:08Z"
         },
         {
           "repo": "agoodbear/agoodbear.github.io",
           "url": "https://github.com/agoodbear/agoodbear.github.io",
-          "pushed_at": "2026-10-01T13:03:12Z"
-        },
-        {
-          "repo": "agoodbear/slidecue",
-          "url": "https://github.com/agoodbear/slidecue",
-          "pushed_at": "2026-09-27T12:06:10Z"
+          "pushed_at": "2026-10-04T14:59:09Z"
         }
       ],
-      "summary_zh": "@agoodbear 本週更新倉庫 「tw-er-ref-2x9k」、「em-pulse-tw」、「agoodbear.github.io」、「slidecue」。"
+      "summary_zh": "@agoodbear 本週更新倉庫 「agoodbear.github.io」、「tw-er-ref-2x9k」、「em-pulse-tw」。"
     },
     {
       "login": "Chiehx0220",
@@ -80,7 +65,7 @@
         {
           "repo": "Chiehx0220/Fathom",
           "url": "https://github.com/Chiehx0220/Fathom",
-          "pushed_at": "2026-10-02T10:24:22Z"
+          "pushed_at": "2026-10-04T07:22:29Z"
         },
         {
           "repo": "Chiehx0220/PipePipeExtractor",
@@ -95,6 +80,16 @@
       "profile_url": "https://github.com/CJRonald",
       "repos": [
         {
+          "name": "cjhuang-website",
+          "url": "https://github.com/CJRonald/cjhuang-website",
+          "created_at": "2026-06-07T12:21:19Z",
+          "pushed_at": "2026-10-04T15:08:05Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：個人頁面，沒有單一待解問題；做法：學術個人網站，放 CV 與著作連結",
+          "theme": null
+        },
+        {
           "name": "VDILab",
           "url": "https://github.com/CJRonald/VDILab",
           "created_at": "2025-07-20T05:35:17Z",
@@ -103,31 +98,21 @@
           "recently_pushed": true,
           "intro_zh": "問題：實驗室的計畫與成員不好一次展示；做法：用 Jekyll 模板做實驗室網站",
           "theme": null
-        },
-        {
-          "name": "cjhuang-website",
-          "url": "https://github.com/CJRonald/cjhuang-website",
-          "created_at": "2026-06-07T12:21:19Z",
-          "pushed_at": "2026-09-26T10:48:36Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：個人頁面，沒有單一待解問題；做法：學術個人網站，放 CV 與著作連結",
-          "theme": null
         }
       ],
       "recent_pushes": [
         {
+          "repo": "CJRonald/cjhuang-website",
+          "url": "https://github.com/CJRonald/cjhuang-website",
+          "pushed_at": "2026-10-04T15:06:47Z"
+        },
+        {
           "repo": "CJRonald/VDILab",
           "url": "https://github.com/CJRonald/VDILab",
           "pushed_at": "2026-09-29T14:52:50Z"
-        },
-        {
-          "repo": "CJRonald/cjhuang-website",
-          "url": "https://github.com/CJRonald/cjhuang-website",
-          "pushed_at": "2026-09-26T03:17:27Z"
         }
       ],
-      "summary_zh": "@CJRonald 本週更新倉庫 「VDILab」、「cjhuang-website」。"
+      "summary_zh": "@CJRonald 本週更新倉庫 「cjhuang-website」、「VDILab」。"
     },
     {
       "login": "didiowen",
@@ -200,21 +185,36 @@
           "name": "awesome-tw-physician-engineer",
           "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
           "created_at": "2026-10-01T18:09:27Z",
-          "pushed_at": "2026-10-03T01:20:35Z",
+          "pushed_at": "2026-10-04T15:21:57Z",
           "is_new": true,
           "recently_pushed": true,
           "intro_zh": "問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結",
           "theme": null
+        },
+        {
+          "name": "OpenOnco-Breast-Finder",
+          "url": "https://github.com/erichuang777777/OpenOnco-Breast-Finder",
+          "created_at": "2026-10-03T16:05:19Z",
+          "pushed_at": "2026-10-04T14:53:07Z",
+          "is_new": true,
+          "recently_pushed": true,
+          "intro_zh": "問題：說明未寫具體痛點；做法：台灣／乳癌／醫師／醫院／MCP相關工具；偏腫瘤／血液相關",
+          "theme": "腫瘤／血液相關"
         }
       ],
       "recent_pushes": [
         {
           "repo": "erichuang777777/awesome-tw-physician-engineer",
           "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
-          "pushed_at": "2026-10-02T15:39:28Z"
+          "pushed_at": "2026-10-04T15:21:57Z"
+        },
+        {
+          "repo": "erichuang777777/OpenOnco-Breast-Finder",
+          "url": "https://github.com/erichuang777777/OpenOnco-Breast-Finder",
+          "pushed_at": "2026-10-04T14:53:07Z"
         }
       ],
-      "summary_zh": "@erichuang777777 本週新建公開倉庫 「awesome-tw-physician-engineer」。"
+      "summary_zh": "@erichuang777777 本週新建公開倉庫 「awesome-tw-physician-engineer」、「OpenOnco-Breast-Finder」。"
     },
     {
       "login": "gosienna",
@@ -229,16 +229,6 @@
           "recently_pushed": true,
           "intro_zh": "問題：無法有效查看和分析 EDF 格式的生理訊號數據；做法：提供網頁應用程式以互動方式顯示生理訊號波形",
           "theme": "生理訊號／波形"
-        },
-        {
-          "name": "Project12_BuildPlatformerGame",
-          "url": "https://github.com/gosienna/Project12_BuildPlatformerGame",
-          "created_at": "2026-09-20T06:21:25Z",
-          "pushed_at": "2026-09-27T12:56:55Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：說明不足，看不出具體痛點；做法：平台相關工具或實驗說明不足",
-          "theme": null
         }
       ],
       "recent_pushes": [
@@ -246,14 +236,9 @@
           "repo": "gosienna/Project01_EDF_viewer",
           "url": "https://github.com/gosienna/Project01_EDF_viewer",
           "pushed_at": "2026-10-02T00:57:52Z"
-        },
-        {
-          "repo": "gosienna/Project12_BuildPlatformerGame",
-          "url": "https://github.com/gosienna/Project12_BuildPlatformerGame",
-          "pushed_at": "2026-09-27T11:08:22Z"
         }
       ],
-      "summary_zh": "@gosienna 本週更新倉庫 「Project01_EDF_viewer」、「Project12_BuildPlatformerGame」。"
+      "summary_zh": "@gosienna 本週更新倉庫 「Project01_EDF_viewer」。"
     },
     {
       "login": "homigin",
@@ -278,24 +263,24 @@
       "profile_url": "https://github.com/htlin222",
       "repos": [
         {
-          "name": "CCChange",
-          "url": "https://github.com/htlin222/CCChange",
-          "created_at": "2026-08-02T06:03:36Z",
-          "pushed_at": "2026-10-03T00:23:05Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併",
-          "theme": "生成式 AI／LLM"
-        },
-        {
           "name": "lin-hsiehting",
           "url": "https://github.com/htlin222/lin-hsiehting",
           "created_at": "2026-05-10T14:51:34Z",
-          "pushed_at": "2026-10-02T10:06:02Z",
+          "pushed_at": "2026-10-04T10:14:56Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核",
           "theme": "腫瘤／血液相關"
+        },
+        {
+          "name": "CCChange",
+          "url": "https://github.com/htlin222/CCChange",
+          "created_at": "2026-08-02T06:03:36Z",
+          "pushed_at": "2026-10-04T00:23:10Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併",
+          "theme": "生成式 AI／LLM"
         },
         {
           "name": "nccn-guidelines-downloader",
@@ -306,46 +291,30 @@
           "recently_pushed": true,
           "intro_zh": "問題：無法方便下載 NCCN 臨床實踐指導方針 PDF；做法：透過 CLI 腳本或 PWA 介面使用個人 NCCN 帳號下載",
           "theme": "腫瘤／血液相關"
-        },
-        {
-          "name": "zitie-generator",
-          "url": "https://github.com/htlin222/zitie-generator",
-          "created_at": "2026-09-26T08:04:25Z",
-          "pushed_at": "2026-09-26T08:04:41Z",
-          "is_new": true,
-          "recently_pushed": true,
-          "intro_zh": "問題：無法快速生成繁體中文硬筆字帖以供練習；做法：線上生成可列印的繁體中文硬筆字帖，支持多種格式與設定",
-          "theme": null
-        },
-        {
-          "name": "hema-board-interview-guide",
-          "url": "https://github.com/htlin222/hema-board-interview-guide",
-          "created_at": "2026-09-07T13:21:05Z",
-          "pushed_at": "2026-09-26T06:24:47Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料",
-          "theme": "腫瘤／血液相關"
         }
       ],
-      "recent_pushes": [
-        {
-          "repo": "htlin222/hema-board-interview-guide",
-          "url": "https://github.com/htlin222/hema-board-interview-guide",
-          "pushed_at": "2026-09-26T06:24:48Z"
-        }
-      ],
-      "summary_zh": "@htlin222 本週新建公開倉庫 「zitie-generator」；更新倉庫 「CCChange」、「lin-hsiehting」、「nccn-guidelines-downloader」、「hema-board-interview-guide」。"
+      "recent_pushes": [],
+      "summary_zh": "@htlin222 本週更新倉庫 「lin-hsiehting」、「CCChange」、「nccn-guidelines-downloader」。"
     },
     {
       "login": "jjtseng93",
       "profile_url": "https://github.com/jjtseng93",
       "repos": [
         {
+          "name": "buninu-browser",
+          "url": "https://github.com/jjtseng93/buninu-browser",
+          "created_at": "2026-09-29T17:01:27Z",
+          "pushed_at": "2026-10-03T22:50:50Z",
+          "is_new": true,
+          "recently_pushed": true,
+          "intro_zh": "問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎",
+          "theme": null
+        },
+        {
           "name": "buninu-linux",
           "url": "https://github.com/jjtseng93/buninu-linux",
           "created_at": "2026-09-18T13:01:48Z",
-          "pushed_at": "2026-10-02T14:41:53Z",
+          "pushed_at": "2026-10-03T17:33:11Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：無法在 Linux 環境中使用 Bun 作為 PID 1 的系統；做法：透過 Buninu Linux 發布專門的 Linux 發行版運行 Bun",
@@ -356,20 +325,10 @@
           "url": "https://github.com/jjtseng93/jspulse",
           "created_at": "2026-09-27T11:24:34Z",
           "pushed_at": "2026-10-01T15:38:18Z",
-          "is_new": true,
+          "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：在行動裝置上無法直接使用 PulseAudio 進行音訊處理；做法：在 Bun 環境中實現 PulseAudio 協議，無需外部工具",
           "theme": "行動應用"
-        },
-        {
-          "name": "buninu-browser",
-          "url": "https://github.com/jjtseng93/buninu-browser",
-          "created_at": "2026-09-29T17:01:27Z",
-          "pushed_at": "2026-10-01T15:00:39Z",
-          "is_new": true,
-          "recently_pushed": true,
-          "intro_zh": "問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎",
-          "theme": null
         },
         {
           "name": "buninu",
@@ -400,28 +359,18 @@
           "recently_pushed": true,
           "intro_zh": "問題：無法方便地分享終端機畫面給其他人；做法：透過瀏覽器實現終端機的即時共享功能",
           "theme": null
-        },
-        {
-          "name": "bunproot",
-          "url": "https://github.com/jjtseng93/bunproot",
-          "created_at": "2026-09-04T11:10:48Z",
-          "pushed_at": "2026-09-26T17:08:02Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：在沒有權限的 Android 環境中無法使用 Linux 用戶空間；做法：提供一個依賴 Bun 的用戶空間 chroot 解決方案",
-          "theme": "行動應用"
         }
       ],
       "recent_pushes": [
         {
           "repo": "jjtseng93/buninu-browser",
           "url": "https://github.com/jjtseng93/buninu-browser",
-          "pushed_at": "2026-10-01T15:00:39Z"
+          "pushed_at": "2026-10-03T18:38:00Z"
         },
         {
           "repo": "jjtseng93/buninu-linux",
           "url": "https://github.com/jjtseng93/buninu-linux",
-          "pushed_at": "2026-10-01T23:06:22Z"
+          "pushed_at": "2026-10-03T17:33:12Z"
         },
         {
           "repo": "jjtseng93/jspulse",
@@ -447,24 +396,39 @@
           "repo": "jjtseng93/bunmsh",
           "url": "https://github.com/jjtseng93/bunmsh",
           "pushed_at": "2026-09-28T19:28:52Z"
-        },
-        {
-          "repo": "jjtseng93/bunproot",
-          "url": "https://github.com/jjtseng93/bunproot",
-          "pushed_at": "2026-09-26T17:08:02Z"
         }
       ],
-      "summary_zh": "@jjtseng93 本週新建公開倉庫 「jspulse」、「buninu-browser」；更新倉庫 「buninu-linux」、「buninu」、「bunmsh」、「js-gotty」、「bunproot」；另有 1 處公開推送。"
+      "summary_zh": "@jjtseng93 本週新建公開倉庫 「buninu-browser」；更新倉庫 「buninu-linux」、「jspulse」、「buninu」、「bunmsh」、「js-gotty」；另有 1 處公開推送。"
     },
     {
       "login": "liangRXdev",
       "profile_url": "https://github.com/liangRXdev",
       "repos": [
         {
+          "name": "NHI-drug-price-history",
+          "url": "https://github.com/liangRXdev/NHI-drug-price-history",
+          "created_at": "2026-09-11T15:47:54Z",
+          "pushed_at": "2026-10-04T11:33:25Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：無法快速查詢健保藥品的歷史支付價格；做法：提供完整的健保藥品價格歷史查詢系統",
+          "theme": "健保／編碼與申報"
+        },
+        {
+          "name": "TFDA-drug-info-search",
+          "url": "https://github.com/liangRXdev/TFDA-drug-info-search",
+          "created_at": "2026-04-21T07:34:03Z",
+          "pushed_at": "2026-10-04T11:32:16Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：查詢藥品資訊時無法即時獲得最新資料；做法：自動更新並串接政府開放資料的靜態 JSON 快取",
+          "theme": "健保／編碼與申報"
+        },
+        {
           "name": "TFDA-drug-recall-dashboard",
           "url": "https://github.com/liangRXdev/TFDA-drug-recall-dashboard",
           "created_at": "2026-04-14T03:52:50Z",
-          "pushed_at": "2026-10-02T23:32:45Z",
+          "pushed_at": "2026-10-03T22:40:30Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：臨床人員無法即時獲知藥品回收公告；做法：自動抓取食藥署資料並視覺化展示",
@@ -499,26 +463,10 @@
           "recently_pushed": true,
           "intro_zh": "問題：藥品外觀搜尋時無法快速確認候選藥品；做法：依刻字、顏色、形狀從公開資料縮小清單供比對",
           "theme": "藥學／藥品資訊"
-        },
-        {
-          "name": "taiwan-pharmacist-exam-data",
-          "url": "https://github.com/liangRXdev/taiwan-pharmacist-exam-data",
-          "created_at": "2026-09-27T07:41:17Z",
-          "pushed_at": "2026-09-27T07:53:27Z",
-          "is_new": true,
-          "recently_pushed": true,
-          "intro_zh": "問題：考生無法獲得結構化的藥師國考題庫；做法：提供可稽核的題庫，並套用官方更正答案",
-          "theme": "藥學／藥品資訊"
         }
       ],
-      "recent_pushes": [
-        {
-          "repo": "liangRXdev/taiwan-pharmacist-exam-data",
-          "url": "https://github.com/liangRXdev/taiwan-pharmacist-exam-data",
-          "pushed_at": "2026-09-27T07:53:28Z"
-        }
-      ],
-      "summary_zh": "@liangRXdev 本週新建公開倉庫 「taiwan-pharmacist-exam-data」；更新倉庫 「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」、「pill-detective-tw」。"
+      "recent_pushes": [],
+      "summary_zh": "@liangRXdev 本週更新倉庫 「NHI-drug-price-history」、「TFDA-drug-info-search」、「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」 等 6 個。"
     },
     {
       "login": "littlecanargie",
@@ -552,7 +500,7 @@
           "name": "hemorrhoids-postop",
           "url": "https://github.com/odafeng/hemorrhoids-postop",
           "created_at": "2026-03-18T03:48:49Z",
-          "pushed_at": "2026-10-02T18:32:47Z",
+          "pushed_at": "2026-10-03T19:12:41Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：術後病人無法有效追蹤症狀及獲得衛教；做法：透過日常報告與 AI 提供個性化衛教資訊",
@@ -562,7 +510,7 @@
           "name": "Stage_III_Colon_EDR",
           "url": "https://github.com/odafeng/Stage_III_Colon_EDR",
           "created_at": "2025-11-28T15:35:33Z",
-          "pushed_at": "2026-10-02T18:32:40Z",
+          "pushed_at": "2026-10-03T19:12:35Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：缺乏針對第三期結腸癌早期遠端復發的預測模型；做法：建立可重複的機器學習分析流程進行模型開發與驗證",
@@ -617,28 +565,18 @@
           "recently_pushed": true,
           "intro_zh": "問題：上課時無法快速記錄大量專有名詞與逐字稿；做法：即時音訊辨識並生成逐段筆記與整併筆記",
           "theme": "生成式 AI／LLM"
-        },
-        {
-          "name": "lunch-decider",
-          "url": "https://github.com/odafeng/lunch-decider",
-          "created_at": "2026-09-25T17:23:42Z",
-          "pushed_at": "2026-09-26T05:52:05Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：無法快速找到附近符合需求的餐廳；做法：依位置與條件隨機選擇餐廳選項",
-          "theme": null
         }
       ],
       "recent_pushes": [
         {
           "repo": "odafeng/Stage_III_Colon_EDR",
           "url": "https://github.com/odafeng/Stage_III_Colon_EDR",
-          "pushed_at": "2026-10-02T18:32:41Z"
+          "pushed_at": "2026-10-03T19:12:36Z"
         },
         {
           "repo": "odafeng/hemorrhoids-postop",
           "url": "https://github.com/odafeng/hemorrhoids-postop",
-          "pushed_at": "2026-10-01T18:35:40Z"
+          "pushed_at": "2026-10-02T18:32:48Z"
         },
         {
           "repo": "odafeng/odin-notes-tw",
@@ -659,14 +597,9 @@
           "repo": "odafeng/lecture_live_notes",
           "url": "https://github.com/odafeng/lecture_live_notes",
           "pushed_at": "2026-09-29T05:29:09Z"
-        },
-        {
-          "repo": "odafeng/lunch-decider",
-          "url": "https://github.com/odafeng/lunch-decider",
-          "pushed_at": "2026-09-26T05:52:05Z"
         }
       ],
-      "summary_zh": "@odafeng 本週更新倉庫 「hemorrhoids-postop」、「Stage_III_Colon_EDR」、「crs-knowledge-base」、「ctpelvimetry」、「odin-notes-tw」 等 8 個。"
+      "summary_zh": "@odafeng 本週更新倉庫 「hemorrhoids-postop」、「Stage_III_Colon_EDR」、「crs-knowledge-base」、「ctpelvimetry」、「odin-notes-tw」 等 7 個。"
     },
     {
       "login": "shin13",
@@ -697,10 +630,20 @@
       "profile_url": "https://github.com/soanseng",
       "repos": [
         {
+          "name": "podcast-use",
+          "url": "https://github.com/soanseng/podcast-use",
+          "created_at": "2026-04-20T04:27:04Z",
+          "pushed_at": "2026-10-03T23:58:40Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：在編輯播客時無法有效管理音頻和轉錄內容；做法：自動轉錄音頻並提供可讀的編輯介面和決策列表",
+          "theme": "生成式 AI／LLM"
+        },
+        {
           "name": "rime-trime-taigi",
           "url": "https://github.com/soanseng/rime-trime-taigi",
           "created_at": "2026-09-30T00:57:45Z",
-          "pushed_at": "2026-10-02T14:01:13Z",
+          "pushed_at": "2026-10-03T06:34:45Z",
           "is_new": true,
           "recently_pushed": true,
           "intro_zh": "問題：使用者無法方便輸入台語，缺乏專用輸入法；做法：提供台語特化的 Android 輸入法，內建多種輸入方案與功能列",
@@ -721,7 +664,7 @@
           "url": "https://github.com/soanseng/thak-tai-bun",
           "created_at": "2026-09-27T12:03:16Z",
           "pushed_at": "2026-09-29T09:03:03Z",
-          "is_new": true,
+          "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：使用者無法即時將漢羅轉換為台羅和白話字；做法：提供一頁式網頁即時轉換功能，無需安裝",
           "theme": null
@@ -729,14 +672,19 @@
       ],
       "recent_pushes": [
         {
-          "repo": "soanseng/rime-trime-taigi",
-          "url": "https://github.com/soanseng/rime-trime-taigi",
-          "pushed_at": "2026-10-01T08:42:02Z"
-        },
-        {
           "repo": "soanseng/rime-phah-taibun",
           "url": "https://github.com/soanseng/rime-phah-taibun",
-          "pushed_at": "2026-09-30T12:54:35Z"
+          "pushed_at": "2026-10-02T13:06:00Z"
+        },
+        {
+          "repo": "soanseng/rime-trime-taigi",
+          "url": "https://github.com/soanseng/rime-trime-taigi",
+          "pushed_at": "2026-10-02T13:06:19Z"
+        },
+        {
+          "repo": "soanseng/podcast-use",
+          "url": "https://github.com/soanseng/podcast-use",
+          "pushed_at": "2026-10-03T23:58:41Z"
         },
         {
           "repo": "soanseng/thak-tai-bun",
@@ -744,35 +692,35 @@
           "pushed_at": "2026-09-29T09:03:04Z"
         }
       ],
-      "summary_zh": "@soanseng 本週新建公開倉庫 「rime-trime-taigi」、「thak-tai-bun」；更新倉庫 「rime-phah-taibun」。"
+      "summary_zh": "@soanseng 本週新建公開倉庫 「rime-trime-taigi」；更新倉庫 「podcast-use」、「rime-phah-taibun」、「thak-tai-bun」。"
     },
     {
       "login": "t0mst0ne",
       "profile_url": "https://github.com/t0mst0ne",
       "repos": [
         {
-          "name": "medical-journal-daily-agent",
-          "url": "https://github.com/t0mst0ne/medical-journal-daily-agent",
-          "created_at": "2026-07-27T13:36:55Z",
-          "pushed_at": "2026-10-02T08:10:07Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：無法及時獲取最新醫學期刊文獻摘要；做法：自動抓取 RSS 並翻譯摘要推送至 Telegram",
-          "theme": "文獻／臨床試驗"
-        },
-        {
           "name": "dementia-uptodate",
           "url": "https://github.com/t0mst0ne/dementia-uptodate",
           "created_at": "2026-04-18T13:50:47Z",
-          "pushed_at": "2026-09-28T03:17:30Z",
+          "pushed_at": "2026-10-04T15:04:35Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：無法即時獲取失智症相關的最新研究與臨床試驗資訊；做法：自動彙整並發布每週報告至 GitHub Wiki",
           "theme": null
+        },
+        {
+          "name": "medical-journal-daily-agent",
+          "url": "https://github.com/t0mst0ne/medical-journal-daily-agent",
+          "created_at": "2026-07-27T13:36:55Z",
+          "pushed_at": "2026-10-04T07:56:58Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：無法及時獲取最新醫學期刊文獻摘要；做法：自動抓取 RSS 並翻譯摘要推送至 Telegram",
+          "theme": "文獻／臨床試驗"
         }
       ],
       "recent_pushes": [],
-      "summary_zh": "@t0mst0ne 本週更新倉庫 「medical-journal-daily-agent」、「dementia-uptodate」。"
+      "summary_zh": "@t0mst0ne 本週更新倉庫 「dementia-uptodate」、「medical-journal-daily-agent」。"
     },
     {
       "login": "texchi2",
@@ -799,30 +747,6 @@
       "summary_zh": "@texchi2 本週更新倉庫 「ftmerp-java-project」。"
     },
     {
-      "login": "tinchangchang",
-      "profile_url": "https://github.com/tinchangchang",
-      "repos": [
-        {
-          "name": "figo-staging-calculators",
-          "url": "https://github.com/tinchangchang/figo-staging-calculators",
-          "created_at": "2026-07-15T07:44:58Z",
-          "pushed_at": "2026-09-26T13:29:40Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：現場無法快速獲得婦科癌症分期計算工具；做法：提供線上靜態網站供即時使用計算器",
-          "theme": "腫瘤／血液相關"
-        }
-      ],
-      "recent_pushes": [
-        {
-          "repo": "tinchangchang/figo-staging-calculators",
-          "url": "https://github.com/tinchangchang/figo-staging-calculators",
-          "pushed_at": "2026-09-26T13:29:41Z"
-        }
-      ],
-      "summary_zh": "@tinchangchang 本週更新倉庫 「figo-staging-calculators」。"
-    },
-    {
       "login": "tsaiid",
       "profile_url": "https://github.com/tsaiid",
       "repos": [
@@ -830,7 +754,7 @@
           "name": "vghks-random-duty",
           "url": "https://github.com/tsaiid/vghks-random-duty",
           "created_at": "2015-07-15T13:35:19Z",
-          "pushed_at": "2026-10-02T03:24:29Z",
+          "pushed_at": "2026-10-04T12:50:45Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：住院醫師排班時缺乏隨機化工具；做法：提供單頁應用程式生成隨機排班",
@@ -840,7 +764,7 @@
           "name": "radtools.tsai.it",
           "url": "https://github.com/tsaiid/radtools.tsai.it",
           "created_at": "2015-07-23T03:50:37Z",
-          "pushed_at": "2026-09-29T01:14:25Z",
+          "pushed_at": "2026-10-04T12:48:43Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：臨床放射科工作流程中缺乏有效的工具來提升準確性；做法：提供多種網頁工具以協助醫療決策",
@@ -850,7 +774,7 @@
           "name": "structured-reporting-web-tools",
           "url": "https://github.com/tsaiid/structured-reporting-web-tools",
           "created_at": "2014-04-23T01:15:32Z",
-          "pushed_at": "2026-09-29T01:14:03Z",
+          "pushed_at": "2026-10-03T09:05:12Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：放射科醫師在生成癌症分期報告時缺乏標準化工具；做法：提供網頁工具自動計算 TNM 分期並生成報告",
@@ -869,9 +793,14 @@
       ],
       "recent_pushes": [
         {
+          "repo": "tsaiid/vghks-random-duty",
+          "url": "https://github.com/tsaiid/vghks-random-duty",
+          "pushed_at": "2026-10-04T12:50:46Z"
+        },
+        {
           "repo": "tsaiid/radtools.tsai.it",
           "url": "https://github.com/tsaiid/radtools.tsai.it",
-          "pushed_at": "2026-09-29T01:14:26Z"
+          "pushed_at": "2026-10-04T12:48:43Z"
         },
         {
           "repo": "tsaiid/structured-reporting-web-tools",
@@ -894,7 +823,7 @@
           "name": "research-data-explorer",
           "url": "https://github.com/u9401066/research-data-explorer",
           "created_at": "2026-03-01T05:41:51Z",
-          "pushed_at": "2026-10-03T01:13:16Z",
+          "pushed_at": "2026-10-03T08:52:28Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：非技術研究者無法進行可重複的探索性數據分析；做法：提供可審計的分析流程，記錄決策與執行結果",
@@ -953,9 +882,14 @@
       ],
       "recent_pushes": [
         {
+          "repo": "u9401066/creativity-generation-unit",
+          "url": "https://github.com/u9401066/creativity-generation-unit",
+          "pushed_at": "2026-10-02T19:01:22Z"
+        },
+        {
           "repo": "u9401066/research-data-explorer",
           "url": "https://github.com/u9401066/research-data-explorer",
-          "pushed_at": "2026-10-03T01:13:17Z"
+          "pushed_at": "2026-10-02T22:44:54Z"
         },
         {
           "repo": "u9401066/llama-mcp-router",
@@ -988,7 +922,7 @@
           "name": "weight-challenge-dashboard",
           "url": "https://github.com/y-cliu/weight-challenge-dashboard",
           "created_at": "2026-08-21T13:59:52Z",
-          "pushed_at": "2026-10-03T00:32:44Z",
+          "pushed_at": "2026-10-04T14:32:33Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：說明不足，看不出具體痛點；做法：工具依名稱推斷",
@@ -999,7 +933,7 @@
         {
           "repo": "y-cliu/weight-challenge-dashboard",
           "url": "https://github.com/y-cliu/weight-challenge-dashboard",
-          "pushed_at": "2026-10-01T14:34:00Z"
+          "pushed_at": "2026-10-04T12:32:21Z"
         }
       ],
       "summary_zh": "@y-cliu 本週更新倉庫 「weight-challenge-dashboard」。"
@@ -1034,23 +968,22 @@
     {
       "login": "liangRXdev",
       "profile_url": "https://github.com/liangRXdev",
-      "text_zh": "新建 藥學／藥品資訊「taiwan-pharmacist-exam-data」；更新了 藥學／藥品資訊「TFDA-drug-recall-dashboard」、「TFDA-drug-shortage-dashboard」、「Taiwan-Clinical-Trial-Radar」 等 4 個",
+      "text_zh": "更新了 健保／編碼與申報「NHI-drug-price-history」、健保／編碼與申報「TFDA-drug-info-search」、藥學／藥品資訊「TFDA-drug-recall-dashboard」 等 6 個",
       "repo_names": [
+        "NHI-drug-price-history",
+        "TFDA-drug-info-search",
         "TFDA-drug-recall-dashboard",
         "TFDA-drug-shortage-dashboard",
-        "Taiwan-Clinical-Trial-Radar",
-        "pill-detective-tw",
-        "taiwan-pharmacist-exam-data"
+        "Taiwan-Clinical-Trial-Radar"
       ]
     },
     {
-      "login": "htlin222",
-      "profile_url": "https://github.com/htlin222",
-      "text_zh": "更新了 腫瘤／血液相關「lin-hsiehting」、「nccn-guidelines-downloader」、「hema-board-interview-guide」",
+      "login": "erichuang777777",
+      "profile_url": "https://github.com/erichuang777777",
+      "text_zh": "新建 腫瘤／血液相關「awesome-tw-physician-engineer」、「OpenOnco-Breast-Finder」",
       "repo_names": [
-        "lin-hsiehting",
-        "nccn-guidelines-downloader",
-        "hema-board-interview-guide"
+        "awesome-tw-physician-engineer",
+        "OpenOnco-Breast-Finder"
       ]
     },
     {
@@ -1070,6 +1003,15 @@
       "repo_names": [
         "tw-er-ref-2x9k",
         "em-pulse-tw"
+      ]
+    },
+    {
+      "login": "htlin222",
+      "profile_url": "https://github.com/htlin222",
+      "text_zh": "更新了 腫瘤／血液相關「lin-hsiehting」、「nccn-guidelines-downloader」",
+      "repo_names": [
+        "lin-hsiehting",
+        "nccn-guidelines-downloader"
       ]
     },
     {
@@ -1112,16 +1054,8 @@
         "hemorrhoids-postop",
         "Stage_III_Colon_EDR"
       ]
-    },
-    {
-      "login": "gosienna",
-      "profile_url": "https://github.com/gosienna",
-      "text_zh": "更新了 生理訊號／波形「Project01_EDF_viewer」",
-      "repo_names": [
-        "Project01_EDF_viewer"
-      ]
     }
   ],
-  "soft_note_zh": "另有 12 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。",
+  "soft_note_zh": "另有 11 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。",
   "featured_count": 10
 }

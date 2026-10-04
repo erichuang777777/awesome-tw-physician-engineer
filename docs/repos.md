@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-10-03 09:20（台北時間）`
-帳號 **45** · 倉庫 **902**
+產生時間：`2026-10-04 23:22（台北時間）`
+帳號 **45** · 倉庫 **903**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -22,7 +22,7 @@
 - [@didiowen](#didiowen)（7）
 - [@drpwchen](#drpwchen)（19）
 - [@Drvinc](#drvinc)（7）
-- [@erichuang777777](#erichuang777777)（25）
+- [@erichuang777777](#erichuang777777)（26）
 - [@galencky](#galencky)（20）
 - [@gosienna](#gosienna)（48）
 - [@homigin](#homigin)（3）
@@ -57,9 +57,9 @@
 
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
+- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 問題：說明未寫具體痛點；做法：急診／急重症速查參考
 - [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁
-- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [slidecue](https://github.com/agoodbear/slidecue) — 問題：上台時無法同時保持與聽眾的眼神接觸和查看講稿；做法：將講稿顯示在眼鏡鏡片上，並自動翻頁更新內容
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — 問題：在 Roam 中無法快速標記和管理需要修改的文字；做法：透過框選文字自動生成標記子 block 及指令泡泡框
 - [voice-podcast](https://github.com/agoodbear/voice-podcast) — 問題：說明未寫具體痛點；做法：急診熊心聲 Podcast — AI 研究+查核+本人聲音合成的個人知識型
@@ -162,8 +162,8 @@
 
 ## [@CJRonald](https://github.com/CJRonald) {#cjronald}
 
-- [VDILab](https://github.com/CJRonald/VDILab) — 問題：實驗室的計畫與成員不好一次展示；做法：用 Jekyll 模板做實驗室網站
 - [cjhuang-website](https://github.com/CJRonald/cjhuang-website) — 問題：個人頁面，沒有單一待解問題；做法：學術個人網站，放 CV 與著作連結
+- [VDILab](https://github.com/CJRonald/VDILab) — 問題：實驗室的計畫與成員不好一次展示；做法：用 Jekyll 模板做實驗室網站
 - [LinkouCGMHBurnCenter](https://github.com/CJRonald/LinkouCGMHBurnCenter) — 問題：說明不足，看不出具體痛點；做法：燒燙傷相關工具或實驗說明不足
 - [nycu-2026-summer-r-assignments](https://github.com/CJRonald/nycu-2026-summer-r-assignments) — 問題：學員在完成生物醫學資訊課程作業時缺乏指導；做法：提供作業提示及自我檢查機制以避免錯誤
 
@@ -212,6 +212,7 @@
 ## [@erichuang777777](https://github.com/erichuang777777) {#erichuang777777}
 
 - [awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer) — 問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結
+- [OpenOnco-Breast-Finder](https://github.com/erichuang777777/OpenOnco-Breast-Finder) — 問題：說明未寫具體痛點；做法：台灣／乳癌／醫師／醫院／MCP相關工具；偏腫瘤／血液相關
 - [TW-Breast-Cancer-FHIR-IG](https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG) — 問題：缺乏統一的乳癌醫療資料標準，導致不同申報流程不相容；做法：建立台灣乳癌 FHIR 實作指引，提供共用模型與定義
 - [dotfiles](https://github.com/erichuang777777/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
 - [PROSPERO-MCP](https://github.com/erichuang777777/PROSPERO-MCP) — 問題：無法直接提交或修改 PROSPERO 註冊協議；做法：提供查詢和草稿生成的只讀介面
@@ -319,8 +320,8 @@
 
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
-- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
 - [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
+- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
 - [nccn-guidelines-downloader](https://github.com/htlin222/nccn-guidelines-downloader) — 問題：無法方便下載 NCCN 臨床實踐指導方針 PDF；做法：透過 CLI 腳本或 PWA 介面使用個人 NCCN 帳號下載
 - [zitie-generator](https://github.com/htlin222/zitie-generator) — 問題：無法快速生成繁體中文硬筆字帖以供練習；做法：線上生成可列印的繁體中文硬筆字帖，支持多種格式與設定
 - [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料
@@ -500,9 +501,9 @@
 
 ## [@jjtseng93](https://github.com/jjtseng93) {#jjtseng93}
 
+- [buninu-browser](https://github.com/jjtseng93/buninu-browser) — 問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎
 - [buninu-linux](https://github.com/jjtseng93/buninu-linux) — 問題：無法在 Linux 環境中使用 Bun 作為 PID 1 的系統；做法：透過 Buninu Linux 發布專門的 Linux 發行版運行 Bun
 - [jspulse](https://github.com/jjtseng93/jspulse) — 問題：在行動裝置上無法直接使用 PulseAudio 進行音訊處理；做法：在 Bun 環境中實現 PulseAudio 協議，無需外部工具
-- [buninu-browser](https://github.com/jjtseng93/buninu-browser) — 問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎
 - [buninu](https://github.com/jjtseng93/buninu) — 問題：在不同作業系統中無法快速啟動類 Unix 環境；做法：提供一個命令即可在瀏覽器或終端機啟動的可攜式用戶空間
 - [bunmsh](https://github.com/jjtseng93/bunmsh) — 問題：在不同平台上無法找到適合的命令行介面；做法：提供跨平台的命令行解釋器，無需依賴其他庫
 - [js-gotty](https://github.com/jjtseng93/js-gotty) — 問題：無法方便地分享終端機畫面給其他人；做法：透過瀏覽器實現終端機的即時共享功能
@@ -545,13 +546,13 @@
 
 ## [@liangRXdev](https://github.com/liangRXdev) {#liangrxdev}
 
+- [NHI-drug-price-history](https://github.com/liangRXdev/NHI-drug-price-history) — 問題：無法快速查詢健保藥品的歷史支付價格；做法：提供完整的健保藥品價格歷史查詢系統
+- [TFDA-drug-info-search](https://github.com/liangRXdev/TFDA-drug-info-search) — 問題：查詢藥品資訊時無法即時獲得最新資料；做法：自動更新並串接政府開放資料的靜態 JSON 快取
 - [TFDA-drug-recall-dashboard](https://github.com/liangRXdev/TFDA-drug-recall-dashboard) — 問題：臨床人員無法即時獲知藥品回收公告；做法：自動抓取食藥署資料並視覺化展示
 - [TFDA-drug-shortage-dashboard](https://github.com/liangRXdev/TFDA-drug-shortage-dashboard) — 問題：臨床人員無法即時獲得缺藥及替代藥品資訊；做法：自動抓取並視覺化顯示 TFDA 公告資料
 - [Taiwan-Clinical-Trial-Radar](https://github.com/liangRXdev/Taiwan-Clinical-Trial-Radar) — 問題：臨床醫師無法快速查詢台灣藥品臨床試驗的詳細資訊；做法：將TFDA的臨床試驗數據轉換為可搜尋的靜態網站
 - [pill-detective-tw](https://github.com/liangRXdev/pill-detective-tw) — 問題：藥品外觀搜尋時無法快速確認候選藥品；做法：依刻字、顏色、形狀從公開資料縮小清單供比對
 - [taiwan-pharmacist-exam-data](https://github.com/liangRXdev/taiwan-pharmacist-exam-data) — 問題：考生無法獲得結構化的藥師國考題庫；做法：提供可稽核的題庫，並套用官方更正答案
-- [NHI-drug-price-history](https://github.com/liangRXdev/NHI-drug-price-history) — 問題：無法快速查詢健保藥品的歷史支付價格；做法：提供完整的健保藥品價格歷史查詢系統
-- [TFDA-drug-info-search](https://github.com/liangRXdev/TFDA-drug-info-search) — 問題：查詢藥品資訊時無法即時獲得最新資料；做法：自動更新並串接政府開放資料的靜態 JSON 快取
 - [lung-ajcc-calc](https://github.com/liangRXdev/lung-ajcc-calc) — 問題：臨床人員無法快速計算肺癌分期；做法：即時輸入 T、N、M 值自動計算分期結果
 - [migraine-tracker](https://github.com/liangRXdev/migraine-tracker) — 問題：無法有效追蹤偏頭痛的症狀、生活方式與觸發因素；做法：使用個人化的 PWA 記錄日常數據並分析趨勢
 - [o2-cylinder-timer](https://github.com/liangRXdev/o2-cylinder-timer) — 問題：無法快速估算攜帶式氧氣小鋼瓶的剩餘使用時間；做法：即時計算不同鋼瓶尺寸的可用時間
@@ -721,6 +722,7 @@
 
 ## [@soanseng](https://github.com/soanseng) {#soanseng}
 
+- [podcast-use](https://github.com/soanseng/podcast-use) — 問題：在編輯播客時無法有效管理音頻和轉錄內容；做法：自動轉錄音頻並提供可讀的編輯介面和決策列表
 - [rime-trime-taigi](https://github.com/soanseng/rime-trime-taigi) — 問題：使用者無法方便輸入台語，缺乏專用輸入法；做法：提供台語特化的 Android 輸入法，內建多種輸入方案與功能列
 - [rime-phah-taibun](https://github.com/soanseng/rime-phah-taibun) — 問題：使用者難以用台語書寫，需面對多種書寫系統和拼音標準；做法：提供開源的 Rime 輸入法，支援 POJ/TL 和選擇性聲調輸入
 - [thak-tai-bun](https://github.com/soanseng/thak-tai-bun) — 問題：使用者無法即時將漢羅轉換為台羅和白話字；做法：提供一頁式網頁即時轉換功能，無需安裝
@@ -728,7 +730,6 @@
 - [voxpen-android](https://github.com/soanseng/voxpen-android) — 問題：使用者在輸入時無法快速轉換語音為精練文本；做法：透過語音識別和 LLM 進行即時文本轉換與優化
 - [voxink-website](https://github.com/soanseng/voxink-website) — 問題：說明未寫具體痛點；做法：VoxPen／AI／語音，用於Android／Windows／Linux
 - [vocbuilderAI](https://github.com/soanseng/vocbuilderAI) — 問題：學習新單字時缺乏詳細的定義和例句；做法：自動生成包含定義、發音和例句的閃卡
-- [podcast-use](https://github.com/soanseng/podcast-use) — 問題：在編輯播客時無法有效管理音頻和轉錄內容；做法：自動轉錄音頻並提供可讀的編輯介面和決策列表
 - [voxpen-desktop](https://github.com/soanseng/voxpen-desktop) — 問題：在任何應用程式中無法快速將語音轉換為文字；做法：透過全局熱鍵即時錄音並自動粘貼文本
 - [adhd-family-plan](https://github.com/soanseng/adhd-family-plan) — 問題：家庭日常照顧缺乏可預測性，難以執行；做法：提供可執行的家庭工作手冊與計劃生成器
 - [breathloop-validation](https://github.com/soanseng/breathloop-validation) — 問題：說明未寫具體痛點；做法：BreathLoop／統計相關工具
@@ -749,8 +750,8 @@
 
 ## [@t0mst0ne](https://github.com/t0mst0ne) {#t0mst0ne}
 
-- [medical-journal-daily-agent](https://github.com/t0mst0ne/medical-journal-daily-agent) — 問題：無法及時獲取最新醫學期刊文獻摘要；做法：自動抓取 RSS 並翻譯摘要推送至 Telegram
 - [dementia-uptodate](https://github.com/t0mst0ne/dementia-uptodate) — 問題：無法即時獲取失智症相關的最新研究與臨床試驗資訊；做法：自動彙整並發布每週報告至 GitHub Wiki
+- [medical-journal-daily-agent](https://github.com/t0mst0ne/medical-journal-daily-agent) — 問題：無法及時獲取最新醫學期刊文獻摘要；做法：自動抓取 RSS 並翻譯摘要推送至 Telegram
 - [t0mst0ne.github.io](https://github.com/t0mst0ne/t0mst0ne.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [NHI_bot](https://github.com/t0mst0ne/NHI_bot) — 問題：無法即時掌握健保署最新醫療政策與公告；做法：自動掃描並推播健保署醫療情報至 Telegram
 - [Steam_Oven](https://github.com/t0mst0ne/Steam_Oven) — 問題：選擇水波爐或蒸烤爐時缺乏詳細資訊與比較；做法：整理各機型規格、優缺點及使用指南
