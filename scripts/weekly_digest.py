@@ -6,12 +6,15 @@ Privacy:
   - Never invent real names, hospitals, or private bios
 
 Intros:
-  - Prefer README-aware 繁中 blurbs (功能 + 解決什麼問題) produced by
-    scripts/enrich_intros_from_readme.py (cached under research/readme_cache/).
-  - Each repo may store readme_hash / intro_source / intro_thin so weekly runs
-    keep good intros until the README hash changes.
-  - --from-cache --rewrite-intros preserves README-sourced intros unless
-    --force-intros is also set.
+  - Every intro is exactly two ideas, one line:
+    問題：<痛點>；做法：<做法或框架>
+  - Prefer README-aware lines from scripts/enrich_intros_from_readme.py
+    (cached under research/readme_cache/). If the README states no real
+    problem, say so and describe only what name+description support.
+  - Each repo may store readme_hash / intro_source / intro_thin. Weekly runs
+    keep a line only when it is already 問題／做法 and metadata (or README
+    hash) is unchanged.
+  - --from-cache --rewrite-intros keeps two-part intros unless --force-intros.
 """
 
 from __future__ import annotations
@@ -237,8 +240,116 @@ _PROFILE_DESC_RE = re.compile(
     r")\b"
 )
 
-_EMPTY_SITE_LINE = "個人頁面／作品集站，無可單獨說明的產品功能。"
-_EMPTY_PROFILE_LINE = "個人頁面／作品集站，無可單獨說明的產品功能。"
+_EMPTY_SITE_LINE = "問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法"
+_EMPTY_PROFILE_LINE = "問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法"
+_DOTFILES_LINE = "問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔"
+
+_TWO_PART_RE = re.compile(
+    r"^問題：([^；\n]{2,56})；做法：([^\n]{2,56})$"
+)
+
+
+def is_two_part_intro(text: str) -> bool:
+    return bool(_TWO_PART_RE.match((text or "").strip()))
+
+
+def _clip_clause(text: str, limit: int = 42) -> str:
+    t = re.sub(r"\s+", " ", (text or "").strip())
+    t = t.strip(" 。；;，,、\"'「」『』")
+    t = re.sub(r"^(這是一個|這是|本專案|本倉庫|該工具|該專案|一個)", "", t).strip()
+    t = t.strip("。； ")
+    if len(t) > limit:
+        cut = t[:limit]
+        for sep in ("，", "、", " ", "—", "-", "／", "/"):
+            i = cut.rfind(sep)
+            if i >= 12:
+                cut = cut[:i]
+                break
+        t = cut.rstrip(" ，,；;、—-/／")
+    return t
+
+
+_HOSP_TOKENS = {
+    "ntuh", "cgmh", "tsgh", "vgh", "vghtpe", "cch", "tmuh", "tmwh", "linkou",
+}
+_ORG_RE = re.compile(
+    r"(三軍總醫院|臺大醫院|台大醫院|榮民總醫院|榮總|長庚醫院|長庚|馬偕醫院|馬偕|"
+    r"奇美醫院|慈濟醫院|慈濟|松山分院|彰化基督教醫院|彰基|衛生福利部|草屯療養院|"
+    r"林口長庚|國立臺灣大學醫學院附設醫院)"
+)
+
+
+def _redact_orgs(text: str) -> str:
+    s = _ORG_RE.sub("", text or "")
+    s = re.sub(r"\b(NTUH|TSGH|CGMH|VGHTPE|TMUH|TMWH)\b", "", s, flags=re.I)
+    s = re.sub(r"W\d+病房", "病房", s)
+    s = re.sub(r"[／/]{2,}", "／", s)
+    s = re.sub(r"^[／/\s、，]+|[／/\s、，]+$", "", s)
+    s = re.sub(r"\s{2,}", " ", s)
+    return s.strip(" ／/")
+
+
+def to_two_part(problem: str, approach: str) -> str:
+    p = _clip_clause(_redact_orgs(problem)) or "說明未寫具體痛點"
+    a = _clip_clause(_redact_orgs(approach)) or "依名稱整理，沒有可寫的做法"
+    return f"問題：{p}；做法：{a}"
+
+
+def normalize_two_part(text: str) -> str | None:
+    """Accept only a compact 問題／做法 line. None if it should be retried."""
+    t = (text or "").strip().strip("\"'「」『』")
+    if not t:
+        return None
+    t = t.splitlines()[0].strip()
+    t = re.sub(r"^(簡介|介紹|Intro|Summary)\s*[:：]\s*", "", t, flags=re.I)
+    t = re.sub(r"^問題\s*[:：]\s*", "問題：", t)
+    t = re.sub(r"[;；]\s*做法\s*[:：]\s*", "；做法：", t)
+    if not t.startswith("問題：") or "；做法：" not in t:
+        return None
+    problem, approach = t[len("問題："):].split("；做法：", 1)
+    problem = _clip_clause(problem, 42)
+    approach = _clip_clause(approach, 42)
+    if not problem or not approach:
+        return None
+    if problem.startswith(("如何", "怎麼", "怎樣", "為什麼", "為何")):
+        return None
+    blob = problem + approach
+    if any(x in blob for x in ("本專案", "該工具", "這是一個", "公開專案", "公開倉庫", "主要語言", "旨在", "賦能", "無縫")):
+        return None
+    if re.search(r"(醫院|醫學中心|療養院|衛生福利部|診所)", blob):
+        return None
+    out = f"問題：{problem}；做法：{approach}"
+    if _banned_intro(out):
+        return None
+    cjk = sum(1 for c in out if "\u4e00" <= c <= "\u9fff")
+    if cjk < 8:
+        return None
+    if not is_two_part_intro(out):
+        return None
+    return out
+
+
+def _blurb_to_two_part(blurb: str) -> str:
+    """Turn a functional sentence into 問題／做法 without inventing a framework."""
+    if is_two_part_intro(blurb):
+        return blurb.strip()
+    b = re.sub(r"\s+", " ", (blurb or "").strip()).rstrip("。")
+    b = re.sub(r"（依倉庫名稱推斷；上游說明不足）", "依名稱，說明不足", b)
+    b = re.sub(r"（依倉庫名稱推斷）", "依名稱推斷", b)
+    b = re.sub(r"（說明文字不足）", "說明不足", b)
+    b = re.sub(r"（說明不足）", "說明不足", b)
+    b = re.sub(r"（無可讀說明）", "沒有可讀說明", b)
+    thin = any(x in b for x in ("說明不足", "推斷", "無可讀", "沒有可讀", "無可單獨"))
+    # description already states a pain after the function
+    m = re.match(r"^(.{4,42}?)[，,]\s*(?:用來|以便|以)?(解決|減少|避免|省去|不用再)(.{2,40})$", b)
+    if m and not thin:
+        return to_two_part(m.group(2) + m.group(3), m.group(1))
+    m = re.match(r"^(?:為了|用來)(?:解決)?(.{2,36})[，,]\s*(.{4,42})$", b)
+    if m and not thin:
+        return to_two_part(m.group(1), m.group(2))
+    problem = "說明不足，看不出具體痛點" if thin else "說明未寫具體痛點"
+    approach = b or "依名稱整理，沒有可寫的做法"
+    return to_two_part(problem, approach)
 
 # Marketing / bio adjectives — never emit as product substance
 _MARKETING_WORDS = {
@@ -607,8 +718,6 @@ _TERM_ZH: dict[str, str] = {
     "vitals": "生命徵象",
     "sensor": "感測器",
     "taipei": "台北",
-    "vghtpe": "榮總",
-    "linkou": "林口",
     "charts": "病歷",
     "verify": "查核",
     "viewer": "檢視器",
@@ -688,9 +797,6 @@ _TERM_ZH: dict[str, str] = {
     "todo": "待辦",
     "snip": "截取",
     "grid": "網格",
-    "ntuh": "台大醫院",
-    "cgmh": "長庚",
-    "tsgh": "三軍總醫院",
     "soap": "SOAP",
     "nvim": "Neovim",
     "bash": "bash",
@@ -717,8 +823,6 @@ _TERM_ZH: dict[str, str] = {
     "mic": "麥克風",
     "iot": "物聯網",
     "pcb": "電路板",
-    "vgh": "榮總",
-    "cch": "彰基",
     "ide": "IDE",
     "vim": "Vim",
     "zsh": "zsh",
@@ -790,7 +894,7 @@ def _phrase_from_name(name: str, theme: str | None, owner: str | None = None) ->
     if _is_personal_site(name):
         return _EMPTY_SITE_LINE
     if low in {"dotfiles", "dot-files"} or "dotfile" in low:
-        return "個人開發環境與 shell／編輯器設定檔集合。"
+        return _DOTFILES_LINE
     if _is_profile_repo(name, None, owner):
         return _EMPTY_PROFILE_LINE
 
@@ -809,6 +913,8 @@ def _phrase_from_name(name: str, theme: str | None, owner: str | None = None) ->
     useful = [t for t in tokens if t not in noise and len(t) > 1]
     mapped: list[str] = []
     for t in useful[:8]:
+        if t in _HOSP_TOKENS:
+            continue
         zh = _token_zh(t)
         if zh and zh not in mapped and zh not in {"個人檔案", "說明檔", "作品集", "個人網站"}:
             mapped.append(zh)
@@ -976,7 +1082,7 @@ def _english_to_zh_blurb(
                     i += 2
                     continue
             wl = toks[i].lower()
-            if wl in skip or wl in _MARKETING_WORDS:
+            if wl in skip or wl in _MARKETING_WORDS or wl in _HOSP_TOKENS:
                 i += 1
                 continue
             z = _token_zh(wl)
@@ -1251,7 +1357,7 @@ def synthesize_zh_intro(
     language: str | None = None,  # kept for API compat; never emitted
     owner: str | None = None,
 ) -> str:
-    """一句繁中：功能／問題／亮點。禁止個人檔案行銷腔與語言堆砌。"""
+    """一行繁中：問題：…；做法：…。沒有痛點就不編框架。"""
     del language  # unused on purpose
     desc = (description or "").strip()
     theme = detect_theme(name, desc, topics)
@@ -1260,7 +1366,7 @@ def synthesize_zh_intro(
     if _is_personal_site(name, desc):
         return _EMPTY_SITE_LINE
     if low in {"dotfiles", "dot-files"} or "dotfile" in low:
-        return "個人開發環境與 shell／編輯器設定檔集合。"
+        return _DOTFILES_LINE
     if _is_profile_repo(name, desc, owner):
         return _EMPTY_PROFILE_LINE
 
@@ -1269,13 +1375,13 @@ def synthesize_zh_intro(
         cand = _first_sentence(desc, 90)
         cjk_n = sum(1 for c in cand if "\u4e00" <= c <= "\u9fff")
         if not _banned_intro(cand) and cjk_n >= 4:
-            return _polish_intro(cand, name, theme, owner)
+            return _blurb_to_two_part(_polish_intro(cand, name, theme, owner))
 
     if desc:
         intro = _english_to_zh_blurb(name, desc, theme, topics, owner=owner)
-        return _polish_intro(intro, name, theme, owner)
+        return _blurb_to_two_part(_polish_intro(intro, name, theme, owner))
 
-    return _polish_intro(_phrase_from_name(name, theme, owner), name, theme, owner)
+    return _blurb_to_two_part(_polish_intro(_phrase_from_name(name, theme, owner), name, theme, owner))
 
 
 def _load_readme_cache(full_name: str) -> dict[str, Any] | None:
@@ -1316,18 +1422,18 @@ def choose_intro_zh(
             and (previous.get("description") or None) == (description or None)
             and list(previous.get("topics") or []) == list(topics or [])
         )
+        keepable = is_two_part_intro(old) and not _banned_intro(old)
         readme_same = (
             readme_hash
             and prev_hash
             and readme_hash == prev_hash
-            and old
-            and not _banned_intro(old)
+            and keepable
             and (src.startswith("readme") or not previous.get("intro_thin"))
         )
         if readme_same:
             return old
-        if meta_same and old and not _banned_intro(old):
-            # Keep prior README-quality intro unless hash explicitly changed
+        if meta_same and keepable:
+            # Keep prior two-part intro unless hash explicitly changed
             if prev_hash and readme_hash and prev_hash != readme_hash:
                 pass  # fall through to synthesize; enrich will rewrite
             else:
@@ -1402,11 +1508,15 @@ def fetch_all_non_fork_repos(
             }
             if readme_hash:
                 row["readme_hash"] = readme_hash
-            if prev:
+            kept_prev = bool(prev) and intro_zh == (prev.get("intro_zh") or "").strip()
+            if kept_prev:
                 if prev.get("intro_source"):
                     row["intro_source"] = prev.get("intro_source")
                 if "intro_thin" in prev:
                     row["intro_thin"] = bool(prev.get("intro_thin"))
+            else:
+                row["intro_source"] = "synthesize"
+                row["intro_thin"] = True
             repos.append(row)
         if len(data) < 100:
             break
@@ -1787,6 +1897,9 @@ def build_all(logins: list[str], token: str | None, now: datetime) -> tuple[dict
                         "pushed_at": r.get("pushed_at"),
                         "theme": r.get("theme"),
                         "intro_zh": r.get("intro_zh"),
+                        **({"intro_source": r.get("intro_source")} if r.get("intro_source") else {}),
+                        **({"intro_thin": bool(r.get("intro_thin"))} if "intro_thin" in r else {}),
+                        **({"readme_hash": r.get("readme_hash")} if r.get("readme_hash") else {}),
                         "archived": r.get("archived", False),
                     }
                     for r in a["repos"]
@@ -1925,7 +2038,7 @@ def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
             "",
             "## 專案資料庫（公開非 fork）",
             "",
-            "依作者分組；每位作者帳號只出現一次，其下為緊湊「倉庫名 — 一句繁中」。",
+            "依作者分組；每位作者帳號只出現一次，其下為緊湊「倉庫名 — 問題；做法」。",
             "",
             "完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。",
             "",
@@ -2098,7 +2211,7 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         [
             '<section id="database" class="card">',
             "<h2>專案資料庫</h2>",
-            f'<p class="meta">依<strong>作者分組一次</strong>：帳號標題下為緊湊「倉庫名 — 一句繁中」。'
+            f'<p class="meta">依<strong>作者分組一次</strong>：帳號標題下為緊湊「倉庫名 — 問題；做法」。'
             f'共 <strong>{repo_db["repo_count"]}</strong> 個倉庫、'
             f'<strong>{repo_db["roster_count"]}</strong> 個帳號。</p>',
             '<div class="filters">',
@@ -2281,14 +2394,12 @@ def main() -> int:
                         r.get("description") or "",
                         list(r.get("topics") or []),
                     )
-                    src = (r.get("intro_source") or "").strip()
                     old = (r.get("intro_zh") or "").strip()
-                    # Preserve README-enriched intros unless explicitly forced
+                    # Keep an already two-part intro unless explicitly forced
                     if (
                         not force_intros
-                        and old
+                        and is_two_part_intro(old)
                         and not _banned_intro(old)
-                        and (src.startswith("readme") or r.get("readme_hash"))
                     ):
                         kept += 1
                         n += 1

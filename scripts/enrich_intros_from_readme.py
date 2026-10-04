@@ -21,11 +21,14 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from weekly_digest import (  # noqa: E402
+    _DOTFILES_LINE,
     _EMPTY_PROFILE_LINE,
     _EMPTY_SITE_LINE,
     _banned_intro,
     _is_personal_site,
     _is_profile_repo,
+    is_two_part_intro,
+    normalize_two_part,
     synthesize_zh_intro,
 )
 
@@ -35,18 +38,24 @@ PROGRESS_PATH = ROOT / "research" / "intro_batches" / "readme_intros.json"
 BATCH_LOG = ROOT / "research" / "intro_batches" / "llm_batches.jsonl"
 
 SYSTEM_PROMPT = """你是台灣臨床工程師社群的繁體中文編輯。
-任務：根據倉庫名稱、description、README 摘錄，寫「一句」繁體中文簡介，讓同溫層能判斷是否已有輪子可重用。
-必須同時說清楚：
-1) 功能（做什麼）
-2) 解決什麼問題／痛點（README 有才寫；沒有就只寫功能，勿臆造）
+把每個倉庫收成剛好兩個概念，且只輸出一行：
+問題：<作者要解的具體痛點>；做法：<用來解的做法或框架>
+
+範例（只學格式）：
+問題：現場不知道 CPR 按壓有沒有到 100–120 次/分；做法：用手機鏡頭即時估速率
+
 規則：
-- 只輸出一句繁體中文（可用「；」連兩短句），約 24–64 字，以「。」結尾。
-- 直接寫功能，不要用「這是一個／本專案／該工具」開頭。
-- 禁止：真實姓名、醫院／院所全名或縮寫（即使 README 有也請改寫成「機構／院內」等泛稱）、個人檔案行銷、「公開專案／倉庫」、「主要語言」、語言或 LLM 標籤堆砌、簡體字。
+- 問題寫現場卡點（誰、什麼情況、缺什麼），不要寫成「如何…？」問句。
+- 做法寫機制，不要只重複產品名，不要「開發一個平台」。
+- 兩半各約 12–28 字。不要句號結尾，不要第二行。
+- 只用繁體中文。禁止：真實姓名、醫院／院所全名或縮寫（README 有也改成「院內」）、個人檔案、「公開專案／倉庫」、「主要語言」、語言標籤、簡體字。
 - 禁止空泛形容：易用、強大、現代化、賦能、無縫、旨在。
-- 個人網站／profile／dotfiles 請用固定句，勿自行發揮。
-- 不要加引號、列點或「簡介：」前綴。
-- README 幾乎沒資訊時：短句說明並標「（README 不足）」。
+- 痛點是使用者卡住的事（找不到、散落、做不到）。README 或 description 看得出來就寫出來，不要躲去「說明未寫」。
+- 「說明未寫具體痛點」只用在兩邊都看不出在幫誰解決什麼時；做法就只依名稱如實短寫，不要發明框架。
+- 做法寫機制，少堆模型或產品名。
+- 個人網站／profile：問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- dotfiles：問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
+- 不要加引號或「簡介：」。
 """
 
 USER_TMPL = """倉庫：{full_name}
@@ -57,7 +66,7 @@ README 摘錄：
 ---
 {excerpt}
 ---
-請輸出一句繁中簡介。"""
+只輸出一行「問題：…；做法：…」。"""
 
 
 def _strip_md(text: str) -> str:
@@ -132,23 +141,12 @@ def looks_simplified(text: str) -> bool:
 
 
 def validate_intro(text: str) -> str | None:
-    t = (text or "").strip().strip('"\'「」')
-    t = re.sub(r"\s+", " ", t)
+    t = normalize_two_part(text or "")
     if not t:
-        return None
-    # take first line only
-    t = t.splitlines()[0].strip()
-    t = re.sub(r"^(簡介|介绍|Intro|Summary)\s*[:：]\s*", "", t, flags=re.I)
-    if len(t) > 110:
-        t = t[:109].rstrip() + "…"
-    if not t.endswith(("。", "！", "？", "…")):
-        t += "。"
-    if _banned_intro(t):
         return None
     if looks_simplified(t):
         return None
-    cjk = sum(1 for c in t if "\u4e00" <= c <= "\u9fff")
-    if cjk < 6:
+    if not is_two_part_intro(t):
         return None
     return t
 
@@ -213,14 +211,14 @@ def llm_intro(item: dict[str, Any], excerpt: str) -> tuple[str | None, str | Non
         if not raw:
             continue
         ok = validate_intro(raw)
-        if ok:
+        if ok and not ("說明未寫" in ok and len(excerpt) > 180):
             return ok, model
         # one retry with stricter reminder
         messages2 = messages + [
             {"role": "assistant", "content": raw},
             {
                 "role": "user",
-                "content": "改寫成一句「繁體中文」、含功能與問題、勿簡體、勿行銷腔、勿超過 70 字。只回那一句。",
+                "content": "上一句不合格。痛點要是使用者卡住的事，README 看得懂就不要寫「說明未寫」。做法寫機制、不要問句、不要簡體、不要院所名。只回一行「問題：…；做法：…」。",
             },
         ]
         raw2 = openrouter_chat(messages2, model=model)
@@ -230,8 +228,13 @@ def llm_intro(item: dict[str, Any], excerpt: str) -> tuple[str | None, str | Non
     return None, None
 
 
+def _thin_line(text: str) -> bool:
+    return any(x in (text or "") for x in ("說明未寫", "說明不足", "看不出", "沒有可寫", "沒有單一待解", "沒有產品問題"))
+
+
 def heuristic_intro(item: dict[str, Any], cache: dict[str, Any] | None) -> tuple[str, bool]:
-    """Return (intro, thin)."""
+    """Return (intro, thin). Always 問題／做法. Does not invent a framework."""
+    del cache  # README substance is handled by the LLM path
     name = item["name"]
     owner = item["login"]
     desc = item.get("description")
@@ -242,35 +245,11 @@ def heuristic_intro(item: dict[str, Any], cache: dict[str, Any] | None) -> tuple
         return _EMPTY_PROFILE_LINE, True
     low = (name or "").lower()
     if low in {"dotfiles", "dot-files"} or "dotfile" in low:
-        return "個人開發環境與 shell／編輯器設定檔集合。", True
-
-    # Prefer CJK first sentence from README if present
-    if cache and cache.get("status") == "ok" and (cache.get("text") or "").strip():
-        excerpt = readme_excerpt(cache["text"], 900)
-        # find a CJK-heavy sentence
-        for sent in re.split(r"(?<=[。！？])\s*|\n+", excerpt):
-            s = sent.strip()
-            cjk = sum(1 for c in s if "\u4e00" <= c <= "\u9fff")
-            if cjk >= 10 and not _banned_intro(s):
-                s = validate_intro(s) or s
-                if s and not _banned_intro(s):
-                    if not s.endswith(("。", "！", "？", "…")):
-                        s += "。"
-                    return s[:95], False
-        # English README: fall through to synthesize + mark thin-ish if no desc
-        base = synthesize_zh_intro(name, desc, topics, item.get("language"), owner=owner)
-        # If we have English excerpt, append honest marker only when synthesize is hollow
-        thin = any(
-            x in base
-            for x in ("推斷", "說明不足", "說明文字不足", "無可讀說明", "無可單獨")
-        )
-        return base, thin
-
+        return _DOTFILES_LINE, True
     base = synthesize_zh_intro(name, desc, topics, item.get("language"), owner=owner)
-    thin = True
-    if desc and sum(1 for c in desc if "\u4e00" <= c <= "\u9fff") >= 8:
-        thin = _banned_intro(base) or any(x in base for x in ("推斷", "說明不足"))
-    return base, thin
+    if not is_two_part_intro(base):
+        base = synthesize_zh_intro(name, None, topics, None, owner=owner)
+    return base, _thin_line(base)
 
 
 MED_THEME = {
@@ -330,13 +309,11 @@ def needs_llm(item: dict[str, Any], cache: dict[str, Any] | None) -> bool:
     if "dotfile" in low:
         return False
     if not cache or cache.get("status") != "ok":
-        # still LLM if English description is rich?
-        d = (desc or "").strip()
-        if d and len(d) >= 40 and not sum(1 for c in d if "\u4e00" <= c <= "\u9fff"):
-            return True
+        # Name + description only: stay honest. Do not invent a framework.
         return False
     excerpt = readme_excerpt(cache.get("text") or "", 400)
-    if len(excerpt) < 40:
+    # Thin READMEs produce made-up 痛點. Heuristic is the honest path.
+    if len(excerpt) < 120:
         return False
     return True
 
@@ -380,7 +357,7 @@ def main() -> int:
         if (
             not force
             and prev
-            and prev.get("intro_zh")
+            and is_two_part_intro(prev.get("intro_zh") or "")
             and prev.get("readme_hash") == rh
             and not prev.get("failed")
         ):
@@ -429,7 +406,7 @@ def main() -> int:
             }, False
         return it["full_name"], {
             "intro_zh": intro,
-            "intro_thin": False,
+            "intro_thin": _thin_line(intro),
             "intro_source": "readme_llm",
             "readme_hash": (cache or {}).get("readme_hash"),
             "model": model,
