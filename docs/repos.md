@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-10-05 11:24（台北時間）`
-帳號 **45** · 倉庫 **905**
+產生時間：`2026-10-06 02:05（台北時間）`
+帳號 **81** · 倉庫 **1374**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -10,45 +10,81 @@
 ## 目錄
 
 - [@agoodbear](#agoodbear)（20）
+- [@aszk1415](#aszk1415)（3）
 - [@Brritany](#brritany)（5）
 - [@ccherdoctor-chiu](#ccherdoctor-chiu)（6）
 - [@cctroc](#cctroc)（5）
 - [@changyiyen](#changyiyen)（19）
+- [@chialin111](#chialin111)（11）
 - [@Chiehx0220](#chiehx0220)（3）
 - [@chswei](#chswei)（11）
+- [@chuanhsiufu-neuro](#chuanhsiufu-neuro)（8）
 - [@ChuntingSu](#chuntingsu)（2）
 - [@chuyungtsai](#chuyungtsai)（7）
 - [@CJRonald](#cjronald)（4）
+- [@copper0722](#copper0722)（7）
+- [@Cycasio](#cycasio)（25）
+- [@danny0838](#danny0838)（29）
 - [@didiowen](#didiowen)（7）
+- [@drhao](#drhao)（20）
 - [@drpwchen](#drpwchen)（19）
 - [@Drvinc](#drvinc)（7）
 - [@erichuang777777](#erichuang777777)（27）
 - [@galencky](#galencky)（20）
 - [@gosienna](#gosienna)（48）
+- [@greenrulers](#greenrulers)（11）
 - [@homigin](#homigin)（3）
 - [@htlin222](#htlin222)（173）
+- [@ian030590](#ian030590)（12）
+- [@idnerdtw](#idnerdtw)（10）
 - [@irene2023study](#irene2023study)（2）
+- [@jeff830621](#jeff830621)（2）
+- [@jejenhu-maker](#jejenhu-maker)（35）
+- [@jenniferliang813-netizen](#jenniferliang813-netizen)（17）
+- [@periop-tools](#periop-tools)（2）
 - [@jjtseng93](#jjtseng93)（23）
+- [@jnynlin](#jnynlin)（13）
 - [@kaneyxx](#kaneyxx)（17）
+- [@keanu77](#keanu77)（18）
+- [@kenkao0127-droid](#kenkao0127-droid)（10）
+- [@knight819094](#knight819094)（4）
+- [@lantus123](#lantus123)（9）
+- [@LCCtaiwan](#lcctaiwan)（18）
 - [@liangRXdev](#liangrxdev)（26）
+- [@LiangWeiTseng](#liangweitseng)（4）
+- [@liaoweihung](#liaoweihung)（11）
+- [@limzijiang](#limzijiang)（26）
 - [@littlecanargie](#littlecanargie)（8）
 - [@liyoungc](#liyoungc)（9）
 - [@MarkHuangMD](#markhuangmd)（7）
+- [@mars690120-star](#mars690120-star)（51）
+- [@Mastermind0309](#mastermind0309)（11）
+- [@matt-ye](#matt-ye)（11）
 - [@mcdlee](#mcdlee)（25）
 - [@nps798](#nps798)（4）
+- [@NTUHpAIR](#ntuhpair)（2）
 - [@odafeng](#odafeng)（34）
 - [@peishenwu](#peishenwu)（15）
+- [@PeterWei078](#peterwei078)（12）
+- [@philia81301-commits](#philia81301-commits)（14）
 - [@pojenhsiao](#pojenhsiao)（2）
+- [@rickyrickyrickyyu](#rickyrickyrickyyu)（5）
 - [@shin13](#shin13)（16）
 - [@soanseng](#soanseng)（25）
-- [@t0mst0ne](#t0mst0ne)（36）
+- [@t0mst0ne](#t0mst0ne)（37）
+- [@TCM-Dr-Hsieh](#tcm-dr-hsieh)（3）
 - [@tcs211](#tcs211)（13）
 - [@texchi2](#texchi2)（50）
+- [@Tim-HealJoy](#tim-healjoy)（7）
 - [@tinchangchang](#tinchangchang)（2）
 - [@tsaiid](#tsaiid)（34）
+- [@Twb06](#twb06)（3）
 - [@tzuhaoshan](#tzuhaoshan)（5）
 - [@u9401066](#u9401066)（25）
+- [@voho0000](#voho0000)（23）
+- [@ww8chw](#ww8chw)（18）
 - [@y-cliu](#y-cliu)（1）
+- [@yanchen0902](#yanchen0902)（3）
 - [@yfwu](#yfwu)（6）
 - [@ykuo2](#ykuo2)（5）
 - [@YuChen-S](#yuchen-s)（9）
@@ -77,6 +113,12 @@
 - [er-todo-sticky](https://github.com/agoodbear/er-todo-sticky) — 問題：急診工作中無法快速記錄病歷號和追蹤事項；做法：提供永遠置頂的便利貼式 TODO 視窗
 - [image](https://github.com/agoodbear/image) — 問題：說明不足，看不出具體痛點；做法：影像相關工具或實驗說明不足
 - [roam2github-actions](https://github.com/agoodbear/roam2github-actions) — 問題：說明不足，看不出具體痛點；做法：Roam相關工具或實驗說明不足
+
+## [@aszk1415](https://github.com/aszk1415) {#aszk1415}
+
+- [tw-portfolio-mc](https://github.com/aszk1415/tw-portfolio-mc) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [taiwan-tcm-exam-data](https://github.com/aszk1415/taiwan-tcm-exam-data) — 問題：說明未寫具體痛點；做法：Structured／JSON／資料集／台灣／TCM相關工具
+- [hello-world](https://github.com/aszk1415/hello-world) — 問題：說明不足，看不出具體痛點；做法：hello world：依名稱推斷的工具／實驗沒有可讀說明
 
 ## [@Brritany](https://github.com/Brritany) {#brritany}
 
@@ -125,6 +167,20 @@
 - [ardenpy](https://github.com/changyiyen/ardenpy) — 問題：在 Python 環境中無法有效處理 Arden 語法的醫療邏輯模組；做法：開發解析器將 Arden 語法轉換為可執行的 Python 3 代碼
 - [expander](https://github.com/changyiyen/expander) — 問題：說明未寫具體痛點；做法：Tkinter-based／圖形介面，用於展開／縮寫
 
+## [@chialin111](https://github.com/chialin111) {#chialin111}
+
+- [pd-tech](https://github.com/chialin111/pd-tech) — 問題：說明不足，看不出具體痛點；做法：藥效學相關工具或實驗說明不足
+- [web_pages](https://github.com/chialin111/web_pages) — 問題：說明未寫具體痛點；做法：展示網頁互動報告
+- [Reports](https://github.com/chialin111/Reports) — 問題：說明未寫具體痛點；做法：QC相關工具
+- [images](https://github.com/chialin111/images) — 問題：說明未寫具體痛點；做法：照片集相關工具
+- [Notebook](https://github.com/chialin111/Notebook) — 問題：說明未寫具體痛點；做法：整理筆記
+- [cch-nephrology](https://github.com/chialin111/cch-nephrology) — 問題：說明未寫具體痛點；做法：腎臟科入口
+- [anemia-eng](https://github.com/chialin111/anemia-eng) — 問題：說明未寫具體痛點；做法：2026／KDIGO／GL相關工具
+- [anemia-chinese](https://github.com/chialin111/anemia-chinese) — 問題：說明未寫具體痛點；做法：根據KDIGO 2026指引製作之臨床助手
+- [high-K-food](https://github.com/chialin111/high-K-food) — 問題：說明未寫具體痛點；做法：依據KDIGO 2024及ASN 2025文獻試做的網頁
+- [phos](https://github.com/chialin111/phos) — 問題：說明未寫具體痛點；做法：ASN磷飲食指南
+- [cch-peritonitis](https://github.com/chialin111/cch-peritonitis) — 問題：說明未寫具體痛點；做法：腹膜透析腹膜炎防治網
+
 ## [@Chiehx0220](https://github.com/Chiehx0220) {#chiehx0220}
 
 - [chiehx0220](https://github.com/Chiehx0220/chiehx0220) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
@@ -144,6 +200,17 @@
 - [docling](https://github.com/chswei/docling) — 問題：無法將 PDF 文件轉換為 Markdown 格式；做法：使用 Docling 庫提取文本和圖片進行轉換
 - [ML2017FALL](https://github.com/chswei/ML2017FALL) — 問題：說明未寫具體痛點；做法：語音／課程相關工具
 - [basic-R-Python](https://github.com/chswei/basic-R-Python) — 問題：缺乏 R 和 Python 在數據科學的基礎知識；做法：使用 Jupyter Notebook 進行教學與實作
+
+## [@chuanhsiufu-neuro](https://github.com/chuanhsiufu-neuro) {#chuanhsiufu-neuro}
+
+- [CCD](https://github.com/chuanhsiufu-neuro/CCD) — 問題：說明未寫具體痛點；做法：頸超報告系統
+- [health-education](https://github.com/chuanhsiufu-neuro/health-education) — 問題：說明未寫具體痛點；做法：中風衛教資訊整合
+- [EVTtransfer](https://github.com/chuanhsiufu-neuro/EVTtransfer) — 問題：說明未寫具體痛點；做法：取栓轉診介面
+- [strokeclock](https://github.com/chuanhsiufu-neuro/strokeclock) — 問題：說明未寫具體痛點；做法：Stroke code 各職類注意事項
+- [Tool](https://github.com/chuanhsiufu-neuro/Tool) — 問題：說明不足，看不出具體痛點；做法：Tool：依名稱推斷的工具／實驗沒有可讀說明
+- [Seoul](https://github.com/chuanhsiufu-neuro/Seoul) — 問題：說明不足，看不出具體痛點；做法：Seoul：依名稱推斷的工具／實驗沒有可讀說明
+- [Data](https://github.com/chuanhsiufu-neuro/Data) — 問題：說明不足，看不出具體痛點；做法：資料集依名稱推斷
+- [DIDO](https://github.com/chuanhsiufu-neuro/DIDO) — 問題：說明未寫具體痛點；做法：改善取栓個案轉入轉出流程
 
 ## [@ChuntingSu](https://github.com/ChuntingSu) {#chuntingsu}
 
@@ -167,15 +234,108 @@
 - [LinkouCGMHBurnCenter](https://github.com/CJRonald/LinkouCGMHBurnCenter) — 問題：說明不足，看不出具體痛點；做法：燒燙傷相關工具或實驗說明不足
 - [nycu-2026-summer-r-assignments](https://github.com/CJRonald/nycu-2026-summer-r-assignments) — 問題：學員在完成生物醫學資訊課程作業時缺乏指導；做法：提供作業提示及自我檢查機制以避免錯誤
 
+## [@copper0722](https://github.com/copper0722) {#copper0722}
+
+- [nhi-rule-history](https://github.com/copper0722/nhi-rule-history) — 問題：說明未寫具體痛點；做法：Evidence-first／台灣／健保／藥品／給付相關工具；偏健保／編碼與申報
+- [critical-appraisal-skill](https://github.com/copper0722/critical-appraisal-skill) — 問題：說明未寫具體痛點；做法：Source-bound／文獻／工作流／本地／評估相關工具；偏文獻／臨床試驗
+- [corpus-capture](https://github.com/copper0722/corpus-capture) — 問題：說明未寫具體痛點；做法：閱讀出版商／流程的工具
+- [gsat-vocabulary-map](https://github.com/copper0722/gsat-vocabulary-map) — 問題：說明未寫具體痛點；做法：免費、免登入的學測英文單字地圖：100–115 真題詞頻、6,012 官方詞條
+- [journal-toc-bundler](https://github.com/copper0722/journal-toc-bundler) — 問題：說明未寫具體痛點；做法：擷取工具
+- [kidit-helper](https://github.com/copper0722/kidit-helper) — 問題：說明未寫具體痛點；做法：外掛；偏護理
+- [tw-new-drug-signals](https://github.com/copper0722/tw-new-drug-signals) — 問題：說明未寫具體痛點；做法：台灣新上市西藥：從食藥署許可證資料判斷「新藥」的三種互不等價訊號——法源、界線
+
+## [@Cycasio](https://github.com/Cycasio) {#cycasio}
+
+- [download](https://github.com/Cycasio/download) — 問題：說明不足，看不出具體痛點；做法：download：依名稱推斷的工具／實驗沒有可讀說明
+- [drcyc-site](https://github.com/Cycasio/drcyc-site) — 問題：說明不足，看不出具體痛點；做法：drcyc site：依名稱推斷的工具／實驗沒有可讀說明
+- [jianpu-match-game](https://github.com/Cycasio/jianpu-match-game) — 問題：說明未寫具體痛點；做法：簡譜連連看：中音直笛低音4至高音3
+- [recorder-beginner-game](https://github.com/Cycasio/recorder-beginner-game) — 問題：說明不足，看不出具體痛點；做法：病歷／遊戲相關工具或實驗說明不足
+- [pteda-weight-metabolic-report](https://github.com/Cycasio/pteda-weight-metabolic-report) — 問題：說明未寫具體痛點；做法：Pingtung／E-Da／統合分析／健康／LINE相關工具
+- [care-unaging](https://github.com/Cycasio/care-unaging) — 問題：說明不足，看不出具體痛點；做法：care unaging：依名稱推斷的工具／實驗沒有可讀說明
+- [pcsk9-taiwan-nhi](https://github.com/Cycasio/pcsk9-taiwan-nhi) — 問題：說明未寫具體痛點；做法：台灣 PCSK9 抑制劑健保給付 — 臨床 SOP、事前審查流程
+- [snap-iv](https://github.com/Cycasio/snap-iv) — 問題：說明未寫具體痛點；做法：SNAP-IV 量表線上版 - ADHD 篩檢工具
+- [ketone-cognition-meta](https://github.com/Cycasio/ketone-cognition-meta) — 問題：說明未寫具體痛點；做法：系統性／回顧／分析／Ketone相關工具
+- [cvd-risk-calculator](https://github.com/Cycasio/cvd-risk-calculator) — 問題：說明未寫具體痛點；做法：台灣心血管風險計算機 - 比較 Framingham vs TwCCCC
+- [trig-animation](https://github.com/Cycasio/trig-animation) — 問題：說明未寫具體痛點；做法：Interactive／Three.js，用於教學
+- [medsyn-web](https://github.com/Cycasio/medsyn-web) — 問題：說明未寫具體痛點；做法：Living／Evidence／Synthesis
+- [medsyn-landing](https://github.com/Cycasio/medsyn-landing) — 問題：說明不足，看不出具體痛點；做法：medsyn landing：依名稱推斷的工具／實驗沒有可讀說明
+- [dm](https://github.com/Cycasio/dm) — 問題：說明不足，看不出具體痛點；做法：dm：依名稱推斷的工具／實驗沒有可讀說明
+- [sarcopenia](https://github.com/Cycasio/sarcopenia) — 問題：說明不足，看不出具體痛點；做法：sarcopenia：依名稱推斷的工具／實驗沒有可讀說明
+- [e1](https://github.com/Cycasio/e1) — 問題：說明不足，看不出具體痛點；做法：e1：依名稱推斷的工具／實驗沒有可讀說明
+- [TWCCCC](https://github.com/Cycasio/TWCCCC) — 問題：說明不足，看不出具體痛點；做法：TWCCCC：依名稱推斷的工具／實驗沒有可讀說明
+- [FIB-4](https://github.com/Cycasio/FIB-4) — 問題：說明不足，看不出具體痛點；做法：FIB 4：依名稱推斷的工具／實驗沒有可讀說明
+- [svg](https://github.com/Cycasio/svg) — 問題：說明不足，看不出具體痛點；做法：svg：依名稱推斷的工具／實驗沒有可讀說明
+- [marathon](https://github.com/Cycasio/marathon) — 問題：說明不足，看不出具體痛點；做法：marathon：依名稱推斷的工具／實驗沒有可讀說明
+- [forum8](https://github.com/Cycasio/forum8) — 問題：說明不足，看不出具體痛點；做法：forum8：依名稱推斷的工具／實驗沒有可讀說明
+- [ergo-prevention](https://github.com/Cycasio/ergo-prevention) — 問題：說明不足，看不出具體痛點；做法：ergo prevention：依名稱推斷的工具／實驗沒有可讀說明
+- [KIM](https://github.com/Cycasio/KIM) — 問題：說明不足，看不出具體痛點；做法：KIM：依名稱推斷的工具／實驗沒有可讀說明
+- [n8n_linebot](https://github.com/Cycasio/n8n_linebot) — 問題：說明未寫具體痛點；做法：LINE相關的聊天機器人
+- [Aloha](https://github.com/Cycasio/Aloha) — 問題：說明不足，看不出具體痛點；做法：Aloha：依名稱推斷的工具／實驗沒有可讀說明
+
+## [@danny0838](https://github.com/danny0838) {#danny0838}
+
+- [content-farm-terminator](https://github.com/danny0838/content-farm-terminator) — 問題：說明未寫具體痛點；做法：Content Farm Terminator browser
+- [webscrapbook](https://github.com/danny0838/webscrapbook) — 問題：說明未寫具體痛點；做法：標註舊版／Firefox／ScrapBook的擴充功能
+- [ditto-vpn](https://github.com/danny0838/ditto-vpn) — 問題：說明未寫具體痛點；做法：複製貼上健保VPN的量表數據
+- [PyWebScrapBook](https://github.com/danny0838/PyWebScrapBook) — 問題：說明未寫具體痛點；做法：命令列工具，用於WebScrapBook／瀏覽器／擴充功能；偏資料集／資料處理
+- [sts-lib](https://github.com/danny0838/sts-lib) — 問題：說明未寫具體痛點；做法：函式庫，用於繁體／中文／文字／轉換
+- [zipremove](https://github.com/danny0838/zipremove) — 問題：說明不足，看不出具體痛點；做法：zipremove：依名稱推斷的工具／實驗沒有可讀說明
+- [zipmeta](https://github.com/danny0838/zipmeta) — 問題：說明未寫具體痛點；做法：統合分析相關工具
+- [git-store-meta](https://github.com/danny0838/git-store-meta) — 問題：說明未寫具體痛點；做法：統合分析相關工具
+- [yt-comment-fetcher](https://github.com/danny0838/yt-comment-fetcher) — 問題：說明未寫具體痛點；做法：擷取器相關的下載／擷取工具
+- [static-maker](https://github.com/danny0838/static-maker) — 問題：說明未寫具體痛點；做法：統計相關工具
+- [danny0838.github.io](https://github.com/danny0838/danny0838.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [handict](https://github.com/danny0838/handict) — 問題：說明未寫具體痛點；做法：漢文庫典資料檔
+- [firefox-scrapbook](https://github.com/danny0838/firefox-scrapbook) — 問題：說明未寫具體痛點；做法：標註工具；偏資料集／資料處理
+- [lolikit](https://github.com/danny0838/lolikit) — 問題：說明不足，看不出具體痛點；做法：lolikit：依名稱推斷的工具／實驗沒有可讀說明
+- [dokuwiki-plugin-xml](https://github.com/danny0838/dokuwiki-plugin-xml)（已封存） — 問題：說明未寫具體痛點；做法：Renders／XML相關工具
+- [dokuwiki-plugin-plaintext](https://github.com/danny0838/dokuwiki-plugin-plaintext)（已封存） — 問題：說明未寫具體痛點；做法：文字／嵌入式／LINE／DokuWiki相關工具
+- [dokuwiki-plugin-poem](https://github.com/danny0838/dokuwiki-plugin-poem)（已封存） — 問題：說明未寫具體痛點；做法：嵌入式／LINE相關工具
+- [firefox-scrapbook-converter](https://github.com/danny0838/firefox-scrapbook-converter) — 問題：說明未寫具體痛點；做法：轉換器相關的速查／指引
+- [webarchiveviewer](https://github.com/danny0838/webarchiveviewer)（已封存） — 問題：說明未寫具體痛點；做法：瀏覽器／外掛／網頁／封存資料相關工具
+- [firefox-scrapbook-maf-creator](https://github.com/danny0838/firefox-scrapbook-maf-creator) — 問題：說明不足，看不出具體痛點；做法：資料集／資料處理向的速查／指引依名稱推斷
+- [firefox-scrapbook-copypageinfo](https://github.com/danny0838/firefox-scrapbook-copypageinfo) — 問題：說明不足，看不出具體痛點；做法：資料集／資料處理向的速查／指引依名稱推斷
+- [dokuwiki-plugin-editx](https://github.com/danny0838/dokuwiki-plugin-editx)（已封存） — 問題：說明未寫具體痛點；做法：Extended／DokuWiki相關工具
+- [dokuwiki-plugin-htmlcomment](https://github.com/danny0838/dokuwiki-plugin-htmlcomment)（已封存） — 問題：說明未寫具體痛點；做法：外掛相關工具
+- [dokuwiki-plugin-header2](https://github.com/danny0838/dokuwiki-plugin-header2)（已封存） — 問題：說明未寫具體痛點；做法：語法／DokuWiki相關工具
+- [dokuwiki-plugin-maintenance](https://github.com/danny0838/dokuwiki-plugin-maintenance)（已封存） — 問題：說明不足，看不出具體痛點；做法：擴充／外掛依名稱推斷
+- [smartquestions](https://github.com/danny0838/smartquestions) — 問題：說明未寫具體痛點；做法：自動／匯出／Google相關工具
+- [dokuwiki-plugin-htmlsafe](https://github.com/danny0838/dokuwiki-plugin-htmlsafe)（已封存） — 問題：說明未寫具體痛點；做法：資安相關工具；偏資安／身份驗證
+- [dokuwiki-diffpreview](https://github.com/danny0838/dokuwiki-diffpreview)（已封存） — 問題：說明不足，看不出具體痛點；做法：回顧相關工具或實驗說明不足
+- [dokuwiki-plugin-bbs](https://github.com/danny0838/dokuwiki-plugin-bbs)（已封存） — 問題：說明未寫具體痛點；做法：用於BBS／文字／DokuWiki的工具
+
 ## [@didiowen](https://github.com/didiowen) {#didiowen}
 
-- [nihongo](https://github.com/didiowen/nihongo) — 問題：缺乏有效的日文讀寫學習方法，無法從聽過的詞彙轉化為讀寫能力；做法：利用已知詞彙作為跳板，透過 AI 教學平假名和片假名
 - [diet-coach](https://github.com/didiowen/diet-coach) — 問題：使用者無法持續記錄飲食，容易放棄；做法：透過 Telegram 與 AI 互動，自動估算食物熱量並記錄
+- [nihongo](https://github.com/didiowen/nihongo) — 問題：缺乏有效的日文讀寫學習方法，無法從聽過的詞彙轉化為讀寫能力；做法：利用已知詞彙作為跳板，透過 AI 教學平假名和片假名
 - [pubmed-daily-digest](https://github.com/didiowen/pubmed-daily-digest) — 問題：無法快速獲取特定主題的最新 PubMed 文章；做法：自動抓取並生成每日文獻摘要與重點分析
 - [med-chart-reviser](https://github.com/didiowen/med-chart-reviser) — 問題：無法登入AI帳戶時無法修改病歷；做法：提供一個網頁工具進行病歷語言修訂並顯示變更內容
 - [notes-not-scandal](https://github.com/didiowen/notes-not-scandal)（已封存） — 問題：臨床與學術筆記散落，難以集中查閱；做法：整理並發布個人筆記於網站上供參考
 - [didiowen](https://github.com/didiowen/didiowen) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [pubmed-weekly-digest](https://github.com/didiowen/pubmed-weekly-digest) — 問題：無法快速獲取過去一週內的 PubMed 文章摘要；做法：自動彙整指定期刊的最新文章並生成摘要與評論
+
+## [@drhao](https://github.com/drhao) {#drhao}
+
+- [notifiable_diseases](https://github.com/drhao/notifiable_diseases) — 問題：說明不足，看不出具體痛點；做法：notifiable diseases：依名稱推斷的工具／實驗沒有可讀說明
+- [lottery](https://github.com/drhao/lottery) — 問題：說明不足，看不出具體痛點；做法：lottery：依名稱推斷的工具／實驗沒有可讀說明
+- [forecast-teller](https://github.com/drhao/forecast-teller) — 問題：說明未寫具體痛點；做法：台灣／Google／TimesFM／3.0／每週相關工具
+- [clinic-scheduler](https://github.com/drhao/clinic-scheduler) — 問題：說明未寫具體痛點；做法：旅醫門診排班
+- [noti-check](https://github.com/drhao/noti-check) — 問題：說明未寫具體痛點；做法：法定傳染病通報定義小幫手 — 順手查詢台灣法定傳染病通報定義的 Chrome
+- [kotobacho](https://github.com/drhao/kotobacho) — 問題：說明不足，看不出具體痛點；做法：kotobacho：依名稱推斷的工具／實驗沒有可讀說明
+- [epi-dataviz-styleguide](https://github.com/drhao/epi-dataviz-styleguide) — 問題：說明不足，看不出具體痛點；做法：資料集依名稱推斷
+- [kondate](https://github.com/drhao/kondate) — 問題：說明不足，看不出具體痛點；做法：kondate：依名稱推斷的工具／實驗沒有可讀說明
+- [epidemic-intelligence-weekly-report](https://github.com/drhao/epidemic-intelligence-weekly-report) — 問題：說明未寫具體痛點；做法：台灣 CDC 疫情監測儀表板與週報系統（NIDSS-style）— Python
+- [epidemic-intelligence-week-report](https://github.com/drhao/epidemic-intelligence-week-report) — 問題：說明不足，看不出具體痛點；做法：報告相關工具或實驗說明不足
+- [cdc_AI_data](https://github.com/drhao/cdc_AI_data) — 問題：說明未寫具體痛點；做法：AI／資料相關的資料集
+- [tennis-class](https://github.com/drhao/tennis-class) — 問題：說明不足，看不出具體痛點；做法：tennis class：依名稱推斷的工具／實驗沒有可讀說明
+- [monday_lottery_club](https://github.com/drhao/monday_lottery_club) — 問題：說明不足，看不出具體痛點；做法：monday lottery club：依名稱推斷的工具／實驗沒有可讀說明
+- [outbreak_simulator](https://github.com/drhao/outbreak_simulator) — 問題：說明不足，看不出具體痛點；做法：outbreak simulator：依名稱推斷的工具／實驗沒有可讀說明
+- [SwiftProject](https://github.com/drhao/SwiftProject) — 問題：說明不足，看不出具體痛點；做法：Swift相關工具或實驗說明不足
+- [WebCraw](https://github.com/drhao/WebCraw) — 問題：說明不足，看不出具體痛點；做法：WebCraw：依名稱推斷的工具／實驗沒有可讀說明
+- [100Day-ML-Marathon](https://github.com/drhao/100Day-ML-Marathon) — 問題：說明不足，看不出具體痛點；做法：機器學習相關工具或實驗說明不足
+- [infographic_workshop](https://github.com/drhao/infographic_workshop) — 問題：說明不足，看不出具體痛點；做法：工作坊相關工具或實驗說明不足
+- [datasets](https://github.com/drhao/datasets) — 問題：說明不足，看不出具體痛點；做法：資料集工具依名稱推斷
+- [tcdc_dengue](https://github.com/drhao/tcdc_dengue) — 問題：說明未寫具體痛點；做法：Dengue／模型相關工具
 
 ## [@drpwchen](https://github.com/drpwchen) {#drpwchen}
 
@@ -211,8 +371,8 @@
 
 ## [@erichuang777777](https://github.com/erichuang777777) {#erichuang777777}
 
-- [NTUH-breastcancer-finder-MCP](https://github.com/erichuang777777/NTUH-breastcancer-finder-MCP) — 問題：說明未寫具體痛點；做法：搜尋18／00的工具
 - [awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer) — 問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結
+- [NTUH-breastcancer-finder-MCP](https://github.com/erichuang777777/NTUH-breastcancer-finder-MCP) — 問題：說明未寫具體痛點；做法：搜尋18／00的工具
 - [OpenOnco-Breast-Finder](https://github.com/erichuang777777/OpenOnco-Breast-Finder) — 問題：說明未寫具體痛點；做法：台灣／乳癌／醫師／醫院／MCP相關工具；偏腫瘤／血液相關
 - [TW-Breast-Cancer-FHIR-IG](https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG) — 問題：缺乏統一的乳癌醫療資料標準，導致不同申報流程不相容；做法：建立台灣乳癌 FHIR 實作指引，提供共用模型與定義
 - [dotfiles](https://github.com/erichuang777777/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
@@ -313,6 +473,20 @@
 - [image_marathon](https://github.com/gosienna/image_marathon) — 問題：說明不足，看不出具體痛點；做法：影像相關工具或實驗說明不足
 - [p5-playground](https://github.com/gosienna/p5-playground) — 問題：說明未寫具體痛點；做法：以 p5.js 做的互動／練習實驗
 
+## [@greenrulers](https://github.com/greenrulers) {#greenrulers}
+
+- [home-manuals](https://github.com/greenrulers/home-manuals) — 問題：說明未寫具體痛點；做法：我家家電說明書：操作教學、故障排除、官方說明書連結
+- [fish-oil-dry-eye-appraisal](https://github.com/greenrulers/fish-oil-dry-eye-appraisal) — 問題：說明未寫具體痛點；做法：魚油可以治乾眼症？
+- [tsghebm-public](https://github.com/greenrulers/tsghebm-public) — 問題：說明未寫具體痛點；做法：實證醫學（EBM）九階段 pipeline 與競賽簡報產生器
+- [migraine-sdm](https://github.com/greenrulers/migraine-sdm) — 問題：說明未寫具體痛點；做法：偏頭痛預防治療 醫病共享決策輔助表（PDA）與衛教單張
+- [migraine-cgrp-appraisal-v4](https://github.com/greenrulers/migraine-cgrp-appraisal-v4) — 問題：說明不足，看不出具體痛點；做法：migraine cgrp appraisal
+- [migraine-cgrp-appraisal-v3](https://github.com/greenrulers/migraine-cgrp-appraisal-v3) — 問題：說明不足，看不出具體痛點；做法：migraine cgrp appraisal
+- [uti-bacteremia-appraisal](https://github.com/greenrulers/uti-bacteremia-appraisal) — 問題：說明未寫具體痛點；做法：工具：antibiotic duration / oral switch
+- [migraine-cgrp-appraisal-v2](https://github.com/greenrulers/migraine-cgrp-appraisal-v2) — 問題：說明不足，看不出具體痛點；做法：migraine cgrp appraisal
+- [migraine-cgrp-appraisal](https://github.com/greenrulers/migraine-cgrp-appraisal) — 問題：說明不足，看不出具體痛點；做法：migraine cgrp appraisal：依名稱推斷的工具／實驗沒有可讀說明
+- [migraine-prevention-review](https://github.com/greenrulers/migraine-prevention-review) — 問題：說明不足，看不出具體痛點；做法：回顧相關工具或實驗說明不足
+- [semaglutide-appraisal](https://github.com/greenrulers/semaglutide-appraisal) — 問題：說明不足，看不出具體痛點；做法：semaglutide appraisal：依名稱推斷的工具／實驗沒有可讀說明
+
 ## [@homigin](https://github.com/homigin) {#homigin}
 
 - [homigin.github.io](https://github.com/homigin/homigin.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
@@ -321,10 +495,10 @@
 
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
+- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
 - [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
 - [cps-skills](https://github.com/htlin222/cps-skills) — 問題：臨床診斷過程中缺乏結構化的多角色推理；做法：應用貝葉斯推理更新疾病機率並生成最終診斷
 - [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
-- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
 - [nccn-guidelines-downloader](https://github.com/htlin222/nccn-guidelines-downloader) — 問題：無法方便下載 NCCN 臨床實踐指導方針 PDF；做法：透過 CLI 腳本或 PWA 介面使用個人 NCCN 帳號下載
 - [zitie-generator](https://github.com/htlin222/zitie-generator) — 問題：無法快速生成繁體中文硬筆字帖以供練習；做法：線上生成可列印的繁體中文硬筆字帖，支持多種格式與設定
 - [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料
@@ -495,15 +669,111 @@
 - [prisma-automation](https://github.com/htlin222/prisma-automation) — 問題：系統性回顧與統合分析流程繁瑣，缺乏自動化工具；做法：使用 Python 和 R 自動化 PRISMA 工作流程
 - [causal-tut](https://github.com/htlin222/causal-tut) — 問題：臨床醫師在觀察性研究中缺乏因果推論的實戰指南；做法：提供包含 DAGs 和傾向分數的 R 課程教學
 
+## [@ian030590](https://github.com/ian030590) {#ian030590}
+
+- [RehabTrainerHub](https://github.com/ian030590/RehabTrainerHub) — 問題：說明未寫具體痛點；做法：網頁／復健／封存資料相關工具
+- [ian030590](https://github.com/ian030590/ian030590) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [ZhBible](https://github.com/ian030590/ZhBible) — 問題：說明未寫具體痛點；做法：搜尋工具
+- [ResearchAssistant](https://github.com/ian030590/ResearchAssistant) — 問題：說明未寫具體痛點；做法：工作流／PubMed／Zotero的助手；偏文獻／臨床試驗
+- [PDFSeparater](https://github.com/ian030590/PDFSeparater) — 問題：說明未寫具體痛點；做法：批次／PDF／Page／Separator／Splitter相關工具
+- [PDFDecrypter](https://github.com/ian030590/PDFDecrypter) — 問題：說明未寫具體痛點；做法：PDF／密碼／Remover／資安／Decryption相關工具；偏資安／身份驗證
+- [PDFCombiner](https://github.com/ian030590/PDFCombiner) — 問題：說明未寫具體痛點；做法：批次／PDF／Combiner／Merger／Utility相關工具
+- [NTUHNotifier2](https://github.com/ian030590/NTUHNotifier2) — 問題：說明未寫具體痛點；做法：病人／Queue／Calling／Desktop／Notifier相關工具
+- [NTUHNotifier](https://github.com/ian030590/NTUHNotifier) — 問題：說明未寫具體痛點；做法：應用／醫師／Mainly／研究／助手相關工具
+- [FormatConverter](https://github.com/ian030590/FormatConverter) — 問題：說明未寫具體痛點；做法：Universal／Multi-format／批次／File／轉換器
+- [StrokeTrainer](https://github.com/ian030590/StrokeTrainer)（已封存） — 問題：說明未寫具體痛點；做法：復健／神經／Would／PTs／STs相關工具
+- [VisionTrainer](https://github.com/ian030590/VisionTrainer)（已封存） — 問題：說明未寫具體痛點；做法：訓練／應用相關工具
+
+## [@idnerdtw](https://github.com/idnerdtw) {#idnerdtw}
+
+- [idnotes](https://github.com/idnerdtw/idnotes) — 問題：說明未寫具體痛點；做法：閱讀筆記／統計／GitHub／Pages／醫院的筆記
+- [nidss-weekly-viewer](https://github.com/idnerdtw/nidss-weekly-viewer) — 問題：說明未寫具體痛點；做法：統計／NIDSS／每週／報告／檢視器相關工具
+- [wgh-lab-converter](https://github.com/idnerdtw/wgh-lab-converter) — 問題：說明未寫具體痛點；做法：西園醫院報告轉換工具
+- [clabsi_local_agent](https://github.com/idnerdtw/clabsi_local_agent) — 問題：說明不足，看不出具體痛點；做法：本地／代理人相關工具或實驗說明不足
+- [mdtopdf](https://github.com/idnerdtw/mdtopdf) — 問題：說明未寫具體痛點；做法：將Markdown／文字轉成PDF／中文的工具
+- [Bobimixyn](https://github.com/idnerdtw/Bobimixyn) — 問題：說明未寫具體痛點；做法：Bobimixyn 劑量計算器
+- [beautifyhis4](https://github.com/idnerdtw/beautifyhis4) — 問題：說明未寫具體痛點；做法：HIS 4.0 彙總列印報告整理工具 - Beautify HIS4.0
+- [idnerdtw.github.io](https://github.com/idnerdtw/idnerdtw.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [taiwan-ascvd-risk-calculator](https://github.com/idnerdtw/taiwan-ascvd-risk-calculator) — 問題：說明未寫具體痛點；做法：ASCVD 風險評估 根據 2025 台灣血脂管理臨床路徑共識
+- [test2x2](https://github.com/idnerdtw/test2x2) — 問題：說明未寫具體痛點；做法：將 測試 轉成 X2 的轉換工具
+
 ## [@irene2023study](https://github.com/irene2023study) {#irene2023study}
 
 - [idphoto](https://github.com/irene2023study/idphoto) — 問題：無法快速將日常照片轉換為符合身分證規格的證件照；做法：利用 AI 進行照片風格轉換與自動裁切
 - [NLSTseg](https://github.com/irene2023study/NLSTseg) — 問題：無法有效進行肺癌 CT 圖像的像素級分割；做法：使用 U-Net 神經網絡進行肺癌病灶分割模型訓練
 
+## [@jeff830621](https://github.com/jeff830621) {#jeff830621}
+
+- [NHITW_clinic_reader](https://github.com/jeff830621/NHITW_clinic_reader) — 問題：說明未寫具體痛點；做法：診間閱讀器 — Fork of NHITW Cloud Analyzer
+- [ckd-calculator](https://github.com/jeff830621/ckd-calculator) — 問題：說明未寫具體痛點；做法：CKD 腎功能計算器 - UPCR / UACR / eGFR
+
+## [@jejenhu-maker](https://github.com/jejenhu-maker) {#jejenhu-maker}
+
+- [colorectal-weekly-digest](https://github.com/jejenhu-maker/colorectal-weekly-digest) — 問題：說明未寫具體痛點；做法：每週／摘要相關的摘要工具
+- [hcc-weekly-digest](https://github.com/jejenhu-maker/hcc-weekly-digest) — 問題：說明未寫具體痛點；做法：每週／摘要相關的摘要工具
+- [battle-island-game](https://github.com/jejenhu-maker/battle-island-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [nhiconvert](https://github.com/jejenhu-maker/nhiconvert) — 問題：說明未寫具體痛點；做法：健保門診申報檔（TOTFA）去識別化轉 CSV 工具
+- [time-to-fight](https://github.com/jejenhu-maker/time-to-fight) — 問題：說明不足，看不出具體痛點；做法：time to fight：依名稱推斷的工具／實驗沒有可讀說明
+- [blast-battle](https://github.com/jejenhu-maker/blast-battle) — 問題：說明不足，看不出具體痛點；做法：blast battle：依名稱推斷的工具／實驗沒有可讀說明
+- [blobbie_splash](https://github.com/jejenhu-maker/blobbie_splash) — 問題：說明不足，看不出具體痛點；做法：blobbie splash：依名稱推斷的工具／實驗沒有可讀說明
+- [OBBYRUNS](https://github.com/jejenhu-maker/OBBYRUNS) — 問題：說明未寫具體痛點；做法：Kid-friendly／瀏覽器／遊戲相關工具
+- [mcdonalds-business-maker](https://github.com/jejenhu-maker/mcdonalds-business-maker) — 問題：說明不足，看不出具體痛點；做法：mcdonalds business maker：依名稱推斷的工具／實驗沒有可讀說明
+- [sprunki-chase-game](https://github.com/jejenhu-maker/sprunki-chase-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [hu-family-game](https://github.com/jejenhu-maker/hu-family-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [garten-school-battle](https://github.com/jejenhu-maker/garten-school-battle) — 問題：說明不足，看不出具體痛點；做法：garten school battle：依名稱推斷的工具／實驗沒有可讀說明
+- [he-gassen-game](https://github.com/jejenhu-maker/he-gassen-game) — 問題：說明未寫具體痛點；做法：屁合戰 He-Gassen - A fart battle game
+- [best-geologist](https://github.com/jejenhu-maker/best-geologist) — 問題：說明不足，看不出具體痛點；做法：best geologist：依名稱推斷的工具／實驗沒有可讀說明
+- [planet-creator](https://github.com/jejenhu-maker/planet-creator) — 問題：說明不足，看不出具體痛點；做法：planet creator：依名稱推斷的工具／實驗沒有可讀說明
+- [police-chase-game](https://github.com/jejenhu-maker/police-chase-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [electric-path-game](https://github.com/jejenhu-maker/electric-path-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [ice-cream-game](https://github.com/jejenhu-maker/ice-cream-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [shredder-game](https://github.com/jejenhu-maker/shredder-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [maze-battle](https://github.com/jejenhu-maker/maze-battle) — 問題：說明不足，看不出具體痛點；做法：maze battle：依名稱推斷的工具／實驗沒有可讀說明
+- [ice-cream-stack](https://github.com/jejenhu-maker/ice-cream-stack) — 問題：說明不足，看不出具體痛點；做法：ice cream stack：依名稱推斷的工具／實驗沒有可讀說明
+- [train-game](https://github.com/jejenhu-maker/train-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [fish-catcher](https://github.com/jejenhu-maker/fish-catcher) — 問題：說明不足，看不出具體痛點；做法：fish catcher：依名稱推斷的工具／實驗沒有可讀說明
+- [pet-hide-seek](https://github.com/jejenhu-maker/pet-hide-seek) — 問題：說明不足，看不出具體痛點；做法：pet hide seek：依名稱推斷的工具／實驗沒有可讀說明
+- [harvest-heroes](https://github.com/jejenhu-maker/harvest-heroes) — 問題：說明不足，看不出具體痛點；做法：harvest heroes：依名稱推斷的工具／實驗沒有可讀說明
+- [trampoline-bounce-game](https://github.com/jejenhu-maker/trampoline-bounce-game) — 問題：說明未寫具體痛點；做法：LINE／遊戲相關工具；偏聊天機器人／通訊整合
+- [space-race-game](https://github.com/jejenhu-maker/space-race-game) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [hu-family-racing](https://github.com/jejenhu-maker/hu-family-racing) — 問題：說明未寫具體痛點；做法：HU／Family／Racing／3D／遊戲相關工具
+- [dragon-sticky-hand-game](https://github.com/jejenhu-maker/dragon-sticky-hand-game) — 問題：說明不足，看不出具體痛點；做法：拖曳／便利貼／遊戲相關工具或實驗說明不足
+- [light-the-lamp-game](https://github.com/jejenhu-maker/light-the-lamp-game) — 問題：說明未寫具體痛點；做法：Light the Lamp - 插頭接電燈益智遊戲 🔌💡
+- [hr](https://github.com/jejenhu-maker/hr) — 問題：說明不足，看不出具體痛點；做法：hr：依名稱推斷的工具／實驗沒有可讀說明
+- [protein-food-game](https://github.com/jejenhu-maker/protein-food-game) — 問題：說明未寫具體痛點；做法：給睿睿和愷愷玩的蛋白質食物遊戲
+- [61-swan-runner](https://github.com/jejenhu-maker/61-swan-runner) — 問題：說明未寫具體痛點；做法：61／Swan／遊戲，用於61
+- [claudecode-project](https://github.com/jejenhu-maker/claudecode-project) — 問題：說明未寫具體痛點；做法：Claude相關工具；偏生成式 AI／LLM
+- [hu-family-cooking-game](https://github.com/jejenhu-maker/hu-family-cooking-game) — 問題：說明未寫具體痛點；做法：讓我們家小朋友可以跟爸爸媽媽一起玩的遊戲
+
+## [@jenniferliang813-netizen](https://github.com/jenniferliang813-netizen) {#jenniferliang813-netizen}
+
+- [travel-planner](https://github.com/jenniferliang813-netizen/travel-planner) — 問題：說明不足，看不出具體痛點；做法：travel planner：依名稱推斷的工具／實驗沒有可讀說明
+- [speaking-coach](https://github.com/jenniferliang813-netizen/speaking-coach) — 問題：說明未寫具體痛點；做法：每日英文口說教練 PWA — daily English speaking
+- [byfavo-deck](https://github.com/jenniferliang813-netizen/byfavo-deck) — 問題：說明未寫具體痛點；做法：Remimazolam (Byfavo) 麻醉科醫師教學簡報 — 機制 · 應用
+- [body-diary](https://github.com/jenniferliang813-netizen/body-diary) — 問題：說明未寫具體痛點；做法：追蹤PWA的網頁應用
+- [anesthesia-opd](https://github.com/jenniferliang813-netizen/anesthesia-opd) — 問題：說明不足，看不出具體痛點；做法：麻醉／門診相關工具或實驗說明不足
+- [anesthesia-prep-board](https://github.com/jenniferliang813-netizen/anesthesia-prep-board) — 問題：說明未寫具體痛點；做法：彰化秀傳麻醉科 OR 麻醉備物溝通看板 prototype（單檔 HTML +
+- [cv-cardiac-cockpit](https://github.com/jenniferliang813-netizen/cv-cardiac-cockpit) — 問題：說明未寫具體痛點；做法：心臟生理與病理 麻訓班教學駕駛艙 - 秀傳醫療體系
+- [inhalation-anesthetics-dashboard](https://github.com/jenniferliang813-netizen/inhalation-anesthetics-dashboard) — 問題：說明不足，看不出具體痛點；做法：麻醉／工具依名稱推斷
+- [body-diary-01](https://github.com/jenniferliang813-netizen/body-diary-01) — 問題：說明不足，看不出具體痛點；做法：body diary 01：依名稱推斷的工具／實驗沒有可讀說明
+- [anesthsia_OPD_0416](https://github.com/jenniferliang813-netizen/anesthsia_OPD_0416) — 問題：說明不足，看不出具體痛點；做法：麻醉／門診相關工具或實驗說明不足
+- [anesthsia_index_v5](https://github.com/jenniferliang813-netizen/anesthsia_index_v5) — 問題：說明不足，看不出具體痛點；做法：麻醉相關工具或實驗說明不足
+- [anesthsia_claude_index_v4](https://github.com/jenniferliang813-netizen/anesthsia_claude_index_v4) — 問題：說明未寫具體痛點；做法：麻醉／Claude相關工具；偏生成式 AI／LLM
+- [anesthsia_claude_index_v3](https://github.com/jenniferliang813-netizen/anesthsia_claude_index_v3) — 問題：說明未寫具體痛點；做法：麻醉／Claude相關工具；偏生成式 AI／LLM
+- [anesthsia_claude_index2](https://github.com/jenniferliang813-netizen/anesthsia_claude_index2) — 問題：說明未寫具體痛點；做法：麻醉／Claude相關工具；偏生成式 AI／LLM
+- [anesthsia_claude_index](https://github.com/jenniferliang813-netizen/anesthsia_claude_index) — 問題：說明未寫具體痛點；做法：麻醉／Claude相關工具；偏生成式 AI／LLM
+- [anesthesia_gemini_index](https://github.com/jenniferliang813-netizen/anesthesia_gemini_index) — 問題：說明未寫具體痛點；做法：麻醉／Gemini相關工具；偏生成式 AI／LLM
+- [anesthesia_ime_app](https://github.com/jenniferliang813-netizen/anesthesia_ime_app) — 問題：說明不足，看不出具體痛點；做法：麻醉相關工具或實驗說明不足
+
+## [@periop-tools](https://github.com/periop-tools) {#periop-tools}
+
+- [anticoag-periop-calc](https://github.com/periop-tools/anticoag-periop-calc) — 問題：說明未寫具體痛點；做法：抗凝血停復藥計算機 — 門診用離線單檔工具（手術／半麻停復藥時間）
+- [pump-calc](https://github.com/periop-tools/pump-calc) — 問題：說明未寫具體痛點；做法：麻醉 pump 藥物劑量速算（mcg/kg/min → ml/hr）＋算式教學
+
 ## [@jjtseng93](https://github.com/jjtseng93) {#jjtseng93}
 
-- [buninu-browser](https://github.com/jjtseng93/buninu-browser) — 問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎
 - [buninu-linux](https://github.com/jjtseng93/buninu-linux) — 問題：無法在 Linux 環境中使用 Bun 作為 PID 1 的系統；做法：透過 Buninu Linux 發布專門的 Linux 發行版運行 Bun
+- [buninu-browser](https://github.com/jjtseng93/buninu-browser) — 問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎
 - [jspulse](https://github.com/jjtseng93/jspulse) — 問題：在行動裝置上無法直接使用 PulseAudio 進行音訊處理；做法：在 Bun 環境中實現 PulseAudio 協議，無需外部工具
 - [buninu](https://github.com/jjtseng93/buninu) — 問題：在不同作業系統中無法快速啟動類 Unix 環境；做法：提供一個命令即可在瀏覽器或終端機啟動的可攜式用戶空間
 - [bunmsh](https://github.com/jjtseng93/bunmsh) — 問題：在不同平台上無法找到適合的命令行介面；做法：提供跨平台的命令行解釋器，無需依賴其他庫
@@ -526,6 +796,22 @@
 - [cdnloader](https://github.com/jjtseng93/cdnloader) — 問題：開發者無法記住各種 js 的 CDN 連結；做法：透過簡單指令自動載入所需的 js 檔案
 - [jsonSlides](https://github.com/jjtseng93/jsonSlides) — 問題：製作簡報時無法快速編輯內容格式；做法：使用 JSON 格式結構化簡報內容並透過 Vue.js 渲染
 
+## [@jnynlin](https://github.com/jnynlin) {#jnynlin}
+
+- [escc-abstraction-test](https://github.com/jnynlin/escc-abstraction-test) — 問題：說明未寫具體痛點；做法：ESCC 病歷摘錄工作台 測試版（僅合成資料）
+- [onco-tools](https://github.com/jnynlin/onco-tools) — 問題：說明未寫具體痛點；做法：腫瘤治療決策教學工具家族站（onco-decision-kit 產出）
+- [clinic-epro](https://github.com/jnynlin/clinic-epro) — 問題：說明未寫具體痛點；做法：回診前症狀紀錄：IO/ADC 門診到診前輔助工具（單檔、無後端、資料不離開手機）
+- [nhi-rx-apply](https://github.com/jnynlin/nhi-rx-apply) — 問題：說明未寫具體痛點；做法：健保事前審查 門診登錄（醫師端表單 + 行政端清單，GAS 後端）
+- [breast-hr-tool](https://github.com/jnynlin/breast-hr-tool) — 問題：說明未寫具體痛點；做法：HR+/HER2- 晚期與轉移性乳癌 治療選擇 checklist
+- [cmu-visit-form](https://github.com/jnynlin/cmu-visit-form) — 問題：說明不足，看不出具體痛點；做法：cmu visit form：依名稱推斷的工具／實驗沒有可讀說明
+- [ovarian-regimen-tool](https://github.com/jnynlin/ovarian-regimen-tool) — 問題：說明不足，看不出具體痛點；做法：卵巢癌前後線治療 checklist × 下一步推斷 — 教學互動工具（NCCN
+- [miyako-trip-map](https://github.com/jnynlin/miyako-trip-map) — 問題：說明未寫具體痛點；做法：宮古島5日行程互動地圖(卡通島圖+飲食查證)
+- [miyako-trip-map-bundler-test](https://github.com/jnynlin/miyako-trip-map-bundler-test) — 問題：說明未寫具體痛點；做法：測試:bundler另存版能否透過GitHub Pages正常運作
+- [cmurx-vote](https://github.com/jnynlin/cmurx-vote) — 問題：說明不足，看不出具體痛點；做法：cmurx vote：依名稱推斷的工具／實驗沒有可讀說明
+- [data](https://github.com/jnynlin/data) — 問題：說明不足，看不出具體痛點；做法：資料集依名稱推斷
+- [taiwan-cancer-registry](https://github.com/jnynlin/taiwan-cancer-registry) — 問題：說明未寫具體痛點；做法：台灣／腫瘤相關工具；偏腫瘤／血液相關
+- [student-portal-pressure-test](https://github.com/jnynlin/student-portal-pressure-test) — 問題：說明不足，看不出具體痛點；做法：student portal pressure
+
 ## [@kaneyxx](https://github.com/kaneyxx) {#kaneyxx}
 
 - [for_gdrive_privacy](https://github.com/kaneyxx/for_gdrive_privacy) — 問題：說明不足，看不出具體痛點；做法：隱私相關工具或實驗說明不足
@@ -545,6 +831,80 @@
 - [AIA-st3-whoisshe](https://github.com/kaneyxx/AIA-st3-whoisshe) — 問題：進行人臉辨識時準確率低，無法有效辨識明星；做法：使用dlib庫進行特徵工程與transfer learning提升辨識效果
 - [Twitch_Channel_Points_Clicker](https://github.com/kaneyxx/Twitch_Channel_Points_Clicker) — 問題：無法快速兌換 Twitch 頻道點數，需手動操作；做法：使用 Selenium 自動化點擊兌換流程
 - [twitchio-AFKBot](https://github.com/kaneyxx/twitchio-AFKBot) — 問題：使用者無法自動管理 AFK 狀態以獲取貼圖或訂閱；做法：透過 Python 模組自動化 AFK 狀態管理功能
+
+## [@keanu77](https://github.com/keanu77) {#keanu77}
+
+- [team-taiwan-results](https://github.com/keanu77/team-taiwan-results) — 問題：說明未寫具體痛點；做法：綜合運動會國家隊賽程與賽果追蹤頁：GitHub Actions 定時同步官方成績
+- [AIskillsintro](https://github.com/keanu77/AIskillsintro) — 問題：說明未寫具體痛點；做法：Claude Code Skills 目錄：可搜尋
+- [antidopingplatform](https://github.com/keanu77/antidopingplatform) — 問題：說明未寫具體痛點；做法：運動禁藥案例資料庫：國際禁藥處分案例搜尋與比較、年度趨勢與運動項目分布視覺化
+- [review.sportsmedicine](https://github.com/keanu77/review.sportsmedicine) — 問題：說明未寫具體痛點；做法：運動醫學與復健文獻索引：系統性回顧、統合分析與臨床指引
+- [imaging-course-hub](https://github.com/keanu77/imaging-course-hub) — 問題：說明未寫具體痛點；做法：運動醫學影像學習站｜繁體中文運動醫學影像教育、來源整理與學習工具
+- [keanu77](https://github.com/keanu77/keanu77) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [reverse-engineer-searcher](https://github.com/keanu77/reverse-engineer-searcher) — 問題：說明未寫具體痛點；做法：反向工程搜尋策略產生器：輸入金標準文獻 PMID
+- [Meta-Analysis-Calculator](https://github.com/keanu77/Meta-Analysis-Calculator) — 問題：說明未寫具體痛點；做法：統合分析計算器：Cohen's d／Pearson r／Odds Ratio
+- [htmlpptskill](https://github.com/keanu77/htmlpptskill) — 問題：說明不足，看不出具體痛點；做法：技能包相關工具或實驗說明不足
+- [exercise-prescription-recommendation](https://github.com/keanu77/exercise-prescription-recommendation) — 問題：說明未寫具體痛點；做法：AI 運動處方產生器：依 ACSM FITT-VP 原則與 WHO 身體活動指引
+- [Teachingtool](https://github.com/keanu77/Teachingtool) — 問題：說明不足，看不出具體痛點；做法：教學相關工具或實驗說明不足
+- [athletetype](https://github.com/keanu77/athletetype) — 問題：說明未寫具體痛點；做法：AthleteType 運動人格測驗：28 題運動情境找出你的運動人格
+- [sports-injury-atlas-starter](https://github.com/keanu77/sports-injury-atlas-starter) — 問題：說明未寫具體痛點；做法：MIT-licensed／Astro／起始專案／搜尋／資料相關工具
+- [knee-imaging-course](https://github.com/keanu77/knee-imaging-course) — 問題：說明未寫具體痛點；做法：膝關節影像診斷課程｜繁體中文運動醫學影像教育、來源整理與學習工具
+- [shoulder-imaging-course](https://github.com/keanu77/shoulder-imaging-course) — 問題：說明未寫具體痛點；做法：肩部影像診斷課程｜繁體中文運動醫學影像教育、來源整理與學習工具
+- [marathongame](https://github.com/keanu77/marathongame) — 問題：說明未寫具體痛點；做法：馬拉松完賽訓練 2D 橫向跑酷衛教遊戲：管理體力、受傷風險與配速
+- [twexercisemap](https://github.com/keanu77/twexercisemap) — 問題：說明未寫具體痛點；做法：台灣運動地圖：整合運動部「運動城市調查」開放資料（民國 102–112 年）
+- [recoverymaze](https://github.com/keanu77/recoverymaze) — 問題：說明未寫具體痛點；做法：運動恢復教育迷宮遊戲：在熬夜、訓練暴增等六種風險追逐中
+
+## [@kenkao0127-droid](https://github.com/kenkao0127-droid) {#kenkao0127-droid}
+
+- [dr-kao-personal-website](https://github.com/kenkao0127-droid/dr-kao-personal-website) — 問題：說明未寫具體痛點；做法：高傳紘醫師｜呼吸照護、基層醫學教育與生活興趣
+- [chenggong-meimei-clinic](https://github.com/kenkao0127-droid/chenggong-meimei-clinic) — 問題：說明未寫具體痛點；做法：成功成美診所官方網頁（草稿原始碼）
+- [chengmei-pneumothorax-education](https://github.com/kenkao0127-droid/chengmei-pneumothorax-education) — 問題：說明未寫具體痛點；做法：成美診所氣胸衛教頁面：咳嗽與胸痛的及時評估
+- [dr-kao-clinic-ai-course](https://github.com/kenkao0127-droid/dr-kao-clinic-ai-course) — 問題：說明未寫具體痛點；做法：AI Agent 在醫師工作上的實際應用：Hermes、PubMed
+- [ctc-ipcy-evidence-review](https://github.com/kenkao0127-droid/ctc-ipcy-evidence-review) — 問題：說明未寫具體痛點；做法：CTC liquid biopsy & IPCY 癌博視：產品整理
+- [colon-polyp-pathology-pocket-card](https://github.com/kenkao0127-droid/colon-polyp-pathology-pocket-card) — 問題：說明未寫具體痛點；做法：大腸息肉病理報告 10 秒判斷＋追蹤建議（非腸胃科口袋卡）
+- [prevent-ascvd-calculator](https://github.com/kenkao0127-droid/prevent-ascvd-calculator) — 問題：說明未寫具體痛點；做法：AHA PREVENT 2023 ASCVD Risk Calculator ·
+- [dr-kao-lung-tool](https://github.com/kenkao0127-droid/dr-kao-lung-tool) — 問題：說明不足，看不出具體痛點；做法：肺相關工具或實驗說明不足
+- [finance-dashboard](https://github.com/kenkao0127-droid/finance-dashboard) — 問題：說明不足，看不出具體痛點；做法：工具依名稱推斷
+- [lung-function-gadget](https://github.com/kenkao0127-droid/lung-function-gadget) — 問題：說明未寫具體痛點；做法：ACT／PEFR相關工具
+
+## [@knight819094](https://github.com/knight819094) {#knight819094}
+
+- [stock-analysis-bot](https://github.com/knight819094/stock-analysis-bot) — 問題：說明未寫具體痛點；做法：台股／美股自動分析推播系統：技術/籌碼/基本面分析 + Gemini AI 解讀
+- [pharmacy-dispense-time](https://github.com/knight819094/pharmacy-dispense-time) — 問題：說明未寫具體痛點；做法：由健保調劑申報檔產生單一離線 HTML 查詢頁
+- [nhi-drug-converter](https://github.com/knight819094/nhi-drug-converter) — 問題：說明未寫具體痛點；做法：藥局用桌面工具：將健保署每月「健保用藥品項」固定寬度
+- [ai_voice_ereader](https://github.com/knight819094/ai_voice_ereader) — 問題：說明未寫具體痛點；做法：跨平台 AI 語音電子書閱讀器（Flutter）：匯入 PDF/EPUB
+
+## [@lantus123](https://github.com/lantus123) {#lantus123}
+
+- [nicu-note-builder](https://github.com/lantus123/nicu-note-builder) — 問題：說明未寫具體痛點；做法：NICU note 快速產生器（純前端，可嵌 Google Sites，無病人資料）
+- [nicu-drip-calc](https://github.com/lantus123/nicu-drip-calc) — 問題：說明未寫具體痛點；做法：NICU 藥物計算機：依目標劑量反推 pump 滴速（GitHub Pages +
+- [journal-site](https://github.com/lantus123/journal-site) — 問題：說明不足，看不出具體痛點；做法：期刊相關工具或實驗說明不足
+- [meeting-record-webapp](https://github.com/lantus123/meeting-record-webapp) — 問題：說明不足，看不出具體痛點；做法：會議／病歷相關工具或實驗說明不足
+- [mmh-chemo-diet](https://github.com/lantus123/mmh-chemo-diet) — 問題：說明未寫具體痛點；做法：兒童醫院十一病房 化學治療期間飲食照顧 衛教單張（GitHub Pages +
+- [peds-abx-calc](https://github.com/lantus123/peds-abx-calc) — 問題：說明未寫具體痛點；做法：兒癌病房抗感染藥物計算機 (Pediatric Oncology
+- [mmh-newborn-summary](https://github.com/lantus123/mmh-newborn-summary) — 問題：說明未寫具體痛點；做法：北馬新生兒入院摘要與會診單產生器 (embedded in Google
+- [fb-material-library](https://github.com/lantus123/fb-material-library) — 問題：說明未寫具體痛點；做法：FB素材庫 — 優見補習班 Facebook 內容素材自動蒐集與管理系統
+- [wordpress-dev](https://github.com/lantus123/wordpress-dev) — 問題：說明不足，看不出具體痛點；做法：wordpress dev：依名稱推斷的工具／實驗沒有可讀說明
+
+## [@LCCtaiwan](https://github.com/LCCtaiwan) {#lcctaiwan}
+
+- [pharmacist-dashboard](https://github.com/LCCtaiwan/pharmacist-dashboard) — 問題：說明不足，看不出具體痛點；做法：藥師／工具依名稱推斷
+- [TFDA-pill-identification](https://github.com/LCCtaiwan/TFDA-pill-identification) — 問題：說明未寫具體痛點；做法：TFDA 藥品外觀辨識、諮詢紀錄與每週自動更新
+- [chemodrugstable-query](https://github.com/LCCtaiwan/chemodrugstable-query) — 問題：說明未寫具體痛點；做法：ChemoDrugStable 化療調配核對查詢
+- [Pharmacist_weekly_newsletter](https://github.com/LCCtaiwan/Pharmacist_weekly_newsletter) — 問題：說明不足，看不出具體痛點；做法：藥師／每週／電子報相關工具或實驗說明不足
+- [PharmLife](https://github.com/LCCtaiwan/PharmLife) — 問題：說明未寫具體痛點；做法：手機優先的台灣藥師職涯人生模擬器
+- [vancomycin-dose](https://github.com/LCCtaiwan/vancomycin-dose) — 問題：說明未寫具體痛點；做法：離線／Vancomycin／TDM／原型相關工具
+- [clinical-automation-course](https://github.com/LCCtaiwan/clinical-automation-course) — 問題：說明未寫具體痛點；做法：醫療人員的 AI Agent、Google Apps Script
+- [kyoto-travel-booklet-demo](https://github.com/LCCtaiwan/kyoto-travel-booklet-demo) — 問題：說明未寫具體痛點；做法：京都三天兩夜長輩友善旅遊手冊 Demo
+- [medication-guide-translator](https://github.com/LCCtaiwan/medication-guide-translator) — 問題：說明未寫具體痛點；做法：將院內藥單頻率與途徑轉成印尼文、越南文或英文的用藥指示卡
+- [linebot-quote-capture](https://github.com/LCCtaiwan/linebot-quote-capture) — 問題：說明未寫具體痛點；做法：LINE／擷取／影像／Gemini／Google相關工具
+- [clinical-automation-course-design](https://github.com/LCCtaiwan/clinical-automation-course-design) — 問題：說明未寫具體痛點；做法：Public／教學／速查參考
+- [paper-lab-classroom-builder](https://github.com/LCCtaiwan/paper-lab-classroom-builder) — 問題：說明未寫具體痛點；做法：Turn／PDF，用於顯示
+- [pharmacist-tree-hollow](https://github.com/LCCtaiwan/pharmacist-tree-hollow) — 問題：說明未寫具體痛點；做法：給藥師的水彩樹洞 — Web PWA
+- [push-to-github](https://github.com/LCCtaiwan/push-to-github) — 問題：說明不足，看不出具體痛點；做法：push to github：依名稱推斷的工具／實驗沒有可讀說明
+- [test001](https://github.com/LCCtaiwan/test001) — 問題：說明不足，看不出具體痛點；做法：測試相關工具或實驗說明不足
+- [openevidence-demo](https://github.com/LCCtaiwan/openevidence-demo) — 問題：說明不足，看不出具體痛點；做法：OpenEvidence相關工具或實驗說明不足
+- [Patient-Information-Sheet](https://github.com/LCCtaiwan/Patient-Information-Sheet) — 問題：說明未寫具體痛點；做法：病人／資訊／表相關工具
+- [n8n_pharmacist-report](https://github.com/LCCtaiwan/n8n_pharmacist-report) — 問題：說明不足，看不出具體痛點；做法：藥師／報告相關工具或實驗說明不足
 
 ## [@liangRXdev](https://github.com/liangRXdev) {#liangrxdev}
 
@@ -574,6 +934,56 @@
 - [tx-ebm-calc](https://github.com/liangRXdev/tx-ebm-calc) — 問題：臨床人員無法快速計算治療效果指標；做法：提供互動式計算器，支援多種輸入模式與即時結果顯示
 - [liangRXdev](https://github.com/liangRXdev/liangRXdev) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [gemini-prompts-practise](https://github.com/liangRXdev/gemini-prompts-practise) — 問題：臨床教師準備教學材料時耗時且缺乏範本；做法：提供一鍵複製的醫療情境導向提示詞庫
+
+## [@LiangWeiTseng](https://github.com/LiangWeiTseng) {#liangweitseng}
+
+- [TCM-Formula-Substitute](https://github.com/LiangWeiTseng/TCM-Formula-Substitute) — 問題：說明不足，看不出具體痛點；做法：TCM Formula Substitute：依名稱推斷的工具／實驗沒有可讀說明
+- [claude-handover](https://github.com/LiangWeiTseng/claude-handover) — 問題：說明未寫具體痛點；做法：Claude／Code／文字相關工具
+- [medical-paper-reviser](https://github.com/LiangWeiTseng/medical-paper-reviser) — 問題：說明未寫具體痛點；做法：醫療／論文／改寫器相關工具；偏生成式 AI／LLM
+- [LifeScale](https://github.com/LiangWeiTseng/LifeScale) — 問題：說明未寫具體痛點；做法：工具，用於weighing life decisions through
+
+## [@liaoweihung](https://github.com/liaoweihung) {#liaoweihung}
+
+- [pteduimg](https://github.com/liaoweihung/pteduimg) — 問題：說明未寫具體痛點；做法：病人／教育／影像／應用相關工具
+- [hub](https://github.com/liaoweihung/hub) — 問題：說明不足，看不出具體痛點；做法：hub：依名稱推斷的工具／實驗沒有可讀說明
+- [liaoweihung.github.io](https://github.com/liaoweihung/liaoweihung.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [home-task-helper](https://github.com/liaoweihung/home-task-helper) — 問題：說明未寫具體痛點；做法：中文、英文與印尼文並列的家庭工作圖片溝通助手
+- [pillcount](https://github.com/liaoweihung/pillcount) — 問題：說明不足，看不出具體痛點；做法：pillcount：依名稱推斷的工具／實驗沒有可讀說明
+- [note](https://github.com/liaoweihung/note) — 問題：說明未寫具體痛點；做法：學習相關工具
+- [pteduimg_test](https://github.com/liaoweihung/pteduimg_test) — 問題：說明不足，看不出具體痛點；做法：pteduimg test：依名稱推斷的工具／實驗沒有可讀說明
+- [try](https://github.com/liaoweihung/try) — 問題：說明不足，看不出具體痛點；做法：try：依名稱推斷的工具／實驗沒有可讀說明
+- [ped_abx](https://github.com/liaoweihung/ped_abx) — 問題：說明不足，看不出具體痛點；做法：ped abx：依名稱推斷的工具／實驗沒有可讀說明
+- [gold](https://github.com/liaoweihung/gold) — 問題：說明未寫具體痛點；做法：病歷相關工具
+- [carbo](https://github.com/liaoweihung/carbo) — 問題：說明未寫具體痛點；做法：恩主公醫院藥局，計算Carboplatin 劑量
+
+## [@limzijiang](https://github.com/limzijiang) {#limzijiang}
+
+- [nhi-er-live](https://github.com/limzijiang/nhi-er-live) — 問題：說明未寫具體痛點；做法：台灣急診即時壅塞看板 — 健保署急診即時資料，每15分鐘更新並累積歷史
+- [phpls-teach-eval](https://github.com/limzijiang/phpls-teach-eval) — 問題：說明不足，看不出具體痛點；做法：phpls teach eval：依名稱推斷的工具／實驗沒有可讀說明
+- [nfa-safer-handbook](https://github.com/limzijiang/nfa-safer-handbook) — 問題：說明未寫具體痛點；做法：內政部消防署《救護安全手冊》SAFER 線上閱讀版（原書版／文字版、全文搜尋）
+- [ed-boarding-48h](https://github.com/limzijiang/ed-boarding-48h) — 問題：說明不足，看不出具體痛點；做法：ed boarding 48h：依名稱推斷的工具／實驗沒有可讀說明
+- [ped-tbi-ventilation-position](https://github.com/limzijiang/ped-tbi-ventilation-position) — 問題：說明未寫具體痛點；做法：EMT/EMT-P 教學簡報：小兒疑似頭部外傷的抬高床頭
+- [emtp-sim](https://github.com/limzijiang/emtp-sim) — 問題：說明未寫具體痛點；做法：追蹤MQTT的工具
+- [ped-permissive-hypotension](https://github.com/limzijiang/ped-permissive-hypotension) — 問題：說明未寫具體痛點；做法：小兒創傷 permissive hypotension：實證回顧與 EMT
+- [ped-capillary-refill](https://github.com/limzijiang/ped-capillary-refill) — 問題：說明未寫具體痛點；做法：兒童微血管回填時間（CRT）評估部位、門檻與 EMT 教學簡化：閱讀版 + 簡報版
+- [ped-txa-emt](https://github.com/limzijiang/ped-txa-emt) — 問題：說明未寫具體痛點；做法：小兒重大創傷／TBI 的 TXA：實證回顧與 EMT 教學建議（閱讀版＋投影片版）
+- [ntpc-emtp-sop-2024](https://github.com/limzijiang/ntpc-emtp-sop-2024) — 問題：說明未寫具體痛點；做法：新北市EMTP SOP 2024 線上瀏覽版
+- [ED-board-exam](https://github.com/limzijiang/ED-board-exam) — 問題：說明未寫具體痛點；做法：考試相關的測驗／題庫工具
+- [prehospital-blood-towar](https://github.com/limzijiang/prehospital-blood-towar) — 問題：說明未寫具體痛點；做法：到院前輸血：NEJM 2026 TOWAR trial 評讀 × 百年發展史 ×
+- [ntpc-kids-events](https://github.com/limzijiang/ntpc-kids-events) — 問題：說明未寫具體痛點；做法：雙北親子新活動 RSS：WeKenGo親子 + 新北市行事曆 + 科教館
+- [fju-ed-rrc-briefing-handbook](https://github.com/limzijiang/fju-ed-rrc-briefing-handbook) — 問題：說明未寫具體痛點；做法：急診 RRC 訪查備詢教戰手冊（輔大醫院急診醫學部）
+- [ohca-teaching](https://github.com/limzijiang/ohca-teaching) — 問題：說明不足，看不出具體痛點；做法：教學相關工具或實驗說明不足
+- [ed-defensive-charting](https://github.com/limzijiang/ed-defensive-charting) — 問題：說明未寫具體痛點；做法：急診防衛性病歷寫作 Orientation — 給急診 V1 的上工前範本集
+- [myedit-free-credits](https://github.com/limzijiang/myedit-free-credits) — 問題：說明未寫具體痛點；做法：MyEdit 每日免費點數 Chrome 擴充功能＋圖解安裝教學
+- [taipei-emtp-sop](https://github.com/limzijiang/taipei-emtp-sop) — 問題：說明未寫具體痛點；做法：臺北市EMTP SOP 線上版
+- [emtp-sop](https://github.com/limzijiang/emtp-sop) — 問題：說明未寫具體痛點；做法：EMTP SOP 統一入口
+- [atl-studios](https://github.com/limzijiang/atl-studios) — 問題：說明未寫具體痛點；做法：Midtown Atlanta Studio 速查：GT 周邊 8 月可入住套房
+- [toy-station](https://github.com/limzijiang/toy-station) — 問題：說明未寫具體痛點；做法：臺北玩具轉運站 林盟的借玩具清單（海洋拼圖 + 家家酒茶具，2歲適齡）
+- [ed-triage-stats](https://github.com/limzijiang/ed-triage-stats) — 問題：說明未寫具體痛點；做法：檢傷／統計相關工具；偏急診／急重症
+- [kids-clock](https://github.com/limzijiang/kids-clock) — 問題：說明未寫具體痛點；做法：寶寶的時間表 — 給兩歲幼童的中文時鐘學習頁面
+- [tox-slides](https://github.com/limzijiang/tox-slides) — 問題：說明未寫具體痛點；做法：簡報相關工具；偏簡報／教材
+- [acls-c03](https://github.com/limzijiang/acls-c03) — 問題：說明不足，看不出具體痛點；做法：acls c03：依名稱推斷的工具／實驗沒有可讀說明
+- [dadtv](https://github.com/limzijiang/dadtv) — 問題：說明不足，看不出具體痛點；做法：dadtv：依名稱推斷的工具／實驗沒有可讀說明
 
 ## [@littlecanargie](https://github.com/littlecanargie) {#littlecanargie}
 
@@ -607,6 +1017,88 @@
 - [markhuang.github.io](https://github.com/MarkHuangMD/markhuang.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [Anes_visit_assignment](https://github.com/MarkHuangMD/Anes_visit_assignment) — 問題：現場無法有效分配麻醉訪視名單；做法：簡化訪視名單分配的應用程式
 - [ML100Days](https://github.com/MarkHuangMD/ML100Days) — 問題：說明不足，看不出具體痛點；做法：ML100Days：依名稱推斷的工具／實驗沒有可讀說明
+
+## [@mars690120-star](https://github.com/mars690120-star) {#mars690120-star}
+
+- [antibiotic-dashboard](https://github.com/mars690120-star/antibiotic-dashboard) — 問題：說明未寫具體痛點；做法：部署／EZPage的儀表板
+- [123](https://github.com/mars690120-star/123) — 問題：說明未寫具體痛點；做法：123／部署／EZPage相關工具
+- [Bidirectional-Feedback-Antimicrobial-Decision-Support-System-V01](https://github.com/mars690120-star/Bidirectional-Feedback-Antimicrobial-Decision-Support-System-V01) — 問題：說明未寫具體痛點；做法：抗生素使用雙向回饋智能決策系統V01 - Deployed by EZPage
+- [minions-Idioms-learning-season-02](https://github.com/mars690120-star/minions-Idioms-learning-season-02) — 問題：說明未寫具體痛點；做法：小小兵成語學習網第2季 - Deployed by EZPage
+- [minions-Idioms-learning-season-01](https://github.com/mars690120-star/minions-Idioms-learning-season-01) — 問題：說明未寫具體痛點；做法：小小兵成語學習網第一季 - Deployed by EZPage
+- [Capybara-Idioms-Season-5](https://github.com/mars690120-star/Capybara-Idioms-Season-5) — 問題：說明未寫具體痛點；做法：部署／EZPage相關工具
+- [IVIG-calculator](https://github.com/mars690120-star/IVIG-calculator) — 問題：說明未寫具體痛點；做法：IVIG臨床劑量與速率計算機 - Deployed by EZPage
+- [IVIG--caldulator](https://github.com/mars690120-star/IVIG--caldulator) — 問題：說明未寫具體痛點；做法：Privigen® TW 10% 臨床劑量與速率計算機 - Deployed by
+- [Capybara-Idioms-Season-4](https://github.com/mars690120-star/Capybara-Idioms-Season-4) — 問題：說明未寫具體痛點；做法：卡皮巴拉成語第4季 - Deployed by EZPage
+- [Capybara-Idioms-Season-3](https://github.com/mars690120-star/Capybara-Idioms-Season-3) — 問題：說明未寫具體痛點；做法：卡皮巴拉成語第三季 - Deployed by EZPage
+- [NDSC-V02](https://github.com/mars690120-star/NDSC-V02) — 問題：說明未寫具體痛點；做法：麻醉藥品調劑統計表Narcotic Dispensing Statistical
+- [NDSC--V02](https://github.com/mars690120-star/NDSC--V02) — 問題：說明未寫具體痛點；做法：麻醉藥品調劑統計表Narcotic Dispensing Statistical
+- [NDSC](https://github.com/mars690120-star/NDSC) — 問題：說明未寫具體痛點；做法：麻醉藥品調劑統計表Narcotic Dispensing Statistical
+- [for-benjamin--01](https://github.com/mars690120-star/for-benjamin--01) — 問題：說明未寫具體痛點；做法：每日成語-V02 - Deployed by EZPage
+- [for-benjamin](https://github.com/mars690120-star/for-benjamin) — 問題：說明未寫具體痛點；做法：每日成語 - Deployed by EZPage
+- [EDA-Hospital-Medication-Frequency-Chart](https://github.com/mars690120-star/EDA-Hospital-Medication-Frequency-Chart) — 問題：說明未寫具體痛點；做法：義大醫療體系用藥頻次智能查詢平台 - Deployed by EZPage
+- [20260417-shaihai-disneySTYLE](https://github.com/mars690120-star/20260417-shaihai-disneySTYLE) — 問題：說明未寫具體痛點；做法：2026_上海蘇州親子五日遊_歡樂版 - Deployed by EZPage
+- [NL-PPT-PDF-trans-to-editable](https://github.com/mars690120-star/NL-PPT-PDF-trans-to-editable) — 問題：說明未寫具體痛點；做法：NL簡報AI 圖片文字移除 PRO - Deployed by EZPage
+- [E-Da-AI-PlatformforPreoperative-Management-of-Anticoagulant-Drugs](https://github.com/mars690120-star/E-Da-AI-PlatformforPreoperative-Management-of-Anticoagulant-Drugs) — 問題：說明未寫具體痛點；做法：義大醫療體系抗凝血藥物術前管理智能查詢平台 - Deployed by EZPage
+- [AI-image-text-removal-and-PDF-to-PPTX-conversion](https://github.com/mars690120-star/AI-image-text-removal-and-PDF-to-PPTX-conversion) — 問題：說明未寫具體痛點；做法：AI 圖片去字與 PDF 轉 PPTX - Deployed by EZPage
+- [EDCH-eGFR](https://github.com/mars690120-star/EDCH-eGFR) — 問題：說明未寫具體痛點；做法：EDCH-eGFR計算 - Deployed by EZPage相關工具
+- [Couple-Shared-Ledger-totoro](https://github.com/mars690120-star/Couple-Shared-Ledger-totoro) — 問題：說明未寫具體痛點；做法：小夫妻共同帳戶程式 龍貓風 - Deployed by EZPage
+- [Couple-Shared-Ledger-capibala](https://github.com/mars690120-star/Couple-Shared-Ledger-capibala) — 問題：說明未寫具體痛點；做法：小夫妻共同帳戶程式 - Deployed by EZPage
+- [glp1-dashboard](https://github.com/mars690120-star/glp1-dashboard) — 問題：說明未寫具體痛點；做法：義大GLP-1 藥品整理 - Deployed by EZPage
+- [vaccine-list](https://github.com/mars690120-star/vaccine-list) — 問題：說明未寫具體痛點；做法：義大疫苗整理 - Deployed by EZPage
+- [Ccr-Calc-CHINESE-SanfordGuide2023](https://github.com/mars690120-star/Ccr-Calc-CHINESE-SanfordGuide2023) — 問題：說明未寫具體痛點；做法：Ccr 計算器中文版 Sanford 2023 - Deployed by
+- [Ccr-Calc-ENG-SanfordGuide2023](https://github.com/mars690120-star/Ccr-Calc-ENG-SanfordGuide2023) — 問題：說明未寫具體痛點；做法：Ccr 計算器英文版 Sanford 2023 - Deployed by
+- [Ccr-Calculator-English-Sanford-2023-](https://github.com/mars690120-star/Ccr-Calculator-English-Sanford-2023-) — 問題：說明未寫具體痛點；做法：Ccr 計算器 英文版 Sanford 2023 - Deployed by
+- [edch-Drug-Inventory-Ledger](https://github.com/mars690120-star/edch-Drug-Inventory-Ledger) — 問題：說明未寫具體痛點；做法：義大癌醫藥劑科藥品收支結存簿 - Deployed by EZPage
+- [Albumin-record-V.02](https://github.com/mars690120-star/Albumin-record-V.02) — 問題：說明未寫具體痛點；做法：白蛋白(Albumin) 使用記錄系統 - Deployed by EZPage
+- [edch-VCSMS-V.06](https://github.com/mars690120-star/edch-VCSMS-V.06) — 問題：說明未寫具體痛點；做法：義大癌醫疫苗冰箱溫度監控智能系統 V.06 - Deployed by EZPage
+- [DocuflowEditor](https://github.com/mars690120-star/DocuflowEditor) — 問題：說明未寫具體痛點；做法：PDF修改大師 - Deployed by EZPage
+- [DocuFlow-Editor](https://github.com/mars690120-star/DocuFlow-Editor) — 問題：說明未寫具體痛點；做法：PDF及圖檔修改大師 - Deployed by EZPage
+- [edch-VCSMS](https://github.com/mars690120-star/edch-VCSMS) — 問題：說明未寫具體痛點；做法：義大癌醫疫苗冰箱溫度監控智能系統 V.05 - Deployed by EZPage
+- [ecmpa-VRTRS-V.04](https://github.com/mars690120-star/ecmpa-VRTRS-V.04) — 問題：說明未寫具體痛點；做法：癌醫疫苗冰箱溫度自動化記錄系統V.04 - Deployed by EZPage
+- [ecmpa-VRTRS-V.03](https://github.com/mars690120-star/ecmpa-VRTRS-V.03) — 問題：說明未寫具體痛點；做法：癌醫疫苗冰箱溫度自動化記錄系統V.03 - Deployed by EZPage
+- [ecmpa-VRTRS-V.02](https://github.com/mars690120-star/ecmpa-VRTRS-V.02) — 問題：說明未寫具體痛點；做法：癌醫疫苗冰箱溫度自動化記錄系統V.02 - Deployed by EZPage
+- [ecmpa-VRTRS-V.01](https://github.com/mars690120-star/ecmpa-VRTRS-V.01) — 問題：說明未寫具體痛點；做法：癌醫疫苗冰箱溫度自動化記錄系統V.01 - Deployed by EZPage
+- [ecmpa-opd-OMESS-test008](https://github.com/mars690120-star/ecmpa-opd-OMESS-test008) — 問題：說明未寫具體痛點；做法：DA OPD藥物衛教滿意度調查表(Outpatient Medication
+- [EDA-CP-teaching-V.003](https://github.com/mars690120-star/EDA-CP-teaching-V.003) — 問題：說明未寫具體痛點；做法：SOAP作業練習 V.003 - Deployed by EZPage
+- [EDA-CP-teaching-V.002](https://github.com/mars690120-star/EDA-CP-teaching-V.002) — 問題：說明未寫具體痛點；做法：SOAP作業練習 - Deployed by EZPage
+- [EDA-CP-teaching-V.001](https://github.com/mars690120-star/EDA-CP-teaching-V.001) — 問題：說明未寫具體痛點；做法：SOAP作業練習 - Deployed by EZPage
+- [ecmpa-opd-OMESS-test007](https://github.com/mars690120-star/ecmpa-opd-OMESS-test007) — 問題：說明未寫具體痛點；做法：DA OPD藥物衛教滿意度調查表(Outpatient Medication
+- [ecmpa-opd-OMESS-test006](https://github.com/mars690120-star/ecmpa-opd-OMESS-test006) — 問題：說明未寫具體痛點；做法：DA OPD藥物衛教滿意度調查表(Outpatient Medication
+- [ecmpa-opd-OMESS-test005](https://github.com/mars690120-star/ecmpa-opd-OMESS-test005) — 問題：說明未寫具體痛點；做法：EDA OPD藥物衛教滿意度調查表(Outpatient Medication
+- [ecmpa-opd-OMESS-test004](https://github.com/mars690120-star/ecmpa-opd-OMESS-test004) — 問題：說明未寫具體痛點；做法：EDA OPD藥物衛教滿意度調查表(Outpatient Medication
+- [ecmpa-opd-test001](https://github.com/mars690120-star/ecmpa-opd-test001) — 問題：說明未寫具體痛點；做法：癌醫門診藥品衛教滿意度調查 - Deployed by EZPage
+- [ecmpa-opd](https://github.com/mars690120-star/ecmpa-opd) — 問題：說明未寫具體痛點；做法：123／部署／EZPage相關工具
+- [test001](https://github.com/mars690120-star/test001) — 問題：說明未寫具體痛點；做法：部署／EZPage相關工具
+- [GPT001](https://github.com/mars690120-star/GPT001) — 問題：說明未寫具體痛點；做法：門診藥物衛教滿意度調查表-GPT001 - Deployed by EZPage
+- [ecmpa](https://github.com/mars690120-star/ecmpa) — 問題：說明未寫具體痛點；做法：部署／EZPage相關工具
+
+## [@Mastermind0309](https://github.com/Mastermind0309) {#mastermind0309}
+
+- [ACP-in-Frail-Geriatric-Patients](https://github.com/Mastermind0309/ACP-in-Frail-Geriatric-Patients) — 問題：說明不足，看不出具體痛點；做法：病人相關工具或實驗說明不足
+- [2023_DS_labs_and_HW](https://github.com/Mastermind0309/2023_DS_labs_and_HW) — 問題：說明未寫具體痛點；做法：Past／2023／DS／課程／CYS相關工具
+- [NTHU_ML_HW](https://github.com/Mastermind0309/NTHU_ML_HW) — 問題：說明未寫具體痛點；做法：機器學習／HWs相關工具
+- [NTUH_HCC](https://github.com/Mastermind0309/NTUH_HCC) — 問題：說明未寫具體痛點；做法：SDM／HCC／Project相關工具
+- [NTUH_MDA_Cancer_Center](https://github.com/Mastermind0309/NTUH_MDA_Cancer_Center) — 問題：說明未寫具體痛點；做法：Project／MD／Anderson／腫瘤／Center相關工具；偏腫瘤／血液相關
+- [TCM_ML](https://github.com/Mastermind0309/TCM_ML) — 問題：說明未寫具體痛點；做法：機器學習／TCM分析工具
+- [2024_DS_labs_and_HW](https://github.com/Mastermind0309/2024_DS_labs_and_HW) — 問題：說明未寫具體痛點；做法：HWs，用於2024／DS／課程
+- [intro-to-algorithm](https://github.com/Mastermind0309/intro-to-algorithm) — 問題：說明不足，看不出具體痛點；做法：intro to algorithm：依名稱推斷的工具／實驗沒有可讀說明
+- [IPHTCOJ](https://github.com/Mastermind0309/IPHTCOJ) — 問題：說明不足，看不出具體痛點；做法：IPHTCOJ：依名稱推斷的工具／實驗沒有可讀說明
+- [IPHTCOJ-1](https://github.com/Mastermind0309/IPHTCOJ-1) — 問題：說明不足，看不出具體痛點；做法：IPHTCOJ 1：依名稱推斷的工具／實驗沒有可讀說明
+- [IPHTC](https://github.com/Mastermind0309/IPHTC) — 問題：說明不足，看不出具體痛點；做法：IPHTC：依名稱推斷的工具／實驗沒有可讀說明
+
+## [@matt-ye](https://github.com/matt-ye) {#matt-ye}
+
+- [endnote-to-zotero-migration](https://github.com/matt-ye/endnote-to-zotero-migration) — 問題：說明未寫具體痛點；做法：把 EndNote library 完整搬到 Zotero：保留 PDF
+- [contentdriven-skill](https://github.com/matt-ye/contentdriven-skill) — 問題：說明未寫具體痛點；做法：Claude／技能包／ContentDriven／回顧／排班相關工具
+- [personal-website](https://github.com/matt-ye/personal-website) — 問題：說明未寫具體痛點；做法：mattye.dev 的原始碼：Astro 靜態站
+- [yaeo](https://github.com/matt-ye/yaeo) — 問題：說明未寫具體痛點；做法：SEO / AEO / GEO / LLMO audit as a Claude
+- [pitch-craft](https://github.com/matt-ye/pitch-craft) — 問題：說明未寫具體痛點；做法：提案簡報教練 skill：講稿、投影片規劃、結構適配
+- [brain-exposome](https://github.com/matt-ye/brain-exposome) — 問題：說明未寫具體痛點；做法：失智症環境暴露因子的互動查詢工具，證據整理自公開資料集
+- [claude-refresh-skill](https://github.com/matt-ye/claude-refresh-skill) — 問題：說明未寫具體痛點；做法：Claude Code 的 session 衛生決策 skill：收集訊號
+- [Pack-and-Ship](https://github.com/matt-ye/Pack-and-Ship) — 問題：說明未寫具體痛點；做法：把設計好的 Claude skill 打包、產生行銷圖文、送上架的一條流程
+- [Toutour](https://github.com/matt-ye/Toutour) — 問題：說明未寫具體痛點；做法：幫任何網站加上聚光燈導覽的 Claude skill：分析版面、訪談開發者
+- [matt-ye](https://github.com/matt-ye/matt-ye) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [matt-ye.github.io](https://github.com/matt-ye/matt-ye.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 
 ## [@mcdlee](https://github.com/mcdlee) {#mcdlee}
 
@@ -642,6 +1134,11 @@
 - [proxy](https://github.com/nps798/proxy) — 問題：說明不足，看不出具體痛點；做法：proxy：依名稱推斷的工具／實驗沒有可讀說明
 - [PySchedulerForDoctors](https://github.com/nps798/PySchedulerForDoctors) — 問題：醫師班表排定繁瑣，總醫師無法有效管理；做法：利用線性規劃自動生成班表，並整合 Google Sheets 方便調整參數
 - [NckuHealthEdu](https://github.com/nps798/NckuHealthEdu) — 問題：使用者無法輕鬆獲取健康教育資源；做法：提供多樣化的健康教育文章和資源
+
+## [@NTUHpAIR](https://github.com/NTUHpAIR) {#ntuhpair}
+
+- [cotrain-schedule](https://github.com/NTUHpAIR/cotrain-schedule) — 問題：說明未寫具體痛點；做法：排班相關工具
+- [Rheuma_calculator](https://github.com/NTUHpAIR/Rheuma_calculator) — 問題：說明未寫具體痛點；做法：計算器，用於病人／風濕
 
 ## [@odafeng](https://github.com/odafeng) {#odafeng}
 
@@ -698,10 +1195,50 @@
 - [my_app](https://github.com/peishenwu/my_app) — 問題：缺乏具體的應用程式設定與啟動指引；做法：提供詳細的安裝與配置步驟說明
 - [first_app](https://github.com/peishenwu/first_app) — 問題：無法找到具體的應用啟動步驟；做法：提供詳細的安裝與配置說明
 
+## [@PeterWei078](https://github.com/PeterWei078) {#peterwei078}
+
+- [plant-notebook](https://github.com/PeterWei078/plant-notebook) — 問題：說明未寫具體痛點；做法：拈花惹草：花草樹木識別學習整理 PWA
+- [tasks_habits_building_game_system](https://github.com/PeterWei078/tasks_habits_building_game_system) — 問題：說明未寫具體痛點；做法：遊戲化任務習慣養成互動系統
+- [english-vocab-app](https://github.com/PeterWei078/english-vocab-app) — 問題：說明未寫具體痛點；做法：英文自學單字庫 — AI 單字查詢、單字庫管理、測驗練習
+- [english-conversation-db](https://github.com/PeterWei078/english-conversation-db) — 問題：說明未寫具體痛點；做法：英文會話學習資料庫 App — AI-powered English
+- [ICD-10-Platform](https://github.com/PeterWei078/ICD-10-Platform) — 問題：說明未寫具體痛點；做法：ICD／平台相關工具；偏健保／編碼與申報
+- [claude-code-workspace](https://github.com/PeterWei078/claude-code-workspace) — 問題：說明未寫具體痛點；做法：Claude／資訊相關工具
+- [Clinic-Code-Search-Platform](https://github.com/PeterWei078/Clinic-Code-Search-Platform) — 問題：說明未寫具體痛點；做法：診所／搜尋／平台相關的命令列工具
+- [chest-report-assist](https://github.com/PeterWei078/chest-report-assist) — 問題：說明未寫具體痛點；做法：ChestScope Helper 胸鏡報告小幫手 — Chest
+- [antibiotics_renal_dose_adjuction](https://github.com/PeterWei078/antibiotics_renal_dose_adjuction) — 問題：說明未寫具體痛點；做法：抗生素劑量的查詢與調整、注意事項說明
+- [final-discharge-diagnosis-optimization](https://github.com/PeterWei078/final-discharge-diagnosis-optimization) — 問題：說明未寫具體痛點；做法：出院病歷診斷寫作教學系統
+- [icu-handover-system-v3](https://github.com/PeterWei078/icu-handover-system-v3) — 問題：說明未寫具體痛點；做法：加護病房交班系統
+- [my_projects](https://github.com/PeterWei078/my_projects) — 問題：說明不足，看不出具體痛點；做法：my projects：依名稱推斷的工具／實驗沒有可讀說明
+
+## [@philia81301-commits](https://github.com/philia81301-commits) {#philia81301-commits}
+
+- [weight-clinic-reports](https://github.com/philia81301-commits/weight-clinic-reports) — 問題：說明未寫具體痛點；做法：減重門診月度分析報告（匿名彙總統計）
+- [obesity-education-clinic](https://github.com/philia81301-commits/obesity-education-clinic) — 問題：說明未寫具體痛點；做法：教育／診所相關的命令列工具
+- [obesity-society-ai-talk](https://github.com/philia81301-commits/obesity-society-ai-talk) — 問題：說明不足，看不出具體痛點；做法：AI相關工具或實驗說明不足
+- [healthy-weight-public](https://github.com/philia81301-commits/healthy-weight-public) — 問題：說明不足，看不出具體痛點；做法：健康相關工具或實驗說明不足
+- [weight-maintain-clinic](https://github.com/philia81301-commits/weight-maintain-clinic) — 問題：說明未寫具體痛點；做法：減重門診維持期回診紀錄工具：單頁 HTML 輸入 → 病歷貼稿 → Google
+- [HP-clinic](https://github.com/philia81301-commits/HP-clinic) — 問題：說明未寫具體痛點；做法：診所相關的命令列工具
+- [sarcopenia-clinic](https://github.com/philia81301-commits/sarcopenia-clinic) — 問題：說明未寫具體痛點；做法：肌少症篩檢紀錄工具｜門診與社區通用
+- [pneumonia-clinic](https://github.com/philia81301-commits/pneumonia-clinic) — 問題：說明未寫具體痛點；做法：台灣成人肺炎鏈球菌疫苗：血清型
+- [osteoporosis-clinic](https://github.com/philia81301-commits/osteoporosis-clinic) — 問題：說明未寫具體痛點；做法：骨質疏鬆門診工具：骨折風險評估、藥物選擇、病人衛教（單頁 HTML，無外部相依）
+- [pi-generator](https://github.com/philia81301-commits/pi-generator) — 問題：說明未寫具體痛點；做法：入院病歷 Present Illness 產生器：單檔離線
+- [philia81301-commits.github.io](https://github.com/philia81301-commits/philia81301-commits.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [weight-clinic](https://github.com/philia81301-commits/weight-clinic) — 問題：說明未寫具體痛點；做法：診所相關的命令列工具
+- [202607-](https://github.com/philia81301-commits/202607-) — 問題：說明未寫具體痛點；做法：社區醫療模式交流
+- [osteoporosis-slides](https://github.com/philia81301-commits/osteoporosis-slides) — 問題：說明未寫具體痛點；做法：簡報相關工具；偏簡報／教材
+
 ## [@pojenhsiao](https://github.com/pojenhsiao) {#pojenhsiao}
 
 - [RF-clinical-PIRAD](https://github.com/pojenhsiao/RF-clinical-PIRAD) — 問題：說明未寫具體痛點；做法：臨床相關的命令列工具
 - [gupeter](https://github.com/pojenhsiao/gupeter) — 問題：說明未寫具體痛點；做法：腫瘤相關工具；偏腫瘤／血液相關
+
+## [@rickyrickyrickyyu](https://github.com/rickyrickyrickyyu) {#rickyrickyrickyyu}
+
+- [nhi-drug-rules](https://github.com/rickyrickyrickyyu/nhi-drug-rules) — 問題：說明未寫具體痛點；做法：皮膚科健保給付規定查詢：以學名搜尋，依劑型分流對應給付章節
+- [icd10-tw](https://github.com/rickyrickyrickyyu/icd10-tw) — 問題：說明未寫具體痛點；做法：台灣健保 2023 年版 ICD-10-CM/PCS 中文版查詢（MeSH 式搜尋
+- [duty-schedule](https://github.com/rickyrickyrickyyu/duty-schedule) — 問題：說明不足，看不出具體痛點；做法：排班工具依名稱推斷
+- [acls-navigator](https://github.com/rickyrickyrickyyu/acls-navigator) — 問題：說明不足，看不出具體痛點；做法：acls navigator：依名稱推斷的工具／實驗沒有可讀說明
+- [PALS](https://github.com/rickyrickyrickyyu/PALS) — 問題：說明未寫具體痛點；做法：PALS 2025 Navigator - Pediatric Advanced
 
 ## [@shin13](https://github.com/shin13) {#shin13}
 
@@ -752,8 +1289,9 @@
 
 ## [@t0mst0ne](https://github.com/t0mst0ne) {#t0mst0ne}
 
-- [dementia-uptodate](https://github.com/t0mst0ne/dementia-uptodate) — 問題：無法即時獲取失智症相關的最新研究與臨床試驗資訊；做法：自動彙整並發布每週報告至 GitHub Wiki
 - [medical-journal-daily-agent](https://github.com/t0mst0ne/medical-journal-daily-agent) — 問題：無法及時獲取最新醫學期刊文獻摘要；做法：自動抓取 RSS 並翻譯摘要推送至 Telegram
+- [sendai-coupons](https://github.com/t0mst0ne/sendai-coupons) — 問題：說明不足，看不出具體痛點；做法：sendai coupons：依名稱推斷的工具／實驗沒有可讀說明
+- [dementia-uptodate](https://github.com/t0mst0ne/dementia-uptodate) — 問題：無法即時獲取失智症相關的最新研究與臨床試驗資訊；做法：自動彙整並發布每週報告至 GitHub Wiki
 - [t0mst0ne.github.io](https://github.com/t0mst0ne/t0mst0ne.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [NHI_bot](https://github.com/t0mst0ne/NHI_bot) — 問題：無法即時掌握健保署最新醫療政策與公告；做法：自動掃描並推播健保署醫療情報至 Telegram
 - [Steam_Oven](https://github.com/t0mst0ne/Steam_Oven) — 問題：選擇水波爐或蒸烤爐時缺乏詳細資訊與比較；做法：整理各機型規格、優缺點及使用指南
@@ -788,6 +1326,12 @@
 - [opendata_med_tw](https://github.com/t0mst0ne/opendata_med_tw) — 問題：說明未寫具體痛點；做法：資料相關工具
 - [twer.python](https://github.com/t0mst0ne/twer.python) — 問題：無法有效查詢和分析 twer 數據；做法：利用 Python API 獲取數據並使用 pandas 和 matplotlib
 - [ICD10query](https://github.com/t0mst0ne/ICD10query) — 問題：查詢 ICD 10 診斷時無法快速獲得準確資訊；做法：透過搜尋引擎和專業資料庫進行查詢整合
+
+## [@TCM-Dr-Hsieh](https://github.com/TCM-Dr-Hsieh) {#tcm-dr-hsieh}
+
+- [TCM-Meridian](https://github.com/TCM-Dr-Hsieh/TCM-Meridian) — 問題：說明未寫具體痛點；做法：中醫 AI 輔助看診平台
+- [voice_to_text](https://github.com/TCM-Dr-Hsieh/voice_to_text) — 問題：說明未寫具體痛點；做法：語音輸入程式
+- [TCM-Meridian-mini](https://github.com/TCM-Dr-Hsieh/TCM-Meridian-mini) — 問題：說明未寫具體痛點；做法：杏林經緯簡易版
 
 ## [@tcs211](https://github.com/tcs211) {#tcs211}
 
@@ -858,6 +1402,16 @@
 - [manuscript](https://github.com/texchi2/manuscript) — 問題：無法快速獲取 TCGA HNSCC 生存分析的完整數據與結果；做法：提供 R 腳本進行數據預處理及生存分析
 - [hjl](https://github.com/texchi2/hjl) — 問題：無法有效分析質譜數據中的磷酸化信號變化；做法：使用 Rstudio 進行質譜數據的處理與分析
 
+## [@Tim-HealJoy](https://github.com/Tim-HealJoy) {#tim-healjoy}
+
+- [ot-games](https://github.com/Tim-HealJoy/ot-games) — 問題：說明未寫具體痛點；做法：職能治療師設計的鏡頭體感復健遊戲｜只要一台手機或電腦，打開鏡頭就能玩
+- [healjoy-tools](https://github.com/Tim-HealJoy/healjoy-tools) — 問題：說明未寫具體痛點；做法：健悅管理顧問｜給民眾的免費互動小工具
+- [ot-handbooks](https://github.com/Tim-HealJoy/ot-handbooks) — 問題：說明未寫具體痛點；做法：施昱廷職能治療師｜衛教手冊（GitHub Pages）
+- [shih-yuting-website](https://github.com/Tim-HealJoy/shih-yuting-website) — 問題：說明未寫具體痛點；做法：施昱廷個人品牌官網
+- [young-onset-dementia-guide](https://github.com/Tim-HealJoy/young-onset-dementia-guide) — 問題：說明未寫具體痛點；做法：年輕型失智症 照顧者居家照顧指南（HTML 簡報）
+- [rehab-exercise-tracker](https://github.com/Tim-HealJoy/rehab-exercise-tracker) — 問題：說明未寫具體痛點；做法：復能居家作業追蹤單生成器 - 為復能服務提供者設計
+- [Tim-HealJoy](https://github.com/Tim-HealJoy/Tim-HealJoy) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+
 ## [@tinchangchang](https://github.com/tinchangchang) {#tinchangchang}
 
 - [figo-staging-calculators](https://github.com/tinchangchang/figo-staging-calculators) — 問題：現場無法快速獲得婦科癌症分期計算工具；做法：提供線上靜態網站供即時使用計算器
@@ -900,6 +1454,12 @@
 - [wp-plugin-featured-image-via-url](https://github.com/tsaiid/wp-plugin-featured-image-via-url) — 問題：無法直接從網址設定文章的特色圖片；做法：在文章頁面新增選項以輸入圖片網址
 - [gm-mwdict-kk](https://github.com/tsaiid/gm-mwdict-kk) — 問題：說明未寫具體痛點；做法：KK／Merriam-Webster／Dictionary相關工具
 
+## [@Twb06](https://github.com/Twb06) {#twb06}
+
+- [NTUH-helper](https://github.com/Twb06/NTUH-helper) — 問題：說明未寫具體痛點；做法：自動化助手工具集
+- [Remnote-kb-manager](https://github.com/Twb06/Remnote-kb-manager) — 問題：說明不足，看不出具體痛點；做法：筆記／管理工具依名稱推斷
+- [1st-PyCrawlerMarathon](https://github.com/Twb06/1st-PyCrawlerMarathon) — 問題：說明不足，看不出具體痛點；做法：爬蟲工具依名稱推斷
+
 ## [@tzuhaoshan](https://github.com/tzuhaoshan) {#tzuhaoshan}
 
 - [tzuhaoshan](https://github.com/tzuhaoshan/tzuhaoshan) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
@@ -936,9 +1496,62 @@
 - [copilot-capability-manager](https://github.com/u9401066/copilot-capability-manager) — 問題：使用者無法有效管理和組合 AI 技能以自動化工作流程；做法：透過 GUI 介面新增、編輯和設定 AI 技能
 - [medagent-copilot](https://github.com/u9401066/medagent-copilot) — 問題：無法將 GitHub Copilot 應用於醫療任務；做法：透過模型上下文協議實現與 FHIR 系統的互動
 
+## [@voho0000](https://github.com/voho0000) {#voho0000}
+
+- [medical-note-smart-on-fhir](https://github.com/voho0000/medical-note-smart-on-fhir) — 問題：說明不足，看不出具體痛點；做法：醫療／筆記／FHIR工具依名稱推斷
+- [firebase-smart-on-fhir](https://github.com/voho0000/firebase-smart-on-fhir) — 問題：說明未寫具體痛點；做法：FHIR相關工具；偏FHIR／醫療資料互通
+- [voho0000.github.io](https://github.com/voho0000/voho0000.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [dm-education-workbench](https://github.com/voho0000/dm-education-workbench) — 問題：說明未寫具體痛點；做法：糖尿病衛教報告工作台：以健保申報資料產生病人版衛教報告與醫師版摘要（不含任何病人資料
+- [fhir-tw-validator](https://github.com/voho0000/fhir-tw-validator) — 問題：說明未寫具體痛點；做法：FHIR R4 validator for Taiwan NHI health
+- [NMR-metabolomics-dataset-birth-cohort](https://github.com/voho0000/NMR-metabolomics-dataset-birth-cohort) — 問題：說明不足，看不出具體痛點；做法：統合分析／資料集工具依名稱推斷
+- [SMART-on-FHIR-ASR](https://github.com/voho0000/SMART-on-FHIR-ASR) — 問題：說明未寫具體痛點；做法：FHIR／語音辨識相關工具；偏FHIR／醫療資料互通
+- [ASR-mobile](https://github.com/voho0000/ASR-mobile) — 問題：說明未寫具體痛點；做法：語音辨識／行動相關工具；偏行動應用
+- [ASR-firebase](https://github.com/voho0000/ASR-firebase) — 問題：說明不足，看不出具體痛點；做法：語音辨識相關工具或實驗說明不足
+- [tvgh-medical-note-helper](https://github.com/voho0000/tvgh-medical-note-helper) — 問題：說明不足，看不出具體痛點；做法：醫療／筆記／小幫手工具依名稱推斷
+- [GPT-testCase-Generator](https://github.com/voho0000/GPT-testCase-Generator) — 問題：說明未寫具體痛點；做法：GPT／測試／產生器相關工具；偏生成式 AI／LLM
+- [SemanticPDF-QA-GPT](https://github.com/voho0000/SemanticPDF-QA-GPT) — 問題：說明未寫具體痛點；做法：語意／QA／GPT相關工具；偏生成式 AI／LLM
+- [OS-HW-bankers-algorithm](https://github.com/voho0000/OS-HW-bankers-algorithm) — 問題：說明不足，看不出具體痛點；做法：OS HW bankers algorithm：依名稱推斷的工具／實驗沒有可讀說明
+- [GPT-testCase-chromeExtension](https://github.com/voho0000/GPT-testCase-chromeExtension) — 問題：說明不足，看不出具體痛點；做法：GPT／測試／工具依名稱推斷
+- [MultiThread-OS-hw](https://github.com/voho0000/MultiThread-OS-hw) — 問題：說明不足，看不出具體痛點；做法：MultiThread OS hw：依名稱推斷的工具／實驗沒有可讀說明
+- [The-Sleeping-Teaching-Assistant](https://github.com/voho0000/The-Sleeping-Teaching-Assistant) — 問題：說明不足，看不出具體痛點；做法：教學／助手相關工具或實驗說明不足
+- [Asana-Extractor-For-Fine-Tune](https://github.com/voho0000/Asana-Extractor-For-Fine-Tune) — 問題：說明不足，看不出具體痛點；做法：擷取器相關工具或實驗說明不足
+- [Asana-test-case-generator](https://github.com/voho0000/Asana-test-case-generator) — 問題：說明不足，看不出具體痛點；做法：產生器相關工具或實驗說明不足
+- [OSC-project2](https://github.com/voho0000/OSC-project2) — 問題：說明不足，看不出具體痛點；做法：OSC project2：依名稱推斷的工具／實驗沒有可讀說明
+- [e-commerce-react](https://github.com/voho0000/e-commerce-react) — 問題：說明不足，看不出具體痛點；做法：React相關工具或實驗說明不足
+- [django_stock_ta](https://github.com/voho0000/django_stock_ta) — 問題：說明不足，看不出具體痛點；做法：Django相關工具或實驗說明不足
+- [RSNA-pneumonia-detection-practice](https://github.com/voho0000/RSNA-pneumonia-detection-practice) — 問題：說明不足，看不出具體痛點；做法：偵測相關工具或實驗說明不足
+- [my_python_repo](https://github.com/voho0000/my_python_repo) — 問題：說明不足，看不出具體痛點；做法：Python相關工具或實驗說明不足
+
+## [@ww8chw](https://github.com/ww8chw) {#ww8chw}
+
+- [labor-health-exam-quiz](https://github.com/ww8chw/labor-health-exam-quiz) — 問題：說明未寫具體痛點；做法：勞工體格及健康檢查醫師訓練測驗・考古題練習與詳解（18 章 307 題
+- [drug-lookup](https://github.com/ww8chw/drug-lookup) — 問題：說明未寫具體痛點；做法：藥品相關工具；偏藥學／藥品資訊
+- [drug-lookup-data](https://github.com/ww8chw/drug-lookup-data) — 問題：說明未寫具體痛點；做法：藥品／資料相關工具；偏藥學／藥品資訊
+- [reading-shelf](https://github.com/ww8chw/reading-shelf) — 問題：說明不足，看不出具體痛點；做法：閱讀相關工具或實驗說明不足
+- [diabetes-cde-quiz](https://github.com/ww8chw/diabetes-cde-quiz) — 問題：說明未寫具體痛點；做法：糖尿病／測驗相關的測驗／題庫工具
+- [clinic-siting](https://github.com/ww8chw/clinic-siting) — 問題：說明未寫具體痛點；做法：診所相關的命令列工具
+- [metabolic-lectures-notes](https://github.com/ww8chw/metabolic-lectures-notes) — 問題：說明未寫具體痛點；做法：12 場代謝醫學講座的中文速讀筆記：低碳、胰島素阻抗、超加工食物、第二型糖尿病
+- [linkou-obgyn-scheduler](https://github.com/ww8chw/linkou-obgyn-scheduler) — 問題：說明未寫具體痛點；做法：婦產科住院醫師排班計算器
+- [stock-rider-tw](https://github.com/ww8chw/stock-rider-tw) — 問題：說明未寫具體痛點；做法：股票飆仔 Stock Rider TW — 把台股線圖騎起來的網頁小遊戲
+- [clinic-radar](https://github.com/ww8chw/clinic-radar) — 問題：說明未寫具體痛點；做法：桃園市龜山區樂善二路503號 多科別診所選址季更新儀表板
+- [nurse-scheduler](https://github.com/ww8chw/nurse-scheduler) — 問題：說明未寫具體痛點；做法：護理師月排班系統 - 自動排班、可視化、PNG 匯出
+- [nhi-risk-report](https://github.com/ww8chw/nhi-risk-report) — 問題：說明未寫具體痛點；做法：健保／風險／報告相關工具；偏健保／編碼與申報
+- [business-card-app](https://github.com/ww8chw/business-card-app) — 問題：說明未寫具體痛點；做法：極簡名片管理 iOS App (Expo + React Native)
+- [nhi-clinic-query](https://github.com/ww8chw/nhi-clinic-query) — 問題：說明未寫具體痛點；做法：健保診所常見檢驗、影像、處置給付規定查詢系統 (靜態網頁 / GitHub
+- [clinic-registration-form](https://github.com/ww8chw/clinic-registration-form) — 問題：說明未寫具體痛點；做法：安安診所掛號單｜內科 & 婦產科，支援 PDF 下載
+- [privacy](https://github.com/ww8chw/privacy) — 問題：說明未寫具體痛點；做法：App 隱私權政策頁面
+- [macro-dashboard](https://github.com/ww8chw/macro-dashboard) — 問題：說明不足，看不出具體痛點；做法：工具依名稱推斷
+- [trading-view](https://github.com/ww8chw/trading-view) — 問題：說明不足，看不出具體痛點；做法：trading view：依名稱推斷的工具／實驗沒有可讀說明
+
 ## [@y-cliu](https://github.com/y-cliu) {#y-cliu}
 
 - [weight-challenge-dashboard](https://github.com/y-cliu/weight-challenge-dashboard) — 問題：說明不足，看不出具體痛點；做法：工具依名稱推斷
+
+## [@yanchen0902](https://github.com/yanchen0902) {#yanchen0902}
+
+- [wedding](https://github.com/yanchen0902/wedding) — 問題：說明不足，看不出具體痛點；做法：wedding：依名稱推斷的工具／實驗沒有可讀說明
+- [NHITW_preop_checker_2](https://github.com/yanchen0902/NHITW_preop_checker_2) — 問題：說明不足，看不出具體痛點；做法：NHITW preop checker 2：依名稱推斷的工具／實驗沒有可讀說明
+- [anespr1](https://github.com/yanchen0902/anespr1) — 問題：說明不足，看不出具體痛點；做法：麻醉相關工具或實驗說明不足
 
 ## [@yfwu](https://github.com/yfwu) {#yfwu}
 

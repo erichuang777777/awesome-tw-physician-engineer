@@ -22,67 +22,105 @@
 
 ## 名單
 
-依 GitHub login（或公開常用 handle）拼音／字母排序。
+依 GitHub login（或公開常用 handle）拼音／字母排序。列上標「待確認」者見簡介小節，臨床身分尚待確認。
 
 | GitHub login |
 |---|
 | [agoodbear](https://github.com/agoodbear) |
+| [aszk1415](https://github.com/aszk1415) 待確認 |
 | [Brritany](https://github.com/Brritany) |
 | [ccherdoctor-chiu](https://github.com/ccherdoctor-chiu) |
 | [cctroc](https://github.com/cctroc) |
 | [changyiyen](https://github.com/changyiyen) |
+| [chialin111](https://github.com/chialin111) 待確認 |
 | [Chiehx0220](https://github.com/Chiehx0220) |
 | [chswei](https://github.com/chswei) |
+| [chuanhsiufu-neuro](https://github.com/chuanhsiufu-neuro) 待確認 |
 | [ChuntingSu](https://github.com/ChuntingSu) |
 | [chuyungtsai](https://github.com/chuyungtsai) |
 | [CJRonald](https://github.com/CJRonald) |
+| [copper0722](https://github.com/copper0722) 待確認 |
 | [Cycasio](https://github.com/Cycasio) |
+| [danny0838](https://github.com/danny0838) 待確認 |
 | [didiowen](https://github.com/didiowen) |
+| [drhao](https://github.com/drhao) 待確認 |
 | [drpwchen](https://github.com/drpwchen) |
 | [Drvinc](https://github.com/Drvinc) |
 | [erichuang777777](https://github.com/erichuang777777) |
 | [galencky](https://github.com/galencky) |
 | [gosienna](https://github.com/gosienna) |
+| [greenrulers](https://github.com/greenrulers) 待確認 |
 | [homigin](https://github.com/homigin) |
 | [htlin222](https://github.com/htlin222) |
+| [ian030590](https://github.com/ian030590) 待確認 |
+| [idnerdtw](https://github.com/idnerdtw) 待確認 |
 | [irene2023study](https://github.com/irene2023study) |
+| [jeff830621](https://github.com/jeff830621) 待確認 |
+| [jejenhu-maker](https://github.com/jejenhu-maker) 待確認 |
+| [jenniferliang813-netizen](https://github.com/jenniferliang813-netizen) 待確認 |
 | [jjtseng93](https://github.com/jjtseng93) |
+| [jnynlin](https://github.com/jnynlin) 待確認 |
 | [kaneyxx](https://github.com/kaneyxx) |
 | [keanu77](https://github.com/keanu77) |
 | [kenkao0127-droid](https://github.com/kenkao0127-droid) |
+| [knight819094](https://github.com/knight819094) 待確認 |
+| [lantus123](https://github.com/lantus123) 待確認 |
+| [LCCtaiwan](https://github.com/LCCtaiwan) 待確認 |
 | [liangRXdev](https://github.com/liangRXdev) |
+| [LiangWeiTseng](https://github.com/LiangWeiTseng) 待確認 |
+| [liaoweihung](https://github.com/liaoweihung) 待確認 |
+| [limzijiang](https://github.com/limzijiang) 待確認 |
 | [littlecanargie](https://github.com/littlecanargie) |
 | [liyoungc](https://github.com/liyoungc) |
 | [MarkHuangMD](https://github.com/MarkHuangMD) |
+| [mars690120-star](https://github.com/mars690120-star) 待確認 |
+| [Mastermind0309](https://github.com/Mastermind0309) 待確認 |
+| [matt-ye](https://github.com/matt-ye) 待確認 |
 | [mcdlee](https://github.com/mcdlee) |
 | [nps798](https://github.com/nps798) |
+| [NTUHpAIR](https://github.com/NTUHpAIR) 待確認 |
 | [odafeng](https://github.com/odafeng) |
 | [peishenwu](https://github.com/peishenwu) |
+| [PeterWei078](https://github.com/PeterWei078) 待確認 |
 | [philia81301-commits](https://github.com/philia81301-commits) |
 | [pojenhsiao](https://github.com/pojenhsiao) |
+| [rickyrickyrickyyu](https://github.com/rickyrickyrickyyu) 待確認 |
 | [shin13](https://github.com/shin13) |
 | [soanseng](https://github.com/soanseng) |
 | [t0mst0ne](https://github.com/t0mst0ne) |
+| [TCM-Dr-Hsieh](https://github.com/TCM-Dr-Hsieh) 待確認 |
 | [tcs211](https://github.com/tcs211) |
 | [texchi2](https://github.com/texchi2) |
+| [Tim-HealJoy](https://github.com/Tim-HealJoy) 待確認 |
 | [tinchangchang](https://github.com/tinchangchang) |
 | [tsaiid](https://github.com/tsaiid) |
+| [Twb06](https://github.com/Twb06) 待確認 |
 | [tzuhaoshan](https://github.com/tzuhaoshan) |
 | [u9401066](https://github.com/u9401066) |
+| [voho0000](https://github.com/voho0000) 待確認 |
+| [ww8chw](https://github.com/ww8chw) 待確認 |
 | [y-cliu](https://github.com/y-cliu) |
+| [yanchen0902](https://github.com/yanchen0902) 待確認 |
 | [yfwu](https://github.com/yfwu) |
 | [ykuo2](https://github.com/ykuo2) |
 | [YuChen-S](https://github.com/YuChen-S) |
 | [Yuchunchen](https://github.com/Yuchunchen) |
 | [zinojeng](https://github.com/zinojeng) |
 
+
 ## 簡介與代表專案
 
 依主表相同拼音／字母順序。每位僅列一句收錄理由／作品主題，以及一個代表性非 fork 專案（優先醫療／臨床／健康相關）。身分、院所與專科請以本人 GitHub 個人檔與公開連結為準，本節不另行推測。
 
+標題含「待確認」者：依公開臨床／健康工具暫收，臨床身分尚未經本人確認；主表同列亦標 待確認。
+
 ### [@agoodbear](https://github.com/agoodbear)
 聚焦急診／重症文獻雷達、臨床速查與 ECG／解剖教學工具。  
 代表專案：[`em-pulse-tw`](https://github.com/agoodbear/em-pulse-tw) — 急診／重症文獻雷達：每日掃 PubMed 並依影響力排序（繁中）。
+
+### [@aszk1415](https://github.com/aszk1415) 「待確認」
+問題：中醫國考題圖與答案散在紙本、不好機器處理；做法：整理成結構化 JSON 題庫資料集。  
+代表專案：[`taiwan-tcm-exam-data`](https://github.com/aszk1415/taiwan-tcm-exam-data) — 台灣中醫師國考題目／圖／答案的結構化 JSON 資料集。
 
 ### [@Brritany](https://github.com/Brritany)
 涵蓋機器學習與統計整合套件、重症資訊可視化與 ML 教學。  
@@ -100,6 +138,10 @@
 聚焦微循環影像標註、檢驗 LIS 分析與臨床筆記整理工具。  
 代表專案：[`CapillaryAnnotator`](https://github.com/changyiyen/CapillaryAnnotator) — 微循環（capillaroscopy）影像標註 Web App。
 
+### [@chialin111](https://github.com/chialin111) 「待確認」
+問題：腎臟科常用飲食與貧血指引不好一次查到；做法：做腎臟科入口與 KDIGO 貧血／高鉀／磷飲食小工具。  
+代表專案：[`anemia-chinese`](https://github.com/chialin111/anemia-chinese) — 依 KDIGO 2026 貧血指引製作的臨床助手（繁中）。
+
 ### [@Chiehx0220](https://github.com/Chiehx0220)
 以病房臨床工作流小幫手為主。  
 代表專案：[`Eighth`](https://github.com/Chiehx0220/Eighth) — 病房工作流小幫手。
@@ -107,6 +149,10 @@
 ### [@chswei](https://github.com/chswei)
 涵蓋放射科考試題庫轉換、醫師出勤自動化與語音輸入工具。  
 代表專案：[`rad-test`](https://github.com/chswei/rad-test) — 放射科考試 PDF 轉 Anki 題庫。
+
+### [@chuanhsiufu-neuro](https://github.com/chuanhsiufu-neuro) 「待確認」
+問題：中風取栓與 stroke code 流程跨職類易漏步驟；做法：做 stroke clock、取栓轉診與 DIDO 流程工具。  
+代表專案：[`strokeclock`](https://github.com/chuanhsiufu-neuro/strokeclock) — Stroke code 各職類注意事項時鐘／清單。
 
 ### [@ChuntingSu](https://github.com/ChuntingSu)
 以心臟衰竭相關風險預測等臨床小工具為主。  
@@ -120,13 +166,25 @@
 多為燒燙傷／整形外科相關展示站與視覺化實驗頁。  
 代表專案：[`LinkouCGMHBurnCenter`](https://github.com/CJRonald/LinkouCGMHBurnCenter) — 燒燙傷中心相關網站／展示。
 
+### [@copper0722](https://github.com/copper0722) 「待確認」
+問題：健保給付規定改版歷史難追、護理站工具又不好裝；做法：重建給付規則史，並做免 plugin 的 KiDit 書籤小幫手。  
+代表專案：[`nhi-rule-history`](https://github.com/copper0722/nhi-rule-history) — 以證據優先重建台灣健保藥品給付規定沿革。
+
 ### [@Cycasio](https://github.com/Cycasio)
 涵蓋健保 PCSK9 事前審查、台灣心血管風險比較（Framingham vs TwCCCC）與 SNAP-IV 篩檢等臨床小工具。  
 代表專案：[`pcsk9-taiwan-nhi`](https://github.com/Cycasio/pcsk9-taiwan-nhi) — 台灣 PCSK9 抑制劑健保事前審查 SOP、FH 計算機與快速參考指引。
 
+### [@danny0838](https://github.com/danny0838) 「待確認」
+問題：健保 VPN 量表數據要重複複製貼上；做法：做瀏覽器擴充一鍵複製貼上健保 VPN 量表。  
+代表專案：[`ditto-vpn`](https://github.com/danny0838/ditto-vpn) — 複製貼上健保 VPN 量表數據的瀏覽器工具。
+
 ### [@didiowen](https://github.com/didiowen)
 涵蓋 AI 病歷改寫、PubMed 每日／每週摘要與臨床筆記整理。  
 代表專案：[`med-chart-reviser`](https://github.com/didiowen/med-chart-reviser) — 離線備用的 AI 改病歷機器人（可顯示修改處）。
+
+### [@drhao](https://github.com/drhao) 「待確認」
+問題：法定傳染病通報定義不好順手查、門診排班又花時間；做法：做通報定義 Chrome 擴充與門診排班工具。  
+代表專案：[`noti-check`](https://github.com/drhao/noti-check) — 法定傳染病通報定義小幫手（Chrome 擴充）。
 
 ### [@drpwchen](https://github.com/drpwchen)
 聚焦文獻雷達、論文 PDF 管線與講義／教科書轉筆記工具。  
@@ -148,6 +206,10 @@
 涵蓋醫學影像分類、健保藥物資訊查詢與 LLM agent 實驗。  
 代表專案：[`ptosis-classification`](https://github.com/gosienna/ptosis-classification) — 眼瞼下垂（ptosis）影像分類研究。
 
+### [@greenrulers](https://github.com/greenrulers) 「待確認」
+問題：臨床議題要做系統性實證評析與 SDM 很費工；做法：做 EBM pipeline／競賽簡報產生器與偏頭痛 PDA。  
+代表專案：[`tsghebm-public`](https://github.com/greenrulers/tsghebm-public) — 實證醫學九階段 pipeline 與可編輯 PPTX 競賽簡報產生器。
+
 ### [@homigin](https://github.com/homigin)
 以醫學出版／Logseq 知識整理與臨床表單工作流自動化為主。  
 代表專案：[`LogseqMedPub`](https://github.com/homigin/LogseqMedPub) — 醫學出版與 Logseq 知識整理工具。
@@ -156,13 +218,39 @@
 產出豐富，涵蓋 EBM／系統性回顧自動化、腫瘤治療趨勢彙整與醫療 MCP／Claude Skills。  
 代表專案：[`meta-pipe`](https://github.com/htlin222/meta-pipe) — AI 端到端 meta-analysis：文獻篩選、擷取到分析自動化。
 
+### [@ian030590](https://github.com/ian030590) 「待確認」
+問題：中風／視覺缺損復健與門診叫號不好追；做法：做網頁復健訓練工具與門診叫號桌面通知。  
+代表專案：[`StrokeTrainer`](https://github.com/ian030590/StrokeTrainer) — 中風／腦傷／神經退化認知復健的網頁訓練程式。
+
+### [@idnerdtw](https://github.com/idnerdtw) 「待確認」
+問題：感染科筆記與 HIS 彙總報告不好讀、難搜；做法：做感染科筆記站與 HIS 4.0 報告整理工具。  
+代表專案：[`idnotes`](https://github.com/idnerdtw/idnotes) — 感染科讀書筆記與 Journal Club（靜態站，可掛院內連結）。
+
 ### [@irene2023study](https://github.com/irene2023study)
 以肺癌篩檢 LDCT 分割等醫學影像 AI 為主。  
 代表專案：[`NLSTseg`](https://github.com/irene2023study/NLSTseg) — NLST 肺癌篩檢 LDCT 分割專案。
 
+### [@jeff830621](https://github.com/jeff830621) 「待確認」
+問題：診間醫師要看櫃檯擷取的健保雲端資料不方便；做法：做共享資料夾版診間閱讀器（NHITW Cloud Analyzer fork）。  
+代表專案：[`NHITW_clinic_reader`](https://github.com/jeff830621/NHITW_clinic_reader) — 診間閱讀器：讓診間查看櫃檯擷取的健保雲端病患資料。
+
+### [@jejenhu-maker](https://github.com/jejenhu-maker) 「待確認」
+問題：健保門診申報檔（TOTFA）要去識別化轉表很麻煩；做法：單檔 HTML 在本機轉 CSV，資料不離開電腦。  
+代表專案：[`nhiconvert`](https://github.com/jejenhu-maker/nhiconvert) — 健保門診申報檔（TOTFA）去識別化轉 CSV 工具。
+
+### [@jenniferliang813-netizen](https://github.com/jenniferliang813-netizen) 「待確認」
+問題：麻醉 OR 備物靠口頭交班易漏、pump 劑量與停復藥時間要心算；做法：做備物看板、教學駕駛艙；peri-op 工具另以 @periop-tools 組織帳號釋出。  
+代表專案：[`anesthesia-prep-board`](https://github.com/jenniferliang813-netizen/anesthesia-prep-board) — 麻醉科 OR 備物溝通看板 prototype（單檔、無病人個資）。
+
+備註：雙帳號：個人 @jenniferliang813-netizen；peri-op 工具亦見組織 [@periop-tools](https://github.com/periop-tools)（如 `pump-calc`、`anticoag-periop-calc`）。
+
 ### [@jjtseng93](https://github.com/jjtseng93)
 強烈偏向系統／Runtime 基礎建設（Bun、跨平台 userspace），幾乎無臨床主題專案。  
 代表專案：[`buninu-linux`](https://github.com/jjtseng93/buninu-linux) — 以 Bun 為 PID 1 的 Linux 發行版實驗。
+
+### [@jnynlin](https://github.com/jnynlin) 「待確認」
+問題：腫瘤門診回診前症狀與事前審查表單難收；做法：做到診前 ePRO 與健保事前審查門診登錄工具。  
+代表專案：[`clinic-epro`](https://github.com/jnynlin/clinic-epro) — 回診前症狀紀錄：IO/ADC 門診到診前輔助（單檔、無後端）。
 
 ### [@kaneyxx](https://github.com/kaneyxx)
 涵蓋臨床風險分數、醫學影像基礎模型特徵擷取與論文知識管理。  
@@ -176,9 +264,33 @@
 以基層門診口袋卡、心血管風險與肺功能計算等臨床小工具及衛教頁為主。  
 代表專案：[`colon-polyp-pathology-pocket-card`](https://github.com/kenkao0127-droid/colon-polyp-pathology-pocket-card) — 大腸息肉病理報告 10 秒判讀＋追蹤建議口袋卡。
 
+### [@knight819094](https://github.com/knight819094) 「待確認」
+問題：藥局每月健保用藥品項 TXT（Big5）難合併去重；做法：做 GUI 桌面轉換器輸出格式化 Excel。  
+代表專案：[`nhi-drug-converter`](https://github.com/knight819094/nhi-drug-converter) — 健保用藥品項固定寬度 TXT 合併／解析／去重並輸出 Excel。
+
+### [@lantus123](https://github.com/lantus123) 「待確認」
+問題：NICU／兒癌病房藥物與滴速要反覆手算；做法：做純前端 NICU drip／兒科抗生素劑量計算機。  
+代表專案：[`nicu-drip-calc`](https://github.com/lantus123/nicu-drip-calc) — NICU 藥物計算機：依目標劑量反推 pump 滴速。
+
+### [@LCCtaiwan](https://github.com/LCCtaiwan) 「待確認」
+問題：臨床藥師 vancomycin TDM 與化療調配核對流程繁瑣；做法：做離線 vancomycin 決策原型與化療調配查詢／自動化課程。  
+代表專案：[`vancomycin-dose`](https://github.com/LCCtaiwan/vancomycin-dose) — 離線 Vancomycin 劑量、TDM 與濃度估算決策支援原型。
+
 ### [@liangRXdev](https://github.com/liangRXdev)
 聚焦臨床藥學計算器、食藥署／健保藥品資訊儀表板與藥物警戒工具。  
 代表專案：[`vanco-auc-calc`](https://github.com/liangRXdev/vanco-auc-calc) — 繁中 Vancomycin AUC 導向劑量計算器（純前端、資料不離瀏覽器）。
+
+### [@LiangWeiTseng](https://github.com/LiangWeiTseng) 「待確認」
+問題：中醫方劑缺貨時替代難查、論文修改也費時；做法：做方劑替代工具與醫學論文修改輔助。  
+代表專案：[`TCM-Formula-Substitute`](https://github.com/LiangWeiTseng/TCM-Formula-Substitute) — 中醫方劑替代查詢工具。
+
+### [@liaoweihung](https://github.com/liaoweihung) 「待確認」
+問題：兒科抗生素劑量與衛教圖溝通不好帶；做法：做兒科抗生素工具與多語家庭工作／衛教圖助手。  
+代表專案：[`ped_abx`](https://github.com/liaoweihung/ped_abx) — 兒科抗生素相關臨床小工具。
+
+### [@limzijiang](https://github.com/limzijiang) 「待確認」
+問題：全國急診壅塞與防衛性病歷重點不好一眼掌握；做法：做急診即時壅塞看板與急診防衛性病歷導向。  
+代表專案：[`nhi-er-live`](https://github.com/limzijiang/nhi-er-live) — 台灣急診即時壅塞看板（健保署資料，約每 15 分鐘更新）。
 
 ### [@littlecanargie](https://github.com/littlecanargie)
 以生物統計、meta-analysis／SEM 與醫學統計教學為主。  
@@ -192,6 +304,18 @@
 以麻醉訪視分派與麻醉相關學習／考古工具為主。  
 代表專案：[`Anes_visit_assignment`](https://github.com/MarkHuangMD/Anes_visit_assignment) — 麻醉訪視名單分派小工具。
 
+### [@mars690120-star](https://github.com/mars690120-star) 「待確認」
+問題：抗生素決策與 IVIG 劑量／速率要反覆查表；做法：做雙向回饋抗菌決策系統與 IVIG 臨床計算機。  
+代表專案：[`Bidirectional-Feedback-Antimicrobial-Decision-Support-System-V01`](https://github.com/mars690120-star/Bidirectional-Feedback-Antimicrobial-Decision-Support-System-V01) — 抗生素使用雙向回饋智能決策系統。
+
+### [@Mastermind0309](https://github.com/Mastermind0309) 「待確認」
+問題：家醫／老年與肝癌 SDM 專案資料要分開管理；做法：整理 NTUH 相關 HCC SDM 與脆弱老人 ACP 專案倉庫。  
+代表專案：[`NTUH_HCC`](https://github.com/Mastermind0309/NTUH_HCC) — NTUH HCC SDM 相關專案倉庫。
+
+### [@matt-ye](https://github.com/matt-ye) 「待確認」
+問題：失智環境暴露證據與文獻庫遷移不好用；做法：做 brain exposome 查詢工具與 EndNote→Zotero 遷移。  
+代表專案：[`brain-exposome`](https://github.com/matt-ye/brain-exposome) — 失智症環境暴露因子互動查詢（公開資料集）。
+
 ### [@mcdlee](https://github.com/mcdlee)
 涵蓋社區醫療地圖、核醫模擬與 PubMed 趨勢等開放資料工具。  
 代表專案：[`communitymedcare`](https://github.com/mcdlee/communitymedcare) — 社區醫療群地圖（R／Shiny）。
@@ -199,6 +323,10 @@
 ### [@nps798](https://github.com/nps798)
 聚焦醫師排班、社區資源整理與健康教育相關專案。  
 代表專案：[`PySchedulerForDoctors`](https://github.com/nps798/PySchedulerForDoctors) — 醫師排班工具。
+
+### [@NTUHpAIR](https://github.com/NTUHpAIR) 「待確認」
+問題：風濕科照護分數要臨時手算；做法：做風濕科臨床計算器與共同訓練排程工具。  
+代表專案：[`Rheuma_calculator`](https://github.com/NTUHpAIR/Rheuma_calculator) — 風濕科病人照護相關計算器。
 
 ### [@odafeng](https://github.com/odafeng)
 涵蓋大腸直腸外科知識庫／術後監測 PWA、文獻追蹤與 CT pelvimetry。  
@@ -208,6 +336,10 @@
 以醫師值班／on-call 排程與 R／Shiny 資料分析為主。  
 代表專案：[`shiftplanner`](https://github.com/peishenwu/shiftplanner) — 復健科值班與 on-call 排程器。
 
+### [@PeterWei078](https://github.com/PeterWei078) 「待確認」
+問題：胸超／支氣管鏡報告與抗生素腎劑量調整費時；做法：做報告小幫手與抗生素腎劑量查詢調整工具。  
+代表專案：[`chest-report-assist`](https://github.com/PeterWei078/chest-report-assist) — ChestScope Helper：胸超與支氣管鏡報告產生小幫手。
+
 ### [@philia81301-commits](https://github.com/philia81301-commits)
 聚焦減重、肌少症、骨鬆、肺炎鏈球菌疫苗等門診工具與入院病歷書寫輔助。  
 代表專案：[`pi-generator`](https://github.com/philia81301-commits/pi-generator) — 單檔離線的入院病歷 Present Illness 產生器（含常用主訴範本）。
@@ -215,6 +347,10 @@
 ### [@pojenhsiao](https://github.com/pojenhsiao)
 聚焦前列腺／泌尿腫瘤臨床預測與 PI-RADS 相關 Web 工具。  
 代表專案：[`RF-clinical-PIRAD`](https://github.com/pojenhsiao/RF-clinical-PIRAD) — 以臨床變項與 PI-RADS 預測前列腺癌的 Random Forest 工具。
+
+### [@rickyrickyrickyyu](https://github.com/rickyrickyrickyyu) 「待確認」
+問題：皮膚科健保給付規定與 ICD-10 中文版不好查；做法：做學名分流給付查詢與台灣 ICD-10 離線查詢。  
+代表專案：[`nhi-drug-rules`](https://github.com/rickyrickyrickyyu/nhi-drug-rules) — 皮膚科健保給付規定查詢（學名／劑型分流；非官方）。
 
 ### [@shin13](https://github.com/shin13)
 涵蓋食藥署藥品資訊 MCP、健保給付規定 RAG 擷取與處方集／劑量計算工具。  
@@ -228,6 +364,10 @@
 涵蓋醫學期刊每日摘要、ICD-10 查詢、失智研究動態與 PubMed 輔助工具。  
 代表專案：[`medical-journal-daily-agent`](https://github.com/t0mst0ne/medical-journal-daily-agent) — RSS＋PubMed＋LLM 的醫學期刊每日追蹤與繁中摘要管線。
 
+### [@TCM-Dr-Hsieh](https://github.com/TCM-Dr-Hsieh) 「待確認」
+問題：中醫看診要同時對經絡與輔助決策；做法：做中醫 AI 輔助看診平台。  
+代表專案：[`TCM-Meridian`](https://github.com/TCM-Dr-Hsieh/TCM-Meridian) — 中醫 AI 輔助看診平台。
+
 ### [@tcs211](https://github.com/tcs211)
 聚焦 EEG AI 報告、病理 VLM 重現與醫學 AI／異常偵測實驗。  
 代表專案：[`AI_EEEG_REPORT`](https://github.com/tcs211/AI_EEEG_REPORT) — EEG AI 報告相關專案。
@@ -235,6 +375,10 @@
 ### [@texchi2](https://github.com/texchi2)
 以頭頸癌存活分析、統計 cutoff 工具與醫療相關演講／教材為主。  
 代表專案：[`hnscc`](https://github.com/texchi2/hnscc) — HNSCC（頭頸鱗狀細胞癌）存活分析。
+
+### [@Tim-HealJoy](https://github.com/Tim-HealJoy) 「待確認」
+問題：職能復健衛教與居家復能追蹤工具不足；做法：做鏡頭體感復健遊戲與衛教手冊／復能追蹤單。  
+代表專案：[`ot-games`](https://github.com/Tim-HealJoy/ot-games) — 職能治療師設計的鏡頭體感復健遊戲（手機／電腦開鏡頭即可）。
 
 ### [@tinchangchang](https://github.com/tinchangchang)
 以線上 FIGO 婦癌分期計算器等臨床決策輔助工具為主。  
@@ -244,6 +388,12 @@
 涵蓋骨密度報告、DICOM SR、放射報告自動化與值班排程工具。  
 代表專案：[`libera-bmd`](https://github.com/tsaiid/libera-bmd) — Hologic 骨密度分析與初步報告（Rails）。
 
+### [@Twb06](https://github.com/Twb06) 「待確認」
+問題：醫院 Portal 藥歷、檢驗、病程與診斷書作業重複點擊多；做法：做 Tampermonkey／書籤助手整理藥歷檢驗並自動化填表。README 註明「© NTUH 內部使用」。  
+代表專案：[`NTUH-helper`](https://github.com/Twb06/NTUH-helper) — 醫院自動化助手工具集（藥歷／檢驗整理、病程與診斷書輔助等）。
+
+備註：待確認；README 載明「© NTUH 內部使用」。
+
 ### [@tzuhaoshan](https://github.com/tzuhaoshan)
 以臨床藥學給藥助手、藥品警訊學習平台與藥物動力學筆記為主。  
 代表專案：[`paxlovid-helper`](https://github.com/tzuhaoshan/paxlovid-helper) — Paxlovid 給藥異常處理助手。
@@ -252,9 +402,21 @@
 聚焦醫療 MCP（PubMed、醫學計算器、藥品資訊）與學術寫作／麻醉考試工具。  
 代表專案：[`pubmed-search-mcp`](https://github.com/u9401066/pubmed-search-mcp) — PubMed 與多源生醫檢索 MCP server。
 
+### [@voho0000](https://github.com/voho0000) 「待確認」
+問題：病歷範本與糖尿病衛教報告難在 FHIR／健保資料上重用；做法：做 SMART on FHIR 病歷助手與糖尿病衛教工作台。  
+代表專案：[`medical-note-smart-on-fhir`](https://github.com/voho0000/medical-note-smart-on-fhir) — SMART on FHIR 醫療病歷／範本相關工具。
+
+### [@ww8chw](https://github.com/ww8chw) 「待確認」
+問題：勞檢醫師訓練考古與婦產排班計算分散；做法：做勞檢測驗練習頁與住院醫師排班計算器。  
+代表專案：[`labor-health-exam-quiz`](https://github.com/ww8chw/labor-health-exam-quiz) — 勞工體格及健康檢查醫師訓練測驗考古題練習與詳解（離線單檔）。
+
 ### [@y-cliu](https://github.com/y-cliu)
 以體重挑戰／健康資料儀表板為主（目前公開非 fork 較少）。  
 代表專案：[`weight-challenge-dashboard`](https://github.com/y-cliu/weight-challenge-dashboard) — 體重挑戰活動的資料儀表板與歷史紀錄視覺化。
+
+### [@yanchen0902](https://github.com/yanchen0902) 「待確認」
+問題：術前健保雲端資料要逐項人工核對；做法：做 NHITW 術前檢查核對工具。  
+代表專案：[`NHITW_preop_checker_2`](https://github.com/yanchen0902/NHITW_preop_checker_2) — NHITW 術前檢查核對相關工具。
 
 ### [@yfwu](https://github.com/yfwu)
 以 OsiriX／DICOM ROI 擷取等放射影像分析工具為代表。  
@@ -275,6 +437,7 @@
 ### [@zinojeng](https://github.com/zinojeng)
 產出豐富，涵蓋醫療期刊 PDF→Markdown、糖尿病／CGM 與內分泌教學／HIS 決策支援。  
 代表專案：[`pdf2md`](https://github.com/zinojeng/pdf2md) — 針對醫療期刊優化的多模態 PDF→Markdown。
+
 
 
 

@@ -2,11 +2,11 @@
 
 隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。
 
-- 產生時間：`2026-10-05 11:24（台北時間）`
-- 動態視窗：近 **7** 天（自 `2026-09-28T03:24:08Z`）
-- 名冊帳號：**45**
+- 產生時間：`2026-10-06 02:05（台北時間）`
+- 動態視窗：近 **7** 天（自 `2026-09-28T18:05:01Z`）
+- 名冊帳號：**81**
 - 本週精選：**10**
-- 公開非 fork 倉庫總數：**905**
+- 公開非 fork 倉庫總數：**1374**
 
 > **隱私：** 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -16,20 +16,20 @@
 
 ## 本週值得追蹤
 
-近 7 天掃描 45 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 12 則較安靜或非臨床向更新。
+近 7 天掃描 81 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 37 則較安靜或非臨床向更新。
 
-- [@erichuang777777](https://github.com/erichuang777777) — 新建 腫瘤／血液相關「NTUH-breastcancer-finder-MCP」、「awesome-tw-physician-engineer」、「OpenOnco-Breast-Finder」
+- [@erichuang777777](https://github.com/erichuang777777) — 新建 腫瘤／血液相關「awesome-tw-physician-engineer」、「NTUH-breastcancer-finder-MCP」、「OpenOnco-Breast-Finder」
 - [@liangRXdev](https://github.com/liangRXdev) — 更新了 藥學／藥品資訊「pill-detective-tw」、藥學／藥品資訊「TFDA-drug-recall-dashboard」、健保／編碼與申報「NHI-drug-price-history」 等 6 個
-- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「irb-in-hurry」、臨床指引／路徑「cps-skills」、腫瘤／血液相關「lin-hsiehting」 等 4 個
+- [@kenkao0127-droid](https://github.com/kenkao0127-droid) — 新建 臨床指引／路徑「dr-kao-personal-website」、「chenggong-meimei-clinic」
+- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」、腫瘤／血液相關「irb-in-hurry」、臨床指引／路徑「cps-skills」 等 4 個
+- [@keanu77](https://github.com/keanu77) — 更新了 藥學／藥品資訊「antidopingplatform」、臨床指引／路徑「review.sportsmedicine」、醫學影像／放射「imaging-course-hub」 等 4 個
 - [@u9401066](https://github.com/u9401066) — 更新了 文獻／臨床試驗「zotero-keeper」、醫學影像／放射「dicom-overlay-agent」、文獻／臨床試驗「pubmed-search-mcp」
 - [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」
-- [@shin13](https://github.com/shin13) — 更新了 藥學／藥品資訊「opentaimed」
-- [@t0mst0ne](https://github.com/t0mst0ne) — 更新了 文獻／臨床試驗「medical-journal-daily-agent」
-- [@tsaiid](https://github.com/tsaiid) — 更新了 醫學影像／放射「structured-reporting-web-tools」
-- [@Yuchunchen](https://github.com/Yuchunchen) — 更新了 健保／編碼與申報「VaxCheck」
-- [@odafeng](https://github.com/odafeng) — 更新了 臨床指引／路徑「hemorrhoids-postop」、腫瘤／血液相關「Stage_III_Colon_EDR」
+- [@voho0000](https://github.com/voho0000) — 更新了 FHIR／醫療資料互通「medical-note-smart-on-fhir」、「firebase-smart-on-fhir」
+- [@LCCtaiwan](https://github.com/LCCtaiwan) — 更新了 藥學／藥品資訊「pharmacist-dashboard」、「TFDA-pill-identification」
+- [@copper0722](https://github.com/copper0722) — 更新了 健保／編碼與申報「nhi-rule-history」
 
-_另有 12 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
+_另有 37 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
 
 ---
 
@@ -93,7 +93,7 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。
 
-共 **905** 個倉庫、**45** 個帳號。
+共 **1374** 個倉庫、**81** 個帳號。
 
 來源：[erichuang777777/awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer)
 
