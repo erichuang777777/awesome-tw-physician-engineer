@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-10-04 23:22（台北時間）`
-帳號 **45** · 倉庫 **903**
+產生時間：`2026-10-05 11:24（台北時間）`
+帳號 **45** · 倉庫 **905**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -22,14 +22,14 @@
 - [@didiowen](#didiowen)（7）
 - [@drpwchen](#drpwchen)（19）
 - [@Drvinc](#drvinc)（7）
-- [@erichuang777777](#erichuang777777)（26）
+- [@erichuang777777](#erichuang777777)（27）
 - [@galencky](#galencky)（20）
 - [@gosienna](#gosienna)（48）
 - [@homigin](#homigin)（3）
 - [@htlin222](#htlin222)（173）
 - [@irene2023study](#irene2023study)（2）
 - [@jjtseng93](#jjtseng93)（23）
-- [@kaneyxx](#kaneyxx)（16）
+- [@kaneyxx](#kaneyxx)（17）
 - [@liangRXdev](#liangrxdev)（26）
 - [@littlecanargie](#littlecanargie)（8）
 - [@liyoungc](#liyoungc)（9）
@@ -57,8 +57,8 @@
 
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
-- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 問題：說明未寫具體痛點；做法：急診／急重症速查參考
+- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁
 - [slidecue](https://github.com/agoodbear/slidecue) — 問題：上台時無法同時保持與聽眾的眼神接觸和查看講稿；做法：將講稿顯示在眼鏡鏡片上，並自動翻頁更新內容
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — 問題：在 Roam 中無法快速標記和管理需要修改的文字；做法：透過框選文字自動生成標記子 block 及指令泡泡框
@@ -211,6 +211,7 @@
 
 ## [@erichuang777777](https://github.com/erichuang777777) {#erichuang777777}
 
+- [NTUH-breastcancer-finder-MCP](https://github.com/erichuang777777/NTUH-breastcancer-finder-MCP) — 問題：說明未寫具體痛點；做法：搜尋18／00的工具
 - [awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer) — 問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結
 - [OpenOnco-Breast-Finder](https://github.com/erichuang777777/OpenOnco-Breast-Finder) — 問題：說明未寫具體痛點；做法：台灣／乳癌／醫師／醫院／MCP相關工具；偏腫瘤／血液相關
 - [TW-Breast-Cancer-FHIR-IG](https://github.com/erichuang777777/TW-Breast-Cancer-FHIR-IG) — 問題：缺乏統一的乳癌醫療資料標準，導致不同申報流程不相容；做法：建立台灣乳癌 FHIR 實作指引，提供共用模型與定義
@@ -320,8 +321,10 @@
 
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
-- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
+- [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
+- [cps-skills](https://github.com/htlin222/cps-skills) — 問題：臨床診斷過程中缺乏結構化的多角色推理；做法：應用貝葉斯推理更新疾病機率並生成最終診斷
 - [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
+- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
 - [nccn-guidelines-downloader](https://github.com/htlin222/nccn-guidelines-downloader) — 問題：無法方便下載 NCCN 臨床實踐指導方針 PDF；做法：透過 CLI 腳本或 PWA 介面使用個人 NCCN 帳號下載
 - [zitie-generator](https://github.com/htlin222/zitie-generator) — 問題：無法快速生成繁體中文硬筆字帖以供練習；做法：線上生成可列印的繁體中文硬筆字帖，支持多種格式與設定
 - [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料
@@ -330,7 +333,6 @@
 - [mcq-bank](https://github.com/htlin222/mcq-bank) — 問題：小組成員無法有效協作學習和討論題目；做法：提供即時的單題練習和協作詳解功能
 - [demo-2026-09-18](https://github.com/htlin222/demo-2026-09-18) — 問題：說明未寫具體痛點；做法：用於示範的工具
 - [agent-in-ebm](https://github.com/htlin222/agent-in-ebm) — 問題：說明未寫具體痛點；做法：實證醫學裡的 AI agent：偏誤遷移論——AI 的價值在於把研究決策逼成可版控
-- [cps-skills](https://github.com/htlin222/cps-skills) — 問題：臨床診斷過程中缺乏結構化的多角色推理；做法：應用貝葉斯推理更新疾病機率並生成最終診斷
 - [openevidence-mcp](https://github.com/htlin222/openevidence-mcp) — 問題：無法直接從 AI 工具查詢 OpenEvidence，因為 API 被機器人檢測阻擋；做法：透過瀏覽器擴充功能在本地中繼請求，保持登入狀態
 - [scenemd](https://github.com/htlin222/scenemd) — 問題：無法有效利用 Markdown 文件進行簡報呈現；做法：自動從 Markdown 中提取語義區域並生成響應式簡報場景
 - [htlin222](https://github.com/htlin222/htlin222) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
@@ -443,7 +445,6 @@
 - [tma-edu-exam](https://github.com/htlin222/tma-edu-exam) — 問題：無法快速獲取並提交台灣醫學會的持續教育考試答案；做法：利用 AI 自動化抓取問題並透過網路搜尋答案
 - [society-calendar](https://github.com/htlin222/society-calendar) — 問題：醫師需手動追蹤多個學會活動，耗時且繁瑣；做法：用 AI 自動抓取學會網站活動並同步到日曆
 - [cancer-ltc-kab-study](https://github.com/htlin222/cancer-ltc-kab-study) — 問題：文獻回顧過程繁瑣，難以生成符合投稿標準的手稿；做法：自動化文獻回顧管道，從主題到提交手稿一鍵完成
-- [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
 - [education-portfolio](https://github.com/htlin222/education-portfolio) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [llm-in-med](https://github.com/htlin222/llm-in-med) — 問題：臨床文獻回顧過程繁瑣，難以生成符合投稿標準的手稿；做法：自動化生成符合 PRISMA 2020 的完整學術手稿並進行質量審核
 - [survival-pipe](https://github.com/htlin222/survival-pipe) — 問題：臨床研究中無法自動檢測競爭風險和時間變化暴露；做法：透過模組化管道自動分析時間事件數據並生成報告
@@ -527,6 +528,7 @@
 
 ## [@kaneyxx](https://github.com/kaneyxx) {#kaneyxx}
 
+- [for_gdrive_privacy](https://github.com/kaneyxx/for_gdrive_privacy) — 問題：說明不足，看不出具體痛點；做法：隱私相關工具或實驗說明不足
 - [idh-five-variable-score](https://github.com/kaneyxx/idh-five-variable-score) — 問題：無法快速計算透析過程中低血壓的五變數評分；做法：提供手動計算的五變數評分公式與工作流程
 - [paper-wiki](https://github.com/kaneyxx/paper-wiki) — 問題：無法有效整理和查詢大量學術論文；做法：建立一個持續累積知識的個人研究維基
 - [diff_base](https://github.com/kaneyxx/diff_base) — 問題：無法統一管理多種擴散模型的訓練流程；做法：提供支持多架構和訓練方法的統一框架
@@ -546,12 +548,12 @@
 
 ## [@liangRXdev](https://github.com/liangRXdev) {#liangrxdev}
 
+- [pill-detective-tw](https://github.com/liangRXdev/pill-detective-tw) — 問題：藥品外觀搜尋時無法快速確認候選藥品；做法：依刻字、顏色、形狀從公開資料縮小清單供比對
+- [TFDA-drug-recall-dashboard](https://github.com/liangRXdev/TFDA-drug-recall-dashboard) — 問題：臨床人員無法即時獲知藥品回收公告；做法：自動抓取食藥署資料並視覺化展示
 - [NHI-drug-price-history](https://github.com/liangRXdev/NHI-drug-price-history) — 問題：無法快速查詢健保藥品的歷史支付價格；做法：提供完整的健保藥品價格歷史查詢系統
 - [TFDA-drug-info-search](https://github.com/liangRXdev/TFDA-drug-info-search) — 問題：查詢藥品資訊時無法即時獲得最新資料；做法：自動更新並串接政府開放資料的靜態 JSON 快取
-- [TFDA-drug-recall-dashboard](https://github.com/liangRXdev/TFDA-drug-recall-dashboard) — 問題：臨床人員無法即時獲知藥品回收公告；做法：自動抓取食藥署資料並視覺化展示
 - [TFDA-drug-shortage-dashboard](https://github.com/liangRXdev/TFDA-drug-shortage-dashboard) — 問題：臨床人員無法即時獲得缺藥及替代藥品資訊；做法：自動抓取並視覺化顯示 TFDA 公告資料
 - [Taiwan-Clinical-Trial-Radar](https://github.com/liangRXdev/Taiwan-Clinical-Trial-Radar) — 問題：臨床醫師無法快速查詢台灣藥品臨床試驗的詳細資訊；做法：將TFDA的臨床試驗數據轉換為可搜尋的靜態網站
-- [pill-detective-tw](https://github.com/liangRXdev/pill-detective-tw) — 問題：藥品外觀搜尋時無法快速確認候選藥品；做法：依刻字、顏色、形狀從公開資料縮小清單供比對
 - [taiwan-pharmacist-exam-data](https://github.com/liangRXdev/taiwan-pharmacist-exam-data) — 問題：考生無法獲得結構化的藥師國考題庫；做法：提供可稽核的題庫，並套用官方更正答案
 - [lung-ajcc-calc](https://github.com/liangRXdev/lung-ajcc-calc) — 問題：臨床人員無法快速計算肺癌分期；做法：即時輸入 T、N、M 值自動計算分期結果
 - [migraine-tracker](https://github.com/liangRXdev/migraine-tracker) — 問題：無法有效追蹤偏頭痛的症狀、生活方式與觸發因素；做法：使用個人化的 PWA 記錄日常數據並分析趨勢
@@ -863,8 +865,8 @@
 
 ## [@tsaiid](https://github.com/tsaiid) {#tsaiid}
 
-- [vghks-random-duty](https://github.com/tsaiid/vghks-random-duty) — 問題：住院醫師排班時缺乏隨機化工具；做法：提供單頁應用程式生成隨機排班
 - [radtools.tsai.it](https://github.com/tsaiid/radtools.tsai.it) — 問題：臨床放射科工作流程中缺乏有效的工具來提升準確性；做法：提供多種網頁工具以協助醫療決策
+- [random-duty](https://github.com/tsaiid/random-duty) — 問題：說明未寫具體痛點；做法：應用程式
 - [structured-reporting-web-tools](https://github.com/tsaiid/structured-reporting-web-tools) — 問題：放射科醫師在生成癌症分期報告時缺乏標準化工具；做法：提供網頁工具自動計算 TNM 分期並生成報告
 - [ahk-nycuh](https://github.com/tsaiid/ahk-nycuh) — 問題：放射科工作流中操作繁瑣，缺乏自動化工具；做法：使用 AutoHotkey 撰寫自動化腳本整合 RIS/PACS 功能
 - [ahk-htch](https://github.com/tsaiid/ahk-htch) — 問題：院內影像醫學科報告系統操作繁瑣，缺乏快速鍵與範本；做法：提供 AutoHotkey 腳本自動化常用報告與操作熱鍵
@@ -908,12 +910,12 @@
 
 ## [@u9401066](https://github.com/u9401066) {#u9401066}
 
+- [llama-mcp-router](https://github.com/u9401066/llama-mcp-router) — 問題：每次請求都需處理所有工具，造成延遲與資源浪費；做法：根據請求選擇所需工具，減少傳送的資料量
 - [research-data-explorer](https://github.com/u9401066/research-data-explorer) — 問題：非技術研究者無法進行可重複的探索性數據分析；做法：提供可審計的分析流程，記錄決策與執行結果
 - [creativity-generation-unit](https://github.com/u9401066/creativity-generation-unit) — 問題：使用者在創意發想時缺乏有效的結構和方法；做法：透過多步驟的快思慢想架構引導創意生成
 - [zotero-keeper](https://github.com/u9401066/zotero-keeper) — 問題：無法有效管理和搜尋文獻資料；做法：透過 AI 助手連接本地 Zotero 資料庫進行操作
 - [dicom-overlay-agent](https://github.com/u9401066/dicom-overlay-agent) — 問題：醫生在使用 DICOM 影像時無法即時獲得 AI 分析結果；做法：自動監控 DICOM 查看器並疊加 AI 結果於原始影像上
 - [pubmed-search-mcp](https://github.com/u9401066/pubmed-search-mcp) — 問題：研究人員在多來源文獻搜尋時缺乏有效工具；做法：提供多來源資料庫的智能文獻搜尋與分析功能
-- [llama-mcp-router](https://github.com/u9401066/llama-mcp-router) — 問題：每次請求都需處理所有工具，造成延遲與資源浪費；做法：根據請求選擇所需工具，減少傳送的資料量
 - [medical-image-agent-harness](https://github.com/u9401066/medical-image-agent-harness) — 問題：醫學影像共同解讀流程缺乏系統性和可驗證性；做法：提供可測試的科學框架，整合多重驗證和安全門檻
 - [asset-aware-mcp](https://github.com/u9401066/asset-aware-mcp) — 問題：無法有效管理和追蹤文獻中的版本和來源；做法：提供可編輯的原生文件和可重用的證據鏈接
 - [rootcause-mcp](https://github.com/u9401066/rootcause-mcp) — 問題：臨床事件分析時缺乏結構化的根本原因分析工具；做法：整合魚骨圖、5-Why 和 HFACS-MES 進行分析
