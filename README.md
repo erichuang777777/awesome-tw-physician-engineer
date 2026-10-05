@@ -36,6 +36,7 @@
 | [ChuntingSu](https://github.com/ChuntingSu) |
 | [chuyungtsai](https://github.com/chuyungtsai) |
 | [CJRonald](https://github.com/CJRonald) |
+| [Cycasio](https://github.com/Cycasio) |
 | [didiowen](https://github.com/didiowen) |
 | [drpwchen](https://github.com/drpwchen) |
 | [Drvinc](https://github.com/Drvinc) |
@@ -47,6 +48,8 @@
 | [irene2023study](https://github.com/irene2023study) |
 | [jjtseng93](https://github.com/jjtseng93) |
 | [kaneyxx](https://github.com/kaneyxx) |
+| [keanu77](https://github.com/keanu77) |
+| [kenkao0127-droid](https://github.com/kenkao0127-droid) |
 | [liangRXdev](https://github.com/liangRXdev) |
 | [littlecanargie](https://github.com/littlecanargie) |
 | [liyoungc](https://github.com/liyoungc) |
@@ -55,6 +58,7 @@
 | [nps798](https://github.com/nps798) |
 | [odafeng](https://github.com/odafeng) |
 | [peishenwu](https://github.com/peishenwu) |
+| [philia81301-commits](https://github.com/philia81301-commits) |
 | [pojenhsiao](https://github.com/pojenhsiao) |
 | [shin13](https://github.com/shin13) |
 | [soanseng](https://github.com/soanseng) |
@@ -116,6 +120,10 @@
 多為燒燙傷／整形外科相關展示站與視覺化實驗頁。  
 代表專案：[`LinkouCGMHBurnCenter`](https://github.com/CJRonald/LinkouCGMHBurnCenter) — 燒燙傷中心相關網站／展示。
 
+### [@Cycasio](https://github.com/Cycasio)
+涵蓋健保 PCSK9 事前審查、台灣心血管風險比較（Framingham vs TwCCCC）與 SNAP-IV 篩檢等臨床小工具。  
+代表專案：[`pcsk9-taiwan-nhi`](https://github.com/Cycasio/pcsk9-taiwan-nhi) — 台灣 PCSK9 抑制劑健保事前審查 SOP、FH 計算機與快速參考指引。
+
 ### [@didiowen](https://github.com/didiowen)
 涵蓋 AI 病歷改寫、PubMed 每日／每週摘要與臨床筆記整理。  
 代表專案：[`med-chart-reviser`](https://github.com/didiowen/med-chart-reviser) — 離線備用的 AI 改病歷機器人（可顯示修改處）。
@@ -160,6 +168,14 @@
 涵蓋臨床風險分數、醫學影像基礎模型特徵擷取與論文知識管理。  
 代表專案：[`idh-five-variable-score`](https://github.com/kaneyxx/idh-five-variable-score) — 血液透析中低血壓（IDH）五變數可手算分數（MIMIC-IV）。
 
+### [@keanu77](https://github.com/keanu77)
+聚焦運動醫學／復健衛教工具、文獻索引與 PubMed 搜尋式產生器、運動處方。  
+代表專案：[`review.sportsmedicine`](https://github.com/keanu77/review.sportsmedicine) — 運動醫學與復健文獻索引：依部位／臨床主題瀏覽，標示 IF 與免費全文。
+
+### [@kenkao0127-droid](https://github.com/kenkao0127-droid)
+以基層門診口袋卡、心血管風險與肺功能計算等臨床小工具及衛教頁為主。  
+代表專案：[`colon-polyp-pathology-pocket-card`](https://github.com/kenkao0127-droid/colon-polyp-pathology-pocket-card) — 大腸息肉病理報告 10 秒判讀＋追蹤建議口袋卡。
+
 ### [@liangRXdev](https://github.com/liangRXdev)
 聚焦臨床藥學計算器、食藥署／健保藥品資訊儀表板與藥物警戒工具。  
 代表專案：[`vanco-auc-calc`](https://github.com/liangRXdev/vanco-auc-calc) — 繁中 Vancomycin AUC 導向劑量計算器（純前端、資料不離瀏覽器）。
@@ -191,6 +207,10 @@
 ### [@peishenwu](https://github.com/peishenwu)
 以醫師值班／on-call 排程與 R／Shiny 資料分析為主。  
 代表專案：[`shiftplanner`](https://github.com/peishenwu/shiftplanner) — 復健科值班與 on-call 排程器。
+
+### [@philia81301-commits](https://github.com/philia81301-commits)
+聚焦減重、肌少症、骨鬆、肺炎鏈球菌疫苗等門診工具與入院病歷書寫輔助。  
+代表專案：[`pi-generator`](https://github.com/philia81301-commits/pi-generator) — 單檔離線的入院病歷 Present Illness 產生器（含常用主訴範本）。
 
 ### [@pojenhsiao](https://github.com/pojenhsiao)
 聚焦前列腺／泌尿腫瘤臨床預測與 PI-RADS 相關 Web 工具。  
