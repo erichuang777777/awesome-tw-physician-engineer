@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-10-09 23:05（台北時間）`
-帳號 **134** · 倉庫 **1939**
+產生時間：`2026-10-09 23:14（台北時間）`
+帳號 **141** · 倉庫 **2014**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -11,6 +11,7 @@
 
 - [@a912572000-lab](#a912572000-lab)（4）
 - [@agoodbear](#agoodbear)（20）
+- [@annieyourgoodtube](#annieyourgoodtube)（27）
 - [@aszk1415](#aszk1415)（3）
 - [@ayase0307](#ayase0307)（11）
 - [@b101108063-ops](#b101108063-ops)（20）
@@ -64,6 +65,7 @@
 - [@periop-tools](#periop-tools)（2）
 - [@jjtseng93](#jjtseng93)（23）
 - [@jnynlin](#jnynlin)（13）
+- [@juliachou0530](#juliachou0530)（4）
 - [@julialiu81](#julialiu81)（7）
 - [@junmingsu](#junmingsu)（11）
 - [@kaneyxx](#kaneyxx)（18）
@@ -82,7 +84,9 @@
 - [@limzijiang](#limzijiang)（26）
 - [@littlecanargie](#littlecanargie)（8）
 - [@liyoungc](#liyoungc)（9）
+- [@luc407](#luc407)（5）
 - [@luyihsien](#luyihsien)（51）
+- [@mantour](#mantour)（13）
 - [@MarkHuangMD](#markhuangmd)（7）
 - [@mars690120-star](#mars690120-star)（51）
 - [@Mastermind0309](#mastermind0309)（11）
@@ -92,6 +96,7 @@
 - [@meru6726](#meru6726)（3）
 - [@MoWay370](#moway370)（4）
 - [@MPR455](#mpr455)（3）
+- [@NeoChiang](#neochiang)（3）
 - [@nps798](#nps798)（4）
 - [@NTUHpAIR](#ntuhpair)（2）
 - [@odafeng](#odafeng)（34）
@@ -119,6 +124,7 @@
 - [@TLAN1012](#tlan1012)（15）
 - [@tmuh-nutrition](#tmuh-nutrition)（3）
 - [@TMUHED](#tmuhed)（11）
+- [@toutsai](#toutsai)（14）
 - [@tsaiid](#tsaiid)（34）
 - [@Twb06](#twb06)（3）
 - [@TYC-000](#tyc-000)（6）
@@ -135,6 +141,7 @@
 - [@ww8chw](#ww8chw)（18）
 - [@y-cliu](#y-cliu)（1）
 - [@yanchen0902](#yanchen0902)（3）
+- [@YangHongDai](#yanghongdai)（9）
 - [@yfwu](#yfwu)（6）
 - [@ykuo2](#ykuo2)（5）
 - [@yuanchia](#yuanchia)（1）
@@ -173,6 +180,36 @@
 - [er-todo-sticky](https://github.com/agoodbear/er-todo-sticky) — 問題：急診工作中無法快速記錄病歷號和追蹤事項；做法：提供永遠置頂的便利貼式 TODO 視窗
 - [image](https://github.com/agoodbear/image) — 問題：說明不足，看不出具體痛點；做法：影像相關工具或實驗說明不足
 - [roam2github-actions](https://github.com/agoodbear/roam2github-actions) — 問題：說明不足，看不出具體痛點；做法：Roam相關工具或實驗說明不足
+
+## [@annieyourgoodtube](https://github.com/annieyourgoodtube) {#annieyourgoodtube}
+
+- [carehome](https://github.com/annieyourgoodtube/carehome) — 問題：說明不足，看不出具體痛點；做法：carehome：依名稱推斷的工具／實驗沒有可讀說明
+- [NZL](https://github.com/annieyourgoodtube/NZL) — 問題：說明不足，看不出具體痛點；做法：NZL：依名稱推斷的工具／實驗沒有可讀說明
+- [HF](https://github.com/annieyourgoodtube/HF) — 問題：說明不足，看不出具體痛點；做法：HF：依名稱推斷的工具／實驗沒有可讀說明
+- [nearmiss](https://github.com/annieyourgoodtube/nearmiss) — 問題：說明不足，看不出具體痛點；做法：nearmiss：依名稱推斷的工具／實驗沒有可讀說明
+- [ETF](https://github.com/annieyourgoodtube/ETF) — 問題：說明不足，看不出具體痛點；做法：ETF：依名稱推斷的工具／實驗沒有可讀說明
+- [Feedback](https://github.com/annieyourgoodtube/Feedback) — 問題：說明不足，看不出具體痛點；做法：訂閱源相關工具或實驗說明不足
+- [-liquid](https://github.com/annieyourgoodtube/-liquid) — 問題：說明不足，看不出具體痛點；做法：liquid：依名稱推斷的工具／實驗沒有可讀說明
+- [soso](https://github.com/annieyourgoodtube/soso) — 問題：說明不足，看不出具體痛點；做法：soso：依名稱推斷的工具／實驗沒有可讀說明
+- [camino](https://github.com/annieyourgoodtube/camino) — 問題：說明不足，看不出具體痛點；做法：camino：依名稱推斷的工具／實驗沒有可讀說明
+- [KAGO](https://github.com/annieyourgoodtube/KAGO) — 問題：說明不足，看不出具體痛點；做法：KAGO：依名稱推斷的工具／實驗沒有可讀說明
+- [Stock](https://github.com/annieyourgoodtube/Stock) — 問題：說明不足，看不出具體痛點；做法：Stock：依名稱推斷的工具／實驗沒有可讀說明
+- [Saga](https://github.com/annieyourgoodtube/Saga) — 問題：說明不足，看不出具體痛點；做法：Saga：依名稱推斷的工具／實驗沒有可讀說明
+- [job](https://github.com/annieyourgoodtube/job) — 問題：說明不足，看不出具體痛點；做法：job：依名稱推斷的工具／實驗沒有可讀說明
+- [BOBI](https://github.com/annieyourgoodtube/BOBI) — 問題：說明不足，看不出具體痛點；做法：BOBI：依名稱推斷的工具／實驗沒有可讀說明
+- [count](https://github.com/annieyourgoodtube/count) — 問題：說明不足，看不出具體痛點；做法：count：依名稱推斷的工具／實驗沒有可讀說明
+- [-epot](https://github.com/annieyourgoodtube/-epot) — 問題：說明不足，看不出具體痛點；做法：epot：依名稱推斷的工具／實驗沒有可讀說明
+- [money](https://github.com/annieyourgoodtube/money) — 問題：說明不足，看不出具體痛點；做法：money：依名稱推斷的工具／實驗沒有可讀說明
+- [card](https://github.com/annieyourgoodtube/card) — 問題：說明不足，看不出具體痛點；做法：card：依名稱推斷的工具／實驗沒有可讀說明
+- [Herbal](https://github.com/annieyourgoodtube/Herbal) — 問題：無法找到運行 AI Studio 應用的具體步驟；做法：提供本地運行應用的完整指引和資源
+- [check](https://github.com/annieyourgoodtube/check) — 問題：無法在本地環境運行 AI Studio 應用；做法：提供本地運行所需的完整資源與指令
+- [-](https://github.com/annieyourgoodtube/-) — 問題：說明未寫具體痛點；做法：HERB相關工具
+- [medicine](https://github.com/annieyourgoodtube/medicine) — 問題：無法找到具體的應用場景或使用說明；做法：提供本地運行和部署的完整環境設置指南
+- [-tzuchi-pharmacy](https://github.com/annieyourgoodtube/-tzuchi-pharmacy) — 問題：現場無法快速獲取藥品資訊；做法：提供本地運行的應用程式以查詢藥品資料
+- [HERB](https://github.com/annieyourgoodtube/HERB) — 問題：無法在本地環境運行 AI Studio 應用；做法：提供完整的本地運行與部署指引
+- [Annie1613](https://github.com/annieyourgoodtube/Annie1613) — 問題：說明不足，看不出具體痛點；做法：Annie1613：依名稱推斷的工具／實驗沒有可讀說明
+- [Annie1600](https://github.com/annieyourgoodtube/Annie1600) — 問題：說明不足，看不出具體痛點；做法：Annie1600：依名稱推斷的工具／實驗沒有可讀說明
+- [Annie26](https://github.com/annieyourgoodtube/Annie26) — 問題：說明不足，看不出具體痛點；做法：Annie26：依名稱推斷的工具／實驗沒有可讀說明
 
 ## [@aszk1415](https://github.com/aszk1415) {#aszk1415}
 
@@ -1083,6 +1120,13 @@
 - [taiwan-cancer-registry](https://github.com/jnynlin/taiwan-cancer-registry) — 問題：說明未寫具體痛點；做法：台灣／腫瘤相關工具；偏腫瘤／血液相關
 - [student-portal-pressure-test](https://github.com/jnynlin/student-portal-pressure-test) — 問題：說明不足，看不出具體痛點；做法：student portal pressure
 
+## [@juliachou0530](https://github.com/juliachou0530) {#juliachou0530}
+
+- [A-Retrieval-Augmented-Private-Large-Language-Model-for-Precision-Inpatient-Health-Education](https://github.com/juliachou0530/A-Retrieval-Augmented-Private-Large-Language-Model-for-Precision-Inpatient-Health-Education) — 問題：醫療人員無法快速獲得個別病患的教育資料；做法：根據病患資料自動生成個性化教育文件
+- [Japan-travel](https://github.com/juliachou0530/Japan-travel) — 問題：說明未寫具體痛點；做法：Travel／網站相關工具
+- [juliachou0530.github.io](https://github.com/juliachou0530/juliachou0530.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [TMUH-CareGuide-AI](https://github.com/juliachou0530/TMUH-CareGuide-AI) — 問題：查詢病患資料時無法快速獲得個人化衛教手冊；做法：透過 Subject ID 自動生成個人化衛教 PDF
+
 ## [@julialiu81](https://github.com/julialiu81) {#julialiu81}
 
 - [locally-advanced-nsclc-notes](https://github.com/julialiu81/locally-advanced-nsclc-notes) — 問題：臨床醫師無法快速獲取局部晚期非小細胞肺癌的最新試驗資訊；做法：整理並呈現關鍵臨床試驗的設計與結果於單一網頁
@@ -1362,6 +1406,14 @@
 - [da-vinci-bridge-sim](https://github.com/liyoungc/da-vinci-bridge-sim) — 問題：使用者無法理解達文西橋的搭建步驟與結構原理；做法：提供模擬器展示搭建過程及物理規則
 - [swimming-black-fish](https://github.com/liyoungc/swimming-black-fish) — 問題：說明不足，看不出具體痛點；做法：swimming black fish：依名稱推斷的工具／實驗沒有可讀說明
 
+## [@luc407](https://github.com/luc407) {#luc407}
+
+- [Neurobit_Project](https://github.com/luc407/Neurobit_Project) — 問題：說明未寫具體痛點；做法：Release相關工具
+- [TSGH_Project](https://github.com/luc407/TSGH_Project) — 問題：說明未寫具體痛點；做法：Ocular／考試／資料分析工具
+- [Somato](https://github.com/luc407/Somato) — 問題：說明不足，看不出具體痛點；做法：Somato：依名稱推斷的工具／實驗沒有可讀說明
+- [github_laerning_note](https://github.com/luc407/github_laerning_note) — 問題：對於新手使用 GitHub 管理頁面或部落格時缺乏指導；做法：提供教學影片以協助學習操作技巧
+- [github-slideshow](https://github.com/luc407/github-slideshow) — 問題：學習 GitHub 時缺乏實作練習的指導；做法：透過機器人引導學習活動與互動
+
 ## [@luyihsien](https://github.com/luyihsien) {#luyihsien}
 
 - [NTUH](https://github.com/luyihsien/NTUH) — 問題：現場無法自動分析聽力圖並提取病人資訊；做法：使用 OCR 技術自動識別聽力圖符號並存儲結果
@@ -1415,6 +1467,22 @@
 - [learning-diary](https://github.com/luyihsien/learning-diary) — 問題：說明未寫具體痛點；做法：部署相關工具
 - [luyi-](https://github.com/luyihsien/luyi-) — 問題：說明未寫具體痛點；做法：python初次架bot相關工具；偏聊天機器人／通訊整合
 - [Testgit](https://github.com/luyihsien/Testgit) — 問題：說明未寫具體痛點；做法：測試相關工具
+
+## [@mantour](https://github.com/mantour) {#mantour}
+
+- [dntplab](https://github.com/mantour/dntplab) — 問題：新手醫師在超音波下進行針尖定位時缺乏實際練習機會；做法：提供雙手操作的模擬教學遊戲進行練習
+- [dubrovnik-free-time-guide](https://github.com/mantour/dubrovnik-free-time-guide) — 問題：自由活動時缺乏詳細的行程與景點資訊；做法：提供完整的中文攻略與導航連結，方便查詢與使用
+- [auto_tms](https://github.com/mantour/auto_tms) — 問題：教育訓練管理系統的線上課程需手動操作，耗時且繁瑣；做法：自動化執行課程，包括影片播放、問卷填寫等
+- [pssc-qps4-demo](https://github.com/mantour/pssc-qps4-demo) — 問題：說明未寫具體痛點；做法：小兒敗血症風險
+- [DICOMSeriesCopier](https://github.com/mantour/DICOMSeriesCopier) — 問題：醫療人員無法快速選擇並複製特定的 DICOM 影像系列；做法：提供圖形化介面以篩選和複製影像系列
+- [LLM_celltype_app](https://github.com/mantour/LLM_celltype_app) — 問題：說明未寫具體痛點；做法：語言模型相關工具；偏生成式 AI／LLM
+- [GPTCelltype_work](https://github.com/mantour/GPTCelltype_work) — 問題：說明不足，看不出具體痛點；做法：GPTCelltype work：依名稱推斷的工具／實驗沒有可讀說明
+- [myrepo](https://github.com/mantour/myrepo) — 問題：說明不足，看不出具體痛點；做法：myrepo：依名稱推斷的工具／實驗沒有可讀說明
+- [MSMVSampEn](https://github.com/mantour/MSMVSampEn) — 問題：無法有效計算多變量時間序列的樣本熵；做法：使用改寫的 C++ 嵌入函數加速計算過程
+- [Myapp](https://github.com/mantour/Myapp) — 問題：說明不足，看不出具體痛點；做法：Myapp：依名稱推斷的工具／實驗沒有可讀說明
+- [PedAdCardMaker](https://github.com/mantour/PedAdCardMaker) — 問題：說明未寫具體痛點；做法：入院／產生器相關工具
+- [datasciencecoursera](https://github.com/mantour/datasciencecoursera) — 問題：說明未寫具體痛點；做法：課程相關的資料集
+- [generalized-webhost-downloader-tool](https://github.com/mantour/generalized-webhost-downloader-tool) — 問題：說明未寫具體痛點；做法：下載器相關的下載／擷取工具
 
 ## [@MarkHuangMD](https://github.com/MarkHuangMD) {#markhuangmd}
 
@@ -1568,6 +1636,12 @@
 - [CGMHOPH](https://github.com/MPR455/CGMHOPH) — 問題：說明不足，看不出具體痛點；做法：CGMHOPH：依名稱推斷的工具／實驗沒有可讀說明
 - [Meetup](https://github.com/MPR455/Meetup) — 問題：無法有效組織和安排聚餐活動；做法：提供日曆、投票和存儲工具的應用介面
 - [CGMH_ER](https://github.com/MPR455/CGMH_ER) — 問題：說明不足，看不出具體痛點；做法：急診相關工具或實驗說明不足
+
+## [@NeoChiang](https://github.com/NeoChiang) {#neochiang}
+
+- [Metabolomics-2026](https://github.com/NeoChiang/Metabolomics-2026) — 問題：說明不足，看不出具體痛點；做法：統合分析相關工具或實驗說明不足
+- [CGMH_Project](https://github.com/NeoChiang/CGMH_Project) — 問題：說明不足，看不出具體痛點；做法：Project：依名稱推斷的工具／實驗沒有可讀說明
+- [Batch-correction](https://github.com/NeoChiang/Batch-correction) — 問題：說明不足，看不出具體痛點；做法：批次相關工具或實驗說明不足
 
 ## [@nps798](https://github.com/nps798) {#nps798}
 
@@ -2078,6 +2152,23 @@
 - [v3.0](https://github.com/TMUHED/v3.0) — 問題：說明不足，看不出具體痛點；做法：v3.0：依名稱推斷的工具／實驗沒有可讀說明
 - [er_run](https://github.com/TMUHED/er_run) — 問題：說明不足，看不出具體痛點；做法：急診相關工具或實驗說明不足
 
+## [@toutsai](https://github.com/toutsai) {#toutsai}
+
+- [dialysis-app-tph-angular](https://github.com/toutsai/dialysis-app-tph-angular) — 問題：說明未寫具體痛點；做法：院內版 vue改angular
+- [Nephro-brain-os](https://github.com/toutsai/Nephro-brain-os) — 問題：腎臟科醫師缺乏整合的臨床知識與推理工具；做法：利用 AI 整合文獻與臨床推理建立智慧中樞平台
+- [dialysis-cdss-demo](https://github.com/toutsai/dialysis-cdss-demo) — 問題：透析查房時缺乏即時的藥物調整建議；做法：利用 Python 腳本自動生成調整建議並同步資料
+- [iNephro](https://github.com/toutsai/iNephro) — 問題：缺乏簡易的 React 與 Vite 結合範本；做法：提供最小化設置以啟動 React 和 Vite 整合
+- [dialysis-schedule](https://github.com/toutsai/dialysis-schedule) — 問題：說明未寫具體痛點；做法：透析／排班相關的排班工具
+- [LineBot](https://github.com/toutsai/LineBot) — 問題：缺乏明確的操作流程與驗證標準；做法：提供詳細的開發指南與驗收手冊
+- [dialysis-app-tph](https://github.com/toutsai/dialysis-app-tph) — 問題：說明未寫具體痛點；做法：台北醫院血液透析中心管理平台
+- [dialysis-app-vue](https://github.com/toutsai/dialysis-app-vue) — 問題：無法有效管理透析病人的資料與流程；做法：使用 Vue 3 與 Vite 開發管理系統介面
+- [dialysis-inventory](https://github.com/toutsai/dialysis-inventory) — 問題：洗腎室缺乏有效的庫存管理工具；做法：建立一個專門的庫存管理系統以追蹤物資使用情況
+- [dialysis-app-angular](https://github.com/toutsai/dialysis-app-angular) — 問題：現場需要將 Vue 應用轉換為 Angular 版本；做法：提供一個轉換模板以便快速開發
+- [dialysis-app-angular-standalone](https://github.com/toutsai/dialysis-app-angular-standalone) — 問題：說明未寫具體痛點；做法：angular firestore版轉虛擬硬碟版
+- [nephro-brain-web](https://github.com/toutsai/nephro-brain-web) — 問題：缺乏針對 React 與 Vite 的快速開發範本；做法：提供最小化設置以啟用 HMR 和 ESLint 規則
+- [dialysis-app-standalone1](https://github.com/toutsai/dialysis-app-standalone1) — 問題：無法在無網路環境中安裝和執行應用程式；做法：打包為離線可執行檔並自動處理相依性
+- [inephro-web](https://github.com/toutsai/inephro-web) — 問題：說明未寫具體痛點；做法：INEPHRO相關工具
+
 ## [@tsaiid](https://github.com/tsaiid) {#tsaiid}
 
 - [random-duty](https://github.com/tsaiid/random-duty) — 問題：住院醫師排班時無法快速隨機分配值班；做法：使用單頁應用程式自動生成值班安排
@@ -2310,6 +2401,18 @@
 - [wedding](https://github.com/yanchen0902/wedding) — 問題：說明不足，看不出具體痛點；做法：wedding：依名稱推斷的工具／實驗沒有可讀說明
 - [NHITW_preop_checker_2](https://github.com/yanchen0902/NHITW_preop_checker_2) — 問題：醫療人員需手動比對術前高風險藥物，耗時且易出錯；做法：自動掃描健保雲端藥歷系統，辨識高風險藥物並生成報表
 - [anespr1](https://github.com/yanchen0902/anespr1) — 問題：說明不足，看不出具體痛點；做法：麻醉相關工具或實驗說明不足
+
+## [@YangHongDai](https://github.com/YangHongDai) {#yanghongdai}
+
+- [addgene-teaching-site](https://github.com/YangHongDai/addgene-teaching-site) — 問題：無法方便地查找和使用 Addgene 書籍內容；做法：建立靜態網站，按書籍和主題組織內容
+- [radonc-tutorial](https://github.com/YangHongDai/radonc-tutorial) — 問題：學習放射腫瘤學時缺乏互動式資源；做法：提供雙語互動教學與考題，涵蓋多個主題
+- [tsgh-labweb](https://github.com/YangHongDai/tsgh-labweb) — 問題：研究團隊無法快速建立美觀的網站；做法：提供無需編碼的網站建置工具與模板選擇
+- [DriverOmicsNet](https://github.com/YangHongDai/DriverOmicsNet) — 問題：無法整合多種組學數據以探索癌症驅動基因；做法：使用圖卷積網絡框架進行數據分析
+- [tsgh-rtai](https://github.com/YangHongDai/tsgh-rtai) — 問題：說明不足，看不出具體痛點；做法：rtai：依名稱推斷的工具／實驗沒有可讀說明
+- [yhd-website](https://github.com/YangHongDai/yhd-website) — 問題：說明不足，看不出具體痛點；做法：網站相關工具或實驗說明不足
+- [YangHongDai.github.io](https://github.com/YangHongDai/YangHongDai.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [Radiosensitivity_index](https://github.com/YangHongDai/Radiosensitivity_index) — 問題：說明不足，看不出具體痛點；做法：Radiosensitivity index：依名稱推斷的工具／實驗沒有可讀說明
+- [Python_files](https://github.com/YangHongDai/Python_files) — 問題：說明不足，看不出具體痛點；做法：Python相關工具或實驗說明不足
 
 ## [@yfwu](https://github.com/yfwu) {#yfwu}
 

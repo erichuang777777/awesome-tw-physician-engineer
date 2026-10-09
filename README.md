@@ -28,6 +28,7 @@
 |---|
 | [a912572000-lab](https://github.com/a912572000-lab) 待確認 |
 | [agoodbear](https://github.com/agoodbear) |
+| [annieyourgoodtube](https://github.com/annieyourgoodtube) 待確認 |
 | [aszk1415](https://github.com/aszk1415) 待確認 |
 | [ayase0307](https://github.com/ayase0307) 待確認 |
 | [b101108063-ops](https://github.com/b101108063-ops) 待確認 |
@@ -80,6 +81,7 @@
 | [jenniferliang813-netizen](https://github.com/jenniferliang813-netizen) 待確認 |
 | [jjtseng93](https://github.com/jjtseng93) |
 | [jnynlin](https://github.com/jnynlin) 待確認 |
+| [juliachou0530](https://github.com/juliachou0530) 待確認 |
 | [julialiu81](https://github.com/julialiu81) 待確認 |
 | [junmingsu](https://github.com/junmingsu) 待確認 |
 | [kaneyxx](https://github.com/kaneyxx) |
@@ -98,7 +100,9 @@
 | [limzijiang](https://github.com/limzijiang) 待確認 |
 | [littlecanargie](https://github.com/littlecanargie) |
 | [liyoungc](https://github.com/liyoungc) |
+| [luc407](https://github.com/luc407) 待確認 |
 | [luyihsien](https://github.com/luyihsien) 待確認 |
+| [mantour](https://github.com/mantour) 待確認 |
 | [MarkHuangMD](https://github.com/MarkHuangMD) |
 | [mars690120-star](https://github.com/mars690120-star) 待確認 |
 | [Mastermind0309](https://github.com/Mastermind0309) 待確認 |
@@ -108,6 +112,7 @@
 | [meru6726](https://github.com/meru6726) 待確認 |
 | [MoWay370](https://github.com/MoWay370) 待確認 |
 | [MPR455](https://github.com/MPR455) 待確認 |
+| [NeoChiang](https://github.com/NeoChiang) 待確認 |
 | [nps798](https://github.com/nps798) |
 | [NTUHpAIR](https://github.com/NTUHpAIR) 待確認 |
 | [odafeng](https://github.com/odafeng) |
@@ -135,6 +140,7 @@
 | [TLAN1012](https://github.com/TLAN1012) 待確認 |
 | [tmuh-nutrition](https://github.com/tmuh-nutrition) 待確認 |
 | [TMUHED](https://github.com/TMUHED) 待確認 |
+| [toutsai](https://github.com/toutsai) 待確認 |
 | [tsaiid](https://github.com/tsaiid) |
 | [Twb06](https://github.com/Twb06) 待確認 |
 | [TYC-000](https://github.com/TYC-000) 待確認 |
@@ -151,6 +157,7 @@
 | [ww8chw](https://github.com/ww8chw) 待確認 |
 | [y-cliu](https://github.com/y-cliu) |
 | [yanchen0902](https://github.com/yanchen0902) 待確認 |
+| [YangHongDai](https://github.com/YangHongDai) 待確認 |
 | [yfwu](https://github.com/yfwu) |
 | [ykuo2](https://github.com/ykuo2) |
 | [yuanchia](https://github.com/yuanchia) 待確認 |
@@ -176,6 +183,12 @@
 ### [@agoodbear](https://github.com/agoodbear)
 聚焦急診／重症文獻雷達、臨床速查與 ECG／解剖教學工具。  
 代表專案：[`em-pulse-tw`](https://github.com/agoodbear/em-pulse-tw) — 急診／重症文獻雷達：每日掃 PubMed 並依影響力排序（繁中）。
+
+### [@annieyourgoodtube](https://github.com/annieyourgoodtube) 「待確認」
+問題：藥局西藥儲位不好找；做法：西藥儲位查詢網頁。  
+代表專案：[`-tzuchi-pharmacy`](https://github.com/annieyourgoodtube/-tzuchi-pharmacy) — 西藥儲位查詢系統。
+
+備註：待確認。
 
 ### [@aszk1415](https://github.com/aszk1415) 「待確認」
 問題：中醫國考題圖與答案散在紙本、不好機器處理；做法：整理成結構化 JSON 題庫資料集。  
@@ -425,6 +438,12 @@
 問題：腫瘤門診回診前症狀與事前審查表單難收；做法：做到診前 ePRO 與健保事前審查門診登錄工具。  
 代表專案：[`clinic-epro`](https://github.com/jnynlin/clinic-epro) — 回診前症狀紀錄：IO/ADC 門診到診前輔助（單檔、無後端）。
 
+### [@juliachou0530](https://github.com/juliachou0530) 「待確認」
+問題：衛教手冊難以依病人個人化；做法：Streamlit 系統依個案資料產生個人化衛教手冊 PDF。  
+代表專案：[`TMUH-CareGuide-AI`](https://github.com/juliachou0530/TMUH-CareGuide-AI) — 個人化衛教手冊展示系統（Streamlit）。
+
+備註：待確認。
+
 ### [@julialiu81](https://github.com/julialiu81) 「待確認」
 問題：食道癌多專科診療指引查閱不便；做法：網頁版指引。  
 代表專案：[`TVGH_eso_MDT`](https://github.com/julialiu81/TVGH_eso_MDT) — 食道癌多專科診療指引網頁（測試版）。
@@ -509,11 +528,23 @@
 偏 AI agent 工作流與 LINE 外掛基礎設施，臨床主題 repo 相對不明顯。  
 代表專案：[`LY-workflow`](https://github.com/liyoungc/LY-workflow) — 兩階段 AI coding agent 工作流。
 
+### [@luc407](https://github.com/luc407) 「待確認」
+問題：眼科檢查資料需整理分析；做法：眼科檢查資料分析程式。  
+代表專案：[`TSGH_Project`](https://github.com/luc407/TSGH_Project) — 眼科檢查資料分析。
+
+備註：待確認。
+
 ### [@luyihsien](https://github.com/luyihsien) 「待確認」
 問題：聽力圖判讀與登錄靠人工；做法：YOLO 偵測聽力圖符號＋OCR 抽取欄位入庫，並以假病人資料驗證 OCR 準確度。  
 代表專案：[`NTUH`](https://github.com/luyihsien/NTUH) — AutoAudiogram：聽力圖自動判讀與資料擷取（Gradio）。
 
 備註：待確認；含假病人資料產生器，可供去識別化評估參考；作者自述為研究生。
+
+### [@mantour](https://github.com/mantour) 「待確認」
+問題：兒科住院卡需手工製作；做法：兒科住院卡產生器（2015）。  
+代表專案：[`PedAdCardMaker`](https://github.com/mantour/PedAdCardMaker) — 兒科住院卡產生器。
+
+備註：待確認。
 
 ### [@MarkHuangMD](https://github.com/MarkHuangMD)
 以麻醉訪視分派與麻醉相關學習／考古工具為主。  
@@ -558,6 +589,12 @@
 代表專案：[`CGMHOPH`](https://github.com/MPR455/CGMHOPH) — 眼科工作與學習整合頁（會診範本、病程紀錄、速查、心智圖）。
 
 備註：待確認；另有急診讀書卡 `CGMH_ER`；使用會診／病程範本時勿輸入病人識別資料。
+
+### [@NeoChiang](https://github.com/NeoChiang) 「待確認」
+問題：臨床研究資料需整理與分析；做法：研究資料分析專案。  
+代表專案：[`CGMH_Project`](https://github.com/NeoChiang/CGMH_Project) — 臨床研究資料分析專案。
+
+備註：待確認。
 
 ### [@nps798](https://github.com/nps798)
 聚焦醫師排班、社區資源整理與健康教育相關專案。  
@@ -689,6 +726,12 @@
 
 備註：待確認；另有 `er-doctor-bros`。
 
+### [@toutsai](https://github.com/toutsai) 「待確認」
+問題：血液透析中心的日常管理分散；做法：透析中心管理平台。  
+代表專案：[`dialysis-app-tph`](https://github.com/toutsai/dialysis-app-tph) — 血液透析中心管理平台。
+
+備註：待確認。
+
 ### [@tsaiid](https://github.com/tsaiid)
 涵蓋骨密度報告、DICOM SR、放射報告自動化與值班排程工具。  
 代表專案：[`libera-bmd`](https://github.com/tsaiid/libera-bmd) — Hologic 骨密度分析與初步報告（Rails）。
@@ -770,6 +813,12 @@
 ### [@yanchen0902](https://github.com/yanchen0902) 「待確認」
 問題：術前健保雲端資料要逐項人工核對；做法：做 NHITW 術前檢查核對工具。  
 代表專案：[`NHITW_preop_checker_2`](https://github.com/yanchen0902/NHITW_preop_checker_2) — NHITW 術前檢查核對相關工具。
+
+### [@YangHongDai](https://github.com/YangHongDai) 「待確認」
+問題：放射治療病人常見問題需反覆說明；做法：LINE 聊天機器人提供放療相關資訊。  
+代表專案：[`tsgh-rtai`](https://github.com/YangHongDai/tsgh-rtai) — 放射治療 LINE 聊天機器人。
+
+備註：待確認。
 
 ### [@yfwu](https://github.com/yfwu)
 以 OsiriX／DICOM ROI 擷取等放射影像分析工具為代表。  
@@ -866,7 +915,7 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 - **以醫師為主**：核心收錄現職臨床第一線的醫師；已轉為純工程、全職創業或其他非臨床現職的醫師，若沒有臨床工具產出，暫不納入。
 - **補充收錄**：其他醫事人員、醫學生／學生、業界、醫院資訊或行政人員，只要公開專案是**第一線臨床人員可直接使用的工具**（例如計算機、排班、衛教、病歷／流程輔助、教學），也作為補充收錄；作者身分不作門檻，但不收掛號／搶號機器人、空專案、課堂作業、垃圾內容與純行政用途。
-- **病人資料與憑證**：公開倉庫若疑似含病人資料、資料庫備份或憑證／金鑰，一律不收錄，以免擴散；作者處理後可再推薦。
+- **使用前自行評估**：收錄不代表背書或審查；使用任何專案前，請自行評估資料安全、授權與院內規範。
 - **醫療產出**：需有公開可查、以醫療／健康／臨床／生醫為主題的開發成果，例如 GitHub 專案、開源工具、產品、論文程式碼或技術寫作。
 - **沒有個人程式庫帳號**：若沒有可列的個人 GitHub，但有本人公開、目前仍可開啟的產品或作品頁，另收於「無公開 GitHub，但有公開作品」，不混入上方 login 表。作品已下架只註記待補，不放失效連結；掛在他人倉庫的程式只註明託管位置，不當成其個人帳號。
 - **公開與 opt-in**：只使用本人公開的帳號／專案資訊；姓名、院所與詳細 bio 以本人明確自我公開或主動 opt-in 為準，不從零散來源推測身分。
