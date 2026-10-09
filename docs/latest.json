@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T15:01:33Z",
-  "generated_at_taipei": "2026-10-09 23:01（台北時間）",
+  "generated_at": "2026-10-09T15:05:04Z",
+  "generated_at_taipei": "2026-10-09 23:05（台北時間）",
   "window_days": 7,
-  "window_start": "2026-10-02T15:01:33Z",
+  "window_start": "2026-10-02T15:05:04Z",
   "roster_count": 134,
   "active_count": 54,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -337,7 +337,7 @@
           "name": "awesome-tw-physician-engineer",
           "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
           "created_at": "2026-10-01T18:09:27Z",
-          "pushed_at": "2026-10-09T14:10:47Z",
+          "pushed_at": "2026-10-09T15:04:53Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結",
@@ -1519,6 +1519,16 @@
       "profile_url": "https://github.com/skydreamer0",
       "repos": [
         {
+          "name": "startup",
+          "url": "https://github.com/skydreamer0/startup",
+          "created_at": "2026-02-22T04:08:18Z",
+          "pushed_at": "2026-10-09T15:04:02Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：藥局營運中商品、庫存與報表資料分散，難以整合管理；做法：建立共用 API 以整合 POS、庫存與會員資料流程",
+          "theme": null
+        },
+        {
           "name": "fortunetelling",
           "url": "https://github.com/skydreamer0/fortunetelling",
           "created_at": "2026-07-11T07:39:53Z",
@@ -1526,16 +1536,6 @@
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：使用者無法快速獲得命理分析結果；做法：結合多種命理工具進行綜合計算與解讀",
-          "theme": null
-        },
-        {
-          "name": "startup",
-          "url": "https://github.com/skydreamer0/startup",
-          "created_at": "2026-02-22T04:08:18Z",
-          "pushed_at": "2026-10-09T14:20:16Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：藥局營運中商品、庫存與報表資料分散，難以整合管理；做法：建立共用 API 以整合 POS、庫存與會員資料流程",
           "theme": null
         },
         {
@@ -1586,7 +1586,7 @@
           "pushed_at": "2026-10-08T00:52:08Z"
         }
       ],
-      "summary_zh": "@skydreamer0 本週新建公開倉庫 「clinic-voice-notes」；更新倉庫 「fortunetelling」、「startup」、「crm」、「novel_world_without_loss」。"
+      "summary_zh": "@skydreamer0 本週新建公開倉庫 「clinic-voice-notes」；更新倉庫 「startup」、「fortunetelling」、「crm」、「novel_world_without_loss」。"
     },
     {
       "login": "soanseng",
@@ -1724,7 +1724,7 @@
           "name": "TCM-Meridian-mini",
           "url": "https://github.com/TCM-Dr-Hsieh/TCM-Meridian-mini",
           "created_at": "2026-10-04T20:28:26Z",
-          "pushed_at": "2026-10-08T05:38:25Z",
+          "pushed_at": "2026-10-09T15:06:00Z",
           "is_new": true,
           "recently_pushed": true,
           "intro_zh": "問題：醫師在看診時無法快速生成病歷與問診建議；做法：透過語音錄音即時產生逐字稿並自動生成病歷內容",
