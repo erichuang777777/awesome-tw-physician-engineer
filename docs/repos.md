@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-10-09 22:09（台北時間）`
-帳號 **131** · 倉庫 **1837**
+產生時間：`2026-10-09 23:01（台北時間）`
+帳號 **134** · 倉庫 **1939**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -104,11 +104,14 @@
 - [@s1a23betty-cyber](#s1a23betty-cyber)（5）
 - [@shin13](#shin13)（16）
 - [@skydreamer0](#skydreamer0)（32）
+- [@SnailPJW](#snailpjw)（75）
 - [@soanseng](#soanseng)（25）
+- [@st96243](#st96243)（5）
 - [@suyiyu919-boop](#suyiyu919-boop)（1）
 - [@t0mst0ne](#t0mst0ne)（37）
 - [@TCM-Dr-Hsieh](#tcm-dr-hsieh)（3）
 - [@tcs211](#tcs211)（13）
+- [@tewei](#tewei)（22）
 - [@texchi2](#texchi2)（50）
 - [@Tim-HealJoy](#tim-healjoy)（7）
 - [@tim-weii](#tim-weii)（16）
@@ -586,8 +589,8 @@
 
 ## [@expertise88864](https://github.com/expertise88864) {#expertise88864}
 
-- [user](https://github.com/expertise88864/user) — 問題：使用者無法有效管理文章的編輯與發布流程；做法：建立明確的操作指南與審核機制以確保內容品質
 - [-morning-report](https://github.com/expertise88864/-morning-report) — 問題：使用者無法獲得個人化的晨報資訊；做法：自動寄送包含多元資訊的晨報系統
+- [user](https://github.com/expertise88864/user) — 問題：使用者無法有效管理文章的編輯與發布流程；做法：建立明確的操作指南與審核機制以確保內容品質
 - [user-hsiao](https://github.com/expertise88864/user-hsiao) — 問題：缺乏專業的眼科衛教資源，患者難以獲得正確資訊；做法：建立靜態雙語眼科衛教網站，提供易於訪問的資訊
 - [CMUHdermatology](https://github.com/expertise88864/CMUHdermatology) — 問題：使用者無法快速找到安裝與啟動的正確步驟；做法：提供詳細的安裝指引與啟動流程說明
 - [brilliancelab](https://github.com/expertise88864/brilliancelab) — 問題：說明不足，看不出具體痛點；做法：brilliancelab：依名稱推斷的工具／實驗沒有可讀說明
@@ -1745,6 +1748,84 @@
 - [DigitalDetox](https://github.com/skydreamer0/DigitalDetox) — 問題：用戶無法有效管理數位使用時間，缺乏數據分析工具；做法：提供使用時間概覽及趨勢圖表功能
 - [drugstorage](https://github.com/skydreamer0/drugstorage) — 問題：藥局無法快速查詢藥品存放位置；做法：利用條碼技術建立藥品索引管理系統
 
+## [@SnailPJW](https://github.com/SnailPJW) {#snailpjw}
+
+- [QuestPDFTestPrj](https://github.com/SnailPJW/QuestPDFTestPrj) — 問題：說明不足，看不出具體痛點；做法：測試相關工具或實驗說明不足
+- [TestMVCArea](https://github.com/SnailPJW/TestMVCArea) — 問題：說明不足，看不出具體痛點；做法：測試相關工具或實驗說明不足
+- [webNet](https://github.com/SnailPJW/webNet) — 問題：說明不足，看不出具體痛點；做法：webNet：依名稱推斷的工具／實驗沒有可讀說明
+- [DotNet6Web](https://github.com/SnailPJW/DotNet6Web) — 問題：說明不足，看不出具體痛點；做法：DotNet6Web：依名稱推斷的工具／實驗沒有可讀說明
+- [LabMVC](https://github.com/SnailPJW/LabMVC) — 問題：說明未寫具體痛點；做法：2021.12.29相關工具
+- [BlazorLab](https://github.com/SnailPJW/BlazorLab) — 問題：缺乏對 Blazor 專案的具體範例與指導；做法：提供基本的專案結構與常用套件安裝指令
+- [Crud-Blazor](https://github.com/SnailPJW/Crud-Blazor) — 問題：說明不足，看不出具體痛點；做法：Crud Blazor：依名稱推斷的工具／實驗沒有可讀說明
+- [SnailPJW](https://github.com/SnailPJW/SnailPJW) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [ICUDashboard](https://github.com/SnailPJW/ICUDashboard) — 問題：說明未寫具體痛點；做法：ASP.NET／樣板相關工具
+- [bootstrap_v5_web](https://github.com/SnailPJW/bootstrap_v5_web) — 問題：說明未寫具體痛點；做法：BT／Beta3相關工具
+- [snailpjw.github.io](https://github.com/SnailPJW/snailpjw.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [DetectBrowser](https://github.com/SnailPJW/DetectBrowser) — 問題：說明未寫具體痛點；做法：偵測瀏覽器版本
+- [ERDiagram](https://github.com/SnailPJW/ERDiagram) — 問題：說明不足，看不出具體痛點；做法：ERDiagram：依名稱推斷的工具／實驗沒有可讀說明
+- [SmartShiftProject](https://github.com/SnailPJW/SmartShiftProject) — 問題：說明未寫具體痛點；做法：交班相關工具
+- [TaskConcept](https://github.com/SnailPJW/TaskConcept) — 問題：說明未寫具體痛點；做法：C# 非同步程式設計概述
+- [NLogCustomTargetLib](https://github.com/SnailPJW/NLogCustomTargetLib) — 問題：說明不足，看不出具體痛點；做法：NLogCustomTargetLib：依名稱推斷的工具／實驗沒有可讀說明
+- [AppFormGeneratorNTUH](https://github.com/SnailPJW/AppFormGeneratorNTUH) — 問題：無法快速生成 Core 5.0 的桌面應用程式；做法：使用 ElectronNET CLI 工具進行專案初始化與建置
+- [ChallengeOfCoderBridge](https://github.com/SnailPJW/ChallengeOfCoderBridge) — 問題：缺乏明確的使用說明和具體應用範例；做法：提供 Markdown 語法的基本格式和範例說明
+- [NETCore101](https://github.com/SnailPJW/NETCore101) — 問題：說明未寫具體痛點；做法：ASP.NET／Core／101相關工具
+- [PureJSAjax](https://github.com/SnailPJW/PureJSAjax) — 問題：說明不足，看不出具體痛點；做法：PureJSAjax：依名稱推斷的工具／實驗沒有可讀說明
+- [pyEcg](https://github.com/SnailPJW/pyEcg) — 問題：無法有效檢測和分類心律不整；做法：利用深度神經網路分析心電圖數據
+- [Trans2ChiAmount](https://github.com/SnailPJW/Trans2ChiAmount) — 問題：說明未寫具體痛點；做法：將 TRANS 轉成 CHIAMOUNT 的轉換工具
+- [paymentSlip](https://github.com/SnailPJW/paymentSlip) — 問題：說明不足，看不出具體痛點；做法：paymentSlip：依名稱推斷的工具／實驗沒有可讀說明
+- [pokemonLinebot](https://github.com/SnailPJW/pokemonLinebot) — 問題：說明未寫具體痛點；做法：測試，用於LINE／聊天機器人；偏聊天機器人／通訊整合
+- [ptmsAdmin](https://github.com/SnailPJW/ptmsAdmin) — 問題：說明不足，看不出具體痛點；做法：ptmsAdmin：依名稱推斷的工具／實驗沒有可讀說明
+- [ptmsdemo](https://github.com/SnailPJW/ptmsdemo) — 問題：說明未寫具體痛點；做法：Bootstrap的框架
+- [ice-app](https://github.com/SnailPJW/ice-app) — 問題：缺乏清晰的使用說明和範例；做法：提供基本的啟動和構建指令說明
+- [PTMS_UI_Mockup_Demo](https://github.com/SnailPJW/PTMS_UI_Mockup_Demo) — 問題：說明未寫具體痛點；做法：Mockup／示範相關工具
+- [resume_pjw](https://github.com/SnailPJW/resume_pjw) — 問題：無法清楚表達個人專業技能與經歷；做法：整理成簡歷格式，突出關鍵能力與經驗
+- [ConsoleAppLeetCode](https://github.com/SnailPJW/ConsoleAppLeetCode) — 問題：說明不足，看不出具體痛點；做法：ConsoleAppLeetCode：依名稱推斷的工具／實驗沒有可讀說明
+- [WebApplication_mis2000lab](https://github.com/SnailPJW/WebApplication_mis2000lab) — 問題：說明不足，看不出具體痛點；做法：WebApplication
+- [WebStoredProcedure](https://github.com/SnailPJW/WebStoredProcedure) — 問題：說明不足，看不出具體痛點；做法：WebStoredProcedure：依名稱推斷的工具／實驗沒有可讀說明
+- [LineBot](https://github.com/SnailPJW/LineBot) — 問題：說明未寫具體痛點；做法：LINE相關的聊天機器人
+- [NTUHrWPF.APP](https://github.com/SnailPJW/NTUHrWPF.APP) — 問題：說明不足，看不出具體痛點；做法：NTUHrWPF.APP：依名稱推斷的工具／實驗沒有可讀說明
+- [NTUHr.Web](https://github.com/SnailPJW/NTUHr.Web) — 問題：說明未寫具體痛點；做法：嘗試修改徵才網站
+- [NTUHRMap](https://github.com/SnailPJW/NTUHRMap) — 問題：說明不足，看不出具體痛點；做法：NTUHRMap：依名稱推斷的工具／實驗沒有可讀說明
+- [pyReadEcgDB](https://github.com/SnailPJW/pyReadEcgDB) — 問題：說明不足，看不出具體痛點；做法：pyReadEcgDB：依名稱推斷的工具／實驗沒有可讀說明
+- [SoftwarePortfolio](https://github.com/SnailPJW/SoftwarePortfolio) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [storyBoardPractice](https://github.com/SnailPJW/storyBoardPractice) — 問題：說明不足，看不出具體痛點；做法：練習相關工具或實驗說明不足
+- [NTUHTestManual](https://github.com/SnailPJW/NTUHTestManual) — 問題：無法有效爬取動態網頁中的檢驗手冊資料；做法：使用selenium模擬點擊並即時攔截資料
+- [MvvmLightTestEF](https://github.com/SnailPJW/MvvmLightTestEF) — 問題：在使用 Entity Framework 時，無法找到合適的 MVVM 實作範本；做法：提供 MVVM Light 的安裝與設定指引
+- [ecgPaperDraw](https://github.com/SnailPJW/ecgPaperDraw) — 問題：說明不足，看不出具體痛點；做法：論文相關工具或實驗說明不足
+- [practiceEFConsole](https://github.com/SnailPJW/practiceEFConsole) — 問題：說明不足，看不出具體痛點；做法：練習相關工具或實驗說明不足
+- [SerialPortStudy](https://github.com/SnailPJW/SerialPortStudy) — 問題：說明未寫具體痛點；做法：Learn／序列相關工具
+- [testGetPortName](https://github.com/SnailPJW/testGetPortName) — 問題：說明不足，看不出具體痛點；做法：測試相關工具或實驗說明不足
+- [woocsUI](https://github.com/SnailPJW/woocsUI) — 問題：說明未寫具體痛點；做法：UI／Vue／JS相關工具
+- [pjwlovestar](https://github.com/SnailPJW/pjwlovestar) — 問題：說明不足，看不出具體痛點；做法：pjwlovestar：依名稱推斷的工具／實驗沒有可讀說明
+- [star2pjw](https://github.com/SnailPJW/star2pjw) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [NTUH-API](https://github.com/SnailPJW/NTUH-API) — 問題：說明不足，看不出具體痛點；做法：API／SDK依名稱推斷
+- [Workshop](https://github.com/SnailPJW/Workshop) — 問題：缺乏針對 PHP 網站開發的快速框架；做法：提供一套豐富的函式庫和簡單介面以加速開發流程
+- [workshopNTUT](https://github.com/SnailPJW/workshopNTUT) — 問題：說明不足，看不出具體痛點；做法：工作坊相關工具或實驗說明不足
+- [learnRecord](https://github.com/SnailPJW/learnRecord) — 問題：說明未寫具體痛點；做法：測試／A9Point相關工具
+- [ci_CoursesManagement](https://github.com/SnailPJW/ci_CoursesManagement) — 問題：教育機構缺乏有效的課程管理系統；做法：提供一個基於 PHP 的應用開發框架以簡化開發流程
+- [jekyll-base](https://github.com/SnailPJW/jekyll-base) — 問題：說明不足，看不出具體痛點；做法：jekyll base：依名稱推斷的工具／實驗沒有可讀說明
+- [woocsTest_V0001](https://github.com/SnailPJW/woocsTest_V0001) — 問題：說明不足，看不出具體痛點；做法：測試相關工具或實驗說明不足
+- [iviewoocs](https://github.com/SnailPJW/iviewoocs) — 問題：學習平台缺乏整合多種 UI 框架的資源；做法：提供基於 Vue.js 的開源 UI 元件庫與設計框架
+- [Wocs_MOOCs](https://github.com/SnailPJW/Wocs_MOOCs) — 問題：說明未寫具體痛點；做法：MOOCs／NTUT／範例相關工具
+- [VueJsPractice](https://github.com/SnailPJW/VueJsPractice) — 問題：說明未寫具體痛點；做法：練習VueJS相關工具
+- [EMRui](https://github.com/SnailPJW/EMRui) — 問題：說明未寫具體痛點；做法：電子病歷／UI相關工具；偏電子病歷／臨床資訊系統
+- [HireMe](https://github.com/SnailPJW/HireMe) — 問題：說明不足，看不出具體痛點；做法：HireMe：依名稱推斷的工具／實驗沒有可讀說明
+- [meteorPractice](https://github.com/SnailPJW/meteorPractice) — 問題：說明未寫具體痛點；做法：網頁應用
+- [Docker4Win10Practice](https://github.com/SnailPJW/Docker4Win10Practice) — 問題：說明未寫具體痛點；做法：Docker相關工具；偏DevOps／基礎建設
+- [flyDeadLogin](https://github.com/SnailPJW/flyDeadLogin) — 問題：說明未寫具體痛點；做法：測試／登入相關工具
+- [UserManage](https://github.com/SnailPJW/UserManage) — 問題：說明未寫具體痛點；做法：測試／登入相關工具
+- [TeaMeow.TocasUI](https://github.com/SnailPJW/TeaMeow.TocasUI) — 問題：說明未寫具體痛點；做法：Check／TeaMeow.TocasUI相關工具
+- [gitPagePractice](https://github.com/SnailPJW/gitPagePractice) — 問題：說明未寫具體痛點；做法：網站／練習相關工具
+- [PracticeGit](https://github.com/SnailPJW/PracticeGit) — 問題：說明不足，看不出具體痛點；做法：練習相關工具或實驗說明不足
+- [lab535.ifm.ntut](https://github.com/SnailPJW/lab535.ifm.ntut) — 問題：說明未寫具體痛點；做法：要盡力的地方太多了, 那就進來Lab535吧!
+- [wikidown.jsByCcckmit](https://github.com/SnailPJW/wikidown.jsByCcckmit) — 問題：無法在網頁上存檔維基型網誌內容；做法：使用伺服器端執行以支援檢視和存檔功能
+- [Snail.github.io](https://github.com/SnailPJW/Snail.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [alanpjw.github.io](https://github.com/SnailPJW/alanpjw.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [AddVisualStudioFormEx](https://github.com/SnailPJW/AddVisualStudioFormEx) — 問題：說明未寫具體痛點；做法：以 TexasLakeHouse 做的互動／練習實驗
+- [pjwStatistics](https://github.com/SnailPJW/pjwStatistics) — 問題：說明未寫具體痛點；做法：統計的筆記
+- [hello-world](https://github.com/SnailPJW/hello-world) — 問題：沒有具體的功能或應用場景；做法：簡單的自我介紹與學習紀錄
+- [sandbox_doggy8088teach](https://github.com/SnailPJW/sandbox_doggy8088teach) — 問題：說明不足，看不出具體痛點；做法：sandbox doggy8088teach：依名稱推斷的工具／實驗沒有可讀說明
+
 ## [@soanseng](https://github.com/soanseng) {#soanseng}
 
 - [rime-phah-taibun](https://github.com/soanseng/rime-phah-taibun) — 問題：使用者難以用台語書寫，需面對多種書寫系統和拼音標準；做法：提供開源的 Rime 輸入法，支援 POJ/TL 和選擇性聲調輸入
@@ -1772,6 +1853,14 @@
 - [ddd-calculator](https://github.com/soanseng/ddd-calculator) — 問題：醫療人員無法快速計算鎮靜安眠藥的每日定義劑量；做法：提供網頁工具即時計算多種藥物的DDD
 - [taigi-extension](https://github.com/soanseng/taigi-extension)（已封存） — 問題：查詢台文時需不斷複製貼上，使用不便；做法：開發 Firefox 擴充功能，直接查詢台文詞彙
 - [little-schemer-save-elixir](https://github.com/soanseng/little-schemer-save-elixir) — 問題：學習 Elixir 遞迴時缺乏具體範例；做法：透過小計畫的方式進行遞迴練習
+
+## [@st96243](https://github.com/st96243) {#st96243}
+
+- [TEST](https://github.com/st96243/TEST) — 問題：說明不足，看不出具體痛點；做法：TEST：依名稱推斷的工具／實驗沒有可讀說明
+- [static-resource](https://github.com/st96243/static-resource) — 問題：說明不足，看不出具體痛點；做法：統計相關工具或實驗說明不足
+- [-](https://github.com/st96243/-) — 問題：說明不足，看不出具體痛點；做法：：依名稱推斷的工具／實驗沒有可讀說明
+- [genAI](https://github.com/st96243/genAI) — 問題：說明未寫具體痛點；做法：《Genetalk - 癌症基因檢測AI助手》將專業的醫學背景知識與Gen
+- [NCU](https://github.com/st96243/NCU) — 問題：說明不足，看不出具體痛點；做法：NCU：依名稱推斷的工具／實驗沒有可讀說明
 
 ## [@suyiyu919-boop](https://github.com/suyiyu919-boop) {#suyiyu919-boop}
 
@@ -1838,6 +1927,31 @@
 - [st-gcn-anomaly-detect](https://github.com/tcs211/st-gcn-anomaly-detect) — 問題：缺乏具體步驟來重現異常檢測實驗；做法：使用開源工具提取骨架特徵並訓練自編碼器
 - [tohtml](https://github.com/tcs211/tohtml) — 問題：無法將純文字轉換為 HTML 格式；做法：提供簡單的文本標記語法解析器
 - [2nd-ML100Days](https://github.com/tcs211/2nd-ML100Days) — 問題：說明不足，看不出具體痛點；做法：2nd ML100Days：依名稱推斷的工具／實驗沒有可讀說明
+
+## [@tewei](https://github.com/tewei) {#tewei}
+
+- [Llama2_IE_HCC](https://github.com/tewei/Llama2_IE_HCC) — 問題：說明不足，看不出具體痛點；做法：Llama2 IE HCC：依名稱推斷的工具／實驗沒有可讀說明
+- [ninetydays](https://github.com/tewei/ninetydays) — 問題：說明不足，看不出具體痛點；做法：ninetydays：依名稱推斷的工具／實驗沒有可讀說明
+- [ntuhsdm](https://github.com/tewei/ntuhsdm) — 問題：說明未寫具體痛點；做法：聊天機器人；偏聊天機器人／通訊整合
+- [PlayTorch](https://github.com/tewei/PlayTorch) — 問題：說明不足，看不出具體痛點；做法：PlayTorch：依名稱推斷的工具／實驗沒有可讀說明
+- [ConvDPN](https://github.com/tewei/ConvDPN) — 問題：無法有效解析中文依存關係；做法：使用卷積神經網絡進行邊緣和標籤的預測
+- [transtyle](https://github.com/tewei/transtyle) — 問題：說明未寫具體痛點；做法：Sentence／Style／轉床相關工具
+- [tewei.github.io](https://github.com/tewei/tewei.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [HLMS](https://github.com/tewei/HLMS) — 問題：說明未寫具體痛點；做法：Human／Liver／Microsomal／Stability相關工具
+- [DSP-HW3](https://github.com/tewei/DSP-HW3) — 問題：說明不足，看不出具體痛點；做法：DSP HW3：依名稱推斷的工具／實驗沒有可讀說明
+- [DSP-HW1](https://github.com/tewei/DSP-HW1) — 問題：缺乏明確的指導，無法有效執行 HMM 模型訓練與測試；做法：提供訓練與測試的程式碼及資料格式說明
+- [2015WinterDataMining](https://github.com/tewei/2015WinterDataMining) — 問題：說明不足，看不出具體痛點；做法：資料集依名稱推斷
+- [startaiwan](https://github.com/tewei/startaiwan) — 問題：說明未寫具體痛點；做法：台灣／網站／Registration／樣板相關工具
+- [Pingiu](https://github.com/tewei/Pingiu) — 問題：說明未寫具體痛點；做法：Anonymous／Chatting／應用相關工具
+- [LunarLander](https://github.com/tewei/LunarLander) — 問題：說明未寫具體痛點；做法：Deep／Reinforcement／學習／代理人相關工具
+- [RocketLander](https://github.com/tewei/RocketLander) — 問題：說明未寫具體痛點；做法：RL／練習相關工具
+- [Entresoft](https://github.com/tewei/Entresoft) — 問題：每次部署後修改的靜態檔案會被覆蓋；做法：將主題下載至根目錄並修改設定檔以保留變更
+- [iseeweb](https://github.com/tewei/iseeweb) — 問題：說明不足，看不出具體痛點；做法：iseeweb：依名稱推斷的工具／實驗沒有可讀說明
+- [Entresoft-Web](https://github.com/tewei/Entresoft-Web) — 問題：說明不足，看不出具體痛點；做法：網頁相關工具或實驗說明不足
+- [MLatINFOR](https://github.com/tewei/MLatINFOR) — 問題：說明未寫具體痛點；做法：Machine／學習／INFOR相關工具
+- [2015spring](https://github.com/tewei/2015spring) — 問題：說明未寫具體痛點；做法：INFOR／機器學習／Group／2015相關工具
+- [TryMeteor20141205](https://github.com/tewei/TryMeteor20141205) — 問題：缺乏具體的 Meteor 案例教學；做法：提供基本的 Meteor API 使用範例和模板引擎示範
+- [twclck](https://github.com/tewei/twclck) — 問題：說明不足，看不出具體痛點；做法：twclck：依名稱推斷的工具／實驗沒有可讀說明
 
 ## [@texchi2](https://github.com/texchi2) {#texchi2}
 
@@ -2181,7 +2295,7 @@
 - [nurse-scheduler](https://github.com/ww8chw/nurse-scheduler) — 問題：護理師排班繁瑣，難以考量工時與假日；做法：自動排班演算法，依據勞基法計算工時與假期安排
 - [nhi-risk-report](https://github.com/ww8chw/nhi-risk-report) — 問題：無法從非台灣 IP 連接國健署 API 進行風險計算；做法：在台灣區域部署服務以確保連線通過
 - [business-card-app](https://github.com/ww8chw/business-card-app) — 問題：說明未寫具體痛點；做法：極簡名片管理 iOS App (Expo + React Native)
-- [nhi-clinic-query](https://github.com/ww8chw/nhi-clinic-query) — 問題：說明未寫具體痛點；做法：健保診所常見檢驗、影像、處置給付規定查詢系統 (靜態網頁 / GitHub
+- [nhi-clinic-query](https://github.com/ww8chw/nhi-clinic-query) — 問題：臨床人員需頻繁查詢健保給付規定但資料分散；做法：建置靜態網頁查詢系統，整合檢驗、影像、處置項目
 - [clinic-registration-form](https://github.com/ww8chw/clinic-registration-form) — 問題：無法快速修改掛號單內容或格式；做法：提供可編輯的 HTML 檔案與即時同步功能
 - [privacy](https://github.com/ww8chw/privacy) — 問題：說明未寫具體痛點；做法：App 隱私權政策頁面
 - [macro-dashboard](https://github.com/ww8chw/macro-dashboard) — 問題：說明不足，看不出具體痛點；做法：工具依名稱推斷

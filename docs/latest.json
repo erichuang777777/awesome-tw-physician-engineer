@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-09T14:09:03Z",
-  "generated_at_taipei": "2026-10-09 22:09（台北時間）",
+  "generated_at": "2026-10-09T15:01:33Z",
+  "generated_at_taipei": "2026-10-09 23:01（台北時間）",
   "window_days": 7,
-  "window_start": "2026-10-02T14:09:03Z",
-  "roster_count": 131,
+  "window_start": "2026-10-02T15:01:33Z",
+  "roster_count": 134,
   "active_count": 54,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
-  "overview_zh": "近 7 天掃描 131 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 44 則較安靜或非臨床向更新。",
+  "overview_zh": "近 7 天掃描 134 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 44 則較安靜或非臨床向更新。",
   "entries": [
     {
       "login": "agoodbear",
@@ -337,7 +337,7 @@
           "name": "awesome-tw-physician-engineer",
           "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
           "created_at": "2026-10-01T18:09:27Z",
-          "pushed_at": "2026-10-09T14:07:32Z",
+          "pushed_at": "2026-10-09T14:10:47Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結",
@@ -366,6 +366,11 @@
       ],
       "recent_pushes": [
         {
+          "repo": "erichuang777777/awesome-tw-physician-engineer",
+          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
+          "pushed_at": "2026-10-09T14:07:33Z"
+        },
+        {
           "repo": "erichuang777777/3DCellForge",
           "url": "https://github.com/erichuang777777/3DCellForge",
           "pushed_at": "2026-10-09T09:39:21Z"
@@ -374,11 +379,6 @@
           "repo": "erichuang777777/holo-card-studio",
           "url": "https://github.com/erichuang777777/holo-card-studio",
           "pushed_at": "2026-10-08T17:33:35Z"
-        },
-        {
-          "repo": "erichuang777777/awesome-tw-physician-engineer",
-          "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
-          "pushed_at": "2026-10-05T17:58:48Z"
         },
         {
           "repo": "erichuang777777/NTUH-breastcancer-finder-MCP",
@@ -398,6 +398,16 @@
       "profile_url": "https://github.com/expertise88864",
       "repos": [
         {
+          "name": "-morning-report",
+          "url": "https://github.com/expertise88864/-morning-report",
+          "created_at": "2026-05-01T14:10:41Z",
+          "pushed_at": "2026-10-09T14:16:45Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：使用者無法獲得個人化的晨報資訊；做法：自動寄送包含多元資訊的晨報系統",
+          "theme": null
+        },
+        {
           "name": "user",
           "url": "https://github.com/expertise88864/user",
           "created_at": "2026-05-02T14:59:41Z",
@@ -405,16 +415,6 @@
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：使用者無法有效管理文章的編輯與發布流程；做法：建立明確的操作指南與審核機制以確保內容品質",
-          "theme": null
-        },
-        {
-          "name": "-morning-report",
-          "url": "https://github.com/expertise88864/-morning-report",
-          "created_at": "2026-05-01T14:10:41Z",
-          "pushed_at": "2026-10-09T14:00:08Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：使用者無法獲得個人化的晨報資訊；做法：自動寄送包含多元資訊的晨報系統",
           "theme": null
         },
         {
@@ -460,7 +460,7 @@
           "pushed_at": "2026-10-05T02:41:36Z"
         }
       ],
-      "summary_zh": "@expertise88864 本週更新倉庫 「user」、「-morning-report」、「user-hsiao」、「CMUHdermatology」。"
+      "summary_zh": "@expertise88864 本週更新倉庫 「-morning-report」、「user」、「user-hsiao」、「CMUHdermatology」。"
     },
     {
       "login": "gosienna",
@@ -611,14 +611,14 @@
       ],
       "recent_pushes": [
         {
+          "repo": "htlin222/hsct-2026",
+          "url": "https://github.com/htlin222/hsct-2026",
+          "pushed_at": "2026-10-08T12:09:02Z"
+        },
+        {
           "repo": "htlin222/from-irb-to-manuscript",
           "url": "https://github.com/htlin222/from-irb-to-manuscript",
           "pushed_at": "2026-10-09T11:04:38Z"
-        },
-        {
-          "repo": "htlin222/hsct-2026",
-          "url": "https://github.com/htlin222/hsct-2026",
-          "pushed_at": "2026-10-08T09:18:31Z"
         },
         {
           "repo": "htlin222/openevidence-mcp",
@@ -667,7 +667,7 @@
         {
           "repo": "ian030590/RehabTrainerHub",
           "url": "https://github.com/ian030590/RehabTrainerHub",
-          "pushed_at": "2026-10-08T03:36:59Z"
+          "pushed_at": "2026-10-08T12:06:58Z"
         }
       ],
       "summary_zh": "@ian030590 本週更新倉庫 「RehabTrainerHub」。"
@@ -758,7 +758,7 @@
           "name": "escc-abstraction-test",
           "url": "https://github.com/jnynlin/escc-abstraction-test",
           "created_at": "2026-09-28T05:06:05Z",
-          "pushed_at": "2026-10-09T14:07:58Z",
+          "pushed_at": "2026-10-09T14:39:40Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：無法在安全環境中測試病歷摘錄功能；做法：提供加密的合成病人資料進行測試",
@@ -1253,7 +1253,13 @@
           "theme": null
         }
       ],
-      "recent_pushes": [],
+      "recent_pushes": [
+        {
+          "repo": "littlecanargie/medical_statistics",
+          "url": "https://github.com/littlecanargie/medical_statistics",
+          "pushed_at": "2026-10-08T04:55:27Z"
+        }
+      ],
       "summary_zh": "@littlecanargie 本週更新倉庫 「medical_statistics」。"
     },
     {
@@ -1516,7 +1522,7 @@
           "name": "fortunetelling",
           "url": "https://github.com/skydreamer0/fortunetelling",
           "created_at": "2026-07-11T07:39:53Z",
-          "pushed_at": "2026-10-09T13:56:07Z",
+          "pushed_at": "2026-10-09T14:31:12Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：使用者無法快速獲得命理分析結果；做法：結合多種命理工具進行綜合計算與解讀",
@@ -1526,7 +1532,7 @@
           "name": "startup",
           "url": "https://github.com/skydreamer0/startup",
           "created_at": "2026-02-22T04:08:18Z",
-          "pushed_at": "2026-10-09T13:51:25Z",
+          "pushed_at": "2026-10-09T14:20:16Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：藥局營運中商品、庫存與報表資料分散，難以整合管理；做法：建立共用 API 以整合 POS、庫存與會員資料流程",
@@ -2135,7 +2141,7 @@
           "name": "weight-challenge-dashboard",
           "url": "https://github.com/y-cliu/weight-challenge-dashboard",
           "created_at": "2026-08-21T13:59:52Z",
-          "pushed_at": "2026-10-09T13:32:47Z",
+          "pushed_at": "2026-10-09T14:33:22Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：說明不足，看不出具體痛點；做法：工具依名稱推斷",

@@ -1,6 +1,6 @@
 # Awesome TW Physician Engineer [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> 收錄具開發能力的台灣臨床醫事人員（醫師、護理師、醫事放射師、藥師等）  
+> 以具開發能力的台灣臨床醫師為主；補充收錄其他醫事人員、學生、業界與資訊人員所做、第一線可用的臨床工具  
 > A privacy-first curated list of Taiwanese clinician-engineers.
 
 ## 目錄
@@ -16,13 +16,13 @@
 
 ## 這是什麼
 
-這是一份**非官方名冊**，列出仍在臨床／醫療第一線、同時具備軟體開發、資料工程、AI／ML、產品或開源貢獻的公開 GitHub 帳號，方便交流與合作。主表只保留 GitHub login；其他角色、專案或背景資訊請以各人的 GitHub 個人檔案與公開連結為準。
+這是一份**非官方名冊**，以**仍在臨床第一線、同時具備軟體開發、資料工程、AI／ML、產品或開源貢獻的醫師**為主；另以**補充**方式收錄其他醫事人員、學生、業界與醫院資訊人員等，只要其公開專案是第一線可用的臨床工具。方便交流、避免重複造輪子。主表只保留 GitHub login；其他角色、專案或背景資訊請以各人的 GitHub 個人檔案與公開連結為準。
 
 > **重要聲明**：本列表非官方名冊；內容彙整自公開來源，可能過時或有誤。錯誤、過時、希望修改或想移除自己的條目，請開 [Issue](https://github.com/erichuang777777/awesome-tw-physician-engineer/issues)。建議本人以 opt-in 方式補充或修正公開資訊。
 
 ## 名單
 
-依 GitHub login（或公開常用 handle）拼音／字母排序。列上標「待確認」者見簡介小節，臨床身分尚待確認。
+依 GitHub login（或公開常用 handle）拼音／字母排序。列上標「待確認」者見簡介小節，表示尚未經作者本人確認。
 
 | GitHub login |
 |---|
@@ -120,11 +120,14 @@
 | [s1a23betty-cyber](https://github.com/s1a23betty-cyber) 待確認 |
 | [shin13](https://github.com/shin13) |
 | [skydreamer0](https://github.com/skydreamer0) 待確認 |
+| [SnailPJW](https://github.com/SnailPJW) 待確認 |
 | [soanseng](https://github.com/soanseng) |
+| [st96243](https://github.com/st96243) 待確認 |
 | [suyiyu919-boop](https://github.com/suyiyu919-boop) 待確認 |
 | [t0mst0ne](https://github.com/t0mst0ne) |
 | [TCM-Dr-Hsieh](https://github.com/TCM-Dr-Hsieh) 待確認 |
 | [tcs211](https://github.com/tcs211) |
+| [tewei](https://github.com/tewei) 待確認 |
 | [texchi2](https://github.com/texchi2) |
 | [Tim-HealJoy](https://github.com/Tim-HealJoy) 待確認 |
 | [tim-weii](https://github.com/tim-weii) 待確認 |
@@ -162,13 +165,13 @@
 
 依主表相同拼音／字母順序。每位僅列一句收錄理由／作品主題，以及一個代表性非 fork 專案（優先醫療／臨床／健康相關）。身分、院所與專科請以本人 GitHub 個人檔與公開連結為準，本節不另行推測。
 
-標題含「待確認」者：依公開臨床／健康工具暫收，臨床身分尚未經本人確認；主表同列亦標 待確認。
+標題含「待確認」者：依公開臨床／健康工具暫收，尚未經作者本人確認（身分或收錄意願）；主表同列亦標 待確認。
 
 ### [@a912572000-lab](https://github.com/a912572000-lab) 「待確認」
 問題：白內障病人選擇人工水晶體時資訊不足；做法：白內障衛教與水晶體比較網頁。  
 代表專案：[`TSGHSScataract`](https://github.com/a912572000-lab/TSGHSScataract) — 白內障衛教。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@agoodbear](https://github.com/agoodbear)
 聚焦急診／重症文獻雷達、臨床速查與 ECG／解剖教學工具。  
@@ -182,13 +185,13 @@
 問題：醫院營運指標分散；做法：營運戰情室儀表板網頁。  
 代表專案：[`TMUH`](https://github.com/ayase0307/TMUH) — 醫院營運戰情室。
 
-備註：待確認；偏管理用途；作者臨床身分不明。
+備註：待確認；偏管理用途。
 
 ### [@b101108063-ops](https://github.com/b101108063-ops) 「待確認」
 問題：外科住院醫師常用知識與流程分散；做法：Flutter 住院醫師手冊 App。  
 代表專案：[`resi_guard_handbook`](https://github.com/b101108063-ops/resi_guard_handbook) — 外科住院醫師手冊 App。
 
-備註：待確認；另有外科教科書筆記 repo；作者臨床身分待確認。
+備註：待確認；另有外科教科書筆記 repo。
 
 ### [@Brritany](https://github.com/Brritany)
 涵蓋機器學習與統計整合套件、重症資訊可視化與 ML 教學。  
@@ -198,13 +201,13 @@
 問題：MICU 常用公式與劑量需反覆手算；做法：單頁常用計算機。  
 代表專案：[`cmuhmicucalculator`](https://github.com/bruceeeeeeeeww/cmuhmicucalculator) — MICU 常用計算機。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@bumpingbell](https://github.com/bumpingbell) 「待確認」
 問題：PGY 職前訓練影片難以快速複習；做法：Whisper 轉逐字稿與字幕，再用 LLM 產生摘要。  
 代表專案：[`CMUH_pgy_orientation_lib`](https://github.com/bumpingbell/CMUH_pgy_orientation_lib) — PGY 職前訓練影片逐字稿與 AI 摘要庫。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@ccherdoctor-chiu](https://github.com/ccherdoctor-chiu)
 以急診約班、急診教學筆記與提示工程學習資源為主。  
@@ -218,7 +221,7 @@
 問題：外傷急症 AI 研究成果缺乏對外入口；做法：臨床主導研究團隊官網。  
 代表專案：[`cgmh-trauma-ai-lab.github.io`](https://github.com/cgmh-trauma-ai-lab/cgmh-trauma-ai-lab.github.io) — 外傷急症外科臨床主導 AI 研究團隊網站。
 
-備註：待確認；組織帳號；成員臨床身分待確認。
+備註：待確認；組織帳號。
 
 ### [@changyiyen](https://github.com/changyiyen)
 聚焦微循環影像標註、檢驗 LIS 分析與臨床筆記整理工具。  
@@ -256,7 +259,7 @@
 問題：肝臟相關研究程式與文獻分散；做法：集中研究程式碼、報告與參考文獻。  
 代表專案：[`KSVGH_Liver`](https://github.com/codingCAT-jacky/KSVGH_Liver) — 肝臟研究程式與報告整理。
 
-備註：待確認；作者臨床身分不明。
+備註：待確認。
 
 ### [@copper0722](https://github.com/copper0722) 「待確認」
 問題：健保給付規定改版歷史難追、護理站工具又不好裝；做法：重建給付規則史，並做免 plugin 的 KiDit 書籤小幫手。  
@@ -276,7 +279,7 @@
 問題：流感衛教對民眾不夠互動；做法：PWA 互動衛教小幫手。  
 代表專案：[`teach-app`](https://github.com/cych05845-jpg/teach-app) — 流感衛教互動 App。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@danny0838](https://github.com/danny0838) 「待確認」
 問題：健保 VPN 量表數據要重複複製貼上；做法：做瀏覽器擴充一鍵複製貼上健保 VPN 量表。  
@@ -286,7 +289,7 @@
 問題：Donanemab 治療資訊需給病人與團隊參考；做法：靜態資訊頁。  
 代表專案：[`Kisunla_CMUH`](https://github.com/David096096/Kisunla_CMUH) — Kisunla（Donanemab）資訊頁。
 
-備註：待確認；另有 `Kisunla_TCVGH`；作者臨床身分待確認。
+備註：待確認；另有 `Kisunla_TCVGH`。
 
 ### [@didiowen](https://github.com/didiowen)
 涵蓋 AI 病歷改寫、PubMed 每日／每週摘要與臨床筆記整理。  
@@ -296,7 +299,7 @@
 問題：腸造口病人出院後居家照護資訊不足；做法：腸造口居家護理衛教網站。  
 代表專案：[`cgmh.enterostomy.github.io`](https://github.com/dnlkill520/cgmh.enterostomy.github.io) — 腸造口居家護理衛教網站。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@drhao](https://github.com/drhao) 「待確認」
 問題：法定傳染病通報定義不好順手查、門診排班又花時間；做法：做通報定義 Chrome 擴充與門診排班工具。  
@@ -314,7 +317,7 @@
 問題：ACLS 講義不便隨時查閱；做法：做成線上講義網站。  
 代表專案：[`CGMHACLSManual2026`](https://github.com/edmaster-cgmh/CGMHACLSManual2026) — ACLS 講義網站（2026）。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@erichuang777777](https://github.com/erichuang777777)
 涵蓋血液／MDS 風險評分、乳癌相關計算／復健工具與 FHIR／準則擷取管線；並維護本 Awesome 名單。  
@@ -324,13 +327,13 @@
 問題：皮膚科診間行政作業重複；做法：Windows 診間行政小工具集，持續改善穩定性與交接。  
 代表專案：[`CMUHdermatology`](https://github.com/expertise88864/CMUHdermatology) — 皮膚科診間行政工具。
 
-備註：待確認；程式會操作門診與病人定位流程，PHI 風險；作者臨床身分待確認。
+備註：待確認；程式會操作門診與病人定位流程，PHI 風險。
 
 ### [@frankgoodtan](https://github.com/frankgoodtan) 「待確認」
 問題：校內研究人員逐篇下載 PubMed 全文費時；做法：Chrome 擴充透過校內 EZproxy 批次下載 PDF。  
 代表專案：[`CMU_Pubmed_downloader`](https://github.com/frankgoodtan/CMU_Pubmed_downloader) — PubMed PDF 批次下載 Chrome 擴充。
 
-備註：待確認；需遵守圖書館授權條款；作者臨床身分待確認。
+備註：待確認；需遵守圖書館授權條款。
 
 ### [@galencky](https://github.com/galencky)
 聚焦衛教聊天機器人、動脈血氣判讀與語音轉文字／醫學考試 AI。  
@@ -348,7 +351,7 @@
 問題：院內疫情訊息週報製作繁瑣；做法：週報預覽、編輯與草稿管理工具（不自動寄送或部署）。  
 代表專案：[`ntuh_cdc`](https://github.com/heigilin/ntuh_cdc) — 疫情訊息週報產生與審核入口。
 
-備註：待確認；另有感染管制 LINE bot、MDRO、Foley 等相關 repo；作者臨床身分待確認。
+備註：待確認；另有感染管制 LINE bot、MDRO、Foley 等相關 repo。
 
 ### [@homigin](https://github.com/homigin)
 以醫學出版／Logseq 知識整理與臨床表單工作流自動化為主。  
@@ -374,25 +377,25 @@
 問題：產程圖資料埋在 EMR 不易分析；做法：從 EMR 擷取 partograph 資料（2019）。  
 代表專案：[`ntuh_partogram`](https://github.com/iv0202lai/ntuh_partogram) — 從 EMR 擷取產程圖資料。
 
-備註：待確認；涉及 EMR 擷取（PHI 風險）；作者臨床身分待確認。
+備註：待確認；涉及 EMR 擷取（PHI 風險）。
 
 ### [@jacky951753654](https://github.com/jacky951753654) 「待確認」
 問題：癌症中心非結構化資料需轉換成可用格式；做法：FastAPI 服務骨架（目前多為範本）。  
 代表專案：[`ntu-cancer-center`](https://github.com/jacky951753654/ntu-cancer-center) — 非結構化資料轉換服務（FastAPI 範本階段）。
 
-備註：待確認；可能涉及病歷文字（PHI 風險）；作者臨床身分不明，可能為資訊／資料團隊。
+備註：待確認；可能涉及病歷文字（PHI 風險）。
 
 ### [@jacob880928](https://github.com/jacob880928) 「待確認」
 問題：藥品稽核靠紙本；做法：藥品稽核系統。  
 代表專案：[`Audit-system-TC`](https://github.com/jacob880928/Audit-system-TC) — 藥品稽核系統。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@jason08122](https://github.com/jason08122) 「待確認」
 問題：AI 心電圖判讀模型需要服務化；做法：Docker 化 API 與網頁介面。  
 代表專案：[`TVGH_AI_EKG`](https://github.com/jason08122/TVGH_AI_EKG) — AI 心電圖疾病偵測 API 服務。
 
-備註：待確認；作者臨床身分不明（可能為工程端）。
+備註：待確認。
 
 ### [@jeff830621](https://github.com/jeff830621) 「待確認」
 問題：診間醫師要看櫃檯擷取的健保雲端資料不方便；做法：做共享資料夾版診間閱讀器（NHITW Cloud Analyzer fork）。  
@@ -406,7 +409,7 @@
 問題：外科團隊使用病歷 AI 助手缺乏操作教學；做法：懶人包、張貼版與操作教學網頁。  
 代表專案：[`ksvgh-emr-ai-teaching`](https://github.com/Jenbin1125/ksvgh-emr-ai-teaching) — 病歷智能 AI 助手外科部操作教學。
 
-備註：待確認；與病歷 AI 使用相關，涉及 PHI 使用規範；作者臨床身分待確認。
+備註：待確認；與病歷 AI 使用相關，涉及 PHI 使用規範。
 
 ### [@jenniferliang813-netizen](https://github.com/jenniferliang813-netizen) 「待確認」
 問題：麻醉 OR 備物靠口頭交班易漏、pump 劑量與停復藥時間要心算；做法：做備物看板、教學駕駛艙；peri-op 工具另以 @periop-tools 組織帳號釋出。  
@@ -426,13 +429,13 @@
 問題：食道癌多專科診療指引查閱不便；做法：網頁版指引。  
 代表專案：[`TVGH_eso_MDT`](https://github.com/julialiu81/TVGH_eso_MDT) — 食道癌多專科診療指引網頁（測試版）。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@junmingsu](https://github.com/junmingsu) 「待確認」
 問題：胸腔鏡手術（VATS）病人術前術後衛教不易理解；做法：情境式衛教網頁。  
 代表專案：[`nckuh`](https://github.com/junmingsu/nckuh) — VATS 情境衛教服務。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@kaneyxx](https://github.com/kaneyxx)
 涵蓋臨床風險分數、醫學影像基礎模型特徵擷取與論文知識管理。  
@@ -442,7 +445,7 @@
 問題：急診待床資訊需人工整理成看板；做法：網頁產生待床看板（含管理頁）。  
 代表專案：[`CGMHER-photo`](https://github.com/katy0892-hue/CGMHER-photo) — 急診待床看板產生器。
 
-備註：待確認；處理床位／病人資訊，PHI 風險；作者臨床身分待確認。
+備註：待確認；處理床位／病人資訊，PHI 風險。
 
 ### [@keanu77](https://github.com/keanu77)
 聚焦運動醫學／復健衛教工具、文獻索引與 PubMed 搜尋式產生器、運動處方。  
@@ -456,7 +459,7 @@
 問題：病房用藥安全等查檢與統計靠紙本；做法：線上查檢與數據統整頁（另有防跌、交接、轉送、急救備物查檢）。  
 代表專案：[`kmuh`](https://github.com/kmuh-nursing/kmuh) — 病人用藥安全稽核與數據統整系統。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@knight819094](https://github.com/knight819094) 「待確認」
 問題：藥局每月健保用藥品項 TXT（Big5）難合併去重；做法：做 GUI 桌面轉換器輸出格式化 Excel。  
@@ -466,13 +469,13 @@
 問題：OHCA 登錄個案的追蹤與分工散在 REDCap；做法：唯讀 REDCap 衍生管理佇列儀表板，每列深連結回 REDCap，臨床資料不另存。  
 代表專案：[`NTUHHYCARD-Dashboard`](https://github.com/kpfzboekbof/NTUHHYCARD-Dashboard) — OHCA registry 管理儀表板（REDCap 唯一資料來源）。
 
-備註：待確認；另有 PRP 復健資料庫 `rehab_prp_database`；作者臨床身分待確認。
+備註：待確認；另有 PRP 復健資料庫 `rehab_prp_database`。
 
 ### [@kueikui](https://github.com/kueikui) 「待確認」
 問題：健康報告難與 EHR 標準介接；做法：SMART on FHIR 健康追蹤網頁 demo。  
 代表專案：[`260214_SmartonFHIR_tzuchi-healthreport-demo`](https://github.com/kueikui/260214_SmartonFHIR_tzuchi-healthreport-demo) — SMART on FHIR 健康報告 demo。
 
-備註：待確認；另有 FHIR 問卷跳題 demo；作者臨床身分不明。
+備註：待確認；另有 FHIR 問卷跳題 demo。
 
 ### [@lantus123](https://github.com/lantus123) 「待確認」
 問題：NICU／兒癌病房藥物與滴速要反覆手算；做法：做純前端 NICU drip／兒科抗生素劑量計算機。  
@@ -510,7 +513,7 @@
 問題：聽力圖判讀與登錄靠人工；做法：YOLO 偵測聽力圖符號＋OCR 抽取欄位入庫，並以假病人資料驗證 OCR 準確度。  
 代表專案：[`NTUH`](https://github.com/luyihsien/NTUH) — AutoAudiogram：聽力圖自動判讀與資料擷取（Gradio）。
 
-備註：待確認；含假病人資料產生器，可供去識別化評估參考；作者自述為研究生，臨床身分不明。
+備註：待確認；含假病人資料產生器，可供去識別化評估參考；作者自述為研究生。
 
 ### [@MarkHuangMD](https://github.com/MarkHuangMD)
 以麻醉訪視分派與麻醉相關學習／考古工具為主。  
@@ -536,19 +539,19 @@
 問題：新型抗類澱粉蛋白藥物使用細節多；做法：Donanemab 醫護人員快速參考網頁。  
 代表專案：[`ATT_Guide_CMUH`](https://github.com/Memory-Care/ATT_Guide_CMUH) — Kisunla（Donanemab）醫護速查。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@meru6726](https://github.com/meru6726) 「待確認」
 問題：牙髓病科診間排班靠人工；做法：診間排班表網頁。  
 代表專案：[`TSGH-ENDO-clinic-app`](https://github.com/meru6726/TSGH-ENDO-clinic-app) — 牙髓病科診間排班表。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@MoWay370](https://github.com/MoWay370) 「待確認」
 問題：COPD 病人追蹤需後端支援；做法：合作專案的 COPD 後端 API。  
 代表專案：[`COPD`](https://github.com/MoWay370/COPD) — COPD 合作專案後端。
 
-備註：待確認；作者臨床身分不明。
+備註：待確認。
 
 ### [@MPR455](https://github.com/MPR455) 「待確認」
 問題：眼科會診、病程紀錄與讀書資料分散；做法：靜態網頁整合會診範本、病程紀錄產生器、速查表與心智圖。  
@@ -588,7 +591,7 @@
 問題：口腔顎面外科病人衛教問題重複；做法：以 Cloudflare AutoRAG 結合臨床知識庫與外部文獻，提供繁中衛教問答。  
 代表專案：[`NTUH_OMS_RAG`](https://github.com/raghuanghh/NTUH_OMS_RAG) — 口腔顎面外科 AI 衛教問答（Cloudflare Workers RAG）。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@rickyrickyrickyyu](https://github.com/rickyrickyrickyyu) 「待確認」
 問題：皮膚科健保給付規定與 ICD-10 中文版不好查；做法：做學名分流給付查詢與台灣 ICD-10 離線查詢。  
@@ -598,7 +601,7 @@
 問題：護理人員做實證文獻搜尋門檻高；做法：AI 輔助實證文獻搜尋課程簡報與講義。  
 代表專案：[`ebn-ai-search-2026-04-29`](https://github.com/s1a23betty-cyber/ebn-ai-search-2026-04-29) — AI 輔助實證護理文獻搜尋課程。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@shin13](https://github.com/shin13)
 涵蓋食藥署藥品資訊 MCP、健保給付規定 RAG 擷取與處方集／劑量計算工具。  
@@ -610,15 +613,27 @@
 
 備註：待確認；個人檔自述為藥師；待確認現職。
 
+### [@SnailPJW](https://github.com/SnailPJW) 「待確認」
+問題：檢驗項目手冊網頁不便查詢與整理；做法：Python 爬蟲擷取臨床檢驗手冊（2018）。  
+代表專案：[`NTUHTestManual`](https://github.com/SnailPJW/NTUHTestManual) — 臨床檢驗手冊爬蟲。
+
+備註：待確認；補充收錄；另有 NTUH API、地圖等早期專案。
+
 ### [@soanseng](https://github.com/soanseng)
 以 ADHD 任務管理、語音輸入／STT 與台語輸入法等為主。  
 代表專案：[`tsosu`](https://github.com/soanseng/tsosu) — 為 ADHD 設計的 Android 任務管理（Markdown vault／Obsidian）。
+
+### [@st96243](https://github.com/st96243) 「待確認」
+問題：癌症基因檢測新制度民眾難理解；做法：Genetalk 互動式基因檢測 AI 衛教平台結合短影音。  
+代表專案：[`genAI`](https://github.com/st96243/genAI) — Genetalk 癌症基因檢測 AI 衛教助手。
+
+備註：待確認；補充收錄（團隊專案）。
 
 ### [@suyiyu919-boop](https://github.com/suyiyu919-boop) 「待確認」
 問題：ICU 藥物劑量換算易錯；做法：單頁 ICU 藥物計算機。  
 代表專案：[`tmuhpicucalculator`](https://github.com/suyiyu919-boop/tmuhpicucalculator) — ICU Drug Calculator。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@t0mst0ne](https://github.com/t0mst0ne)
 涵蓋醫學期刊每日摘要、ICD-10 查詢、失智研究動態與 PubMed 輔助工具。  
@@ -632,6 +647,12 @@
 聚焦 EEG AI 報告、病理 VLM 重現與醫學 AI／異常偵測實驗。  
 代表專案：[`AI_EEEG_REPORT`](https://github.com/tcs211/AI_EEEG_REPORT) — EEG AI 報告相關專案。
 
+### [@tewei](https://github.com/tewei) 「待確認」
+問題：醫病共享決策（SDM）資訊需反覆說明；做法：SDM 問答與測驗聊天機器人（2022）。  
+代表專案：[`ntuhsdm`](https://github.com/tewei/ntuhsdm) — SDM 衛教聊天機器人。
+
+備註：待確認；補充收錄。
+
 ### [@texchi2](https://github.com/texchi2)
 以頭頸癌存活分析、統計 cutoff 工具與醫療相關演講／教材為主。  
 代表專案：[`hnscc`](https://github.com/texchi2/hnscc) — HNSCC（頭頸鱗狀細胞癌）存活分析。
@@ -644,7 +665,7 @@
 問題：肝臟與腫瘤影像手動分割費時；做法：TensorFlow 多類別自動分割系統。  
 代表專案：[`Liver-Automatic-Segmentation-System-Kaohsiung-Chang-Gung-Memorial-Hospital`](https://github.com/tim-weii/Liver-Automatic-Segmentation-System-Kaohsiung-Chang-Gung-Memorial-Hospital) — 肝臟與腫瘤自動分割系統。
 
-備註：待確認；作者臨床身分不明。
+備註：待確認。
 
 ### [@tinchangchang](https://github.com/tinchangchang)
 以線上 FIGO 婦癌分期計算器等臨床決策輔助工具為主。  
@@ -660,13 +681,13 @@
 問題：臨床營養師工作量紀錄與週報繁瑣；做法：工作日誌與週報網頁。  
 代表專案：[`tmuh-clinical-nutrition`](https://github.com/tmuh-nutrition/tmuh-clinical-nutrition) — 臨床營養師工作日誌。
 
-備註：待確認；帳號臨床身分待確認。
+備註：待確認。
 
 ### [@TMUHED](https://github.com/TMUHED) 「待確認」
 問題：急診醫師排班規則多、手排耗時；做法：自動排班程式與網頁測試介面。  
 代表專案：[`tmuh-er-scheduler`](https://github.com/TMUHED/tmuh-er-scheduler) — 急診排班工具。
 
-備註：待確認；另有 `er-doctor-bros`；帳號臨床身分待確認。
+備註：待確認；另有 `er-doctor-bros`。
 
 ### [@tsaiid](https://github.com/tsaiid)
 涵蓋骨密度報告、DICOM SR、放射報告自動化與值班排程工具。  
@@ -682,7 +703,7 @@
 問題：泌尿科用藥選擇需整合多項資訊；做法：精準用藥決策支援儀表板 MVP。  
 代表專案：[`ncku-uro-cdss`](https://github.com/TYC-000/ncku-uro-cdss) — 泌尿精準用藥決策支援儀表板 MVP。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@tzuhaoshan](https://github.com/tzuhaoshan)
 以臨床藥學給藥助手、藥品警訊學習平台與藥物動力學筆記為主。  
@@ -696,13 +717,13 @@
 問題：科內錄音整理成紀錄與待辦費時；做法：錄音檔轉摘要與待辦事項。  
 代表專案：[`NTUHEOM-Record-Transform`](https://github.com/v1209876/NTUHEOM-Record-Transform) — 錄音檔轉摘要與待辦事項工具。
 
-備註：待確認；README 標示為特定科部專用（內部使用）；處理錄音，可能涉及 PHI；作者臨床身分待確認。
+備註：待確認；README 標示為特定科部專用（內部使用）；處理錄音，可能涉及 PHI。
 
 ### [@Vincent355046](https://github.com/Vincent355046) 「待確認」
 問題：移植單位 protocol 需集中查閱；做法：整理造血幹細胞移植（HSCT）protocol。  
 代表專案：[`HSCT_protocol`](https://github.com/Vincent355046/HSCT_protocol) — HSCT protocol 整理。
 
-備註：待確認；README 載明僅供該移植單位內部使用；作者臨床身分待確認。
+備註：待確認；README 載明僅供該移植單位內部使用。
 
 ### [@voho0000](https://github.com/voho0000) 「待確認」
 問題：病歷範本與糖尿病衛教報告難在 FHIR／健保資料上重用；做法：做 SMART on FHIR 病歷助手與糖尿病衛教工作台。  
@@ -712,31 +733,31 @@
 問題：兒童透析中低血壓難預測；做法：資料分析與建模（2023）。  
 代表專案：[`NCKUH-Pediatric-Nephrology`](https://github.com/Wang-Jian-An/NCKUH-Pediatric-Nephrology) — 兒童透析中低血壓分析。
 
-備註：待確認；作者臨床身分不明（多為資料科學專案）。
+備註：待確認。
 
 ### [@wcAmon](https://github.com/wcAmon) 「待確認」
 問題：院內小工具 App 重複開發；做法：Tauri 2 外殼與範例原始碼，供 agent 組裝參考。  
 代表專案：[`tmuh-app-snippets`](https://github.com/wcAmon/tmuh-app-snippets) — 院內 App 參考原始碼片段。
 
-備註：待確認；作者臨床身分待確認。
+備註：待確認。
 
 ### [@wenguic39-creator](https://github.com/wenguic39-creator) 「待確認」
 問題：英文住院病歷撰寫耗時；做法：Codex plugin 提供入院、病程、週摘、出院、手術紀錄草稿流程。  
 代表專案：[`tsgh-clinical-notes`](https://github.com/wenguic39-creator/tsgh-clinical-notes) — 英文住院病歷草稿技能包（Codex plugin）。
 
-備註：待確認；用於病歷撰寫，使用雲端模型時涉及 PHI；作者臨床身分待確認。
+備註：待確認；用於病歷撰寫，使用雲端模型時涉及 PHI。
 
 ### [@whaishuang](https://github.com/whaishuang) 「待確認」
 問題：血液病房新人手冊是 Word 檔、不好查；做法：轉成可搜尋的靜態網站並附建置與驗證腳本。  
 代表專案：[`hemaward`](https://github.com/whaishuang/hemaward) — 血液病房新人指引網站（GitHub Pages）。
 
-備註：待確認；另有 `line-symptom-bot`；作者臨床身分待確認。
+備註：待確認；另有 `line-symptom-bot`。
 
 ### [@willier15987](https://github.com/willier15987) 「待確認」
 問題：化療藥品溢灑處理不易實地演練；做法：Unity 混合實境（MR）教學情境。  
 代表專案：[`chemotherapy_ntuh`](https://github.com/willier15987/chemotherapy_ntuh) — 化療藥品溢灑處理 MR 教學。
 
-備註：待確認；作者臨床身分不明。
+備註：待確認。
 
 ### [@ww8chw](https://github.com/ww8chw) 「待確認」
 問題：勞檢醫師訓練考古與婦產排班計算分散；做法：做勞檢測驗練習頁與住院醫師排班計算器。  
@@ -762,7 +783,7 @@
 問題：音樂治療素材客製化不易；做法：生成式 AI 音樂療法系統（MusicGen）。  
 代表專案：[`TVGH-GenAI-Music-Therapy-System`](https://github.com/yuanchia/TVGH-GenAI-Music-Therapy-System) — 生成式 AI 音樂療法系統。
 
-備註：待確認；作者臨床身分不明。
+備註：待確認。
 
 ### [@YuChen-S](https://github.com/YuChen-S)
 涵蓋手部關節 ROM 計算、急救呼吸道管理與心理健康風險篩檢應用。  
@@ -776,7 +797,7 @@
 問題：NICU 藥物劑量與 pump 速率換算易錯；做法：NICU 用藥計算機。  
 代表專案：[`CMUH-NICU-medication-calculator`](https://github.com/Yunchia-Chang/CMUH-NICU-medication-calculator) — NICU 用藥計算機。
 
-備註：待確認；另有 `NICU-DR-calculator`；作者臨床身分待確認。
+備註：待確認；另有 `NICU-DR-calculator`。
 
 ### [@zinojeng](https://github.com/zinojeng)
 產出豐富，涵蓋醫療期刊 PDF→Markdown、糖尿病／CGM 與內分泌教學／HIS 決策支援。  
@@ -786,7 +807,7 @@
 問題：供應室物品條碼需手工製作；做法：網頁快速產生條碼。  
 代表專案：[`QRcodeNTUH`](https://github.com/zonkamain/QRcodeNTUH) — 供應室條碼產生網頁。
 
-備註：待確認；作者臨床身分不明。
+備註：待確認。
 
 ## 無公開 GitHub，但有公開作品
 
@@ -843,7 +864,9 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 ## 收錄原則
 
-- **臨床第一線**：原則上收錄現職醫院／診所或其他臨床第一線的醫事人員；已轉為純工程、全職創業或其他非臨床現職者，暫不納入。
+- **以醫師為主**：核心收錄現職臨床第一線的醫師；已轉為純工程、全職創業或其他非臨床現職的醫師，若沒有臨床工具產出，暫不納入。
+- **補充收錄**：其他醫事人員、醫學生／學生、業界、醫院資訊或行政人員，只要公開專案是**第一線臨床人員可直接使用的工具**（例如計算機、排班、衛教、病歷／流程輔助、教學），也作為補充收錄；作者身分不作門檻，但不收掛號／搶號機器人、空專案、課堂作業、垃圾內容與純行政用途。
+- **病人資料與憑證**：公開倉庫若疑似含病人資料、資料庫備份或憑證／金鑰，一律不收錄，以免擴散；作者處理後可再推薦。
 - **醫療產出**：需有公開可查、以醫療／健康／臨床／生醫為主題的開發成果，例如 GitHub 專案、開源工具、產品、論文程式碼或技術寫作。
 - **沒有個人程式庫帳號**：若沒有可列的個人 GitHub，但有本人公開、目前仍可開啟的產品或作品頁，另收於「無公開 GitHub，但有公開作品」，不混入上方 login 表。作品已下架只註記待補，不放失效連結；掛在他人倉庫的程式只註明託管位置，不當成其個人帳號。
 - **公開與 opt-in**：只使用本人公開的帳號／專案資訊；姓名、院所與詳細 bio 以本人明確自我公開或主動 opt-in 為準，不從零散來源推測身分。
