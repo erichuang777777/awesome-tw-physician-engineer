@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T14:00:56Z",
-  "generated_at_taipei": "2026-10-09 22:00（台北時間）",
+  "generated_at": "2026-10-09T14:09:03Z",
+  "generated_at_taipei": "2026-10-09 22:09（台北時間）",
   "window_days": 7,
-  "window_start": "2026-10-02T14:00:56Z",
+  "window_start": "2026-10-02T14:09:03Z",
   "roster_count": 131,
   "active_count": 54,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -13,6 +13,16 @@
       "profile_url": "https://github.com/agoodbear",
       "repos": [
         {
+          "name": "tw-er-ref-2x9k",
+          "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
+          "created_at": "2026-04-04T05:46:34Z",
+          "pushed_at": "2026-10-09T14:05:07Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：說明未寫具體痛點；做法：急診／急重症速查參考",
+          "theme": "急診／急重症"
+        },
+        {
           "name": "agoodbear.github.io",
           "url": "https://github.com/agoodbear/agoodbear.github.io",
           "created_at": "2023-12-14T11:50:01Z",
@@ -21,16 +31,6 @@
           "recently_pushed": true,
           "intro_zh": "問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法",
           "theme": "個人網站／部落格"
-        },
-        {
-          "name": "tw-er-ref-2x9k",
-          "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
-          "created_at": "2026-04-04T05:46:34Z",
-          "pushed_at": "2026-10-09T13:05:10Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：說明未寫具體痛點；做法：急診／急重症速查參考",
-          "theme": "急診／急重症"
         },
         {
           "name": "em-pulse-tw",
@@ -45,14 +45,14 @@
       ],
       "recent_pushes": [
         {
+          "repo": "agoodbear/tw-er-ref-2x9k",
+          "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
+          "pushed_at": "2026-10-08T12:05:09Z"
+        },
+        {
           "repo": "agoodbear/agoodbear.github.io",
           "url": "https://github.com/agoodbear/agoodbear.github.io",
           "pushed_at": "2026-10-09T09:09:45Z"
-        },
-        {
-          "repo": "agoodbear/tw-er-ref-2x9k",
-          "url": "https://github.com/agoodbear/tw-er-ref-2x9k",
-          "pushed_at": "2026-10-09T13:05:13Z"
         },
         {
           "repo": "agoodbear/emergency-cardiology-weekly",
@@ -60,7 +60,7 @@
           "pushed_at": "2026-10-06T22:37:56Z"
         }
       ],
-      "summary_zh": "@agoodbear 本週更新倉庫 「agoodbear.github.io」、「tw-er-ref-2x9k」、「em-pulse-tw」；另有 1 處公開推送。"
+      "summary_zh": "@agoodbear 本週更新倉庫 「tw-er-ref-2x9k」、「agoodbear.github.io」、「em-pulse-tw」；另有 1 處公開推送。"
     },
     {
       "login": "Chiehx0220",
@@ -144,6 +144,11 @@
         }
       ],
       "recent_pushes": [
+        {
+          "repo": "copper0722/corpus-capture",
+          "url": "https://github.com/copper0722/corpus-capture",
+          "pushed_at": "2026-10-09T08:59:46Z"
+        },
         {
           "repo": "copper0722/chrome-devtools-mcp",
           "url": "https://github.com/copper0722/chrome-devtools-mcp",
@@ -332,7 +337,7 @@
           "name": "awesome-tw-physician-engineer",
           "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
           "created_at": "2026-10-01T18:09:27Z",
-          "pushed_at": "2026-10-05T18:08:49Z",
+          "pushed_at": "2026-10-09T14:07:32Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結",
@@ -393,6 +398,16 @@
       "profile_url": "https://github.com/expertise88864",
       "repos": [
         {
+          "name": "user",
+          "url": "https://github.com/expertise88864/user",
+          "created_at": "2026-05-02T14:59:41Z",
+          "pushed_at": "2026-10-09T14:03:18Z",
+          "is_new": false,
+          "recently_pushed": true,
+          "intro_zh": "問題：使用者無法有效管理文章的編輯與發布流程；做法：建立明確的操作指南與審核機制以確保內容品質",
+          "theme": null
+        },
+        {
           "name": "-morning-report",
           "url": "https://github.com/expertise88864/-morning-report",
           "created_at": "2026-05-01T14:10:41Z",
@@ -400,16 +415,6 @@
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：使用者無法獲得個人化的晨報資訊；做法：自動寄送包含多元資訊的晨報系統",
-          "theme": null
-        },
-        {
-          "name": "user",
-          "url": "https://github.com/expertise88864/user",
-          "created_at": "2026-05-02T14:59:41Z",
-          "pushed_at": "2026-10-09T13:50:30Z",
-          "is_new": false,
-          "recently_pushed": true,
-          "intro_zh": "問題：使用者無法有效管理文章的編輯與發布流程；做法：建立明確的操作指南與審核機制以確保內容品質",
           "theme": null
         },
         {
@@ -455,7 +460,7 @@
           "pushed_at": "2026-10-05T02:41:36Z"
         }
       ],
-      "summary_zh": "@expertise88864 本週更新倉庫 「-morning-report」、「user」、「user-hsiao」、「CMUHdermatology」。"
+      "summary_zh": "@expertise88864 本週更新倉庫 「user」、「-morning-report」、「user-hsiao」、「CMUHdermatology」。"
     },
     {
       "login": "gosienna",
@@ -753,7 +758,7 @@
           "name": "escc-abstraction-test",
           "url": "https://github.com/jnynlin/escc-abstraction-test",
           "created_at": "2026-09-28T05:06:05Z",
-          "pushed_at": "2026-10-09T13:41:58Z",
+          "pushed_at": "2026-10-09T14:07:58Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：無法在安全環境中測試病歷摘錄功能；做法：提供加密的合成病人資料進行測試",
@@ -1308,7 +1313,7 @@
           "name": "fukuoka-trip-2026",
           "url": "https://github.com/meru6726/fukuoka-trip-2026",
           "created_at": "2026-10-04T08:12:26Z",
-          "pushed_at": "2026-10-07T06:40:35Z",
+          "pushed_at": "2026-10-09T14:04:20Z",
           "is_new": true,
           "recently_pushed": true,
           "intro_zh": "問題：說明未寫具體痛點；做法：昱安小說11/3(二)-11/10(二)福岡之旅",

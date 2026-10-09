@@ -1,6 +1,6 @@
 # 專案資料庫
 
-產生時間：`2026-10-09 22:00（台北時間）`
+產生時間：`2026-10-09 22:09（台北時間）`
 帳號 **131** · 倉庫 **1837**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
@@ -150,8 +150,8 @@
 
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
-- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 問題：說明未寫具體痛點；做法：急診／急重症速查參考
+- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁
 - [slidecue](https://github.com/agoodbear/slidecue) — 問題：上台時無法同時保持與聽眾的眼神接觸和查看講稿；做法：將講稿顯示在眼鏡鏡片上，並自動翻頁更新內容
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — 問題：在 Roam 中無法快速標記和管理需要修改的文字；做法：透過框選文字自動生成標記子 block 及指令泡泡框
@@ -586,8 +586,8 @@
 
 ## [@expertise88864](https://github.com/expertise88864) {#expertise88864}
 
-- [-morning-report](https://github.com/expertise88864/-morning-report) — 問題：使用者無法獲得個人化的晨報資訊；做法：自動寄送包含多元資訊的晨報系統
 - [user](https://github.com/expertise88864/user) — 問題：使用者無法有效管理文章的編輯與發布流程；做法：建立明確的操作指南與審核機制以確保內容品質
+- [-morning-report](https://github.com/expertise88864/-morning-report) — 問題：使用者無法獲得個人化的晨報資訊；做法：自動寄送包含多元資訊的晨報系統
 - [user-hsiao](https://github.com/expertise88864/user-hsiao) — 問題：缺乏專業的眼科衛教資源，患者難以獲得正確資訊；做法：建立靜態雙語眼科衛教網站，提供易於訪問的資訊
 - [CMUHdermatology](https://github.com/expertise88864/CMUHdermatology) — 問題：使用者無法快速找到安裝與啟動的正確步驟；做法：提供詳細的安裝指引與啟動流程說明
 - [brilliancelab](https://github.com/expertise88864/brilliancelab) — 問題：說明不足，看不出具體痛點；做法：brilliancelab：依名稱推斷的工具／實驗沒有可讀說明
