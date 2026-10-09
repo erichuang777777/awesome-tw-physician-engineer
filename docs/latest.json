@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T15:14:21Z",
-  "generated_at_taipei": "2026-10-09 23:14（台北時間）",
+  "generated_at": "2026-10-09T15:17:51Z",
+  "generated_at_taipei": "2026-10-09 23:17（台北時間）",
   "window_days": 7,
-  "window_start": "2026-10-02T15:14:21Z",
+  "window_start": "2026-10-02T15:17:51Z",
   "roster_count": 141,
   "active_count": 55,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -355,7 +355,7 @@
           "name": "awesome-tw-physician-engineer",
           "url": "https://github.com/erichuang777777/awesome-tw-physician-engineer",
           "created_at": "2026-10-01T18:09:27Z",
-          "pushed_at": "2026-10-09T15:07:17Z",
+          "pushed_at": "2026-10-09T15:17:41Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結",
@@ -629,14 +629,14 @@
       ],
       "recent_pushes": [
         {
+          "repo": "htlin222/from-irb-to-manuscript",
+          "url": "https://github.com/htlin222/from-irb-to-manuscript",
+          "pushed_at": "2026-10-09T10:26:42Z"
+        },
+        {
           "repo": "htlin222/hsct-2026",
           "url": "https://github.com/htlin222/hsct-2026",
           "pushed_at": "2026-10-08T12:09:02Z"
-        },
-        {
-          "repo": "htlin222/from-irb-to-manuscript",
-          "url": "https://github.com/htlin222/from-irb-to-manuscript",
-          "pushed_at": "2026-10-09T11:04:38Z"
         },
         {
           "repo": "htlin222/openevidence-mcp",
@@ -1540,7 +1540,7 @@
           "name": "startup",
           "url": "https://github.com/skydreamer0/startup",
           "created_at": "2026-02-22T04:08:18Z",
-          "pushed_at": "2026-10-09T15:04:02Z",
+          "pushed_at": "2026-10-09T15:16:22Z",
           "is_new": false,
           "recently_pushed": true,
           "intro_zh": "問題：藥局營運中商品、庫存與報表資料分散，難以整合管理；做法：建立共用 API 以整合 POS、庫存與會員資料流程",

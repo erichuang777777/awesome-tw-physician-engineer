@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T15:14:21Z",
-  "generated_at_taipei": "2026-10-09 23:14（台北時間）",
+  "generated_at": "2026-10-09T15:17:51Z",
+  "generated_at_taipei": "2026-10-09 23:17（台北時間）",
   "roster_count": 141,
   "repo_count": 2014,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -682,8 +682,8 @@
           "intro_zh": "問題：無法找到運行 AI Studio 應用的具體步驟；做法：提供本地運行應用的完整指引和資源",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "b436d6ccfb2e3acf"
+          "readme_hash": "b436d6ccfb2e3acf",
+          "archived": false
         },
         {
           "name": "check",
@@ -698,8 +698,8 @@
           "intro_zh": "問題：無法在本地環境運行 AI Studio 應用；做法：提供本地運行所需的完整資源與指令",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "951261dd1ad00496"
+          "readme_hash": "951261dd1ad00496",
+          "archived": false
         },
         {
           "name": "-",
@@ -714,8 +714,8 @@
           "intro_zh": "問題：說明未寫具體痛點；做法：HERB相關工具",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "917acf65a3447472"
+          "readme_hash": "917acf65a3447472",
+          "archived": false
         },
         {
           "name": "medicine",
@@ -730,8 +730,8 @@
           "intro_zh": "問題：無法找到具體的應用場景或使用說明；做法：提供本地運行和部署的完整環境設置指南",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "fc7b2351b9057de7"
+          "readme_hash": "fc7b2351b9057de7",
+          "archived": false
         },
         {
           "name": "-tzuchi-pharmacy",
@@ -746,8 +746,8 @@
           "intro_zh": "問題：現場無法快速獲取藥品資訊；做法：提供本地運行的應用程式以查詢藥品資料",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "fc11a07f51b5dd64"
+          "readme_hash": "fc11a07f51b5dd64",
+          "archived": false
         },
         {
           "name": "HERB",
@@ -762,8 +762,8 @@
           "intro_zh": "問題：無法在本地環境運行 AI Studio 應用；做法：提供完整的本地運行與部署指引",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "cb58af70a855f0b6"
+          "readme_hash": "cb58af70a855f0b6",
+          "archived": false
         },
         {
           "name": "Annie1613",
@@ -778,8 +778,8 @@
           "intro_zh": "問題：說明不足，看不出具體痛點；做法：Annie1613：依名稱推斷的工具／實驗沒有可讀說明",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "5d849e867581d9bd"
+          "readme_hash": "5d849e867581d9bd",
+          "archived": false
         },
         {
           "name": "Annie1600",
@@ -794,8 +794,8 @@
           "intro_zh": "問題：說明不足，看不出具體痛點；做法：Annie1600：依名稱推斷的工具／實驗沒有可讀說明",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "ea77d2c419a65dea"
+          "readme_hash": "ea77d2c419a65dea",
+          "archived": false
         },
         {
           "name": "Annie26",
@@ -810,8 +810,8 @@
           "intro_zh": "問題：說明不足，看不出具體痛點；做法：Annie26：依名稱推斷的工具／實驗沒有可讀說明",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "b3756b502ed6ddd5"
+          "readme_hash": "b3756b502ed6ddd5",
+          "archived": false
         }
       ]
     },
@@ -5860,7 +5860,7 @@
           "topics": [],
           "language": "Python",
           "stars": 3,
-          "pushed_at": "2026-10-09T15:07:17Z",
+          "pushed_at": "2026-10-09T15:17:41Z",
           "theme": null,
           "intro_zh": "問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結",
           "intro_source": "readme_llm",
@@ -15109,8 +15109,8 @@
           "intro_zh": "問題：醫療人員無法快速獲得個別病患的教育資料；做法：根據病患資料自動生成個性化教育文件",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "273048a78643470d"
+          "readme_hash": "273048a78643470d",
+          "archived": false
         },
         {
           "name": "Japan-travel",
@@ -15125,8 +15125,8 @@
           "intro_zh": "問題：說明未寫具體痛點；做法：Travel／網站相關工具",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "f4a1feef83c506ca"
+          "readme_hash": "f4a1feef83c506ca",
+          "archived": false
         },
         {
           "name": "juliachou0530.github.io",
@@ -15141,8 +15141,8 @@
           "intro_zh": "問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "b24db3e20db3277d"
+          "readme_hash": "b24db3e20db3277d",
+          "archived": false
         },
         {
           "name": "TMUH-CareGuide-AI",
@@ -15157,8 +15157,8 @@
           "intro_zh": "問題：查詢病患資料時無法快速獲得個人化衛教手冊；做法：透過 Subject ID 自動生成個人化衛教 PDF",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "2716dd689f85a8cf"
+          "readme_hash": "2716dd689f85a8cf",
+          "archived": false
         }
       ]
     },
@@ -19205,8 +19205,8 @@
           "intro_zh": "問題：說明未寫具體痛點；做法：Release相關工具",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "142a32822b9c14e9"
+          "readme_hash": "142a32822b9c14e9",
+          "archived": false
         },
         {
           "name": "TSGH_Project",
@@ -19236,8 +19236,8 @@
           "intro_zh": "問題：說明不足，看不出具體痛點；做法：Somato：依名稱推斷的工具／實驗沒有可讀說明",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "273a4b00192c96f3"
+          "readme_hash": "273a4b00192c96f3",
+          "archived": false
         },
         {
           "name": "github_laerning_note",
@@ -19252,8 +19252,8 @@
           "intro_zh": "問題：對於新手使用 GitHub 管理頁面或部落格時缺乏指導；做法：提供教學影片以協助學習操作技巧",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "6e2717dd5c6db878"
+          "readme_hash": "6e2717dd5c6db878",
+          "archived": false
         },
         {
           "name": "github-slideshow",
@@ -19268,8 +19268,8 @@
           "intro_zh": "問題：學習 GitHub 時缺乏實作練習的指導；做法：透過機器人引導學習活動與互動",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "4201e404cd175eb3"
+          "readme_hash": "4201e404cd175eb3",
+          "archived": false
         }
       ]
     },
@@ -20078,8 +20078,8 @@
           "intro_zh": "問題：新手醫師在超音波下進行針尖定位時缺乏實際練習機會；做法：提供雙手操作的模擬教學遊戲進行練習",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "02bfb6acfeecdee0"
+          "readme_hash": "02bfb6acfeecdee0",
+          "archived": false
         },
         {
           "name": "dubrovnik-free-time-guide",
@@ -20094,8 +20094,8 @@
           "intro_zh": "問題：自由活動時缺乏詳細的行程與景點資訊；做法：提供完整的中文攻略與導航連結，方便查詢與使用",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "5da5979ff78e4910"
+          "readme_hash": "5da5979ff78e4910",
+          "archived": false
         },
         {
           "name": "auto_tms",
@@ -20110,8 +20110,8 @@
           "intro_zh": "問題：教育訓練管理系統的線上課程需手動操作，耗時且繁瑣；做法：自動化執行課程，包括影片播放、問卷填寫等",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "f00a3fd3943b78d5"
+          "readme_hash": "f00a3fd3943b78d5",
+          "archived": false
         },
         {
           "name": "pssc-qps4-demo",
@@ -20141,8 +20141,8 @@
           "intro_zh": "問題：醫療人員無法快速選擇並複製特定的 DICOM 影像系列；做法：提供圖形化介面以篩選和複製影像系列",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "e9a8c0aac1f75852"
+          "readme_hash": "e9a8c0aac1f75852",
+          "archived": false
         },
         {
           "name": "LLM_celltype_app",
@@ -20157,8 +20157,8 @@
           "intro_zh": "問題：說明未寫具體痛點；做法：語言模型相關工具；偏生成式 AI／LLM",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "fc5ff46832113332"
+          "readme_hash": "fc5ff46832113332",
+          "archived": false
         },
         {
           "name": "GPTCelltype_work",
@@ -20203,8 +20203,8 @@
           "intro_zh": "問題：無法有效計算多變量時間序列的樣本熵；做法：使用改寫的 C++ 嵌入函數加速計算過程",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "015063baaf6c26c6"
+          "readme_hash": "015063baaf6c26c6",
+          "archived": false
         },
         {
           "name": "Myapp",
@@ -20219,8 +20219,8 @@
           "intro_zh": "問題：說明不足，看不出具體痛點；做法：Myapp：依名稱推斷的工具／實驗沒有可讀說明",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "2446e431f04a1b52"
+          "readme_hash": "2446e431f04a1b52",
+          "archived": false
         },
         {
           "name": "PedAdCardMaker",
@@ -20250,8 +20250,8 @@
           "intro_zh": "問題：說明未寫具體痛點；做法：課程相關的資料集",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "8700468a748e8498"
+          "readme_hash": "8700468a748e8498",
+          "archived": false
         },
         {
           "name": "generalized-webhost-downloader-tool",
@@ -24502,7 +24502,7 @@
           "topics": [],
           "language": "TypeScript",
           "stars": 1,
-          "pushed_at": "2026-10-09T15:04:02Z",
+          "pushed_at": "2026-10-09T15:16:22Z",
           "theme": null,
           "intro_zh": "問題：藥局營運中商品、庫存與報表資料分散，難以整合管理；做法：建立共用 API 以整合 POS、庫存與會員資料流程",
           "intro_source": "readme_llm",
@@ -29737,8 +29737,8 @@
           "intro_zh": "問題：說明未寫具體痛點；做法：院內版 vue改angular",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "ffce67ecaebf3616"
+          "readme_hash": "ffce67ecaebf3616",
+          "archived": false
         },
         {
           "name": "Nephro-brain-os",
@@ -29753,8 +29753,8 @@
           "intro_zh": "問題：腎臟科醫師缺乏整合的臨床知識與推理工具；做法：利用 AI 整合文獻與臨床推理建立智慧中樞平台",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "1ec83e6cdbd35044"
+          "readme_hash": "1ec83e6cdbd35044",
+          "archived": false
         },
         {
           "name": "dialysis-cdss-demo",
@@ -29769,8 +29769,8 @@
           "intro_zh": "問題：透析查房時缺乏即時的藥物調整建議；做法：利用 Python 腳本自動生成調整建議並同步資料",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "063b9efcfca8b32e"
+          "readme_hash": "063b9efcfca8b32e",
+          "archived": false
         },
         {
           "name": "iNephro",
@@ -29785,8 +29785,8 @@
           "intro_zh": "問題：缺乏簡易的 React 與 Vite 結合範本；做法：提供最小化設置以啟動 React 和 Vite 整合",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "412463d39f489d88"
+          "readme_hash": "412463d39f489d88",
+          "archived": false
         },
         {
           "name": "dialysis-schedule",
@@ -29816,8 +29816,8 @@
           "intro_zh": "問題：缺乏明確的操作流程與驗證標準；做法：提供詳細的開發指南與驗收手冊",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "bbbcd98725c33e3d"
+          "readme_hash": "bbbcd98725c33e3d",
+          "archived": false
         },
         {
           "name": "dialysis-app-tph",
@@ -29832,8 +29832,8 @@
           "intro_zh": "問題：說明未寫具體痛點；做法：台北醫院血液透析中心管理平台",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "ffce67ecaebf3616"
+          "readme_hash": "ffce67ecaebf3616",
+          "archived": false
         },
         {
           "name": "dialysis-app-vue",
@@ -29848,8 +29848,8 @@
           "intro_zh": "問題：無法有效管理透析病人的資料與流程；做法：使用 Vue 3 與 Vite 開發管理系統介面",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "f6c0b55e46d7d2a4"
+          "readme_hash": "f6c0b55e46d7d2a4",
+          "archived": false
         },
         {
           "name": "dialysis-inventory",
@@ -29864,8 +29864,8 @@
           "intro_zh": "問題：洗腎室缺乏有效的庫存管理工具；做法：建立一個專門的庫存管理系統以追蹤物資使用情況",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "f6c0b55e46d7d2a4"
+          "readme_hash": "f6c0b55e46d7d2a4",
+          "archived": false
         },
         {
           "name": "dialysis-app-angular",
@@ -29880,8 +29880,8 @@
           "intro_zh": "問題：現場需要將 Vue 應用轉換為 Angular 版本；做法：提供一個轉換模板以便快速開發",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "f6c0b55e46d7d2a4"
+          "readme_hash": "f6c0b55e46d7d2a4",
+          "archived": false
         },
         {
           "name": "dialysis-app-angular-standalone",
@@ -29911,8 +29911,8 @@
           "intro_zh": "問題：缺乏針對 React 與 Vite 的快速開發範本；做法：提供最小化設置以啟用 HMR 和 ESLint 規則",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "7a6f004c103a2e32"
+          "readme_hash": "7a6f004c103a2e32",
+          "archived": false
         },
         {
           "name": "dialysis-app-standalone1",
@@ -29927,8 +29927,8 @@
           "intro_zh": "問題：無法在無網路環境中安裝和執行應用程式；做法：打包為離線可執行檔並自動處理相依性",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "31b7d1944eee9854"
+          "readme_hash": "31b7d1944eee9854",
+          "archived": false
         },
         {
           "name": "inephro-web",
@@ -33214,8 +33214,8 @@
           "intro_zh": "問題：無法方便地查找和使用 Addgene 書籍內容；做法：建立靜態網站，按書籍和主題組織內容",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "0d459e56ef5e11eb"
+          "readme_hash": "0d459e56ef5e11eb",
+          "archived": false
         },
         {
           "name": "radonc-tutorial",
@@ -33230,8 +33230,8 @@
           "intro_zh": "問題：學習放射腫瘤學時缺乏互動式資源；做法：提供雙語互動教學與考題，涵蓋多個主題",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "e190629d3e168c56"
+          "readme_hash": "e190629d3e168c56",
+          "archived": false
         },
         {
           "name": "tsgh-labweb",
@@ -33246,8 +33246,8 @@
           "intro_zh": "問題：研究團隊無法快速建立美觀的網站；做法：提供無需編碼的網站建置工具與模板選擇",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "c2a5bfbfb99b12eb"
+          "readme_hash": "c2a5bfbfb99b12eb",
+          "archived": false
         },
         {
           "name": "DriverOmicsNet",
@@ -33262,8 +33262,8 @@
           "intro_zh": "問題：無法整合多種組學數據以探索癌症驅動基因；做法：使用圖卷積網絡框架進行數據分析",
           "intro_source": "readme_llm",
           "intro_thin": false,
-          "archived": false,
-          "readme_hash": "fa4abd0ec1de0d20"
+          "readme_hash": "fa4abd0ec1de0d20",
+          "archived": false
         },
         {
           "name": "tsgh-rtai",
@@ -33308,8 +33308,8 @@
           "intro_zh": "問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法",
           "intro_source": "heuristic",
           "intro_thin": true,
-          "archived": false,
-          "readme_hash": "4a4d17bb6de39a45"
+          "readme_hash": "4a4d17bb6de39a45",
+          "archived": false
         },
         {
           "name": "Radiosensitivity_index",
