@@ -2170,6 +2170,7 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         '<a href="#weekly">本週值得追蹤</a>',
         '<a href="#nongithub">無公開 GitHub 的公開作品</a>',
         '<a href="#database">專案資料庫</a>',
+        '<a href="./analysis.html">整體分析</a>',
         '<a href="./repos.md">Markdown 資料庫</a>',
         '<a href="./data/repos.json">repos.json</a>',
         '<a href="./latest.json">latest.json</a>',
@@ -2360,6 +2361,12 @@ def write_outputs(digest: dict[str, Any], repo_db: dict[str, Any]) -> None:
     (DOCS_DIR / "index.md").write_text(render_index_md(digest, repo_db), encoding="utf-8")
     (DOCS_DIR / "repos.md").write_text(render_repos_md(repo_db), encoding="utf-8")
     (DOCS_DIR / "index.html").write_text(render_index_html(digest, repo_db), encoding="utf-8")
+    try:
+        import importlib.util
+        _spec = importlib.util.spec_from_file_location("build_analysis", Path(__file__).resolve().parent / "build_analysis.py")
+        _mod = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(_mod); _mod.main()
+    except Exception as exc:  # 分析頁失敗不影響週報
+        print(f"warning: build_analysis failed: {exc}", file=sys.stderr)
 
 
 def main() -> int:

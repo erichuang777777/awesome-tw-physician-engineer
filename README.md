@@ -939,6 +939,8 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 站點（繁體中文）：**https://erichuang777777.github.io/awesome-tw-physician-engineer/**
 
+整體分析（大家在解決什麼問題、重複造輪子、可直接用的成果、精妙做法）：**https://erichuang777777.github.io/awesome-tw-physician-engineer/analysis.html**
+
 版面：
 
 1. **上方「本週動態摘要」**：統整名冊帳號近一週的公開新建／推送動態（繁中摘要）。
