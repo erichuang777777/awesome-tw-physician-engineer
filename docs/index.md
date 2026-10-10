@@ -2,11 +2,11 @@
 
 隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。
 
-- 產生時間：`2026-10-09 23:17（台北時間）`
-- 動態視窗：近 **7** 天（自 `2026-10-02T15:17:51Z`）
+- 產生時間：`2026-10-10 16:53（台北時間）`
+- 動態視窗：近 **7** 天（自 `2026-10-03T08:53:11Z`）
 - 名冊帳號：**141**
 - 本週精選：**10**
-- 公開非 fork 倉庫總數：**2014**
+- 公開非 fork 倉庫總數：**2015**
 
 > **隱私：** 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -16,20 +16,20 @@
 
 ## 本週值得追蹤
 
-近 7 天掃描 141 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 45 則較安靜或非臨床向更新。
+近 7 天掃描 141 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 48 則較安靜或非臨床向更新。
 
-- [@htlin222](https://github.com/htlin222) — 新建 腫瘤／血液相關「from-irb-to-manuscript」；更新了 腫瘤／血液相關「lin-hsiehting」、臨床指引／路徑「openevidence-mcp」、臨床指引／路徑「ebmt-handbook-skill」 等 5 個
-- [@liangRXdev](https://github.com/liangRXdev) — 新建 健保／編碼與申報「phi-guard-tw」；更新了 藥學／藥品資訊「TFDA-drug-recall-dashboard」、藥學／藥品資訊「TFDA-drug-shortage-dashboard」、健保／編碼與申報「NHI-drug-price-history」 等 6 個
+- [@htlin222](https://github.com/htlin222) — 新建 腫瘤／血液相關「from-irb-to-manuscript」；更新了 腫瘤／血液相關「ngs-tertiary-analysis-skills」、腫瘤／血液相關「irb-in-hurry」、臨床指引／路徑「ebmt-handbook-skill」 等 7 個
+- [@liangRXdev](https://github.com/liangRXdev) — 新建 健保／編碼與申報「phi-guard-tw」；更新了 健保／編碼與申報「NHI-drug-price-history」、藥學／藥品資訊「TFDA-drug-recall-dashboard」、藥學／藥品資訊「TFDA-drug-shortage-dashboard」 等 6 個
 - [@erichuang777777](https://github.com/erichuang777777) — 新建 腫瘤／血液相關「NTUH-breastcancer-finder-MCP」、「OpenOnco-Breast-Finder」
 - [@kenkao0127-droid](https://github.com/kenkao0127-droid) — 新建 臨床指引／路徑「chenggong-meimei-clinic」
 - [@skydreamer0](https://github.com/skydreamer0) — 新建 臨床指引／路徑「clinic-voice-notes」
 - [@drpwchen](https://github.com/drpwchen) — 新建 臨床指引／路徑「clinic-pacer」
 - [@meru6726](https://github.com/meru6726) — 新建 牙醫／口腔「TSGH-ENDO-clinic-app」
 - [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」
-- [@keanu77](https://github.com/keanu77) — 更新了 藥學／藥品資訊「antidopingplatform」、臨床指引／路徑「review.sportsmedicine」
 - [@shin13](https://github.com/shin13) — 更新了 健保／編碼與申報「nhi-knowledge-extractor」、藥學／藥品資訊「opentaimed」
+- [@kmuh-nursing](https://github.com/kmuh-nursing) — 更新了 護理「Kmuh3」、藥學／藥品資訊「kmuh」
 
-_另有 45 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
+_另有 48 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
 
 ---
 
@@ -93,7 +93,7 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。
 
-共 **2014** 個倉庫、**141** 個帳號。
+共 **2015** 個倉庫、**141** 個帳號。
 
 來源：[erichuang777777/awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer)
 

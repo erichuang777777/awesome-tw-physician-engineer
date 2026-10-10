@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-10-09 23:17（台北時間）`
-帳號 **141** · 倉庫 **2014**
+產生時間：`2026-10-10 16:53（台北時間）`
+帳號 **141** · 倉庫 **2015**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -98,7 +98,7 @@
 - [@MPR455](#mpr455)（3）
 - [@NeoChiang](#neochiang)（3）
 - [@nps798](#nps798)（4）
-- [@NTUHpAIR](#ntuhpair)（2）
+- [@NTUHpAIR](#ntuhpair)（3）
 - [@odafeng](#odafeng)（34）
 - [@peishenwu](#peishenwu)（15）
 - [@PeterWei078](#peterwei078)（12）
@@ -161,8 +161,8 @@
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 問題：說明未寫具體痛點；做法：急診／急重症速查參考
-- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁
+- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [slidecue](https://github.com/agoodbear/slidecue) — 問題：上台時無法同時保持與聽眾的眼神接觸和查看講稿；做法：將講稿顯示在眼鏡鏡片上，並自動翻頁更新內容
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — 問題：在 Roam 中無法快速標記和管理需要修改的文字；做法：透過框選文字自動生成標記子 block 及指令泡泡框
 - [voice-podcast](https://github.com/agoodbear/voice-podcast) — 問題：說明未寫具體痛點；做法：急診熊心聲 Podcast — AI 研究+查核+本人聲音合成的個人知識型 pod…
@@ -449,10 +449,10 @@
 
 ## [@cych05845-jpg](https://github.com/cych05845-jpg) {#cych05845-jpg}
 
+- [ed-rollcall](https://github.com/cych05845-jpg/ed-rollcall) — 問題：說明不足，看不出具體痛點；做法：ed rollcall：依名稱推斷的工具／實驗沒有可讀說明
 - [ed-voice-note](https://github.com/cych05845-jpg/ed-voice-note) — 問題：說明不足，看不出具體痛點；做法：語音／筆記工具依名稱推斷
 - [teach-app](https://github.com/cych05845-jpg/teach-app) — 問題：說明未寫具體痛點；做法：嘉基健康小隊互動APP
 - [scheduler-leader](https://github.com/cych05845-jpg/scheduler-leader) — 問題：說明不足，看不出具體痛點；做法：排班工具依名稱推斷
-- [ed-rollcall](https://github.com/cych05845-jpg/ed-rollcall) — 問題：說明不足，看不出具體痛點；做法：ed rollcall：依名稱推斷的工具／實驗沒有可讀說明
 - [MCI](https://github.com/cych05845-jpg/MCI) — 問題：說明不足，看不出具體痛點；做法：MCI：依名稱推斷的工具／實驗沒有可讀說明
 - [emergency-activation-platform](https://github.com/cych05845-jpg/emergency-activation-platform) — 問題：說明未寫具體痛點；做法：急診／平台相關工具；偏急診／急重症
 - [ed-board](https://github.com/cych05845-jpg/ed-board) — 問題：說明不足，看不出具體痛點；做法：ed board：依名稱推斷的工具／實驗沒有可讀說明
@@ -533,9 +533,9 @@
 
 ## [@drhao](https://github.com/drhao) {#drhao}
 
-- [forecast-teller](https://github.com/drhao/forecast-teller) — 問題：無法即時掌握流感預測與回測結果；做法：建立線上儀表板，提供每週預測與評估報告
-- [notifiable_diseases](https://github.com/drhao/notifiable_diseases) — 問題：無法即時獲取法定傳染病的最新病例定義與防治手冊；做法：自動化爬蟲每日比對並生成靜態儀表板
 - [lottery](https://github.com/drhao/lottery) — 問題：說明不足，看不出具體痛點；做法：lottery：依名稱推斷的工具／實驗沒有可讀說明
+- [notifiable_diseases](https://github.com/drhao/notifiable_diseases) — 問題：無法即時獲取法定傳染病的最新病例定義與防治手冊；做法：自動化爬蟲每日比對並生成靜態儀表板
+- [forecast-teller](https://github.com/drhao/forecast-teller) — 問題：無法即時掌握流感預測與回測結果；做法：建立線上儀表板，提供每週預測與評估報告
 - [clinic-scheduler](https://github.com/drhao/clinic-scheduler) — 問題：醫療人員排班時缺乏公平性與協調性；做法：利用智慧自動排班演算法進行公平性權重分配
 - [noti-check](https://github.com/drhao/noti-check) — 問題：醫療人員在查詢法定傳染病通報定義時不便；做法：提供 Chrome 擴充功能即時查詢病例定義與條件
 - [kotobacho](https://github.com/drhao/kotobacho) — 問題：說明不足，看不出具體痛點；做法：kotobacho：依名稱推斷的工具／實驗沒有可讀說明
@@ -758,18 +758,19 @@
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
 - [sponge-bob](https://github.com/htlin222/sponge-bob) — 問題：無法批次為 Google Drive 資料夾中的海綿寶寶影片自動加上繁體中文字幕；做法：利用雲端運算自動處理影片並生成字幕檔案
+- [stagecast](https://github.com/htlin222/stagecast) — 問題：長時間的代理作業難以觀看和驗證；做法：透過階段檢查確保每個階段在完成後才進入下一步
+- [ngs-tertiary-analysis-skills](https://github.com/htlin222/ngs-tertiary-analysis-skills) — 問題：臨床報告生成過程繁瑣，缺乏自動化工具；做法：使用 R 管道自動生成符合 ESMO 標準的臨床報告
+- [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
+- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
+- [ebmt-handbook-skill](https://github.com/htlin222/ebmt-handbook-skill) — 問題：臨床人員在移植過程中缺乏即時的指引和計算工具；做法：提供結構化的臨床知識和決策樹給 AI 代理人使用
+- [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料
 - [from-irb-to-manuscript](https://github.com/htlin222/from-irb-to-manuscript) — 問題：醫師無法清楚掌握從 IRB 到期刊接受的完整流程；做法：提供 34 句白話 prompt 及各階段產物的紀錄
 - [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
-- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
 - [hsct-2026](https://github.com/htlin222/hsct-2026) — 問題：小組成員無法有效協作學習血液及骨髓移植考題；做法：提供多選題庫與即時協作解釋功能
 - [openevidence-mcp](https://github.com/htlin222/openevidence-mcp) — 問題：無法直接從 AI 工具查詢 OpenEvidence，因為 API 被機器人檢測阻擋；做法：透過瀏覽器擴充功能在本地中繼請求，保持登入狀態
-- [ebmt-handbook-skill](https://github.com/htlin222/ebmt-handbook-skill) — 問題：臨床人員在移植過程中缺乏即時的指引和計算工具；做法：提供結構化的臨床知識和決策樹給 AI 代理人使用
-- [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
-- [stagecast](https://github.com/htlin222/stagecast) — 問題：長時間的代理作業難以觀看和驗證；做法：透過階段檢查確保每個階段在完成後才進入下一步
 - [cps-skills](https://github.com/htlin222/cps-skills) — 問題：臨床診斷過程中缺乏結構化的多角色推理；做法：應用貝葉斯推理更新疾病機率並生成最終診斷
 - [nccn-guidelines-downloader](https://github.com/htlin222/nccn-guidelines-downloader) — 問題：無法方便下載 NCCN 臨床實踐指導方針 PDF；做法：透過 CLI 腳本或 PWA 介面使用個人 NCCN 帳號下載
 - [zitie-generator](https://github.com/htlin222/zitie-generator) — 問題：無法快速生成繁體中文硬筆字帖以供練習；做法：線上生成可列印的繁體中文硬筆字帖，支持多種格式與設定
-- [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料
 - [meta-pipe](https://github.com/htlin222/meta-pipe) — 問題：進行系統性回顧時，文獻篩選和數據提取過程繁瑣；做法：自動化九階段流程，生成可用的手稿輸出
 - [live-google-slide](https://github.com/htlin222/live-google-slide) — 問題：簡報時無法即時同步內容給觀眾，缺乏控制權限；做法：透過 Cloudflare Worker 和 PIN 控管即時同步 Google…
 - [mcq-bank](https://github.com/htlin222/mcq-bank) — 問題：小組成員無法有效協作學習和討論題目；做法：提供即時的單題練習和協作詳解功能
@@ -860,7 +861,6 @@
 - [hahow-mentor-agent](https://github.com/htlin222/hahow-mentor-agent) — 問題：導師在繁忙日程中無法及時回覆學生問題；做法：自動草擬回覆，需經人類審核後發送
 - [minimalism-slides](https://github.com/htlin222/minimalism-slides) — 問題：簡報製作過程中缺乏即時同步與PDF匯出功能；做法：使用純HTML/CSS/JS架構實現多螢幕同步與PDF導出
 - [mbc-evidence-dag-paper](https://github.com/htlin222/mbc-evidence-dag-paper) — 問題：臨床證據框架缺乏可重複性與透明度；做法：使用有向無環圖與雙重 LLM 標註來評估證據缺口
-- [ngs-tertiary-analysis-skills](https://github.com/htlin222/ngs-tertiary-analysis-skills) — 問題：臨床報告生成過程繁瑣，缺乏自動化工具；做法：使用 R 管道自動生成符合 ESMO 標準的臨床報告
 - [hematology-board-review](https://github.com/htlin222/hematology-board-review) — 問題：考生在準備 ABIM 血液學認證考試時缺乏結構化學習資源；做法：提供以考試為導向的知識庫，結合自我測驗與引用來源
 - [flowdoc](https://github.com/htlin222/flowdoc) — 問題：臨床試驗報告流程圖生成繁瑣，依賴 R 環境；做法：使用結構化數據文件生成高品質流程圖，無需外部依賴
 - [zh-ebn-report-skill](https://github.com/htlin222/zh-ebn-report-skill) — 問題：護理人員撰寫實證報告時缺乏系統化指導；做法：提供完整的實證 5A 步驟與自動化工具輔助撰寫
@@ -1306,9 +1306,9 @@
 ## [@liangRXdev](https://github.com/liangRXdev) {#liangrxdev}
 
 - [phi-guard-tw](https://github.com/liangRXdev/phi-guard-tw) — 問題：在使用 Claude Code 時，無法自動遮罩台灣病患的敏感識別資料；做法：強制在模型讀取前遮罩固定格式的身分證等欄位
+- [NHI-drug-price-history](https://github.com/liangRXdev/NHI-drug-price-history) — 問題：無法快速查詢健保藥品的歷史支付價格；做法：提供完整的健保藥品價格歷史查詢系統
 - [TFDA-drug-recall-dashboard](https://github.com/liangRXdev/TFDA-drug-recall-dashboard) — 問題：臨床人員無法即時獲知藥品回收公告；做法：自動抓取食藥署資料並視覺化展示
 - [TFDA-drug-shortage-dashboard](https://github.com/liangRXdev/TFDA-drug-shortage-dashboard) — 問題：臨床人員無法即時獲得缺藥及替代藥品資訊；做法：自動抓取並視覺化顯示 TFDA 公告資料
-- [NHI-drug-price-history](https://github.com/liangRXdev/NHI-drug-price-history) — 問題：無法快速查詢健保藥品的歷史支付價格；做法：提供完整的健保藥品價格歷史查詢系統
 - [TFDA-drug-id-quiz](https://github.com/liangRXdev/TFDA-drug-id-quiz) — 問題：藥師在臨床中無法快速辨識藥品外觀；做法：透過實拍圖進行藥品名稱自我測驗
 - [pill-detective-tw](https://github.com/liangRXdev/pill-detective-tw) — 問題：藥品外觀搜尋時無法快速確認候選藥品；做法：依刻字、顏色、形狀從公開資料縮小清單供比對
 - [TFDA-drug-info-search](https://github.com/liangRXdev/TFDA-drug-info-search) — 問題：查詢藥品資訊時無法即時獲得最新資料；做法：自動更新並串接政府開放資料的靜態 JSON 快取
@@ -1652,6 +1652,7 @@
 
 ## [@NTUHpAIR](https://github.com/NTUHpAIR) {#ntuhpair}
 
+- [English-practice](https://github.com/NTUHpAIR/English-practice) — 問題：說明未寫具體痛點；做法：英文／回顧／練習相關工具
 - [cotrain-schedule](https://github.com/NTUHpAIR/cotrain-schedule) — 問題：說明未寫具體痛點；做法：排班相關工具
 - [Rheuma_calculator](https://github.com/NTUHpAIR/Rheuma_calculator) — 問題：說明未寫具體痛點；做法：計算器，用於病人／風濕
 
@@ -1789,8 +1790,8 @@
 
 ## [@skydreamer0](https://github.com/skydreamer0) {#skydreamer0}
 
-- [startup](https://github.com/skydreamer0/startup) — 問題：藥局營運中商品、庫存與報表資料分散，難以整合管理；做法：建立共用 API 以整合 POS、庫存與會員資料流程
 - [fortunetelling](https://github.com/skydreamer0/fortunetelling) — 問題：使用者無法快速獲得命理分析結果；做法：結合多種命理工具進行綜合計算與解讀
+- [startup](https://github.com/skydreamer0/startup) — 問題：藥局營運中商品、庫存與報表資料分散，難以整合管理；做法：建立共用 API 以整合 POS、庫存與會員資料流程
 - [clinic-voice-notes](https://github.com/skydreamer0/clinic-voice-notes) — 問題：醫療人員需手動輸入病歷草稿，耗時且易出錯；做法：透過語音輸入自動轉錄並整理病歷草稿
 - [crm](https://github.com/skydreamer0/crm) — 問題：業務人員需手動登入 CRM 系統填寫報表，耗時且繁瑣；做法：透過瀏覽器自動化技術自動完成報表填寫工作
 - [novel_world_without_loss](https://github.com/skydreamer0/novel_world_without_loss) — 問題：缺乏系統化的長篇小說創作與管理工具；做法：整合世界觀、角色設定與章節管理於互動式閱讀器中
@@ -2416,8 +2417,8 @@
 
 ## [@yfwu](https://github.com/yfwu) {#yfwu}
 
-- [.emacs.d](https://github.com/yfwu/.emacs.d) — 問題：說明未寫具體痛點；做法：Emacs／設定相關工具
 - [FuGames](https://github.com/yfwu/FuGames) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [.emacs.d](https://github.com/yfwu/.emacs.d) — 問題：說明未寫具體痛點；做法：Emacs／設定相關工具
 - [FuGym](https://github.com/yfwu/FuGym) — 問題：說明不足，看不出具體痛點；做法：FuGym：依名稱推斷的工具／實驗沒有可讀說明
 - [FuCard](https://github.com/yfwu/FuCard) — 問題：說明不足，看不出具體痛點；做法：FuCard：依名稱推斷的工具／實驗沒有可讀說明
 - [FuGuided](https://github.com/yfwu/FuGuided) — 問題：說明不足，看不出具體痛點；做法：FuGuided：依名稱推斷的工具／實驗沒有可讀說明
