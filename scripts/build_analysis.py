@@ -226,6 +226,13 @@ def build() -> str:
         for n in hit: cnt[n] += 1; auth[n].add(login)
     total = len(repos); accounts = len(db.get("accounts") or [])
 
+    owners = {a["login"].lower() for a in db.get("accounts") or []}
+    alias = {"denovortho": "cutemo0953", "periop-tools": "jenniferliang813-netizen"}
+
+    def present(fn):
+        o = fn.split("/")[0].lower()
+        return alias.get(o, o) in owners
+
     def link(fn):
         return f'<a href="https://github.com/{esc(fn)}">{esc(fn)}</a>'
 
@@ -242,6 +249,9 @@ def build() -> str:
     out.append(f'<section class="card" id="dupes"><h2>二、重複造輪子最多的題目</h2><p class="meta">想做之前先看看別人做好的，或一起合作。</p><div class="tbl"><table><thead><tr><th>題目</th><th>repo</th><th>作者</th></tr></thead><tbody>{drows}</tbody></table></div></section>')
     parts = ['<section class="card" id="ready"><h2>三、已經做好、可以直接用的成果</h2><p class="meta">依類別精選；「線上版」可直接打開使用。收錄不代表背書，請自行評估資料安全與院內規範。</p>']
     for grp, fns in CURATED:
+        fns = [f for f in fns if present(f)]
+        if not fns:
+            continue
         parts.append(f"<h3>{esc(grp)}</h3><ul class=\"items\">")
         for fn in fns:
             hp = HOMEPAGES.get(fn)
@@ -251,7 +261,7 @@ def build() -> str:
     parts.append("</section>")
     out.append("".join(parts))
     out.append('<section class="card" id="clever"><h2>四、值得細讀的精妙做法</h2><ol class="items">' +
-               "".join(f"<li>{link(fn)}<br><span class=\"intro\">{esc(why)}</span></li>" for fn, why in STANDOUTS) + "</ol></section>")
+               "".join(f"<li>{link(fn)}<br><span class=\"intro\">{esc(why)}</span></li>" for fn, why in STANDOUTS if present(fn)) + "</ol></section>")
     out.append('<section class="card" id="patterns"><h2>五、共同模式與缺口</h2><h3>大家常用的做法</h3><ul class="items">' +
                "".join(f"<li>{p}</li>" for p in PATTERNS) + '</ul><h3>還沒人在做（或做得少）</h3><ul class="items">' +
                "".join(f"<li>{g}</li>" for g in GAPS) + "</ul></section>")
