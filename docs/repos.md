@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-10-10 16:53（台北時間）`
-帳號 **49** · 倉庫 **978**
+產生時間：`2026-10-11 11:47（台北時間）`
+帳號 **49** · 倉庫 **979**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -19,7 +19,7 @@
 - [@cutemo0953](#cutemo0953)（5）
 - [@Cycasio](#cycasio)（25）
 - [@didiowen](#didiowen)（7）
-- [@drpwchen](#drpwchen)（21）
+- [@drpwchen](#drpwchen)（22）
 - [@Drvinc](#drvinc)（7）
 - [@erichuang777777](#erichuang777777)（27）
 - [@galencky](#galencky)（20）
@@ -62,8 +62,8 @@
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 問題：說明未寫具體痛點；做法：急診／急重症速查參考
-- [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁
 - [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁
 - [slidecue](https://github.com/agoodbear/slidecue) — 問題：上台時無法同時保持與聽眾的眼神接觸和查看講稿；做法：將講稿顯示在眼鏡鏡片上，並自動翻頁更新內容
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — 問題：在 Roam 中無法快速標記和管理需要修改的文字；做法：透過框選文字自動生成標記子 block 及指令泡泡框
 - [voice-podcast](https://github.com/agoodbear/voice-podcast) — 問題：說明未寫具體痛點；做法：急診熊心聲 Podcast — AI 研究+查核+本人聲音合成的個人知識型 pod…
@@ -200,6 +200,7 @@
 
 ## [@drpwchen](https://github.com/drpwchen) {#drpwchen}
 
+- [ai-travel-kit](https://github.com/drpwchen/ai-travel-kit) — 問題：說明未寫具體痛點；做法：讓 AI 先訪談你、建立你自己的旅行總檔，再陪你走過每趟旅行的前中後
 - [clinic-pacer](https://github.com/drpwchen/clinic-pacer) — 問題：看診時無法即時判斷是否能趕上回程火車；做法：透過小視窗顯示目前速度與預計到達時間
 - [claude-pacer](https://github.com/drpwchen/claude-pacer) — 問題：自動代理在使用限制接近時無法優雅結束任務；做法：在使用達到85%時注入結束指令以避免中斷
 - [ai-agent-demo](https://github.com/drpwchen/ai-agent-demo) — 問題：無法快速檢查值班表是否符合規則；做法：利用 AI 自動分析並列出違規項目
@@ -344,15 +345,16 @@
 
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
+- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
+- [dotfiles](https://github.com/htlin222/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
+- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
 - [sponge-bob](https://github.com/htlin222/sponge-bob) — 問題：無法批次為 Google Drive 資料夾中的海綿寶寶影片自動加上繁體中文字幕；做法：利用雲端運算自動處理影片並生成字幕檔案
 - [stagecast](https://github.com/htlin222/stagecast) — 問題：長時間的代理作業難以觀看和驗證；做法：透過階段檢查確保每個階段在完成後才進入下一步
 - [ngs-tertiary-analysis-skills](https://github.com/htlin222/ngs-tertiary-analysis-skills) — 問題：臨床報告生成過程繁瑣，缺乏自動化工具；做法：使用 R 管道自動生成符合 ESMO 標準的臨床報告
 - [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
-- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
 - [ebmt-handbook-skill](https://github.com/htlin222/ebmt-handbook-skill) — 問題：臨床人員在移植過程中缺乏即時的指引和計算工具；做法：提供結構化的臨床知識和決策樹給 AI 代理人使用
 - [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料
 - [from-irb-to-manuscript](https://github.com/htlin222/from-irb-to-manuscript) — 問題：醫師無法清楚掌握從 IRB 到期刊接受的完整流程；做法：提供 34 句白話 prompt 及各階段產物的紀錄
-- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
 - [hsct-2026](https://github.com/htlin222/hsct-2026) — 問題：小組成員無法有效協作學習血液及骨髓移植考題；做法：提供多選題庫與即時協作解釋功能
 - [openevidence-mcp](https://github.com/htlin222/openevidence-mcp) — 問題：無法直接從 AI 工具查詢 OpenEvidence，因為 API 被機器人檢測阻擋；做法：透過瀏覽器擴充功能在本地中繼請求，保持登入狀態
 - [cps-skills](https://github.com/htlin222/cps-skills) — 問題：臨床診斷過程中缺乏結構化的多角色推理；做法：應用貝葉斯推理更新疾病機率並生成最終診斷
@@ -425,7 +427,6 @@
 - [web-gamepad-starter](https://github.com/htlin222/web-gamepad-starter) — 問題：無法確認遊戲控制器在網頁上的正確映射；做法：提供即時測試頁面顯示控制器按鈕反應
 - [herdr-gamepad](https://github.com/htlin222/herdr-gamepad) — 問題：使用者無法方便地從沙發操作 AI 代理和工作區；做法：透過遊戲手把自訂按鍵映射，快速配置控制方式
 - [edge-tts](https://github.com/htlin222/edge-tts) — 問題：無法快速將血液腫瘤考古題轉換為有聲內容；做法：自動化處理 .txt 檔案生成 podcast，每題一集
-- [dotfiles](https://github.com/htlin222/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
 - [polish-screen-record](https://github.com/htlin222/polish-screen-record) — 問題：長時間螢幕錄影的自動字幕生成缺乏斷句與時間碼對齊；做法：先斷句再定時，避免 LLM 直接處理時間碼
 - [index-tts-in-colab](https://github.com/htlin222/index-tts-in-colab) — 問題：使用者無法快速獲得聲音克隆合成結果；做法：透過 GitHub Issue 觸發自動化流程在 Colab 上執行合成並發布結果
 - [nccn-redirector](https://github.com/htlin222/nccn-redirector) — 問題：無法快速訪問 NCCN 指引 PDF 連結；做法：自動重定向至自訂檔案或網頁查看器
@@ -576,10 +577,10 @@
 
 ## [@keanu77](https://github.com/keanu77) {#keanu77}
 
-- [team-taiwan-results](https://github.com/keanu77/team-taiwan-results) — 問題：無法即時獲得中華隊賽程與賽果的最新資訊；做法：定時同步官方成績，自動生成靜態網站展示賽事資料
-- [AIskillsintro](https://github.com/keanu77/AIskillsintro) — 問題：無法快速找到合適的 Agent Skills 及其安裝指令；做法：整理並分類多來源的技能，提供搜尋與篩選功能
 - [antidopingplatform](https://github.com/keanu77/antidopingplatform) — 問題：使用者無法快速查詢運動禁藥案例及相關處分；做法：提供國際案例搜尋與資料庫分析功能
 - [review.sportsmedicine](https://github.com/keanu77/review.sportsmedicine) — 問題：無法快速找到運動醫學與復健的系統性回顧與臨床指引；做法：依部位、主題與族群分類的文獻索引系統
+- [team-taiwan-results](https://github.com/keanu77/team-taiwan-results) — 問題：無法即時獲得中華隊賽程與賽果的最新資訊；做法：定時同步官方成績，自動生成靜態網站展示賽事資料
+- [AIskillsintro](https://github.com/keanu77/AIskillsintro) — 問題：無法快速找到合適的 Agent Skills 及其安裝指令；做法：整理並分類多來源的技能，提供搜尋與篩選功能
 - [imaging-course-hub](https://github.com/keanu77/imaging-course-hub) — 問題：醫療專業人員缺乏統一的運動醫學影像學習資源；做法：整合多部位影像課程與中文來源，提供集中學習平台
 - [keanu77](https://github.com/keanu77/keanu77) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [reverse-engineer-searcher](https://github.com/keanu77/reverse-engineer-searcher) — 問題：無法快速生成針對金標準文獻的 PubMed 搜尋策略；做法：自動分析 MeSH 產生敏感、平衡、精簡三版搜尋式
