@@ -1,6 +1,6 @@
 # 專案資料庫
 
-產生時間：`2026-10-11 11:47（台北時間）`
+產生時間：`2026-10-12 11:38（台北時間）`
 帳號 **49** · 倉庫 **979**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
@@ -62,8 +62,8 @@
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
 - [tw-er-ref-2x9k](https://github.com/agoodbear/tw-er-ref-2x9k) — 問題：說明未寫具體痛點；做法：急診／急重症速查參考
-- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [em-pulse-tw](https://github.com/agoodbear/em-pulse-tw) — 問題：急診醫學與重症照護文獻更新不及時，無法快速獲得最新研究；做法：自動掃描 PubMed，依影響力排序生成可篩選網頁
+- [agoodbear.github.io](https://github.com/agoodbear/agoodbear.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [slidecue](https://github.com/agoodbear/slidecue) — 問題：上台時無法同時保持與聽眾的眼神接觸和查看講稿；做法：將講稿顯示在眼鏡鏡片上，並自動翻頁更新內容
 - [roam-cc-mark](https://github.com/agoodbear/roam-cc-mark) — 問題：在 Roam 中無法快速標記和管理需要修改的文字；做法：透過框選文字自動生成標記子 block 及指令泡泡框
 - [voice-podcast](https://github.com/agoodbear/voice-podcast) — 問題：說明未寫具體痛點；做法：急診熊心聲 Podcast — AI 研究+查核+本人聲音合成的個人知識型 pod…
@@ -345,10 +345,10 @@
 
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
-- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
-- [dotfiles](https://github.com/htlin222/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
-- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
 - [sponge-bob](https://github.com/htlin222/sponge-bob) — 問題：無法批次為 Google Drive 資料夾中的海綿寶寶影片自動加上繁體中文字幕；做法：利用雲端運算自動處理影片並生成字幕檔案
+- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
+- [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
+- [dotfiles](https://github.com/htlin222/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
 - [stagecast](https://github.com/htlin222/stagecast) — 問題：長時間的代理作業難以觀看和驗證；做法：透過階段檢查確保每個階段在完成後才進入下一步
 - [ngs-tertiary-analysis-skills](https://github.com/htlin222/ngs-tertiary-analysis-skills) — 問題：臨床報告生成過程繁瑣，缺乏自動化工具；做法：使用 R 管道自動生成符合 ESMO 標準的臨床報告
 - [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
@@ -530,12 +530,12 @@
 
 ## [@jjtseng93](https://github.com/jjtseng93) {#jjtseng93}
 
-- [buninu-browser](https://github.com/jjtseng93/buninu-browser) — 問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎
-- [js-gotty](https://github.com/jjtseng93/js-gotty) — 問題：無法方便地分享終端機畫面給其他人；做法：透過瀏覽器實現終端機的即時共享功能
 - [buninu-linux](https://github.com/jjtseng93/buninu-linux) — 問題：無法在 Linux 環境中使用 Bun 作為 PID 1 的系統；做法：透過 Buninu Linux 發布專門的 Linux 發行版運行 Bun
-- [jspulse](https://github.com/jjtseng93/jspulse) — 問題：在行動裝置上無法直接使用 PulseAudio 進行音訊處理；做法：在 Bun 環境中實現 PulseAudio 協議，無需外部工具
 - [buninu](https://github.com/jjtseng93/buninu) — 問題：在不同作業系統中無法快速啟動類 Unix 環境；做法：提供一個命令即可在瀏覽器或終端機啟動的可攜式用戶空間
 - [bunmsh](https://github.com/jjtseng93/bunmsh) — 問題：在不同平台上無法找到適合的命令行介面；做法：提供跨平台的命令行解釋器，無需依賴其他庫
+- [buninu-browser](https://github.com/jjtseng93/buninu-browser) — 問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎
+- [jspulse](https://github.com/jjtseng93/jspulse) — 問題：在行動裝置上無法直接使用 PulseAudio 進行音訊處理；做法：在 Bun 環境中實現 PulseAudio 協議，無需外部工具
+- [js-gotty](https://github.com/jjtseng93/js-gotty) — 問題：無法方便地分享終端機畫面給其他人；做法：透過瀏覽器實現終端機的即時共享功能
 - [bunproot](https://github.com/jjtseng93/bunproot) — 問題：在沒有權限的 Android 環境中無法使用 Linux 用戶空間；做法：提供一個依賴 Bun 的用戶空間 chroot 解決方案
 - [jsmdcui](https://github.com/jjtseng93/jsmdcui) — 問題：無法快速建立跨終端與網頁的互動介面；做法：使用單一 Markdown 檔案生成 TUI 和 WUI 應用程式
 - [minapk](https://github.com/jjtseng93/minapk) — 問題：無法將 Bun 單一可執行檔轉換為 Android APK；做法：使用命令列工具進行資源處理與 APK 封裝
@@ -865,8 +865,8 @@
 ## [@TCM-Dr-Hsieh](https://github.com/TCM-Dr-Hsieh) {#tcm-dr-hsieh}
 
 - [TCM-Meridian-mini](https://github.com/TCM-Dr-Hsieh/TCM-Meridian-mini) — 問題：醫師在看診時無法快速生成病歷與問診建議；做法：透過語音錄音即時產生逐字稿並自動生成病歷內容
-- [TCM-Meridian](https://github.com/TCM-Dr-Hsieh/TCM-Meridian) — 問題：醫師在看診過程中缺乏有效的病歷管理工具；做法：整合患者資料與多模態檔案讀取的 AI 工作台
 - [voice_to_text](https://github.com/TCM-Dr-Hsieh/voice_to_text) — 問題：現場無法快速將語音轉換為文字；做法：使用本機麥克風及音訊檔進行即時語音辨識
+- [TCM-Meridian](https://github.com/TCM-Dr-Hsieh/TCM-Meridian) — 問題：醫師在看診過程中缺乏有效的病歷管理工具；做法：整合患者資料與多模態檔案讀取的 AI 工作台
 
 ## [@tcs211](https://github.com/tcs211) {#tcs211}
 
@@ -945,6 +945,7 @@
 ## [@TLAN1012](https://github.com/TLAN1012) {#tlan1012}
 
 - [NHI-Rules](https://github.com/TLAN1012/NHI-Rules) — 問題：查詢健保政策時無法快速找到所需的給付規定；做法：提供逐條給付規定全文查詢與自動更新機制
+- [Fable5](https://github.com/TLAN1012/Fable5) — 問題：無法直觀理解歷史戰役的複雜情境；做法：透過互動式 3D 模型重現戰史劇場
 - [Neurology_Update](https://github.com/TLAN1012/Neurology_Update) — 問題：缺乏集中且更新的神經醫學知識與新聞來源；做法：建立靜態網站定期發布相關摘要與筆記
 - [Taiwan_Nurse_CNT](https://github.com/TLAN1012/Taiwan_Nurse_CNT) — 問題：護理人員無法快速比較不同來源的繼續教育積分課程；做法：聚合各公會學會的課程資訊，提供多維度比較功能
 - [Taiwan_Neurology](https://github.com/TLAN1012/Taiwan_Neurology) — 問題：基層神經科醫師查詢課程資訊不便；做法：集中彙整各學會的教育課程與積分資訊
@@ -954,7 +955,6 @@
 - [HexTactica](https://github.com/TLAN1012/HexTactica) — 問題：玩家在戰鬥中無法清楚掌握部隊行動與攻擊範圍；做法：透過顏色標示顯示可移動格與可攻擊敵人
 - [HsiehPomelo](https://github.com/TLAN1012/HsiehPomelo) — 問題：使用者無法有效記憶日文平假名與片假名；做法：透過間隔重複與鼓勵機制進行字母練習
 - [deep-sea-atlantis](https://github.com/TLAN1012/deep-sea-atlantis) — 問題：玩家在海底探險中無法有效收集生物資訊；做法：透過拍照機制將生物納入圖鑑並附上冷知識
-- [Fable5](https://github.com/TLAN1012/Fable5) — 問題：無法直觀理解歷史戰役的複雜情境；做法：透過互動式 3D 模型重現戰史劇場
 - [lecuture-materials](https://github.com/TLAN1012/lecuture-materials) — 問題：演講時缺乏完整的實作素材與指引；做法：提供網頁與 PDF 文件作為教學資源
 - [SOAPIME](https://github.com/TLAN1012/SOAPIME) — 問題：在病歷系統中快速輸入病人症狀並生成 SOAP note；做法：使用快捷鍵將症狀轉換為英文 SOAP note 草稿並自動貼上
 - [Misc-tools](https://github.com/TLAN1012/Misc-tools) — 問題：缺乏集中管理的個人小工具平台；做法：使用靜態頁面直接在瀏覽器運行工具卡片
@@ -962,13 +962,13 @@
 
 ## [@tsaiid](https://github.com/tsaiid) {#tsaiid}
 
+- [MacShuttle](https://github.com/tsaiid/MacShuttle) — 問題：官方驅動程式在現代 macOS 上不相容；做法：提供開源的原生驅動程式與應用程式感知功能
+- [ahk-nycuh](https://github.com/tsaiid/ahk-nycuh) — 問題：放射科工作流中操作繁瑣，缺乏自動化工具；做法：使用 AutoHotkey 撰寫自動化腳本整合 RIS/PACS 功能
 - [random-duty](https://github.com/tsaiid/random-duty) — 問題：住院醫師排班時無法快速隨機分配值班；做法：使用單頁應用程式自動生成值班安排
 - [structured-reporting-web-tools](https://github.com/tsaiid/structured-reporting-web-tools) — 問題：放射科醫師在生成癌症分期報告時缺乏標準化工具；做法：提供網頁工具自動計算 TNM 分期並生成報告
-- [ahk-nycuh](https://github.com/tsaiid/ahk-nycuh) — 問題：放射科工作流中操作繁瑣，缺乏自動化工具；做法：使用 AutoHotkey 撰寫自動化腳本整合 RIS/PACS 功能
 - [radtools.tsai.it](https://github.com/tsaiid/radtools.tsai.it) — 問題：臨床放射科工作流程中缺乏有效的工具來提升準確性；做法：提供多種網頁工具以協助醫療決策
 - [ahk-htch](https://github.com/tsaiid/ahk-htch) — 問題：院內影像醫學科報告系統操作繁瑣，缺乏快速鍵與範本；做法：提供 AutoHotkey 腳本自動化常用報告與操作熱鍵
 - [pixel-scanner](https://github.com/tsaiid/pixel-scanner) — 問題：無法進行 OCR 和雲端同步；做法：使用本地會話儲存和手動導出功能
-- [MacShuttle](https://github.com/tsaiid/MacShuttle) — 問題：官方驅動程式在現代 macOS 上不相容；做法：提供開源的原生驅動程式與應用程式感知功能
 - [femh-dicom](https://github.com/tsaiid/femh-dicom) — 問題：說明未寫具體痛點；做法：DICOM相關工具；偏醫學影像／放射
 - [web-bone-age](https://github.com/tsaiid/web-bone-age) — 問題：現場查詢骨齡 X 光參考圖不便捷；做法：提供依性別與年齡快速查找的網頁應用程式
 - [gm-i-am-over-18](https://github.com/tsaiid/gm-i-am-over-18) — 問題：訪問網站時需手動隱藏「我已滿18歲」聲明；做法：使用腳本自動隱藏該聲明
