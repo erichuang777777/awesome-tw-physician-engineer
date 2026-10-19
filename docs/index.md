@@ -2,11 +2,11 @@
 
 隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。
 
-- 產生時間：`2026-10-12 11:38（台北時間）`
-- 動態視窗：近 **7** 天（自 `2026-10-05T03:38:40Z`）
+- 產生時間：`2026-10-19 10:41（台北時間）`
+- 動態視窗：近 **7** 天（自 `2026-10-12T02:41:38Z`）
 - 名冊帳號：**49**
 - 本週精選：**10**
-- 公開非 fork 倉庫總數：**979**
+- 公開非 fork 倉庫總數：**990**
 
 > **隱私：** 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -16,20 +16,20 @@
 
 ## 本週值得追蹤
 
-近 7 天掃描 49 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 16 則較安靜或非臨床向更新。
+近 7 天掃描 49 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 17 則較安靜或非臨床向更新。
 
-- [@htlin222](https://github.com/htlin222) — 新建 腫瘤／血液相關「from-irb-to-manuscript」；更新了 腫瘤／血液相關「lin-hsiehting」、「ngs-tertiary-analysis-skills」、「irb-in-hurry」 等 6 個
-- [@drpwchen](https://github.com/drpwchen) — 新建 臨床指引／路徑「clinic-pacer」
-- [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」
-- [@keanu77](https://github.com/keanu77) — 更新了 藥學／藥品資訊「antidopingplatform」、臨床指引／路徑「review.sportsmedicine」
-- [@shin13](https://github.com/shin13) — 更新了 健保／編碼與申報「nhi-knowledge-extractor」、藥學／藥品資訊「opentaimed」
-- [@TLAN1012](https://github.com/TLAN1012) — 更新了 健保／編碼與申報「NHI-Rules」、護理「Taiwan_Nurse_CNT」
-- [@erichuang777777](https://github.com/erichuang777777) — 更新了 腫瘤／血液相關「NTUH-breastcancer-finder-MCP」
-- [@kenkao0127-droid](https://github.com/kenkao0127-droid) — 更新了 臨床指引／路徑「chenggong-meimei-clinic」
+- [@TLAN1012](https://github.com/TLAN1012) — 新建 臨床指引／路徑「clinic-phrases」；更新了 健保／編碼與申報「NHI-Rules」、護理「Taiwan_Nurse_CNT」
+- [@texchi2](https://github.com/texchi2) — 新建 護理「KOMA_AI_chief_keynote_2026Oct」
+- [@keanu77](https://github.com/keanu77) — 更新了 文獻／臨床試驗「reverse-engineer-searcher」、藥學／藥品資訊「antidopingplatform」、醫學影像／放射「imaging-course-hub」
+- [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「em-pulse-tw」、「tw-er-ref-2x9k」
+- [@erichuang777777](https://github.com/erichuang777777) — 更新了 腫瘤／血液相關「NTUH_Breast_Caculator」
+- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」
+- [@shin13](https://github.com/shin13) — 更新了 藥學／藥品資訊「opentaimed」
 - [@t0mst0ne](https://github.com/t0mst0ne) — 更新了 文獻／臨床試驗「medical-journal-daily-agent」
 - [@tsaiid](https://github.com/tsaiid) — 更新了 醫學影像／放射「structured-reporting-web-tools」
+- [@Yuchunchen](https://github.com/Yuchunchen) — 更新了 健保／編碼與申報「VaxCheck」
 
-_另有 16 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
+_另有 17 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
 
 ---
 
@@ -93,7 +93,7 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。
 
-共 **979** 個倉庫、**49** 個帳號。
+共 **990** 個倉庫、**49** 個帳號。
 
 來源：[erichuang777777/awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer)
 
