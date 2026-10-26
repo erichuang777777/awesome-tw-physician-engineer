@@ -2,11 +2,11 @@
 
 隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。
 
-- 產生時間：`2026-10-19 10:41（台北時間）`
-- 動態視窗：近 **7** 天（自 `2026-10-12T02:41:38Z`）
+- 產生時間：`2026-10-26 10:36（台北時間）`
+- 動態視窗：近 **7** 天（自 `2026-10-19T02:36:03Z`）
 - 名冊帳號：**49**
 - 本週精選：**10**
-- 公開非 fork 倉庫總數：**990**
+- 公開非 fork 倉庫總數：**1003**
 
 > **隱私：** 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -16,20 +16,20 @@
 
 ## 本週值得追蹤
 
-近 7 天掃描 49 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 17 則較安靜或非臨床向更新。
+近 7 天掃描 49 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 16 則較安靜或非臨床向更新。
 
-- [@TLAN1012](https://github.com/TLAN1012) — 新建 臨床指引／路徑「clinic-phrases」；更新了 健保／編碼與申報「NHI-Rules」、護理「Taiwan_Nurse_CNT」
-- [@texchi2](https://github.com/texchi2) — 新建 護理「KOMA_AI_chief_keynote_2026Oct」
-- [@keanu77](https://github.com/keanu77) — 更新了 文獻／臨床試驗「reverse-engineer-searcher」、藥學／藥品資訊「antidopingplatform」、醫學影像／放射「imaging-course-hub」
+- [@u9401066](https://github.com/u9401066) — 新建 文獻／臨床試驗「medqa-bench」；更新了 文獻／臨床試驗「pubmed-search-mcp」
+- [@drpwchen](https://github.com/drpwchen) — 新建 護理「nursing-report-tutor」；更新了 文獻／臨床試驗「paper-fetch」
+- [@keanu77](https://github.com/keanu77) — 更新了 藥學／藥品資訊「antidopingplatform」、文獻／臨床試驗「reverse-engineer-searcher」、臨床指引／路徑「review.sportsmedicine」
 - [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「em-pulse-tw」、「tw-er-ref-2x9k」
-- [@erichuang777777](https://github.com/erichuang777777) — 更新了 腫瘤／血液相關「NTUH_Breast_Caculator」
-- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」
-- [@shin13](https://github.com/shin13) — 更新了 藥學／藥品資訊「opentaimed」
+- [@shin13](https://github.com/shin13) — 更新了 藥學／藥品資訊「opentaimed」、健保／編碼與申報「nhi-knowledge-extractor」
+- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」、「hema-board-interview-guide」
+- [@TLAN1012](https://github.com/TLAN1012) — 更新了 護理「Taiwan_Nurse_CNT」、健保／編碼與申報「NHI-Rules」
 - [@t0mst0ne](https://github.com/t0mst0ne) — 更新了 文獻／臨床試驗「medical-journal-daily-agent」
-- [@tsaiid](https://github.com/tsaiid) — 更新了 醫學影像／放射「structured-reporting-web-tools」
-- [@Yuchunchen](https://github.com/Yuchunchen) — 更新了 健保／編碼與申報「VaxCheck」
+- [@odafeng](https://github.com/odafeng) — 更新了 臨床指引／路徑「hemorrhoids-postop」、腫瘤／血液相關「Stage_III_Colon_EDR」
+- [@cutemo0953](https://github.com/cutemo0953) — 更新了 文獻／臨床試驗「nslin-site」
 
-_另有 17 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
+_另有 16 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
 
 ---
 
@@ -93,7 +93,7 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。
 
-共 **990** 個倉庫、**49** 個帳號。
+共 **1003** 個倉庫、**49** 個帳號。
 
 來源：[erichuang777777/awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer)
 
