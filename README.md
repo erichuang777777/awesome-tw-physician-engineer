@@ -27,12 +27,14 @@
 | GitHub login |
 |---|
 | [agoodbear](https://github.com/agoodbear) |
+| [b0807249](https://github.com/b0807249) 待確認 |
 | [ccherdoctor-chiu](https://github.com/ccherdoctor-chiu) |
 | [cctroc](https://github.com/cctroc) |
 | [changyiyen](https://github.com/changyiyen) |
 | [chswei](https://github.com/chswei) |
 | [chuyungtsai](https://github.com/chuyungtsai) |
 | [CJRonald](https://github.com/CJRonald) |
+| [ckt520728](https://github.com/ckt520728) 待確認 |
 | [cutemo0953](https://github.com/cutemo0953) 待確認 |
 | [Cycasio](https://github.com/Cycasio) |
 | [didiowen](https://github.com/didiowen) |
@@ -87,6 +89,12 @@
 聚焦急診／重症文獻雷達、臨床速查與 ECG／解剖教學工具。  
 代表專案：[`em-pulse-tw`](https://github.com/agoodbear/em-pulse-tw) — 急診／重症文獻雷達：每日掃 PubMed 並依影響力排序（繁中）。
 
+### [@b0807249](https://github.com/b0807249) 「待確認」
+問題：胃腸肝膽科臨床與實證研究中反覆出現的手工整理；做法：把重複工作做成本機工具，例如把 AI 網頁對話匯出成 Markdown 的 Chrome 擴充。  
+代表專案：[`gpt-exporter-local`](https://github.com/b0807249/gpt-exporter-local) — 純本機 Chrome 擴充，把 ChatGPT、Grok、Claude、Gemini 對話匯出成 Markdown，無後端、不呼叫外部 API。
+
+備註：待確認；個人檔案自述為胃腸肝膽科 fellow，個人網站另列 B 肝健保給付條件比對工具。
+
 ### [@ccherdoctor-chiu](https://github.com/ccherdoctor-chiu)
 以急診約班、急診教學筆記與提示工程學習資源為主。  
 代表專案：[`shedule-in-ER`](https://github.com/ccherdoctor-chiu/shedule-in-ER) — 急診約班系統。
@@ -110,6 +118,12 @@
 ### [@CJRonald](https://github.com/CJRonald)
 多為燒燙傷／整形外科相關展示站與視覺化實驗頁。  
 代表專案：[`LinkouCGMHBurnCenter`](https://github.com/CJRonald/LinkouCGMHBurnCenter) — 燒燙傷中心相關網站／展示。
+
+### [@ckt520728](https://github.com/ckt520728) 「待確認」
+問題：腎臟臨床、認知神經科學與 AI 研究工作流散在各處；做法：互動式學術入口網站，加上 Claude Code 技能與長流程 agent 控制框架。  
+代表專案：[`kidney-cognition-lab`](https://github.com/ckt520728/kidney-cognition-lab) — 腎臟科與認知神經科學的互動式入口網站（GitHub Pages）。
+
+備註：待確認；個人檔案自述為腎臟科醫師（MD、PhD）；另有 `claude-skills`（統計模擬教學頁技能）、`agy-harness` 等 agent 專案。
 
 ### [@cutemo0953](https://github.com/cutemo0953) 「待確認」
 問題：骨科術後復健流程與運動處方各院格式不一；做法：開放術後復健協定（評估→處方→運動→再評估）、76 組多語復健動作資料集。  

@@ -1,7 +1,7 @@
 # 專案資料庫
 
-產生時間：`2026-11-09 11:56（台北時間）`
-帳號 **49** · 倉庫 **1009**
+產生時間：`2026-11-12 18:49（台北時間）`
+帳號 **51** · 倉庫 **1035**
 
 > 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -10,23 +10,25 @@
 ## 目錄
 
 - [@agoodbear](#agoodbear)（20）
+- [@b0807249](#b0807249)（7）
 - [@ccherdoctor-chiu](#ccherdoctor-chiu)（6）
 - [@cctroc](#cctroc)（5）
 - [@changyiyen](#changyiyen)（19）
 - [@chswei](#chswei)（11）
 - [@chuyungtsai](#chuyungtsai)（7）
 - [@CJRonald](#cjronald)（4）
+- [@ckt520728](#ckt520728)（12）
 - [@cutemo0953](#cutemo0953)（5）
 - [@Cycasio](#cycasio)（25）
 - [@didiowen](#didiowen)（8）
-- [@drpwchen](#drpwchen)（25）
+- [@drpwchen](#drpwchen)（26）
 - [@Drvinc](#drvinc)（7）
 - [@erichuang777777](#erichuang777777)（28）
 - [@galencky](#galencky)（20）
 - [@gosienna](#gosienna)（52）
 - [@homigin](#homigin)（3）
-- [@htlin222](#htlin222)（184）
-- [@irene2023study](#irene2023study)（4）
+- [@htlin222](#htlin222)（186）
+- [@irene2023study](#irene2023study)（5）
 - [@jjtseng93](#jjtseng93)（24）
 - [@kaneyxx](#kaneyxx)（19）
 - [@keanu77](#keanu77)（19）
@@ -38,13 +40,13 @@
 - [@Mastermind0309](#mastermind0309)（11）
 - [@mcdlee](#mcdlee)（25）
 - [@nps798](#nps798)（4）
-- [@odafeng](#odafeng)（36）
+- [@odafeng](#odafeng)（37）
 - [@peishenwu](#peishenwu)（15）
 - [@philia81301-commits](#philia81301-commits)（15）
 - [@pojenhsiao](#pojenhsiao)（2）
 - [@shin13](#shin13)（17）
 - [@soanseng](#soanseng)（25）
-- [@t0mst0ne](#t0mst0ne)（37）
+- [@t0mst0ne](#t0mst0ne)（38）
 - [@TCM-Dr-Hsieh](#tcm-dr-hsieh)（3）
 - [@tcs211](#tcs211)（13）
 - [@texchi2](#texchi2)（51）
@@ -57,7 +59,7 @@
 - [@ykuo2](#ykuo2)（5）
 - [@YuChen-S](#yuchen-s)（9）
 - [@Yuchunchen](#yuchunchen)（10）
-- [@zinojeng](#zinojeng)（111）
+- [@zinojeng](#zinojeng)（112）
 
 ## [@agoodbear](https://github.com/agoodbear) {#agoodbear}
 
@@ -81,6 +83,16 @@
 - [er-todo-sticky](https://github.com/agoodbear/er-todo-sticky) — 問題：急診工作中無法快速記錄病歷號和追蹤事項；做法：提供永遠置頂的便利貼式 TODO 視窗
 - [image](https://github.com/agoodbear/image) — 問題：說明不足，看不出具體痛點；做法：影像相關工具或實驗說明不足
 - [roam2github-actions](https://github.com/agoodbear/roam2github-actions) — 問題：說明不足，看不出具體痛點；做法：Roam相關工具或實驗說明不足
+
+## [@b0807249](https://github.com/b0807249) {#b0807249}
+
+- [b0807249](https://github.com/b0807249/b0807249) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [governed-divergence-verifier](https://github.com/b0807249/governed-divergence-verifier) — 問題：跨平台 agent 設定檔各自漂移、難以驗證是否一致；做法：論文附帶的玩具驗證器，以合成 repo 示範宣告、決策、觀測三方對帳
+- [gpt-exporter-local](https://github.com/b0807249/gpt-exporter-local) — 問題：說明未寫具體痛點；做法：匯出擴充功能
+- [gi-seminar-hub](https://github.com/b0807249/gi-seminar-hub) — 問題：說明不足，看不出具體痛點；做法：gi seminar hub：依名稱推斷的工具／實驗沒有可讀說明
+- [try](https://github.com/b0807249/try) — 問題：說明不足，看不出具體痛點；做法：try：依名稱推斷的工具／實驗沒有可讀說明
+- [teacherreply](https://github.com/b0807249/teacherreply) — 問題：說明不足，看不出具體痛點；做法：teacherreply：依名稱推斷的工具／實驗沒有可讀說明
+- [meeting_registration](https://github.com/b0807249/meeting_registration) — 問題：說明不足，看不出具體痛點；做法：會議相關工具或實驗說明不足
 
 ## [@ccherdoctor-chiu](https://github.com/ccherdoctor-chiu) {#ccherdoctor-chiu}
 
@@ -152,6 +164,21 @@
 - [VDILab](https://github.com/CJRonald/VDILab) — 問題：無法找到具體的研究工具或資源；做法：使用靜態 HTML 儲存未列出的研究工具，並排除在網站地圖中
 - [nycu-2026-summer-r-assignments](https://github.com/CJRonald/nycu-2026-summer-r-assignments) — 問題：學員在完成生物醫學資訊課程作業時缺乏指導；做法：提供作業提示及自我檢查機制以避免錯誤
 
+## [@ckt520728](https://github.com/ckt520728) {#ckt520728}
+
+- [claude-skills](https://github.com/ckt520728/claude-skills) — 問題：統計與因果推論概念光看公式不好懂；做法：Claude Code 技能產生單檔互動頁，用可調參數的蒙地卡羅模擬示範方法何時失效
+- [claude-agent-demo](https://github.com/ckt520728/claude-agent-demo) — 問題：想用 Claude Agent SDK 卻缺少最小可跑範例；做法：Python 起始專案示範 query 與 ClaudeSDKClient 兩種用法
+- [kidney-cognition-lab](https://github.com/ckt520728/kidney-cognition-lab) — 問題：腎臟臨床與認知神經科學研究成果散在各處；做法：GitHub Pages 互動式學術入口網站，整合研究主題與工具
+- [agy-harness](https://github.com/ckt520728/agy-harness) — 問題：長流程 AI agent 會遺失約束、改壞既有成果；做法：確定性控制層，用狀態圖、迴圈與驗證器管住每一步
+- [2026Cordex](https://github.com/ckt520728/2026Cordex) — 問題：多個 AI agent 分工時缺少協調框架；做法：整理 agentic 框架與多 agent 協作的設計模式
+- [ckt520728](https://github.com/ckt520728/ckt520728) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
+- [codex-management-book](https://github.com/ckt520728/codex-management-book) — 問題：用 Codex 做長期專案缺少管理規範；做法：整理成 AI 工作流管理指引手冊
+- [2026-Hermes](https://github.com/ckt520728/2026-Hermes) — 問題：在 Windows 架設 agent 並自動產生文獻摘要步驟繁瑣；做法：Hermes Agent 安裝教學，串 Telegram 與多 agent 工作流
+- [kwotachu-dashboard](https://github.com/ckt520728/kwotachu-dashboard) — 問題：說明未寫具體痛點；做法：AI 金融市場與數據互動式儀表板（Dashboard 技能）
+- [Claude-Code](https://github.com/ckt520728/Claude-Code) — 問題：說明未寫具體痛點；做法：Claude Code 對談歸檔與開發、學習筆記
+- [perio-board-exam-resources](https://github.com/ckt520728/perio-board-exam-resources) — 問題：牙周病專科考試準備缺少出題趨勢整理；做法：分析歷年題目主題與期刊熱點，附資訊圖表、模擬題與可重跑腳本
+- [classroom-firebase-tools](https://github.com/ckt520728/classroom-firebase-tools) — 問題：課堂上想即時收集學員回饋；做法：Firebase 即時投票與文字雲網頁
+
 ## [@cutemo0953](https://github.com/cutemo0953) {#cutemo0953}
 
 - [nslin-site](https://github.com/cutemo0953/nslin-site) — 問題：缺乏集中且優化的輪胎氣嘴知識資源；做法：建立一個 AI SEO 優化的知識中心網站
@@ -190,8 +217,8 @@
 
 ## [@didiowen](https://github.com/didiowen) {#didiowen}
 
-- [stanford-public-events](https://github.com/didiowen/stanford-public-events) — 問題：說明未寫具體痛點；做法：Stanford／本地／API相關工具
 - [diet-coach](https://github.com/didiowen/diet-coach) — 問題：使用者無法持續記錄飲食，容易放棄；做法：透過 Telegram 與 AI 互動，自動估算食物熱量並記錄
+- [stanford-public-events](https://github.com/didiowen/stanford-public-events) — 問題：校園公開活動散在官網，不好訂閱進行事曆；做法：從活動 API 篩出對外開放場次，輸出可訂閱的 .ics
 - [nihongo](https://github.com/didiowen/nihongo) — 問題：缺乏有效的日文讀寫學習方法，無法從聽過的詞彙轉化為讀寫能力；做法：利用已知詞彙作為跳板，透過 AI 教學平假名和片假名
 - [pubmed-daily-digest](https://github.com/didiowen/pubmed-daily-digest) — 問題：無法快速獲取特定主題的最新 PubMed 文章；做法：自動抓取並生成每日文獻摘要與重點分析
 - [med-chart-reviser](https://github.com/didiowen/med-chart-reviser) — 問題：無法登入AI帳戶時無法修改病歷；做法：提供一個網頁工具進行病歷語言修訂並顯示變更內容
@@ -201,6 +228,7 @@
 
 ## [@drpwchen](https://github.com/drpwchen) {#drpwchen}
 
+- [urology-ai-demo](https://github.com/drpwchen/urology-ai-demo) — 問題：醫師不知道怎麼交辦 AI 清理雜亂的臨床資料表；做法：亂數產生故意做亂的結石處置假資料，附分幕交辦句練習
 - [paper-fetch](https://github.com/drpwchen/paper-fetch) — 問題：無法快速獲取學術論文的完整 PDF 檔案；做法：依序嘗試開放存取及出版社 API 取得文件
 - [fbkit](https://github.com/drpwchen/fbkit) — 問題：無法有效管理 Facebook 貼文、評論及排程；做法：透過 GraphQL API 自動化操作，並驗證每個指令的成功執行
 - [lecture-to-notes](https://github.com/drpwchen/lecture-to-notes) — 問題：現場錄音無法快速轉換為結構化筆記；做法：將錄音轉換為同步的 HTML 瀏覽器，整合視頻、逐字稿和摘要
@@ -211,12 +239,12 @@
 - [textbook-to-note](https://github.com/drpwchen/textbook-to-note) — 問題：無法有效整理和搜尋大量教科書內容；做法：將 PDF 教科書轉換為可搜尋的知識庫和結構化筆記
 - [vault-search](https://github.com/drpwchen/vault-search) — 問題：無法在 Obsidian 中快速找到相關筆記或進行 AI 聊天；做法：使用本地語意搜尋和個性化檢索圖譜技術
 - [openevidence-tools](https://github.com/drpwchen/openevidence-tools) — 問題：臨床問題的引用資料可能不正確，無法信任；做法：透過交叉檢查每個引用，確保資料來源的正確性
-- [ha-taipower-estimate](https://github.com/drpwchen/ha-taipower-estimate) — 問題：說明未寫具體痛點；做法：台電兩個月一期電費估算 Home Assistant package
-- [ha-first-home-skill](https://github.com/drpwchen/ha-first-home-skill) — 問題：說明未寫具體痛點；做法：第一個 Home Assistant 智慧家庭規劃 Agent
-- [nursing-report-tutor](https://github.com/drpwchen/nursing-report-tutor) — 問題：說明未寫具體痛點；做法：照花蓮護理部評分表帶新人寫讀書報告、實證報告
+- [ha-taipower-estimate](https://github.com/drpwchen/ha-taipower-estimate) — 問題：兩個月一期的電費要等帳單才知道會落在哪一級；做法：只讀電表累積度數算週期進度與預估電費，天數太少就不估
+- [ha-first-home-skill](https://github.com/drpwchen/ha-first-home-skill) — 問題：新手規劃第一套智慧家庭不知道該問什麼、常買錯；做法：Agent Skill 先訪談生活需求，產出必買／可等／別買三格清單
+- [nursing-report-tutor](https://github.com/drpwchen/nursing-report-tutor) — 問題：護理新人寫讀書報告、實證報告不熟評分表要求；做法：把評分表與範例寫成 AI 技能檔，逐步帶寫並用程式核對引用
 - [kimi-webbridge-lockdown](https://github.com/drpwchen/kimi-webbridge-lockdown)（已封存） — 問題：無法有效限制 AI 瀏覽器擴展訪問銀行和郵箱；做法：透過企業政策層設定可逆的擴展鎖定機制
-- [im-ai-agent-1013](https://github.com/drpwchen/im-ai-agent-1013) — 問題：說明未寫具體痛點；做法：讓 AI 檢查一張值班表的小練習（全虛構資料）
-- [ai-travel-kit](https://github.com/drpwchen/ai-travel-kit) — 問題：說明未寫具體痛點；做法：讓 AI 先訪談你、建立你自己的旅行總檔，再陪你走過每趟旅行的前中後
+- [im-ai-agent-1013](https://github.com/drpwchen/im-ai-agent-1013) — 問題：醫師想學會讓 AI 檢查值班表，卻沒有安全的練習素材；做法：三組虛構班表練習，從整理好的規則到口述、反推規則
+- [ai-travel-kit](https://github.com/drpwchen/ai-travel-kit) — 問題：通用行前清單不合自己的習慣與節奏；做法：讓 AI 先訪談建立個人旅行總檔，每趟回來再寫回修正
 - [clinic-pacer](https://github.com/drpwchen/clinic-pacer) — 問題：看診時無法即時判斷是否能趕上回程火車；做法：透過小視窗顯示目前速度與預計到達時間
 - [drpwchen](https://github.com/drpwchen/drpwchen) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [paper-review-and-digest](https://github.com/drpwchen/paper-review-and-digest) — 問題：無法有效評估學術論文的可信度與內容；做法：分別進行論文評價與內容摘要的技能運用
@@ -239,8 +267,8 @@
 
 ## [@erichuang777777](https://github.com/erichuang777777) {#erichuang777777}
 
-- [breast-guideline-mcp](https://github.com/erichuang777777/breast-guideline-mcp) — 問題：說明未寫具體痛點；做法：串流／HTTP／MCP，用於腫瘤／指引／WebUI.／Code／資料；偏腫瘤
 - [awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer) — 問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結
+- [breast-guideline-mcp](https://github.com/erichuang777777/breast-guideline-mcp) — 問題：在本機 LLM 介面查乳癌指引得自己翻文件；做法：開源 Streamable HTTP MCP 接 Open WebUI，指引資料只留本機
 - [dotfiles](https://github.com/erichuang777777/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
 - [NTUH_Breast_Caculator](https://github.com/erichuang777777/NTUH_Breast_Caculator) — 問題：臨床現場缺乏快速查詢乳癌相關藥物及費用的工具；做法：提供手機和平板的快速卡片入口進行查詢
 - [NTUH-breastcancer-finder-MCP](https://github.com/erichuang777777/NTUH-breastcancer-finder-MCP) — 問題：醫師搜尋與網路掛號時缺乏乳癌專科過濾功能；做法：整合院內醫師資料與公開掛號系統進行查詢
@@ -293,7 +321,7 @@
 
 ## [@gosienna](https://github.com/gosienna) {#gosienna}
 
-- [Project14_ChromeLLMBackend](https://github.com/gosienna/Project14_ChromeLLMBackend) — 問題：說明未寫具體痛點；做法：LINE／語言模型／後端／瀏覽器的擴充功能
+- [Project14_ChromeLLMBackend](https://github.com/gosienna/Project14_ChromeLLMBackend) — 問題：每個網頁 App 都要各自載入或串接語言模型；做法：Chrome 擴充提供共用的 window.LanguageModel，模型只載一次供各分頁使用
 - [Project15_LearnWithLLM](https://github.com/gosienna/Project15_LearnWithLLM) — 問題：說明不足，看不出具體痛點；做法：Project15 LearnWithLLM：依名稱推斷的工具／實驗沒有可讀說明
 - [Project01_EDF_viewer](https://github.com/gosienna/Project01_EDF_viewer) — 問題：無法有效查看和分析 EDF 格式的生理訊號數據；做法：提供網頁應用程式以互動方式顯示生理訊號波形
 - [Project05_browser_agentic_system](https://github.com/gosienna/Project05_browser_agentic_system) — 問題：無法在瀏覽器中運行基於 LLM 的自主系統；做法：提供一個可直接在瀏覽器執行的框架
@@ -354,10 +382,13 @@
 
 ## [@htlin222](https://github.com/htlin222) {#htlin222}
 
-- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
-- [zh-ebn-report-skill](https://github.com/htlin222/zh-ebn-report-skill) — 問題：護理人員撰寫實證報告時缺乏系統化指導；做法：提供完整的實證 5A 步驟與自動化工具輔助撰寫
 - [lin-hsiehting](https://github.com/htlin222/lin-hsiehting) — 問題：臨床筆記缺乏法規合規性與結構化資料；做法：使用 JSON-LD 結構化醫療內容並進行法規審核
-- [google-nest-as-speaker](https://github.com/htlin222/google-nest-as-speaker) — 問題：說明未寫具體痛點；做法：Native／Google／Cast／播放器／Nest相關工具
+- [CCChange](https://github.com/htlin222/CCChange) — 問題：每日更新的 Claude Code changelog 中文講義無法自動出刊；做法：設計 CI 流程確保 PR 符合特定條件後自動合併
+- [pelican-riding-bicycle](https://github.com/htlin222/pelican-riding-bicycle) — 問題：說明未寫具體痛點；做法：全程序化 Blender 動畫短片，渲染分段交給 GitHub Actions 平行跑
+- [mcq-bank](https://github.com/htlin222/mcq-bank) — 問題：小組成員無法有效協作學習和討論題目；做法：提供即時的單題練習和協作詳解功能
+- [note-editor-demo-render](https://github.com/htlin222/note-editor-demo-render) — 問題：出入院病摘教學影片在單機渲染太慢；做法：把影片切段交給 GitHub Actions 平行渲染，再接合配音軌
+- [zh-ebn-report-skill](https://github.com/htlin222/zh-ebn-report-skill) — 問題：護理人員撰寫實證報告時缺乏系統化指導；做法：提供完整的實證 5A 步驟與自動化工具輔助撰寫
+- [google-nest-as-speaker](https://github.com/htlin222/google-nest-as-speaker) — 問題：Mac 上不好把影片、資料夾音樂投到 Nest 喇叭；做法：原生 macOS Google Cast 播放器，支援連結、SMB 與手機掃碼遙控
 - [threads-cli](https://github.com/htlin222/threads-cli) — 問題：無法在終端機上方便地使用 Threads API 進行社群媒體自動化；做法：透過 Cloudflare Worker 作為 OAuth 回調中介來實現身份驗證
 - [team-plus-server](https://github.com/htlin222/team-plus-server) — 問題：無法有效保存和查詢 TeamPlus 團隊聊天記錄；做法：自架雲端資料庫，實時捕捉並存檔訊息內容
 - [submission-desk](https://github.com/htlin222/submission-desk) — 問題：選擇期刊時無法有效評估適合度與接受率；做法：透過量化評分與排名系統進行決策分析
@@ -372,7 +403,6 @@
 - [llm-in-med](https://github.com/htlin222/llm-in-med) — 問題：臨床文獻回顧過程繁瑣，難以生成符合投稿標準的手稿；做法：自動化生成符合 PRISMA 2020 的完整學術手稿並進行質量審核
 - [linebot-turso-relay](https://github.com/htlin222/linebot-turso-relay) — 問題：LINE 轉發訊息後無法保留原始發送者資訊；做法：將轉發訊息的元資料存入 Turso 數據庫
 - [hsct-2026](https://github.com/htlin222/hsct-2026) — 問題：小組成員無法有效協作學習血液及骨髓移植考題；做法：提供多選題庫與即時協作解釋功能
-- [mcq-bank](https://github.com/htlin222/mcq-bank) — 問題：小組成員無法有效協作學習和討論題目；做法：提供即時的單題練習和協作詳解功能
 - [longevity-course](https://github.com/htlin222/longevity-course) — 問題：使用者無法有效比較不同養生建議的影響；做法：將建議轉換為全因死亡率以統一評估標準
 - [hahow-mentor-agent](https://github.com/htlin222/hahow-mentor-agent) — 問題：導師在繁忙日程中無法及時回覆學生問題；做法：自動草擬回覆，需經人類審核後發送
 - [fb-tldr](https://github.com/htlin222/fb-tldr) — 問題：使用者在 Facebook 上無法快速理解長文內容；做法：透過 Chrome 擴充功能自動生成繁體中文摘要
@@ -384,16 +414,16 @@
 - [ai-workflow-course](https://github.com/htlin222/ai-workflow-course) — 問題：知識工作者面對散落的生產力內容，無法找到系統化學習路徑；做法：將 YouTube 影片整理成結構化課程，並附上研究文獻查核
 - [mtb-platform](https://github.com/htlin222/mtb-platform) — 問題：社區癌症中心缺乏專業腫瘤委員會支持，無法有效解讀 NGS 結果；做法：提供基於 AI 的個案報告及文獻評估工具
 - [dotfiles](https://github.com/htlin222/dotfiles) — 問題：沒有產品問題要解；做法：個人 shell／編輯器設定檔
-- [ai-agent-material](https://github.com/htlin222/ai-agent-material) — 問題：說明不足，看不出具體痛點；做法：AI／代理人相關工具或實驗說明不足
+- [ai-agent-material](https://github.com/htlin222/ai-agent-material) — 問題：AI agent 臨床應用課程需要能長期沿用的教材；做法：投影片以 TOML 為唯一來源，程式產生 PPTX／PDF 並檢查溢字與文獻
 - [nccn-guidelines-downloader](https://github.com/htlin222/nccn-guidelines-downloader) — 問題：無法方便下載 NCCN 臨床實踐指導方針 PDF；做法：透過 CLI 腳本或 PWA 介面使用個人 NCCN 帳號下載
-- [mograph-library](https://github.com/htlin222/mograph-library) — 問題：說明未寫具體痛點；做法：函式庫相關工具；偏函式庫／API
-- [walk-cycle-animation](https://github.com/htlin222/walk-cycle-animation) — 問題：說明不足，看不出具體痛點；做法：walk cycle animation：依名稱推斷的工具／實驗沒有可讀說明
+- [mograph-library](https://github.com/htlin222/mograph-library) — 問題：想用程式碼做動態設計卻缺系統化的學習地圖；做法：整理技法語彙與學習地圖，附兩部全程式生成示範片原始碼
+- [walk-cycle-animation](https://github.com/htlin222/walk-cycle-animation) — 問題：程序化走路動畫常有腳滑、比例失真；做法：用臨床步態資料與動作擷取驅動，單一 HTML 檔呈現
 - [hema-board-interview-guide](https://github.com/htlin222/hema-board-interview-guide) — 問題：考生準備血液專科口試時缺乏系統性指導；做法：整理歷屆考試主題與問答流程，提供參考資料
-- [video-to-reels-skill](https://github.com/htlin222/video-to-reels-skill) — 問題：說明未寫具體痛點；做法：Long／視訊／峰濃度／16／燒燙傷相關工具
-- [taipei-med-center-got-main-title](https://github.com/htlin222/taipei-med-center-got-main-title) — 問題：說明不足，看不出具體痛點；做法：台北相關工具或實驗說明不足
-- [cvvh-circuit-motion-design](https://github.com/htlin222/cvvh-circuit-motion-design) — 問題：說明不足，看不出具體痛點；做法：cvvh circuit motion
-- [squamata-motion-design](https://github.com/htlin222/squamata-motion-design) — 問題：說明不足，看不出具體痛點；做法：squamata motion design：依名稱推斷的工具／實驗沒有可讀說明
-- [lyric-kinetic-motion-graphic](https://github.com/htlin222/lyric-kinetic-motion-graphic) — 問題：說明未寫具體痛點；做法：Lyric相關工具
+- [video-to-reels-skill](https://github.com/htlin222/video-to-reels-skill) — 問題：從長影片剪出某位講者的精華與直式短片很費工；做法：以聲紋加人臉辨識找出講者段落，自動上字幕輸出 9:16
+- [taipei-med-center-got-main-title](https://github.com/htlin222/taipei-med-center-got-main-title) — 問題：說明未寫具體痛點；做法：Three.js 即時 3D 地形片頭，逐格渲染並在 Actions 分段平行輸出
+- [cvvh-circuit-motion-design](https://github.com/htlin222/cvvh-circuit-motion-design) — 問題：CVVH 管路血流、置換液與廢液方向床邊不好講清楚；做法：依實機設定做動態解說影片、互動示意圖與 3D 模型
+- [squamata-motion-design](https://github.com/htlin222/squamata-motion-design) — 問題：說明未寫具體痛點；做法：畫面、鏡頭、配樂全由程式生成的蜥蜴主題片頭動畫
+- [lyric-kinetic-motion-graphic](https://github.com/htlin222/lyric-kinetic-motion-graphic) — 問題：歌詞動態字幕要手動對拍很耗時；做法：人聲分離加逐字時間戳，自動對齊真實歌詞產生時間軸
 - [sponge-bob](https://github.com/htlin222/sponge-bob) — 問題：無法批次為 Google Drive 資料夾中的海綿寶寶影片自動加上繁體中文字幕；做法：利用雲端運算自動處理影片並生成字幕檔案
 - [stagecast](https://github.com/htlin222/stagecast) — 問題：長時間的代理作業難以觀看和驗證；做法：透過階段檢查確保每個階段在完成後才進入下一步
 - [irb-in-hurry](https://github.com/htlin222/irb-in-hurry) — 問題：研究者面對繁瑣的 IRB 文件準備流程，耗時且繁複；做法：透過 YAML 配置自動生成所需的 IRB 提交文件
@@ -541,20 +571,21 @@
 
 ## [@irene2023study](https://github.com/irene2023study) {#irene2023study}
 
-- [filebox-support](https://github.com/irene2023study/filebox-support) — 問題：說明未寫具體痛點；做法：檔案總管 App 的支援與隱私權政策頁面
-- [itaiwan-auto-agree](https://github.com/irene2023study/itaiwan-auto-agree) — 問題：說明未寫具體痛點；做法：Windows 連上 iTaiwan Wi-Fi 時自動按下「同意
+- [little-hole](https://github.com/irene2023study/little-hole) — 問題：說明未寫具體痛點；做法：零套件的 Python 靜態網站產生器，自動產生 SEO 結構化資料與 sitemap
+- [filebox-support](https://github.com/irene2023study/filebox-support) — 問題：App 上架需要公開的支援與隱私權頁面；做法：用靜態頁面放檔案總管 App 的支援說明與隱私權政策
+- [itaiwan-auto-agree](https://github.com/irene2023study/itaiwan-auto-agree) — 問題：筆電每次連公共 Wi‑Fi 都得手動開認證頁按同意；做法：排程工作在連網時偵測 SSID，自動送出同意表單
 - [idphoto](https://github.com/irene2023study/idphoto) — 問題：無法快速將日常照片轉換為符合身分證規格的證件照；做法：利用 AI 進行照片風格轉換與自動裁切
 - [NLSTseg](https://github.com/irene2023study/NLSTseg) — 問題：無法有效進行肺癌 CT 圖像的像素級分割；做法：使用 U-Net 神經網絡進行肺癌病灶分割模型訓練
 
 ## [@jjtseng93](https://github.com/jjtseng93) {#jjtseng93}
 
-- [buninu-linux](https://github.com/jjtseng93/buninu-linux) — 問題：無法在 Linux 環境中使用 Bun 作為 PID 1 的系統；做法：透過 Buninu Linux 發布專門的 Linux 發行版運行 Bun
 - [buninu-browser](https://github.com/jjtseng93/buninu-browser) — 問題：無法使用通用的瀏覽器引擎進行網頁渲染；做法：提供一個基於 JavaScript 和 WebAssembly 的實驗性瀏覽器引擎
-- [buninu](https://github.com/jjtseng93/buninu) — 問題：在不同作業系統中無法快速啟動類 Unix 環境；做法：提供一個命令即可在瀏覽器或終端機啟動的可攜式用戶空間
 - [bunmsh](https://github.com/jjtseng93/bunmsh) — 問題：在不同平台上無法找到適合的命令行介面；做法：提供跨平台的命令行解釋器，無需依賴其他庫
+- [buninu-linux](https://github.com/jjtseng93/buninu-linux) — 問題：無法在 Linux 環境中使用 Bun 作為 PID 1 的系統；做法：透過 Buninu Linux 發布專門的 Linux 發行版運行 Bun
+- [buninu](https://github.com/jjtseng93/buninu) — 問題：在不同作業系統中無法快速啟動類 Unix 環境；做法：提供一個命令即可在瀏覽器或終端機啟動的可攜式用戶空間
 - [js-gotty](https://github.com/jjtseng93/js-gotty) — 問題：無法方便地分享終端機畫面給其他人；做法：透過瀏覽器實現終端機的即時共享功能
 - [jspulse](https://github.com/jjtseng93/jspulse) — 問題：在行動裝置上無法直接使用 PulseAudio 進行音訊處理；做法：在 Bun 環境中實現 PulseAudio 協議，無需外部工具
-- [buninu-land](https://github.com/jjtseng93/buninu-land) — 問題：說明未寫具體痛點；做法：Wayland／WebAssembly，用於Bun
+- [buninu-land](https://github.com/jjtseng93/buninu-land) — 問題：Wayland 合成器多半要用 C 寫、不易實驗；做法：以 JavaScript 加 WebAssembly 在 Bun 上實作，先支援無頭軟體合成
 - [minapk](https://github.com/jjtseng93/minapk) — 問題：無法將 Bun 單一可執行檔轉換為 Android APK；做法：使用命令列工具進行資源處理與 APK 封裝
 - [jsmdcui](https://github.com/jjtseng93/jsmdcui) — 問題：無法快速建立跨終端與網頁的互動介面；做法：使用單一 Markdown 檔案生成 TUI 和 WUI 應用程式
 - [bunproot](https://github.com/jjtseng93/bunproot) — 問題：在沒有權限的 Android 環境中無法使用 Linux 用戶空間；做法：提供一個依賴 Bun 的用戶空間 chroot 解決方案
@@ -575,7 +606,7 @@
 
 ## [@kaneyxx](https://github.com/kaneyxx) {#kaneyxx}
 
-- [omc-pstack-fy](https://github.com/kaneyxx/omc-pstack-fy) — 問題：說明不足，看不出具體痛點；做法：生成式 AI／LLM方向工具或實驗說明不足
+- [omc-pstack-fy](https://github.com/kaneyxx/omc-pstack-fy) — 問題：習慣 oh-my-claudecode 的人用不到 pstack 的寫碼與審查紀律；做法：把 pstack 原生改寫成 Claude Code 外掛，與 OMC 並用
 - [intradialytic-bp-dispersion](https://github.com/kaneyxx/intradialytic-bp-dispersion) — 問題：無法預測透析過程中的血壓變化及其對死亡率的影響；做法：建立預測模型分析血壓分散與90天死亡率的關聯
 - [for_gdrive_privacy](https://github.com/kaneyxx/for_gdrive_privacy) — 問題：說明不足，看不出具體痛點；做法：隱私相關工具或實驗說明不足
 - [idh-five-variable-score](https://github.com/kaneyxx/idh-five-variable-score) — 問題：無法快速計算透析過程中低血壓的五變數評分；做法：提供手動計算的五變數評分公式與工作流程
@@ -598,9 +629,9 @@
 ## [@keanu77](https://github.com/keanu77) {#keanu77}
 
 - [team-taiwan-results](https://github.com/keanu77/team-taiwan-results) — 問題：無法即時獲得中華隊賽程與賽果的最新資訊；做法：定時同步官方成績，自動生成靜態網站展示賽事資料
-- [htmlpptskill](https://github.com/keanu77/htmlpptskill) — 問題：無法快速製作可離線播放的 HTML 簡報；做法：透過 AI 指令生成簡報及相關檔案
-- [professional-sports-injury-atlas](https://github.com/keanu77/professional-sports-injury-atlas) — 問題：說明未寫具體痛點；做法：搜尋200／視訊的工具
 - [AIskillsintro](https://github.com/keanu77/AIskillsintro) — 問題：無法快速找到合適的 Agent Skills 及其安裝指令；做法：整理並分類多來源的技能，提供搜尋與篩選功能
+- [htmlpptskill](https://github.com/keanu77/htmlpptskill) — 問題：無法快速製作可離線播放的 HTML 簡報；做法：透過 AI 指令生成簡報及相關檔案
+- [professional-sports-injury-atlas](https://github.com/keanu77/professional-sports-injury-atlas) — 問題：運動傷害教學素材散在各處、來源難追；做法：依選手、運動、部位索引 200 支影片，連回原始報導
 - [review.sportsmedicine](https://github.com/keanu77/review.sportsmedicine) — 問題：無法快速找到運動醫學與復健的系統性回顧與臨床指引；做法：依部位、主題與族群分類的文獻索引系統
 - [antidopingplatform](https://github.com/keanu77/antidopingplatform) — 問題：使用者無法快速查詢運動禁藥案例及相關處分；做法：提供國際案例搜尋與資料庫分析功能
 - [reverse-engineer-searcher](https://github.com/keanu77/reverse-engineer-searcher) — 問題：無法快速生成針對金標準文獻的 PubMed 搜尋策略；做法：自動分析 MeSH 產生敏感、平衡、精簡三版搜尋式
@@ -663,7 +694,7 @@
 ## [@MarkHuangMD](https://github.com/MarkHuangMD) {#markhuangmd}
 
 - [CPB_assemble](https://github.com/MarkHuangMD/CPB_assemble) — 問題：說明不足，看不出具體痛點；做法：CPB assemble：依名稱推斷的工具／實驗沒有可讀說明
-- [CVS_dose](https://github.com/MarkHuangMD/CVS_dose) — 問題：說明未寫具體痛點；做法：劑量相關工具
+- [CVS_dose](https://github.com/MarkHuangMD/CVS_dose) — 問題：心血管用藥輸注劑量常需依體重手算；做法：輸入體重即換算的小型劑量計算工具（說明很少）
 - [anesthesia-archeologist](https://github.com/MarkHuangMD/anesthesia-archeologist) — 問題：說明不足，看不出具體痛點；做法：麻醉相關工具或實驗說明不足
 - [markhuangmd.github.io](https://github.com/MarkHuangMD/markhuangmd.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [markhuangmd.github.i](https://github.com/MarkHuangMD/markhuangmd.github.i) — 問題：說明不足，看不出具體痛點；做法：markhuangmd.github.i：依名稱推斷的工具／實驗沒有可讀說明
@@ -725,9 +756,10 @@
 
 - [hemorrhoids-postop](https://github.com/odafeng/hemorrhoids-postop) — 問題：術後病人無法有效追蹤症狀及獲得衛教；做法：透過日常報告與 AI 提供個性化衛教資訊
 - [Stage_III_Colon_EDR](https://github.com/odafeng/Stage_III_Colon_EDR) — 問題：缺乏針對第三期結腸癌早期遠端復發的預測模型；做法：建立可重複的機器學習分析流程進行模型開發與驗證
-- [open-slide-scene-deck](https://github.com/odafeng/open-slide-scene-deck) — 問題：說明未寫具體痛點；做法：Claude／Code／技能包／Prezi-style／相機相關工具
-- [crs-knowledge-base](https://github.com/odafeng/crs-knowledge-base) — 問題：臨床醫師在短時間內無法快速查詢大腸直腸外科的關鍵文獻；做法：搭載 AI Agent 自動文獻追蹤系統，快速檢索資料
 - [lecture_live_notes](https://github.com/odafeng/lecture_live_notes) — 問題：上課時無法快速記錄大量專有名詞與逐字稿；做法：即時音訊辨識並生成逐段筆記與整併筆記
+- [open-slide-scene-deck](https://github.com/odafeng/open-slide-scene-deck) — 問題：想做 Prezi 式的單圖鏡頭簡報又不想用 Prezi；做法：Claude Code 技能在 open-slide 上自寫攝影機路徑，用 Playwright 驗證
+- [crs-knowledge-base](https://github.com/odafeng/crs-knowledge-base) — 問題：臨床醫師在短時間內無法快速查詢大腸直腸外科的關鍵文獻；做法：搭載 AI Agent 自動文獻追蹤系統，快速檢索資料
+- [talk-qa-assistant](https://github.com/odafeng/talk-qa-assistant) — 問題：線上演講 Q&A 時來不及整理答案與出處；做法：聽會議分頁音訊轉逐字稿，先判斷是否為提問，再產生可直接唸的口語稿
 - [series-studio](https://github.com/odafeng/series-studio) — 問題：缺乏系統化生成長期維護的影片系列能力；做法：透過設定驅動的多代理生產系統進行影片製作
 - [ctpelvimetry](https://github.com/odafeng/ctpelvimetry) — 問題：手動測量 CT 骨盆尺寸耗時約 15 分鐘，效率低；做法：自動化流程將測量時間縮短至 2 分鐘
 - [odin-notes-tw](https://github.com/odafeng/odin-notes-tw) — 問題：學習資源缺乏繁體中文講義，難以理解；做法：將 Markdown 轉換為手機友好的網站格式
@@ -781,7 +813,7 @@
 ## [@philia81301-commits](https://github.com/philia81301-commits) {#philia81301-commits}
 
 - [obesity-education-clinic](https://github.com/philia81301-commits/obesity-education-clinic) — 問題：說明未寫具體痛點；做法：教育／診所相關的命令列工具
-- [video-pilot-boss](https://github.com/philia81301-commits/video-pilot-boss) — 問題：說明未寫具體痛點；做法：衛教影片動畫試作：HTML 動畫逐格輸出與自動配音
+- [video-pilot-boss](https://github.com/philia81301-commits/video-pilot-boss) — 問題：衛教影片要剪輯軟體與配音，門診難自製；做法：HTML 手寫動畫逐格截圖合成，旁白用台灣腔 TTS 自動配音
 - [obesity-society-ai-talk](https://github.com/philia81301-commits/obesity-society-ai-talk) — 問題：說明不足，看不出具體痛點；做法：AI相關工具或實驗說明不足
 - [weight-clinic-reports](https://github.com/philia81301-commits/weight-clinic-reports) — 問題：說明未寫具體痛點；做法：減重門診月度分析報告（匿名彙總統計）
 - [sarcopenia-clinic](https://github.com/philia81301-commits/sarcopenia-clinic) — 問題：現場無法有效篩檢肌少症，缺乏即時紀錄工具；做法：提供離線可用的肌少症篩檢紀錄工具，並生成判定結果
@@ -803,11 +835,11 @@
 
 ## [@shin13](https://github.com/shin13) {#shin13}
 
+- [formulary-gitbook](https://github.com/shin13/formulary-gitbook) — 問題：醫療人員在臨床上無法即時查詢藥品資訊；做法：提供電子書形式的處方集，整合藥品資料與異動公告
 - [opentaimed](https://github.com/shin13/opentaimed) — 問題：AI 助理無法準確查詢台灣藥物資訊，常依賴訓練資料猜測；做法：透過公開 API 查詢 TFDA 官方藥物資訊並附上來源
 - [nhi-knowledge-extractor](https://github.com/shin13/nhi-knowledge-extractor) — 問題：無法自動將健保藥品給付規定文件轉換為結構化格式；做法：使用變深度分塊器和原生表格解析器進行轉換
-- [ed-gateway](https://github.com/shin13/ed-gateway) — 問題：說明不足，看不出具體痛點；做法：ed gateway：依名稱推斷的工具／實驗沒有可讀說明
+- [ed-gateway](https://github.com/shin13/ed-gateway) — 問題：急診檢傷前的病人陳述零散、警訊容易漏記；做法：結構化收集陳述並套版本控管的警訊篩檢，產出可追溯的護理審閱草稿
 - [Report-Batch-Processing](https://github.com/shin13/Report-Batch-Processing) — 問題：無法將 CXR 自由文本報告結構化為 JSON 標籤；做法：透過 OpenAI 批次 API 將未分析的行轉換為結構化問題並解析回 CSV
-- [formulary-gitbook](https://github.com/shin13/formulary-gitbook) — 問題：醫療人員在臨床上無法即時查詢藥品資訊；做法：提供電子書形式的處方集，整合藥品資料與異動公告
 - [shin13.github.io](https://github.com/shin13/shin13.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [shin13](https://github.com/shin13/shin13) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [ai-esg-digest.github.io](https://github.com/shin13/ai-esg-digest.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
@@ -851,8 +883,9 @@
 
 ## [@t0mst0ne](https://github.com/t0mst0ne) {#t0mst0ne}
 
-- [dementia-uptodate](https://github.com/t0mst0ne/dementia-uptodate) — 問題：無法即時獲取失智症相關的最新研究與臨床試驗資訊；做法：自動彙整並發布每週報告至 GitHub Wiki
 - [medical-journal-daily-agent](https://github.com/t0mst0ne/medical-journal-daily-agent) — 問題：無法及時獲取最新醫學期刊文獻摘要；做法：自動抓取 RSS 並翻譯摘要推送至 Telegram
+- [ob-zotero-ingest](https://github.com/t0mst0ne/ob-zotero-ingest) — 問題：學術網頁的書目與全文要手動搬進筆記庫；做法：Chrome 擴充加本機 Native Host，擷取內容寫入 Obsidian 並可接 Zotero
+- [dementia-uptodate](https://github.com/t0mst0ne/dementia-uptodate) — 問題：無法即時獲取失智症相關的最新研究與臨床試驗資訊；做法：自動彙整並發布每週報告至 GitHub Wiki
 - [TV](https://github.com/t0mst0ne/TV) — 問題：說明未寫具體痛點；做法：儀表板
 - [t0mst0ne.github.io](https://github.com/t0mst0ne/t0mst0ne.github.io) — 問題：個人頁面，沒有單一待解問題；做法：作品集站，沒有可單獨說明的做法
 - [sendai-coupons](https://github.com/t0mst0ne/sendai-coupons) — 問題：說明不足，看不出具體痛點；做法：sendai coupons：依名稱推斷的工具／實驗沒有可讀說明
@@ -914,7 +947,7 @@
 ## [@texchi2](https://github.com/texchi2) {#texchi2}
 
 - [ftmerp-java-plugins](https://github.com/texchi2/ftmerp-java-plugins) — 問題：缺乏針對服裝製造業的 ERP 插件；做法：提供與 Apache OFBiz 整合的專用插件以增強功能
-- [KOMA_AI_chief_keynote_2026Oct](https://github.com/texchi2/KOMA_AI_chief_keynote_2026Oct) — 問題：說明未寫具體痛點；做法：Beamer keynote (EMI edition): Holistic
+- [KOMA_AI_chief_keynote_2026Oct](https://github.com/texchi2/KOMA_AI_chief_keynote_2026Oct) — 問題：說明未寫具體痛點；做法：以 Beamer 製作的全人照護與海外醫療主題英文演講投影片
 - [ftmerp-java-project](https://github.com/texchi2/ftmerp-java-project) — 問題：缺乏針對 ERP 系統的具體使用說明；做法：提供詳細的文檔與設定指引
 - [KOMA_AI_chief_keynote_2026May](https://github.com/texchi2/KOMA_AI_chief_keynote_2026May) — 問題：缺乏針對臺灣醫療使命在非洲的具體案例分享；做法：透過 Beamer 簡報呈現醫療合作成果與文化交流
 - [ftm_assessment_2025](https://github.com/texchi2/ftm_assessment_2025) — 問題：無法有效處理大量 PDF 檔案進行數學評估；做法：批次處理 PDF 檔案以提高效能
@@ -972,13 +1005,13 @@
 
 ## [@TLAN1012](https://github.com/TLAN1012) {#tlan1012}
 
+- [NHI-Rules](https://github.com/TLAN1012/NHI-Rules) — 問題：查詢健保政策時無法快速找到所需的給付規定；做法：提供逐條給付規定全文查詢與自動更新機制
 - [Neurology_Update](https://github.com/TLAN1012/Neurology_Update) — 問題：缺乏集中且更新的神經醫學知識與新聞來源；做法：建立靜態網站定期發布相關摘要與筆記
 - [Taiwan_Nurse_CNT](https://github.com/TLAN1012/Taiwan_Nurse_CNT) — 問題：護理人員無法快速比較不同來源的繼續教育積分課程；做法：聚合各公會學會的課程資訊，提供多維度比較功能
 - [Taiwan_Neurology](https://github.com/TLAN1012/Taiwan_Neurology) — 問題：基層神經科醫師查詢課程資訊不便；做法：集中彙整各學會的教育課程與積分資訊
-- [NHI-Rules](https://github.com/TLAN1012/NHI-Rules) — 問題：查詢健保政策時無法快速找到所需的給付規定；做法：提供逐條給付規定全文查詢與自動更新機制
 - [Fable5](https://github.com/TLAN1012/Fable5) — 問題：無法直觀理解歷史戰役的複雜情境；做法：透過互動式 3D 模型重現戰史劇場
 - [HsiehPomelo](https://github.com/TLAN1012/HsiehPomelo) — 問題：使用者無法有效記憶日文平假名與片假名；做法：透過間隔重複與鼓勵機制進行字母練習
-- [clinic-phrases](https://github.com/TLAN1012/clinic-phrases) — 問題：說明未寫具體痛點；做法：門診片語：點一下就複製的病歷片語，自訂片語存在瀏覽器本機
+- [clinic-phrases](https://github.com/TLAN1012/clinic-phrases) — 問題：門診病歷常用句一再重打；做法：點一下就複製的片語網頁，可加民國日期前綴，自訂片語只存瀏覽器本機
 - [basic-EE](https://github.com/TLAN1012/basic-EE) — 問題：自學基礎電子學時缺乏實驗操作與即時反饋；做法：提供導引實驗與即時狀態解釋的互動學習平台
 - [Taiwan-Odosui](https://github.com/TLAN1012/Taiwan-Odosui) — 問題：考生無法獲得官方題庫的詳解與條文出處；做法：自編練習題並提供逐題詳解與條文引用
 - [WoT](https://github.com/TLAN1012/WoT) — 問題：玩家無法清楚了解每位英雄的屬性與技能；做法：設計六角格戰棋，提供多樣化的角色屬性與技能選擇
@@ -991,11 +1024,11 @@
 
 ## [@tsaiid](https://github.com/tsaiid) {#tsaiid}
 
-- [structured-reporting-web-tools](https://github.com/tsaiid/structured-reporting-web-tools) — 問題：放射科醫師在生成癌症分期報告時缺乏標準化工具；做法：提供網頁工具自動計算 TNM 分期並生成報告
-- [random-duty](https://github.com/tsaiid/random-duty) — 問題：住院醫師排班時無法快速隨機分配值班；做法：使用單頁應用程式自動生成值班安排
 - [radtools.tsai.it](https://github.com/tsaiid/radtools.tsai.it) — 問題：臨床放射科工作流程中缺乏有效的工具來提升準確性；做法：提供多種網頁工具以協助醫療決策
-- [MacShuttle](https://github.com/tsaiid/MacShuttle) — 問題：官方驅動程式在現代 macOS 上不相容；做法：提供開源的原生驅動程式與應用程式感知功能
+- [structured-reporting-web-tools](https://github.com/tsaiid/structured-reporting-web-tools) — 問題：放射科醫師在生成癌症分期報告時缺乏標準化工具；做法：提供網頁工具自動計算 TNM 分期並生成報告
 - [ahk-htch](https://github.com/tsaiid/ahk-htch) — 問題：院內影像醫學科報告系統操作繁瑣，缺乏快速鍵與範本；做法：提供 AutoHotkey 腳本自動化常用報告與操作熱鍵
+- [random-duty](https://github.com/tsaiid/random-duty) — 問題：住院醫師排班時無法快速隨機分配值班；做法：使用單頁應用程式自動生成值班安排
+- [MacShuttle](https://github.com/tsaiid/MacShuttle) — 問題：官方驅動程式在現代 macOS 上不相容；做法：提供開源的原生驅動程式與應用程式感知功能
 - [pixel-scanner](https://github.com/tsaiid/pixel-scanner) — 問題：無法進行 OCR 和雲端同步；做法：使用本地會話儲存和手動導出功能
 - [femh-dicom](https://github.com/tsaiid/femh-dicom) — 問題：說明未寫具體痛點；做法：DICOM相關工具；偏醫學影像／放射
 - [web-bone-age](https://github.com/tsaiid/web-bone-age) — 問題：現場查詢骨齡 X 光參考圖不便捷；做法：提供依性別與年齡快速查找的網頁應用程式
@@ -1027,7 +1060,7 @@
 ## [@u9401066](https://github.com/u9401066) {#u9401066}
 
 - [med-paper-assistant](https://github.com/u9401066/med-paper-assistant) — 問題：學術寫作過程中缺乏可追溯的檢查點和質量控制；做法：整合自動化與人為指導的寫作流程，提供可觀察的檢查點和質量門檻
-- [medqa-bench](https://github.com/u9401066/medqa-bench) — 問題：說明未寫具體痛點；做法：Reproducible／醫療／QA／基準測試／MedQA
+- [medqa-bench](https://github.com/u9401066/medqa-bench) — 問題：本地 LLM 醫學問答成績難以重現與公平比較；做法：固定題庫版本與提示協定，可續跑並輸出信賴區間、配對檢定與耗能
 - [pubmed-search-mcp](https://github.com/u9401066/pubmed-search-mcp) — 問題：研究人員在多來源文獻搜尋時缺乏有效工具；做法：提供多來源資料庫的智能文獻搜尋與分析功能
 - [research-data-explorer](https://github.com/u9401066/research-data-explorer) — 問題：非技術研究者無法進行可重複的探索性數據分析；做法：提供可審計的分析流程，記錄決策與執行結果
 - [creativity-generation-unit](https://github.com/u9401066/creativity-generation-unit) — 問題：使用者在創意發想時缺乏有效的結構和方法；做法：透過多步驟的快思慢想架構引導創意生成
@@ -1060,9 +1093,9 @@
 
 ## [@yfwu](https://github.com/yfwu) {#yfwu}
 
-- [VN-Reader](https://github.com/yfwu/VN-Reader) — 問題：說明未寫具體痛點；做法：可以閱讀 CBZ/CBR 檔案的閱讀器 app
-- [FuGames](https://github.com/yfwu/FuGames) — 問題：說明不足，看不出具體痛點；做法：遊戲相關工具或實驗說明不足
+- [VN-Reader](https://github.com/yfwu/VN-Reader) — 問題：iPad 上想離線看自己的漫畫檔又不想綁帳號；做法：原生 iPadOS 閱讀器匯入 CBZ／CBR，記住閱讀進度
 - [FuGym](https://github.com/yfwu/FuGym) — 問題：說明不足，看不出具體痛點；做法：FuGym：依名稱推斷的工具／實驗沒有可讀說明
+- [FuGames](https://github.com/yfwu/FuGames) — 問題：說明未寫具體痛點；做法：遊戲與 AI 全在瀏覽器執行的靜態網頁遊戲集，共用一套主題元件
 - [.emacs.d](https://github.com/yfwu/.emacs.d) — 問題：說明未寫具體痛點；做法：Emacs／設定相關工具
 - [FuCard](https://github.com/yfwu/FuCard) — 問題：說明不足，看不出具體痛點；做法：FuCard：依名稱推斷的工具／實驗沒有可讀說明
 - [FuGuided](https://github.com/yfwu/FuGuided) — 問題：說明不足，看不出具體痛點；做法：FuGuided：依名稱推斷的工具／實驗沒有可讀說明
@@ -1090,8 +1123,8 @@
 
 ## [@Yuchunchen](https://github.com/Yuchunchen) {#yuchunchen}
 
-- [hospital-lab-viewer](https://github.com/Yuchunchen/hospital-lab-viewer) — 問題：醫師在院內無法快速生成病人檢驗報告；做法：透過擴充功能從 ernode 抓取資料並產生報告
 - [hospital-lab-reporter](https://github.com/Yuchunchen/hospital-lab-reporter) — 問題：洗腎室缺乏有效的檢驗資料管理工具；做法：用單一 HTML 應用程式管理病患檢驗資料並匯出 CSV
+- [hospital-lab-viewer](https://github.com/Yuchunchen/hospital-lab-viewer) — 問題：醫師在院內無法快速生成病人檢驗報告；做法：透過擴充功能從 ernode 抓取資料並產生報告
 - [hospital-lab-patterns](https://github.com/Yuchunchen/hospital-lab-patterns) — 問題：無法有效解析實驗室和影像報告中的數據；做法：建立正則表達式模式目錄以提取和計算數值
 - [VaxCheck](https://github.com/Yuchunchen/VaxCheck) — 問題：醫師在現場無法快速確認病患的疫苗接種資格；做法：透過健保雲端與規則引擎即時檢核疫苗資格
 - [teaching](https://github.com/Yuchunchen/teaching) — 問題：臨床同仁無法快速獲取 AI 實務教材；做法：建立一個結構化的教材庫，並透過 Notion 發布簡化版教案
@@ -1103,8 +1136,9 @@
 
 ## [@zinojeng](https://github.com/zinojeng) {#zinojeng}
 
+- [diabetes-integrated-care-ai](https://github.com/zinojeng/diabetes-integrated-care-ai) — 問題：糖尿病門診時間有限，要同時掌握併發症、心理與自我照護；做法：整理全人評估架構與 AI 輔助跨專業整合照護的系統設計
 - [aislide](https://github.com/zinojeng/aislide) — 問題：說明未寫具體痛點；做法：簡報相關工具；偏簡報／教材
-- [dka-case-academic-research](https://github.com/zinojeng/dka-case-academic-research) — 問題：說明未寫具體痛點；做法：Case-based／DKA／研究／Codex-led／Claude相關工具
+- [dka-case-academic-research](https://github.com/zinojeng/dka-case-academic-research) — 問題：DKA 床邊電解質與胰島素轉換判讀不易教；做法：以單一去識別個案分題做文獻研究，發布免登入的床邊判讀教學網站
 - [pi3k_metformin](https://github.com/zinojeng/pi3k_metformin) — 問題：臨床醫師缺乏針對 PI3Kα 抑制劑與 metformin 的系統性文獻回顧；做法：提供結構化的文獻回顧與演講架構，包含風險分層與處置流程
 - [AI-agent-in-diabetes](https://github.com/zinojeng/AI-agent-in-diabetes) — 問題：醫師在糖尿病病人管理中缺乏即時的臨床建議與依據；做法：透過資料分析生成建議，並需醫師確認後才執行
 - [notion-web](https://github.com/zinojeng/notion-web) — 問題：無法有效分開網頁內容的標題、摘要與來源網址；做法：提供選取內容與 Facebook 貼文的清晰整理功能

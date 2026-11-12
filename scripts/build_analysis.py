@@ -58,6 +58,7 @@ CURATED = [
         "健保、ICD 與藥品資料",
         [
             "TLAN1012/NHI-Rules",
+            "TLAN1012/clinic-phrases",
             "copper0722/nhi-rule-history",
             "copper0722/tw-new-drug-signals",
             "liangRXdev/TFDA-drug-info-search",
@@ -187,6 +188,25 @@ STANDOUTS = [
     ("u9401066/dicom-overlay-agent", "監看既有 DICOM 看片軟體，把 AI 結果疊在畫面上，不必改 PACS。"),
 ]
 
+# 最近一次人工更新（月掃）挑出的新作品；週報重建時保留
+RECENT = ("2026-10-11", "2026-11-12", [
+    ("TLAN1012/clinic-phrases", "門診病歷片語一鍵複製、可加民國日期前綴，自訂片語只存瀏覽器本機。"),
+    ("odafeng/talk-qa-assistant", "線上演講 Q&A 助手：先用判斷型 API 在 0.2 秒內決定「是不是提問」，只有新問題才交給大模型寫口語稿並附論文與投影片頁碼。"),
+    ("u9401066/medqa-bench", "本地 LLM 醫學問答評測：固定題庫版本與 SHA-256、可續跑、輸出 Wilson CI、McNemar 與配對 bootstrap，連 VRAM 與耗能都記錄。"),
+    ("shin13/ed-gateway", "急診檢傷前的結構化陳述收集：版本控管的警訊篩檢、保留出處、append-only 事件紀錄，產出可給護理審閱的草稿。"),
+    ("zinojeng/dka-case-academic-research", "以單一去識別 DKA 個案分題做文獻研究，產出免登入的床邊判讀教學網站，含胰島素算術核對。"),
+    ("htlin222/cvvh-circuit-motion-design", "依實機設定做 CVVH 管路動態解說、互動示意圖與 3D 模型，床邊衛教與教學可直接用。"),
+    ("drpwchen/nursing-report-tutor", "把護理部評分表與範例寫成 AI 技能檔帶新人寫報告；引用核對交給固定的程式，不交給模型。"),
+    ("drpwchen/urology-ai-demo", "故意做亂的結石處置假資料（單位、民國西元、合併儲存格混雜），練習交辦 AI 先盤點再分析。"),
+    ("t0mst0ne/ob-zotero-ingest", "Chrome 擴充加本機 Native Host，把學術網頁的書目與全文寫進 Obsidian，可選整合 Zotero。"),
+    ("erichuang777777/breast-guideline-mcp", "乳癌指引的 Streamable HTTP MCP，接 Open WebUI；程式公開、指引資料留在本機。"),
+])
+HOMEPAGES.update({
+    "TLAN1012/clinic-phrases": "https://tlan1012.github.io/clinic-phrases/",
+    "htlin222/cvvh-circuit-motion-design": "https://htlin222.github.io/cvvh-circuit-motion-design/",
+    "zinojeng/dka-case-academic-research": "https://dka-teaching-rounds.zinojeng.workers.dev",
+})
+
 PATTERNS = [
     "<strong>繞過 HIS、不改 HIS</strong>：瀏覽器擴充、熱鍵常駐、AutoHotKey、畫面疊圖。",
     "<strong>純前端單檔／靜態網站</strong>（GitHub Pages、Cloudflare、Vercel）：資料不離開瀏覽器，順便避開資安審查。",
@@ -241,6 +261,13 @@ def build() -> str:
         return esc(r.get("intro_zh") or r.get("description") or FALLBACK_INTRO.get(fn, ""))
 
     out = []
+    r0, r1, recent = RECENT
+    rec = [(fn, why) for fn, why in recent if present(fn)]
+    if rec:
+        items = "".join(
+            f"<li>{link(fn)}" + (f' ・<a href="{esc(HOMEPAGES[fn])}">線上版</a>' if fn in HOMEPAGES else "") + f"<br><span class=\"intro\">{esc(why)}</span></li>"
+            for fn, why in rec)
+        out.append(f'<section class="card" id="recent"><h2>最近新作（{esc(r0)} → {esc(r1)}）</h2><p class="meta">名冊醫師這段期間新開或大幅更新、值得一看的作品（人工挑選）。</p><ul class="items">{items}</ul></section>')
     rows = "".join(f"<tr><td>{esc(n)}</td><td>{cnt[n]}</td><td>{len(auth[n])}</td></tr>" for n, _ in sorted(CLUSTERS, key=lambda x: -cnt[x[0]]))
     out.append(f'<section class="card" id="direction"><h2>一、大家努力的方向</h2><p class="meta">共 {accounts} 個帳號、{total} 個 repo；排除遊戲、投資、作業、個人站與內容空白者後，約 {kept} 個臨床相關。</p>'
                f'<div class="tbl"><table><thead><tr><th>類別</th><th>repo</th><th>作者</th></tr></thead><tbody>{rows}</tbody></table></div>'
@@ -291,7 +318,7 @@ ul.items,ol.items{{margin:.3rem 0 0;padding-left:1.15rem}}.items li{{margin:.45r
 @media(max-width:600px){{body{{font-size:15px}}header.hero h1{{font-size:1.25rem}}nav.toc a{{font-size:.78rem;padding:.15rem .55rem}}}}
 </style></head><body>
 <header class="hero"><div class="wrap"><h1>名冊整體分析</h1><p>大家在解決什麼問題、哪些輪子被重複造、哪些成果可以直接用</p><p class="meta" style="color:#fff;opacity:.85">資料時間：{gen}</p></div></header>
-<div class="wrap"><nav class="toc"><a href="./index.html">← 回首頁</a><a href="#direction">努力方向</a><a href="#dupes">重複造輪子</a><a href="#ready">可直接用</a><a href="#clever">精妙做法</a><a href="#patterns">模式與缺口</a></nav>
+<div class="wrap"><nav class="toc"><a href="./index.html">← 回首頁</a><a href="#recent">最近新作</a><a href="#direction">努力方向</a><a href="#dupes">重複造輪子</a><a href="#ready">可直接用</a><a href="#clever">精妙做法</a><a href="#patterns">模式與缺口</a></nav>
 {"".join(out)}
 <p class="meta">由 scripts/build_analysis.py 依 docs/data/repos.json 產生；精選清單與評語為人工整理。</p></div></body></html>
 '''
