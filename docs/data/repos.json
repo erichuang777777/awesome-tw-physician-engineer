@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T10:49:04Z",
-  "generated_at_taipei": "2026-11-12 18:49（台北時間）",
+  "generated_at": "2026-11-12T10:52:46Z",
+  "generated_at_taipei": "2026-11-12 18:52（台北時間）",
   "roster_count": 51,
   "repo_count": 1035,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -2864,7 +2864,7 @@
           "topics": [],
           "language": "Python",
           "stars": 5,
-          "pushed_at": "2026-11-09T03:58:04Z",
+          "pushed_at": "2026-11-12T10:52:34Z",
           "theme": null,
           "intro_zh": "問題：臨床醫事人員缺乏展示開發能力的平台；做法：彙整具開發能力的醫師工程師名單與專案連結",
           "intro_source": "readme_llm",
