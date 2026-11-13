@@ -2,11 +2,11 @@
 
 隱私優先：僅使用 GitHub `@帳號` 與公開倉庫中繼資料。
 
-- 產生時間：`2026-11-12 18:52（台北時間）`
-- 動態視窗：近 **7** 天（自 `2026-11-05T10:52:46Z`）
+- 產生時間：`2026-11-14 03:02（台北時間）`
+- 動態視窗：近 **7** 天（自 `2026-11-06T19:02:11Z`）
 - 名冊帳號：**51**
 - 本週精選：**10**
-- 公開非 fork 倉庫總數：**1035**
+- 公開非 fork 倉庫總數：**1032**
 
 > **隱私：** 僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。
 
@@ -18,16 +18,16 @@
 
 近 7 天掃描 51 個名冊帳號，精選 10 則值得追蹤的臨床／醫工動態；另略過 19 則較安靜或非臨床向更新。
 
+- [@htlin222](https://github.com/htlin222) — 新建 「qa-aegis」；更新了 臨床指引／路徑「openevidence-mcp」、腫瘤／血液相關「irb-in-hurry」、臨床指引／路徑「robust-lit-review」 等 6 個
 - [@agoodbear](https://github.com/agoodbear) — 更新了 急診／急重症「tw-er-ref-2x9k」、「em-pulse-tw」
-- [@htlin222](https://github.com/htlin222) — 更新了 腫瘤／血液相關「lin-hsiehting」、護理「zh-ebn-report-skill」
+- [@shin13](https://github.com/shin13) — 更新了 健保／編碼與申報「nhi-knowledge-extractor」、藥學／藥品資訊「opentaimed」
+- [@t0mst0ne](https://github.com/t0mst0ne) — 更新了 文獻／臨床試驗「medical-journal-daily-agent」、健保／編碼與申報「NHI_bot」
 - [@TLAN1012](https://github.com/TLAN1012) — 更新了 健保／編碼與申報「NHI-Rules」、護理「Taiwan_Nurse_CNT」
 - [@ckt520728](https://github.com/ckt520728) — 更新了 生理訊號／波形「kidney-cognition-lab」
-- [@shin13](https://github.com/shin13) — 更新了 藥學／藥品資訊「opentaimed」
-- [@t0mst0ne](https://github.com/t0mst0ne) — 更新了 文獻／臨床試驗「medical-journal-daily-agent」
 - [@tsaiid](https://github.com/tsaiid) — 更新了 醫學影像／放射「structured-reporting-web-tools」
-- [@Yuchunchen](https://github.com/Yuchunchen) — 更新了 健保／編碼與申報「VaxCheck」
 - [@odafeng](https://github.com/odafeng) — 更新了 臨床指引／路徑「hemorrhoids-postop」、腫瘤／血液相關「Stage_III_Colon_EDR」
-- [@cutemo0953](https://github.com/cutemo0953) — 更新了 文獻／臨床試驗「nslin-site」
+- [@philia81301-commits](https://github.com/philia81301-commits) — 更新了 臨床指引／路徑「pneumonia-clinic」、「obesity-education-clinic」
+- [@drpwchen](https://github.com/drpwchen) — 新建 「urology-ai-demo」；更新了 臨床指引／路徑「ask-your-library」
 
 _另有 19 個帳號本週僅有個人網站、學習筆記或其他非臨床向公開推送，未列入上方精選。_
 
@@ -115,7 +115,7 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 完整列表見 [repos.md](./repos.md) 或網頁搜尋介面。
 
-共 **1035** 個倉庫、**51** 個帳號。
+共 **1032** 個倉庫、**51** 個帳號。
 
 來源：[erichuang777777/awesome-tw-physician-engineer](https://github.com/erichuang777777/awesome-tw-physician-engineer)
 
