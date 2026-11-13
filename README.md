@@ -8,6 +8,7 @@
 - [這是什麼](#這是什麼)
 - [名單](#名單)
 - [簡介與代表專案](#簡介與代表專案)
+- [其他收錄（作品較少、待確認）](#其他收錄作品較少待確認)
 - [無公開 GitHub，但有公開作品](#無公開-github但有公開作品)
 - [收錄原則](#收錄原則)
 - [如何推薦、修正或移除](#如何推薦修正或移除)
@@ -16,7 +17,7 @@
 
 ## 這是什麼
 
-這是一份**非官方名冊**，以**仍在臨床第一線、同時具備軟體開發、資料工程、AI／ML、產品或開源貢獻的醫師**為收錄對象。方便交流、避免重複造輪子。主表只保留 GitHub login；其他角色、專案或背景資訊請以各人的 GitHub 個人檔案與公開連結為準。
+這是一份**非官方名冊**，以**仍在臨床第一線、同時具備軟體開發、資料工程、AI／ML、產品或開源貢獻的醫師**為收錄對象。方便交流、避免重複造輪子。主表只保留 GitHub login；作品較少、尚待確認者見[其他收錄](#其他收錄作品較少待確認)，不計入主表人數。其他角色、專案或背景資訊請以各人的 GitHub 個人檔案與公開連結為準。
 
 > **重要聲明**：本列表非官方名冊；內容彙整自公開來源，可能過時或有誤。錯誤、過時、希望修改或想移除自己的條目，請開 [Issue](https://github.com/erichuang777777/awesome-tw-physician-engineer/issues)。建議本人以 opt-in 方式補充或修正公開資訊。
 
@@ -296,6 +297,18 @@
 ### [@zinojeng](https://github.com/zinojeng)
 產出豐富，涵蓋醫療期刊 PDF→Markdown、糖尿病／CGM 與內分泌教學／HIS 決策支援。  
 代表專案：[`pdf2md`](https://github.com/zinojeng/pdf2md) — 針對醫療期刊優化的多模態 PDF→Markdown。
+
+## 其他收錄（作品較少、待確認）
+
+主表與每周名冊掃描不含以下帳號。公開作品較少，或僅有診所網站、研究補充資料；依個人檔案自述暫記，尚未經本人確認。完整說明見 [docs/others.md](docs/others.md)。
+
+### [@cjhong007](https://github.com/cjhong007) 「待確認」
+個人檔案自述為台北開業精神科醫師。公開作品以診所網站為主。  
+代表專案：[`Soothing-Clinic`](https://github.com/cjhong007/Soothing-Clinic) — 診所公開網站。
+
+### [@rainyday309](https://github.com/rainyday309) 「待確認」
+個人檔案自述為精神科醫師，近期關注 EEG 相關主題。公開作品以研究補充資料為主。  
+代表專案：[`ECT-ictal-A1-supplement`](https://github.com/rainyday309/ECT-ictal-A1-supplement) — ECT 相關論文的公開補充資料。
 
 ## 無公開 GitHub，但有公開作品
 

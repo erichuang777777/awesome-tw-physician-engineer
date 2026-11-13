@@ -1,0 +1,28 @@
+{
+  "title": "其他收錄（作品較少、待確認）",
+  "note": "不列入上方主表，也不計入每周名冊掃描人數。公開作品較少，或僅有診所網站、研究補充資料；依個人檔案自述暫記，尚未經本人確認。身分與背景請以各人 GitHub 個人檔案為準。",
+  "people": [
+    {
+      "login": "cjhong007",
+      "profile_url": "https://github.com/cjhong007",
+      "status": "待確認",
+      "note_zh": "個人檔案自述為台北開業精神科醫師。公開作品以診所網站為主。",
+      "representative": {
+        "name": "Soothing-Clinic",
+        "url": "https://github.com/cjhong007/Soothing-Clinic",
+        "blurb": "診所公開網站。"
+      }
+    },
+    {
+      "login": "rainyday309",
+      "profile_url": "https://github.com/rainyday309",
+      "status": "待確認",
+      "note_zh": "個人檔案自述為精神科醫師，近期關注 EEG 相關主題。公開作品以研究補充資料為主。",
+      "representative": {
+        "name": "ECT-ictal-A1-supplement",
+        "url": "https://github.com/rainyday309/ECT-ictal-A1-supplement",
+        "blurb": "ECT 相關論文的公開補充資料。"
+      }
+    }
+  ]
+}

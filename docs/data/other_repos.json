@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-11-13T19:01:23Z",
+  "generated_at_taipei": "2026-11-14 03:01（台北時間）",
+  "roster_count": 2,
+  "repo_count": 4,
+  "secondary": true,
+  "title": "其他收錄（作品較少、待確認）",
+  "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
+  "accounts": [
+    {
+      "login": "cjhong007",
+      "profile_url": "https://github.com/cjhong007",
+      "repo_count": 2,
+      "error": null,
+      "repos": [
+        {
+          "name": "Soothing-Clinic",
+          "full_name": "cjhong007/Soothing-Clinic",
+          "url": "https://github.com/cjhong007/Soothing-Clinic",
+          "description": "Soothing Sleep & Mind Clinic",
+          "language": "HTML",
+          "stars": 0,
+          "forks": 0,
+          "pushed_at": "2026-10-26T14:13:16Z",
+          "created_at": "2026-02-09T07:11:00Z",
+          "homepage": null,
+          "topics": [],
+          "archived": false,
+          "intro_zh": "問題：診所需要公開的看診與服務說明頁；做法：以靜態網站呈現診所資訊。",
+          "intro_source": "manual",
+          "intro_thin": false
+        },
+        {
+          "name": "cjhong",
+          "full_name": "cjhong007/cjhong",
+          "url": "https://github.com/cjhong007/cjhong",
+          "description": null,
+          "language": null,
+          "stars": 0,
+          "forks": 0,
+          "pushed_at": "2022-05-21T14:18:38Z",
+          "created_at": "2022-05-21T14:16:32Z",
+          "homepage": null,
+          "topics": [],
+          "archived": false,
+          "intro_zh": "問題：需要個人 GitHub 檔案頁；做法：帳號的個人介紹倉庫。",
+          "intro_source": "manual",
+          "intro_thin": false
+        }
+      ]
+    },
+    {
+      "login": "rainyday309",
+      "profile_url": "https://github.com/rainyday309",
+      "repo_count": 2,
+      "error": null,
+      "repos": [
+        {
+          "name": "ECT-ictal-A1-supplement",
+          "full_name": "rainyday309/ECT-ictal-A1-supplement",
+          "url": "https://github.com/rainyday309/ECT-ictal-A1-supplement",
+          "description": "supplementary 2 for \"Agomelatine and seizure expression during electroconvulsive therapy: a secondary analysis of a randomized, placebo-controlled trial\"",
+          "language": "Python",
+          "stars": 0,
+          "forks": 0,
+          "pushed_at": "2026-10-08T01:17:35Z",
+          "created_at": "2026-10-08T01:05:18Z",
+          "homepage": null,
+          "topics": [],
+          "archived": false,
+          "intro_zh": "問題：ECT 相關分析過程需要可重現的補充資料；做法：公開論文二次分析的程式與資料。",
+          "intro_source": "manual",
+          "intro_thin": false
+        },
+        {
+          "name": "mse-analysis-06144ver",
+          "full_name": "rainyday309/mse-analysis-06144ver",
+          "url": "https://github.com/rainyday309/mse-analysis-06144ver",
+          "description": null,
+          "language": "R",
+          "stars": 0,
+          "forks": 0,
+          "pushed_at": "2017-06-11T14:24:54Z",
+          "created_at": "2016-07-03T08:13:51Z",
+          "homepage": null,
+          "topics": [],
+          "archived": false,
+          "intro_zh": "問題：相關分析程式要能被查閱與重跑；做法：公開分析腳本。",
+          "intro_source": "manual",
+          "intro_thin": false
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}

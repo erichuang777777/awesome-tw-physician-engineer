@@ -87,6 +87,28 @@ GitHub 帳號頁 [ttpcfmd](https://github.com/ttpcfmd) 仍在（標題為衛生�
 
 ---
 
+## 其他收錄（作品較少、待確認）
+
+不列入上方主表，也不計入每周名冊掃描人數。公開作品較少，或僅有診所網站、研究補充資料；依個人檔案自述暫記，尚未經本人確認。身分與背景請以各人 GitHub 個人檔案為準。
+
+主表與每周名冊人數不含這些帳號。完整說明見 [others.md](./others.md)。
+
+### [@cjhong007](https://github.com/cjhong007) 「待確認」
+
+個人檔案自述為台北開業精神科醫師。公開作品以診所網站為主。
+
+- [`Soothing-Clinic`](https://github.com/cjhong007/Soothing-Clinic) — 問題：診所需要公開的看診與服務說明頁；做法：以靜態網站呈現診所資訊。
+- [`cjhong`](https://github.com/cjhong007/cjhong) — 問題：需要個人 GitHub 檔案頁；做法：帳號的個人介紹倉庫。
+
+### [@rainyday309](https://github.com/rainyday309) 「待確認」
+
+個人檔案自述為精神科醫師，近期關注 EEG 相關主題。公開作品以研究補充資料為主。
+
+- [`ECT-ictal-A1-supplement`](https://github.com/rainyday309/ECT-ictal-A1-supplement) — 問題：ECT 相關分析過程需要可重現的補充資料；做法：公開論文二次分析的程式與資料。
+- [`mse-analysis-06144ver`](https://github.com/rainyday309/mse-analysis-06144ver) — 問題：相關分析程式要能被查閱與重跑；做法：公開分析腳本。
+
+---
+
 ## 專案資料庫（公開非 fork）
 
 依作者分組；每位作者帳號只出現一次，其下為緊湊「倉庫名 — 問題；做法」。

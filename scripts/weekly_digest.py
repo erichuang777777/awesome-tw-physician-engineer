@@ -95,7 +95,18 @@ THEME_RULES: list[tuple[list[str], str]] = [
 ]
 
 
+def _main_roster_text(readme_text: str) -> str:
+    """Only the main roster / 簡介, excluding 其他收錄 and nongithub sections."""
+    cut = len(readme_text)
+    for marker in ("## 其他收錄", "## 無公開 GitHub"):
+        i = readme_text.find(marker)
+        if i != -1:
+            cut = min(cut, i)
+    return readme_text[:cut]
+
+
 def parse_roster_logins(readme_text: str) -> list[str]:
+    readme_text = _main_roster_text(readme_text)
     seen: set[str] = set()
     logins: list[str] = []
     for match in TABLE_LOGIN_RE.finditer(readme_text):
@@ -1990,6 +2001,123 @@ def render_nongithub_html(data: dict[str, Any]) -> str:
     return "\n".join(chunks)
 
 
+
+def load_other_roster() -> dict[str, Any] | None:
+    """Secondary, thin-evidence authors excluded from the main roster count."""
+    path = DATA_DIR / "other_roster.json"
+    if not path.is_file():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not data.get("people"):
+        return None
+    return data
+
+
+def load_other_repos() -> dict[str, Any] | None:
+    path = DATA_DIR / "other_repos.json"
+    if not path.is_file():
+        return None
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not data.get("accounts"):
+        return None
+    return data
+
+
+def other_roster_logins() -> list[str]:
+    data = load_other_roster()
+    if not data:
+        return []
+    logins: list[str] = []
+    seen: set[str] = set()
+    for person in data.get("people") or []:
+        login = (person.get("login") or "").strip()
+        key = login.lower()
+        if not login or key in seen:
+            continue
+        seen.add(key)
+        logins.append(login)
+    return logins
+
+
+def render_other_roster_md(other_db: dict[str, Any] | None = None) -> str:
+    meta = load_other_roster()
+    if not meta:
+        return ""
+    lines = [
+        f"## {meta.get('title') or '其他收錄（作品較少、待確認）'}",
+        "",
+        meta.get("note") or "",
+        "",
+        "主表與每周名冊人數不含這些帳號。完整說明見 [others.md](./others.md)。",
+        "",
+    ]
+    accounts = {a["login"].lower(): a for a in (other_db or {}).get("accounts") or []}
+    for person in meta.get("people") or []:
+        login = person.get("login") or ""
+        status = person.get("status") or "待確認"
+        lines.append(f"### [@{login}]({person.get('profile_url') or f'https://github.com/{login}'}) 「{status}」")
+        lines.append("")
+        if person.get("note_zh"):
+            lines.append(person["note_zh"])
+            lines.append("")
+        acc = accounts.get(login.lower())
+        if acc and acc.get("repos"):
+            for r in acc["repos"]:
+                intro = (r.get("intro_zh") or r.get("description") or "").strip()
+                bit = f" — {intro}" if intro else ""
+                lines.append(f"- [`{r['name']}`]({r['url']}){bit}")
+        else:
+            rep = person.get("representative") or {}
+            if rep.get("url"):
+                blurb = f" — {rep.get('blurb')}" if rep.get("blurb") else ""
+                lines.append(f"- [`{rep.get('name')}`]({rep['url']}){blurb}")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def render_other_roster_html(other_db: dict[str, Any] | None = None) -> str:
+    meta = load_other_roster()
+    if not meta:
+        return ""
+    title = html.escape(meta.get("title") or "其他收錄（作品較少、待確認）")
+    note = _md_inline_to_html(meta.get("note") or "")
+    accounts = {a["login"].lower(): a for a in (other_db or {}).get("accounts") or []}
+    chunks = [
+        '<section id="other-roster" class="card">',
+        "<details>",
+        f"<summary><h2>{title}</h2></summary>",
+        f'<p class="meta">{note} 主表與每周名冊人數不含這些帳號。完整說明見 <a href="./others.md">others.md</a>。</p>',
+    ]
+    for person in meta.get("people") or []:
+        login = html.escape(person.get("login") or "")
+        profile = html.escape(person.get("profile_url") or "", quote=True)
+        status = html.escape(person.get("status") or "待確認")
+        chunks.append(f'<h3><a class="handle" href="{profile}">@{login}</a> 「{status}」</h3>')
+        if person.get("note_zh"):
+            chunks.append(f"<p>{html.escape(person['note_zh'])}</p>")
+        chunks.append('<ul class="highlights">')
+        acc = accounts.get((person.get("login") or "").lower())
+        if acc and acc.get("repos"):
+            for r in acc["repos"]:
+                name = html.escape(r.get("name") or "")
+                url = html.escape(r.get("url") or "", quote=True)
+                intro = html.escape((r.get("intro_zh") or r.get("description") or "").strip())
+                extra = f" — {intro}" if intro else ""
+                chunks.append(f'<li><a href="{url}">{name}</a>{extra}</li>')
+        else:
+            rep = person.get("representative") or {}
+            if rep.get("url"):
+                name = html.escape(rep.get("name") or "")
+                url = html.escape(rep.get("url") or "", quote=True)
+                blurb = html.escape(rep.get("blurb") or "")
+                extra = f" — {blurb}" if blurb else ""
+                chunks.append(f'<li><a href="{url}">{name}</a>{extra}</li>')
+        chunks.append("</ul>")
+    chunks.append("</details>")
+    chunks.append("</section>")
+    return "\n".join(chunks)
+
+
 def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
     lines: list[str] = [
         "# 台灣臨床醫事工程師 — 本週值得追蹤與專案資料庫",
@@ -2031,6 +2159,12 @@ def render_index_md(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         lines.append("---")
         lines.append("")
         lines.append(render_nongithub_md(nongithub).rstrip())
+        lines.append("")
+    other_md = render_other_roster_md(load_other_repos())
+    if other_md:
+        lines.append("---")
+        lines.append("")
+        lines.append(other_md.rstrip())
         lines.append("")
     lines.extend(
         [
@@ -2143,6 +2277,12 @@ footer{margin-top:1.5rem;color:var(--muted);font-size:.82rem}
   .filters input,.filters select{padding:.35rem .5rem;font-size:.86rem}
   nav.toc a{font-size:.78rem;padding:.15rem .55rem}
 }
+#other-roster details{border:0;padding:0}
+#other-roster summary{cursor:pointer;list-style:none}
+#other-roster summary::-webkit-details-marker{display:none}
+#other-roster summary h2{display:inline;font-size:1.15rem}
+#other-roster summary::after{content:" （點開）";color:#64748b;font-weight:400;font-size:.85rem}
+#other-roster details[open] summary::after{content:" （收合）"}
 """
 
 
@@ -2169,6 +2309,7 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
         '<nav class="toc">',
         '<a href="#weekly">本週值得追蹤</a>',
         '<a href="#nongithub">無公開 GitHub 的公開作品</a>',
+        '<a href="#other-roster">其他收錄（作品較少）</a>',
         '<a href="#database">專案資料庫</a>',
         '<a href="./analysis.html">整體分析</a>',
         '<a href="./repos.md">Markdown 資料庫</a>',
@@ -2207,6 +2348,10 @@ def render_index_html(digest: dict[str, Any], repo_db: dict[str, Any]) -> str:
     nongithub = load_nongithub()
     if nongithub:
         parts.append(render_nongithub_html(nongithub))
+
+    other_html = render_other_roster_html(load_other_repos())
+    if other_html:
+        parts.append(other_html)
 
     parts.extend(
         [
@@ -2454,6 +2599,39 @@ def main() -> int:
     print(f"Parsed {len(logins)} roster logins", flush=True)
     now = datetime.now(timezone.utc)
     digest, repo_db = build_all(logins, token, now)
+    other_logins = other_roster_logins()
+    if other_logins:
+        print(f"Fetching {len(other_logins)} secondary roster logins (excluded from main count)", flush=True)
+        _digest, other_db = build_all(other_logins, token, now)
+        other_db["secondary"] = True
+        other_db["title"] = (load_other_roster() or {}).get("title") or "其他收錄"
+        # Apply hand-written intros when provided in other_roster.json
+        hand = {}
+        for person in (load_other_roster() or {}).get("people") or []:
+            login = (person.get("login") or "").lower()
+            # representative blurb is not per-repo; leave synthesize unless we have map
+        OTHER_INTROS = {
+            "cjhong007/Soothing-Clinic": "問題：診所需要公開的看診與服務說明頁；做法：以靜態網站呈現診所資訊。",
+            "cjhong007/cjhong": "問題：需要個人 GitHub 檔案頁；做法：帳號的個人介紹倉庫。",
+            "rainyday309/ECT-ictal-A1-supplement": "問題：ECT 相關分析過程需要可重現的補充資料；做法：公開論文二次分析的程式與資料。",
+            "rainyday309/mse-analysis-06144ver": "問題：相關分析程式要能被查閱與重跑；做法：公開分析腳本。",
+        }
+        for acc in other_db.get("accounts") or []:
+            for r in acc.get("repos") or []:
+                key = f"{acc['login']}/{r['name']}"
+                # case-insensitive
+                for k, v in OTHER_INTROS.items():
+                    if k.lower() == key.lower():
+                        r["intro_zh"] = v
+                        r["intro_source"] = "manual"
+                        r["intro_thin"] = False
+                        break
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        (DATA_DIR / "other_repos.json").write_text(
+            json.dumps(other_db, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        print(f"Secondary repo DB: {other_db.get('repo_count')} repos across {other_db.get('roster_count')} accounts", flush=True)
     write_outputs(digest, repo_db)
 
     print(f"Active accounts: {digest['active_count']}/{digest['roster_count']}", flush=True)

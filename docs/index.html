@@ -56,6 +56,12 @@ footer{margin-top:1.5rem;color:var(--muted);font-size:.82rem}
   .filters input,.filters select{padding:.35rem .5rem;font-size:.86rem}
   nav.toc a{font-size:.78rem;padding:.15rem .55rem}
 }
+#other-roster details{border:0;padding:0}
+#other-roster summary{cursor:pointer;list-style:none}
+#other-roster summary::-webkit-details-marker{display:none}
+#other-roster summary h2{display:inline;font-size:1.15rem}
+#other-roster summary::after{content:" （點開）";color:#64748b;font-weight:400;font-size:.85rem}
+#other-roster details[open] summary::after{content:" （收合）"}
 </style>
 </head>
 <body>
@@ -68,6 +74,7 @@ footer{margin-top:1.5rem;color:var(--muted);font-size:.82rem}
 <nav class="toc">
 <a href="#weekly">本週值得追蹤</a>
 <a href="#nongithub">無公開 GitHub 的公開作品</a>
+<a href="#other-roster">其他收錄（作品較少）</a>
 <a href="#database">專案資料庫</a>
 <a href="./analysis.html">整體分析</a>
 <a href="./repos.md">Markdown 資料庫</a>
@@ -142,6 +149,24 @@ footer{margin-top:1.5rem;color:var(--muted);font-size:.82rem}
 <ul class="highlights">
 <li>待補：作品已下架。尚未找到仍可開啟的產品頁，故不放新聞稿或失效下載連結。</li>
 </ul>
+</section>
+<section id="other-roster" class="card">
+<details>
+<summary><h2>其他收錄（作品較少、待確認）</h2></summary>
+<p class="meta">不列入上方主表，也不計入每周名冊掃描人數。公開作品較少，或僅有診所網站、研究補充資料；依個人檔案自述暫記，尚未經本人確認。身分與背景請以各人 GitHub 個人檔案為準。 主表與每周名冊人數不含這些帳號。完整說明見 <a href="./others.md">others.md</a>。</p>
+<h3><a class="handle" href="https://github.com/cjhong007">@cjhong007</a> 「待確認」</h3>
+<p>個人檔案自述為台北開業精神科醫師。公開作品以診所網站為主。</p>
+<ul class="highlights">
+<li><a href="https://github.com/cjhong007/Soothing-Clinic">Soothing-Clinic</a> — 問題：診所需要公開的看診與服務說明頁；做法：以靜態網站呈現診所資訊。</li>
+<li><a href="https://github.com/cjhong007/cjhong">cjhong</a> — 問題：需要個人 GitHub 檔案頁；做法：帳號的個人介紹倉庫。</li>
+</ul>
+<h3><a class="handle" href="https://github.com/rainyday309">@rainyday309</a> 「待確認」</h3>
+<p>個人檔案自述為精神科醫師，近期關注 EEG 相關主題。公開作品以研究補充資料為主。</p>
+<ul class="highlights">
+<li><a href="https://github.com/rainyday309/ECT-ictal-A1-supplement">ECT-ictal-A1-supplement</a> — 問題：ECT 相關分析過程需要可重現的補充資料；做法：公開論文二次分析的程式與資料。</li>
+<li><a href="https://github.com/rainyday309/mse-analysis-06144ver">mse-analysis-06144ver</a> — 問題：相關分析程式要能被查閱與重跑；做法：公開分析腳本。</li>
+</ul>
+</details>
 </section>
 <section id="database" class="card">
 <h2>專案資料庫</h2>
