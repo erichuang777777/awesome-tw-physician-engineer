@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T19:02:11Z",
-  "generated_at_taipei": "2026-11-14 03:02（台北時間）",
+  "generated_at": "2026-11-16T04:09:10Z",
+  "generated_at_taipei": "2026-11-16 12:09（台北時間）",
   "roster_count": 2,
   "repo_count": 4,
   "privacy_note": "僅列出 @帳號 與公開倉庫名稱／網址／說明；不含真實姓名、院所或 commit 內容。",
@@ -19,7 +19,7 @@
           "topics": [],
           "language": "HTML",
           "stars": 0,
-          "pushed_at": "2026-10-26T14:13:16Z",
+          "pushed_at": "2026-11-16T02:17:40Z",
           "theme": "臨床指引／路徑",
           "intro_zh": "問題：診所需要公開的看診與服務說明頁；做法：以靜態網站呈現診所資訊。",
           "intro_source": "manual",
